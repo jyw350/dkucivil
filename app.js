@@ -66,7 +66,13 @@ const resultCorrect = document.querySelector("#result-correct");
 const resultWrong = document.querySelector("#result-wrong");
 const wrongNoteList = document.querySelector("#wrong-note-list");
 
-const REPORT_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfKJu3AZGdbeY6Ta4Zfa7kV3hRhUJbN2oV5mlZ6a8LUjoLhXw/viewform?usp=sf_link";
+const REPORT_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfKJu3AZGdbeY6Ta4Zfa7kV3hRhUJbN2oV5mlZ6a8LUjoLhXw/viewform";
+const REPORT_FORM_FIELDS = {
+  target: "entry.794287955",
+  type: "entry.922210023",
+  detail: "entry.960008490",
+};
+const DEFAULT_REPORT_TYPE = "정답이 잘못 설정되어 있습니다 (제가 입력한 정답이 맞는데 오답 처리됨)";
 
 const PDF_LIBRARY = {
   1: {
@@ -630,6 +636,16 @@ function buildReportPayload(customMessage) {
   return { issueTitle, issueBody };
 }
 
+function buildGoogleFormReportUrl(payload) {
+  const params = new URLSearchParams({
+    usp: "pp_url",
+    [REPORT_FORM_FIELDS.target]: payload.issueTitle,
+    [REPORT_FORM_FIELDS.type]: DEFAULT_REPORT_TYPE,
+    [REPORT_FORM_FIELDS.detail]: payload.issueBody,
+  });
+  return `${REPORT_FORM_URL}?${params.toString()}`;
+}
+
 function openReportPanel() {
   reportPanel.classList.remove("hidden");
   reportMessageInput.focus();
@@ -675,13 +691,7 @@ async function submitReportIssue() {
     return;
   }
 
-  try {
-    await navigator.clipboard.writeText(`${payload.issueTitle}\n\n${payload.issueBody}`);
-    showToast("제보 내용이 복사되었습니다. 열린 구글 폼에 붙여넣어 제출해주세요.");
-  } catch {
-    showToast("구글 폼을 엽니다. 복사가 안 되면 제보 내용을 직접 입력해주세요.");
-  }
-  window.open(REPORT_FORM_URL, "_blank", "noopener,noreferrer");
+  window.open(buildGoogleFormReportUrl(payload), "_blank", "noopener,noreferrer");
 }
 
 function goToNextQuestion() {
