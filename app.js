@@ -251,6 +251,24 @@ function countEmbeddedAnswerMatches(expectedTokens, rawInput) {
   return matchedCount;
 }
 
+function keywordRequirementMatches(requirement, normalizedInput) {
+  const options = Array.isArray(requirement) ? requirement : [requirement];
+  return options.some((option) => normalizeForLooseMatch(option) && normalizedInput.includes(normalizeForLooseMatch(option)));
+}
+
+function countKeywordAnswerGroupMatches(keywordAnswerGroups, rawInput) {
+  if (!Array.isArray(keywordAnswerGroups) || !keywordAnswerGroups.length) {
+    return 0;
+  }
+
+  const normalizedInput = normalizeForLooseMatch(rawInput);
+  return keywordAnswerGroups.filter((group) => (
+    Array.isArray(group) &&
+    group.length > 0 &&
+    group.every((requirement) => keywordRequirementMatches(requirement, normalizedInput))
+  )).length;
+}
+
 function answerLineMatches(answerLine, rawInput) {
   for (const variant of getKoreanEndingVariants(answerLine)) {
     if (normalizeForDisplay(variant) === normalizeForDisplay(rawInput)) {
@@ -337,11 +355,13 @@ function judgeAnswer(item, rawInput) {
   }
 
   const embeddedMatchedCount = countEmbeddedAnswerMatches(expectedTokens, trimmedInput);
-  if (embeddedMatchedCount >= requiredCount) {
+  const keywordMatchedCount = countKeywordAnswerGroupMatches(item.keywordAnswerGroups, trimmedInput);
+  const flexibleMatchedCount = Math.max(embeddedMatchedCount, keywordMatchedCount);
+  if (flexibleMatchedCount >= requiredCount) {
     return {
       isCorrect: true,
       feedbackMode: "correct",
-      message: buildCorrectMessage(requiredCount, embeddedMatchedCount, false, expectedTokens.length, hasExplicitCount),
+      message: buildCorrectMessage(requiredCount, flexibleMatchedCount, false, expectedTokens.length, hasExplicitCount),
     };
   }
 
@@ -359,7 +379,7 @@ function judgeAnswer(item, rawInput) {
   }
 
   const unusedUserTokens = [...userTokens];
-  let matchedCount = 0;
+  let matchedCount = keywordMatchedCount;
   let hadWhitespaceOnlyMatch = false;
 
   for (const expectedToken of expectedTokens) {
@@ -923,7 +943,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260513-11";
+    script.src = "./data/civil_quiz_dataset.js?v=20260513-14";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
