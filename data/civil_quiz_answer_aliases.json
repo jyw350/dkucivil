@@ -1,0 +1,4010 @@
+{
+  "Rock bolt": {
+    "sourceToken": "Rock bolt",
+    "canonicalEnglish": "Rock bolt",
+    "acceptedEnglish": [
+      "Rock bolt"
+    ],
+    "acceptedKorean": [
+      "록볼트",
+      "록 볼트"
+    ],
+    "acceptedAnswers": [
+      "Rock bolt",
+      "록볼트",
+      "록 볼트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Shotcrete": {
+    "sourceToken": "Shotcrete",
+    "canonicalEnglish": "Shotcrete",
+    "acceptedEnglish": [
+      "Shotcrete"
+    ],
+    "acceptedKorean": [
+      "숏크리트"
+    ],
+    "acceptedAnswers": [
+      "Shotcrete",
+      "숏크리트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Steel Rib": {
+    "sourceToken": "Steel Rib",
+    "canonicalEnglish": "Steel Rib",
+    "acceptedEnglish": [
+      "Steel Rib"
+    ],
+    "acceptedKorean": [
+      "스틸리브",
+      "스틸 리브"
+    ],
+    "acceptedAnswers": [
+      "Steel Rib",
+      "스틸리브",
+      "스틸 리브"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Wire mesh": {
+    "sourceToken": "Wire mesh",
+    "canonicalEnglish": "Wire mesh",
+    "acceptedEnglish": [
+      "Wire mesh"
+    ],
+    "acceptedKorean": [
+      "와이어메시",
+      "와이어 메시"
+    ],
+    "acceptedAnswers": [
+      "Wire mesh",
+      "와이어메시",
+      "와이어 메시"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Rebound(반발)량 많다": {
+    "sourceToken": "Rebound(반발)량 많다",
+    "canonicalEnglish": "Rebound",
+    "acceptedEnglish": [
+      "Rebound(반발)량 많다",
+      "Rebound"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Rebound(반발)량 많다",
+      "Rebound"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Over lay 공법": {
+    "sourceToken": "Over lay 공법",
+    "canonicalEnglish": "Over lay",
+    "acceptedEnglish": [
+      "Over lay 공법",
+      "Over lay"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Over lay 공법",
+      "Over lay"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "절삭 Over lay 공법": {
+    "sourceToken": "절삭 Over lay 공법",
+    "canonicalEnglish": "Over lay",
+    "acceptedEnglish": [
+      "절삭 Over lay 공법",
+      "Over lay"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "절삭 Over lay 공법",
+      "Over lay"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "RQD": {
+    "sourceToken": "RQD",
+    "canonicalEnglish": "RQD",
+    "acceptedEnglish": [
+      "RQD"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "RQD"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "AE": {
+    "sourceToken": "AE",
+    "canonicalEnglish": "AE",
+    "acceptedEnglish": [
+      "AE"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "AE"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Well Point 적용이 곤란할 시": {
+    "sourceToken": "Well Point 적용이 곤란할 시",
+    "canonicalEnglish": "Well Point",
+    "acceptedEnglish": [
+      "Well Point 적용이 곤란할 시",
+      "Well Point"
+    ],
+    "acceptedKorean": [
+      "웰포인트",
+      "웰 포인트"
+    ],
+    "acceptedAnswers": [
+      "Well Point 적용이 곤란할 시",
+      "Well Point",
+      "웰포인트",
+      "웰 포인트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "히빙(Heaving)이나 보일링(Boiling)현상 발생 시": {
+    "sourceToken": "히빙(Heaving)이나 보일링(Boiling)현상 발생 시",
+    "canonicalEnglish": "Heaving",
+    "acceptedEnglish": [
+      "히빙(Heaving)이나 보일링(Boiling)현상 발생 시",
+      "Heaving"
+    ],
+    "acceptedKorean": [
+      "히빙"
+    ],
+    "acceptedAnswers": [
+      "히빙(Heaving)이나 보일링(Boiling)현상 발생 시",
+      "Heaving",
+      "히빙"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "줄눈 (joint)": {
+    "sourceToken": "줄눈 (joint)",
+    "canonicalEnglish": "joint",
+    "acceptedEnglish": [
+      "줄눈 (joint)",
+      "joint"
+    ],
+    "acceptedKorean": [
+      "줄눈"
+    ],
+    "acceptedAnswers": [
+      "줄눈 (joint)",
+      "joint",
+      "줄눈"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Suction pump": {
+    "sourceToken": "Suction pump",
+    "canonicalEnglish": "Suction pump",
+    "acceptedEnglish": [
+      "Suction pump"
+    ],
+    "acceptedKorean": [
+      "석션펌프",
+      "석션 펌프"
+    ],
+    "acceptedAnswers": [
+      "Suction pump",
+      "석션펌프",
+      "석션 펌프"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Water jet": {
+    "sourceToken": "Water jet",
+    "canonicalEnglish": "Water jet",
+    "acceptedEnglish": [
+      "Water jet"
+    ],
+    "acceptedKorean": [
+      "워터제트",
+      "워터 제트"
+    ],
+    "acceptedAnswers": [
+      "Water jet",
+      "워터제트",
+      "워터 제트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Air lift": {
+    "sourceToken": "Air lift",
+    "canonicalEnglish": "Air lift",
+    "acceptedEnglish": [
+      "Air lift"
+    ],
+    "acceptedKorean": [
+      "에어리프트",
+      "에어 리프트"
+    ],
+    "acceptedAnswers": [
+      "Air lift",
+      "에어리프트",
+      "에어 리프트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Boiling": {
+    "sourceToken": "Boiling",
+    "canonicalEnglish": "Boiling",
+    "acceptedEnglish": [
+      "Boiling"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Boiling"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Heaving": {
+    "sourceToken": "Heaving",
+    "canonicalEnglish": "Heaving",
+    "acceptedEnglish": [
+      "Heaving"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Heaving"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "AE제 사용": {
+    "sourceToken": "AE제 사용",
+    "canonicalEnglish": "AE",
+    "acceptedEnglish": [
+      "AE제 사용",
+      "AE"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "AE제 사용",
+      "AE"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "FCM 공법": {
+    "sourceToken": "FCM 공법",
+    "canonicalEnglish": "FCM",
+    "acceptedEnglish": [
+      "FCM 공법",
+      "FCM"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "FCM 공법",
+      "FCM"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "ILM 공법": {
+    "sourceToken": "ILM 공법",
+    "canonicalEnglish": "ILM",
+    "acceptedEnglish": [
+      "ILM 공법",
+      "ILM"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "ILM 공법",
+      "ILM"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "MSS 공법": {
+    "sourceToken": "MSS 공법",
+    "canonicalEnglish": "MSS",
+    "acceptedEnglish": [
+      "MSS 공법",
+      "MSS"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "MSS 공법",
+      "MSS"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Front Jacking Method": {
+    "sourceToken": "Front Jacking Method",
+    "canonicalEnglish": "Front Jacking Method",
+    "acceptedEnglish": [
+      "Front Jacking Method"
+    ],
+    "acceptedKorean": [
+      "프론트재킹메서드",
+      "프론트 재킹 메서드",
+      "프론트 재킹 공법"
+    ],
+    "acceptedAnswers": [
+      "Front Jacking Method",
+      "프론트재킹메서드",
+      "프론트 재킹 메서드",
+      "프론트 재킹 공법"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "선단 cone 저항": {
+    "sourceToken": "선단 cone 저항",
+    "canonicalEnglish": "cone",
+    "acceptedEnglish": [
+      "선단 cone 저항",
+      "cone"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "선단 cone 저항",
+      "cone"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "RCD 공법": {
+    "sourceToken": "RCD 공법",
+    "canonicalEnglish": "RCD",
+    "acceptedEnglish": [
+      "RCD 공법",
+      "RCD"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "RCD 공법",
+      "RCD"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "earth drill 공법": {
+    "sourceToken": "earth drill 공법",
+    "canonicalEnglish": "earth drill",
+    "acceptedEnglish": [
+      "earth drill 공법",
+      "earth drill"
+    ],
+    "acceptedKorean": [
+      "어스드릴",
+      "어스 드릴"
+    ],
+    "acceptedAnswers": [
+      "earth drill 공법",
+      "earth drill",
+      "어스드릴",
+      "어스 드릴"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Benoto 공법": {
+    "sourceToken": "Benoto 공법",
+    "canonicalEnglish": "Benoto",
+    "acceptedEnglish": [
+      "Benoto 공법",
+      "Benoto"
+    ],
+    "acceptedKorean": [
+      "베노토"
+    ],
+    "acceptedAnswers": [
+      "Benoto 공법",
+      "Benoto",
+      "베노토"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Caisson식 공법": {
+    "sourceToken": "Caisson식 공법",
+    "canonicalEnglish": "Caisson",
+    "acceptedEnglish": [
+      "Caisson식 공법",
+      "Caisson"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Caisson식 공법",
+      "Caisson"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Box식 공법": {
+    "sourceToken": "Box식 공법",
+    "canonicalEnglish": "Box",
+    "acceptedEnglish": [
+      "Box식 공법",
+      "Box"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Box식 공법",
+      "Box"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "강판 cell식 공법": {
+    "sourceToken": "강판 cell식 공법",
+    "canonicalEnglish": "cell",
+    "acceptedEnglish": [
+      "강판 cell식 공법",
+      "cell"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "강판 cell식 공법",
+      "cell"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "한겹 Sheet Pile 공법": {
+    "sourceToken": "한겹 Sheet Pile 공법",
+    "canonicalEnglish": "Sheet Pile",
+    "acceptedEnglish": [
+      "한겹 Sheet Pile 공법",
+      "Sheet Pile"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "한겹 Sheet Pile 공법",
+      "Sheet Pile"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "두겹 Sheet Pile 공법": {
+    "sourceToken": "두겹 Sheet Pile 공법",
+    "canonicalEnglish": "Sheet Pile",
+    "acceptedEnglish": [
+      "두겹 Sheet Pile 공법",
+      "Sheet Pile"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "두겹 Sheet Pile 공법",
+      "Sheet Pile"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "강관 Sheet Pile 공법": {
+    "sourceToken": "강관 Sheet Pile 공법",
+    "canonicalEnglish": "Sheet Pile",
+    "acceptedEnglish": [
+      "강관 Sheet Pile 공법",
+      "Sheet Pile"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "강관 Sheet Pile 공법",
+      "Sheet Pile"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Cell식 공법": {
+    "sourceToken": "Cell식 공법",
+    "canonicalEnglish": "Cell",
+    "acceptedEnglish": [
+      "Cell식 공법",
+      "Cell"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Cell식 공법",
+      "Cell"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Ring Beam식 공법": {
+    "sourceToken": "Ring Beam식 공법",
+    "canonicalEnglish": "Ring Beam",
+    "acceptedEnglish": [
+      "Ring Beam식 공법",
+      "Ring Beam"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Ring Beam식 공법",
+      "Ring Beam"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "염화칼슘(CaCl2)": {
+    "sourceToken": "염화칼슘(CaCl2)",
+    "canonicalEnglish": "CaCl2",
+    "acceptedEnglish": [
+      "염화칼슘(CaCl2)",
+      "CaCl2"
+    ],
+    "acceptedKorean": [
+      "염화칼슘"
+    ],
+    "acceptedAnswers": [
+      "염화칼슘(CaCl2)",
+      "CaCl2",
+      "염화칼슘"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Workability 개선": {
+    "sourceToken": "Workability 개선",
+    "canonicalEnglish": "Workability",
+    "acceptedEnglish": [
+      "Workability 개선",
+      "Workability"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Workability 개선",
+      "Workability"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Bleeding 감소": {
+    "sourceToken": "Bleeding 감소",
+    "canonicalEnglish": "Bleeding",
+    "acceptedEnglish": [
+      "Bleeding 감소",
+      "Bleeding"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Bleeding 감소",
+      "Bleeding"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "슈(Shoe)": {
+    "sourceToken": "슈(Shoe)",
+    "canonicalEnglish": "Shoe",
+    "acceptedEnglish": [
+      "슈(Shoe)",
+      "Shoe"
+    ],
+    "acceptedKorean": [
+      "슈"
+    ],
+    "acceptedAnswers": [
+      "슈(Shoe)",
+      "Shoe",
+      "슈"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "프라임 코트(Prime coat)": {
+    "sourceToken": "프라임 코트(Prime coat)",
+    "canonicalEnglish": "Prime coat",
+    "acceptedEnglish": [
+      "프라임 코트(Prime coat)",
+      "Prime coat"
+    ],
+    "acceptedKorean": [
+      "프라임 코트",
+      "프라임코트"
+    ],
+    "acceptedAnswers": [
+      "프라임 코트(Prime coat)",
+      "Prime coat",
+      "프라임 코트",
+      "프라임코트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "1. Rod 길이에 대한 수정 심도가 깊어지면 rod의 효율 저하": {
+    "sourceToken": "1. Rod 길이에 대한 수정 심도가 깊어지면 rod의 효율 저하",
+    "canonicalEnglish": "Rod rod",
+    "acceptedEnglish": [
+      "1. Rod 길이에 대한 수정 심도가 깊어지면 rod의 효율 저하",
+      "Rod rod"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "1. Rod 길이에 대한 수정 심도가 깊어지면 rod의 효율 저하",
+      "Rod rod"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "fore poling": {
+    "sourceToken": "fore poling",
+    "canonicalEnglish": "fore poling",
+    "acceptedEnglish": [
+      "fore poling"
+    ],
+    "acceptedKorean": [
+      "포어폴링",
+      "포어 폴링"
+    ],
+    "acceptedAnswers": [
+      "fore poling",
+      "포어폴링",
+      "포어 폴링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "grouting": {
+    "sourceToken": "grouting",
+    "canonicalEnglish": "grouting",
+    "acceptedEnglish": [
+      "grouting"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "grouting"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Pipe roof 공법": {
+    "sourceToken": "Pipe roof 공법",
+    "canonicalEnglish": "Pipe roof",
+    "acceptedEnglish": [
+      "Pipe roof 공법",
+      "Pipe roof"
+    ],
+    "acceptedKorean": [
+      "파이프루프",
+      "파이프 루프"
+    ],
+    "acceptedAnswers": [
+      "Pipe roof 공법",
+      "Pipe roof",
+      "파이프루프",
+      "파이프 루프"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "RCCP 공법": {
+    "sourceToken": "RCCP 공법",
+    "canonicalEnglish": "RCCP",
+    "acceptedEnglish": [
+      "RCCP 공법",
+      "RCCP"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "RCCP 공법",
+      "RCCP"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Scraper Bucket Sampling": {
+    "sourceToken": "Scraper Bucket Sampling",
+    "canonicalEnglish": "Scraper Bucket Sampling",
+    "acceptedEnglish": [
+      "Scraper Bucket Sampling"
+    ],
+    "acceptedKorean": [
+      "스크레이퍼버킷샘플링",
+      "스크레이퍼 버킷 샘플링"
+    ],
+    "acceptedAnswers": [
+      "Scraper Bucket Sampling",
+      "스크레이퍼버킷샘플링",
+      "스크레이퍼 버킷 샘플링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Split spoon sampling": {
+    "sourceToken": "Split spoon sampling",
+    "canonicalEnglish": "Split spoon sampling",
+    "acceptedEnglish": [
+      "Split spoon sampling"
+    ],
+    "acceptedKorean": [
+      "스플릿스푼샘플링",
+      "스플릿 스푼 샘플링"
+    ],
+    "acceptedAnswers": [
+      "Split spoon sampling",
+      "스플릿스푼샘플링",
+      "스플릿 스푼 샘플링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Thin wall sampling": {
+    "sourceToken": "Thin wall sampling",
+    "canonicalEnglish": "Thin wall sampling",
+    "acceptedEnglish": [
+      "Thin wall sampling"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Thin wall sampling"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Piston sampling": {
+    "sourceToken": "Piston sampling",
+    "canonicalEnglish": "Piston sampling",
+    "acceptedEnglish": [
+      "Piston sampling"
+    ],
+    "acceptedKorean": [
+      "피스톤샘플링",
+      "피스톤 샘플링"
+    ],
+    "acceptedAnswers": [
+      "Piston sampling",
+      "피스톤샘플링",
+      "피스톤 샘플링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "컷백 아스팔트(Cut back asphalt)": {
+    "sourceToken": "컷백 아스팔트(Cut back asphalt)",
+    "canonicalEnglish": "Cut back asphalt",
+    "acceptedEnglish": [
+      "컷백 아스팔트(Cut back asphalt)",
+      "Cut back asphalt"
+    ],
+    "acceptedKorean": [
+      "컷백 아스팔트",
+      "컷백아스팔트"
+    ],
+    "acceptedAnswers": [
+      "컷백 아스팔트(Cut back asphalt)",
+      "Cut back asphalt",
+      "컷백 아스팔트",
+      "컷백아스팔트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Pre-splitting": {
+    "sourceToken": "Pre-splitting",
+    "canonicalEnglish": "Pre-splitting",
+    "acceptedEnglish": [
+      "Pre-splitting"
+    ],
+    "acceptedKorean": [
+      "프리스플릿팅",
+      "프리 스플릿팅"
+    ],
+    "acceptedAnswers": [
+      "Pre-splitting",
+      "프리스플릿팅",
+      "프리 스플릿팅"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "표면적이 작은 말뚝(H-Pile)을 사용한다.": {
+    "sourceToken": "표면적이 작은 말뚝(H-Pile)을 사용한다.",
+    "canonicalEnglish": "H-Pile",
+    "acceptedEnglish": [
+      "표면적이 작은 말뚝(H-Pile)을 사용한다.",
+      "H-Pile"
+    ],
+    "acceptedKorean": [
+      "표면적이 작은 말뚝",
+      "표면적이작은말뚝",
+      "에이치파일",
+      "H파일"
+    ],
+    "acceptedAnswers": [
+      "표면적이 작은 말뚝(H-Pile)을 사용한다.",
+      "H-Pile",
+      "표면적이 작은 말뚝",
+      "표면적이작은말뚝",
+      "에이치파일",
+      "H파일"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "말뚝 지름보다 크게 Pre-boring한다.": {
+    "sourceToken": "말뚝 지름보다 크게 Pre-boring한다.",
+    "canonicalEnglish": "Pre-boring",
+    "acceptedEnglish": [
+      "말뚝 지름보다 크게 Pre-boring한다.",
+      "Pre-boring"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "말뚝 지름보다 크게 Pre-boring한다.",
+      "Pre-boring"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "치기 시작할 때 Concrete의 온도는 35°C 이하": {
+    "sourceToken": "치기 시작할 때 Concrete의 온도는 35°C 이하",
+    "canonicalEnglish": "Concrete C",
+    "acceptedEnglish": [
+      "치기 시작할 때 Concrete의 온도는 35°C 이하",
+      "Concrete C"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "치기 시작할 때 Concrete의 온도는 35°C 이하",
+      "Concrete C"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "GS T^T": {
+    "sourceToken": "GS T^T",
+    "canonicalEnglish": "GS T",
+    "acceptedEnglish": [
+      "GS T^T",
+      "GS T"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "GS T^T",
+      "GS T"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Grid roller": {
+    "sourceToken": "Grid roller",
+    "canonicalEnglish": "Grid roller",
+    "acceptedEnglish": [
+      "Grid roller"
+    ],
+    "acceptedKorean": [
+      "그리드롤러",
+      "그리드 롤러"
+    ],
+    "acceptedAnswers": [
+      "Grid roller",
+      "그리드롤러",
+      "그리드 롤러"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Turn foot roller": {
+    "sourceToken": "Turn foot roller",
+    "canonicalEnglish": "Turn foot roller",
+    "acceptedEnglish": [
+      "Turn foot roller"
+    ],
+    "acceptedKorean": [
+      "턴풋롤러",
+      "턴 풋 롤러"
+    ],
+    "acceptedAnswers": [
+      "Turn foot roller",
+      "턴풋롤러",
+      "턴 풋 롤러"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Tapper foot roller": {
+    "sourceToken": "Tapper foot roller",
+    "canonicalEnglish": "Tapper foot roller",
+    "acceptedEnglish": [
+      "Tapper foot roller"
+    ],
+    "acceptedKorean": [
+      "태퍼풋롤러",
+      "태퍼 풋 롤러"
+    ],
+    "acceptedAnswers": [
+      "Tapper foot roller",
+      "태퍼풋롤러",
+      "태퍼 풋 롤러"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Sheeps foot roller": {
+    "sourceToken": "Sheeps foot roller",
+    "canonicalEnglish": "Sheeps foot roller",
+    "acceptedEnglish": [
+      "Sheeps foot roller"
+    ],
+    "acceptedKorean": [
+      "쉽스풋롤러",
+      "쉽스 풋 롤러"
+    ],
+    "acceptedAnswers": [
+      "Sheeps foot roller",
+      "쉽스풋롤러",
+      "쉽스 풋 롤러"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "LLT": {
+    "sourceToken": "LLT",
+    "canonicalEnglish": "LLT",
+    "acceptedEnglish": [
+      "LLT"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "LLT"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "PMT": {
+    "sourceToken": "PMT",
+    "canonicalEnglish": "PMT",
+    "acceptedEnglish": [
+      "PMT"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "PMT"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "DMT": {
+    "sourceToken": "DMT",
+    "canonicalEnglish": "DMT",
+    "acceptedEnglish": [
+      "DMT"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "DMT"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "TOP down 공법 (역타 공법)": {
+    "sourceToken": "TOP down 공법 (역타 공법)",
+    "canonicalEnglish": "TOP down",
+    "acceptedEnglish": [
+      "TOP down 공법 (역타 공법)",
+      "TOP down"
+    ],
+    "acceptedKorean": [
+      "탑다운",
+      "탑 다운"
+    ],
+    "acceptedAnswers": [
+      "TOP down 공법 (역타 공법)",
+      "TOP down",
+      "탑다운",
+      "탑 다운"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "blow up": {
+    "sourceToken": "blow up",
+    "canonicalEnglish": "blow up",
+    "acceptedEnglish": [
+      "blow up"
+    ],
+    "acceptedKorean": [
+      "블로업",
+      "블로 업"
+    ],
+    "acceptedAnswers": [
+      "blow up",
+      "블로업",
+      "블로 업"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "rutting": {
+    "sourceToken": "rutting",
+    "canonicalEnglish": "rutting",
+    "acceptedEnglish": [
+      "rutting"
+    ],
+    "acceptedKorean": [
+      "러팅"
+    ],
+    "acceptedAnswers": [
+      "rutting",
+      "러팅"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Slip form": {
+    "sourceToken": "Slip form",
+    "canonicalEnglish": "Slip form",
+    "acceptedEnglish": [
+      "Slip form"
+    ],
+    "acceptedKorean": [
+      "슬립폼",
+      "슬립 폼"
+    ],
+    "acceptedAnswers": [
+      "Slip form",
+      "슬립폼",
+      "슬립 폼"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Sliding form": {
+    "sourceToken": "Sliding form",
+    "canonicalEnglish": "Sliding form",
+    "acceptedEnglish": [
+      "Sliding form"
+    ],
+    "acceptedKorean": [
+      "슬라이딩폼",
+      "슬라이딩 폼"
+    ],
+    "acceptedAnswers": [
+      "Sliding form",
+      "슬라이딩폼",
+      "슬라이딩 폼"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Self climbing": {
+    "sourceToken": "Self climbing",
+    "canonicalEnglish": "Self climbing",
+    "acceptedEnglish": [
+      "Self climbing"
+    ],
+    "acceptedKorean": [
+      "셀프클라이밍",
+      "셀프 클라이밍"
+    ],
+    "acceptedAnswers": [
+      "Self climbing",
+      "셀프클라이밍",
+      "셀프 클라이밍"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Dr. 슬럼프 신속 재(제)공하라~!!": {
+    "sourceToken": "Dr. 슬럼프 신속 재(제)공하라~!!",
+    "canonicalEnglish": "Dr.",
+    "acceptedEnglish": [
+      "Dr. 슬럼프 신속 재(제)공하라~!!",
+      "Dr."
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Dr. 슬럼프 신속 재(제)공하라~!!",
+      "Dr."
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "스네이크 보링법(Snake boribng)": {
+    "sourceToken": "스네이크 보링법(Snake boribng)",
+    "canonicalEnglish": "Snake boring",
+    "acceptedEnglish": [
+      "스네이크 보링법(Snake boribng)",
+      "Snake boring"
+    ],
+    "acceptedKorean": [
+      "스네이크 보링법",
+      "스네이크보링법",
+      "스네이크보링",
+      "스네이크 보링",
+      "스네이크 보오링"
+    ],
+    "acceptedAnswers": [
+      "스네이크 보링법(Snake boribng)",
+      "Snake boring",
+      "스네이크 보링법",
+      "스네이크보링법",
+      "스네이크보링",
+      "스네이크 보링",
+      "스네이크 보오링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "JCP": {
+    "sourceToken": "JCP",
+    "canonicalEnglish": "JCP",
+    "acceptedEnglish": [
+      "JCP"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "JCP"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "JRCP": {
+    "sourceToken": "JRCP",
+    "canonicalEnglish": "JRCP",
+    "acceptedEnglish": [
+      "JRCP"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "JRCP"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "CRCP": {
+    "sourceToken": "CRCP",
+    "canonicalEnglish": "CRCP",
+    "acceptedEnglish": [
+      "CRCP"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "CRCP"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "PCP": {
+    "sourceToken": "PCP",
+    "canonicalEnglish": "PCP",
+    "acceptedEnglish": [
+      "PCP"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "PCP"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Rankine법": {
+    "sourceToken": "Rankine법",
+    "canonicalEnglish": "Rankine",
+    "acceptedEnglish": [
+      "Rankine법",
+      "Rankine"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Rankine법",
+      "Rankine"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Coulomb 응력법": {
+    "sourceToken": "Coulomb 응력법",
+    "canonicalEnglish": "Coulomb",
+    "acceptedEnglish": [
+      "Coulomb 응력법",
+      "Coulomb"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Coulomb 응력법",
+      "Coulomb"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Coulomb 모멘트법": {
+    "sourceToken": "Coulomb 모멘트법",
+    "canonicalEnglish": "Coulomb",
+    "acceptedEnglish": [
+      "Coulomb 모멘트법",
+      "Coulomb"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Coulomb 모멘트법",
+      "Coulomb"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Banana곡선에 의하여 관리 목표가 얻어짐": {
+    "sourceToken": "Banana곡선에 의하여 관리 목표가 얻어짐",
+    "canonicalEnglish": "Banana",
+    "acceptedEnglish": [
+      "Banana곡선에 의하여 관리 목표가 얻어짐",
+      "Banana"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Banana곡선에 의하여 관리 목표가 얻어짐",
+      "Banana"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Well point 공법": {
+    "sourceToken": "Well point 공법",
+    "canonicalEnglish": "Well point",
+    "acceptedEnglish": [
+      "Well point 공법",
+      "Well point"
+    ],
+    "acceptedKorean": [
+      "웰포인트",
+      "웰 포인트"
+    ],
+    "acceptedAnswers": [
+      "Well point 공법",
+      "Well point",
+      "웰포인트",
+      "웰 포인트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "물빼기 boring 설치 공법": {
+    "sourceToken": "물빼기 boring 설치 공법",
+    "canonicalEnglish": "boring",
+    "acceptedEnglish": [
+      "물빼기 boring 설치 공법",
+      "boring"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "물빼기 boring 설치 공법",
+      "boring"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "MSS 공법 + PSM 공법": {
+    "sourceToken": "MSS 공법 + PSM 공법",
+    "canonicalEnglish": "MSS",
+    "acceptedEnglish": [
+      "MSS 공법 + PSM 공법",
+      "MSS"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "MSS 공법 + PSM 공법",
+      "MSS"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "현장타설 o 현장타설 x": {
+    "sourceToken": "현장타설 o 현장타설 x",
+    "canonicalEnglish": "o x",
+    "acceptedEnglish": [
+      "현장타설 o 현장타설 x",
+      "o x"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "현장타설 o 현장타설 x",
+      "o x"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "S-P 법": {
+    "sourceToken": "S-P 법",
+    "canonicalEnglish": "S-P",
+    "acceptedEnglish": [
+      "S-P 법",
+      "S-P"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "S-P 법",
+      "S-P"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "S-logP 법": {
+    "sourceToken": "S-logP 법",
+    "canonicalEnglish": "S-logP",
+    "acceptedEnglish": [
+      "S-logP 법",
+      "S-logP"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "S-logP 법",
+      "S-logP"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "S-logt 법": {
+    "sourceToken": "S-logt 법",
+    "canonicalEnglish": "S-logt",
+    "acceptedEnglish": [
+      "S-logt 법",
+      "S-logt"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "S-logt 법",
+      "S-logt"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "logP-logS 법": {
+    "sourceToken": "logP-logS 법",
+    "canonicalEnglish": "logP-logS",
+    "acceptedEnglish": [
+      "logP-logS 법",
+      "logP-logS"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "logP-logS 법",
+      "logP-logS"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "P IC": {
+    "sourceToken": "P IC",
+    "canonicalEnglish": "P IC",
+    "acceptedEnglish": [
+      "P IC"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "P IC"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "PCC": {
+    "sourceToken": "PCC",
+    "canonicalEnglish": "PCC",
+    "acceptedEnglish": [
+      "PCC"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "PCC"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Jacking Test": {
+    "sourceToken": "Jacking Test",
+    "canonicalEnglish": "Jacking Test",
+    "acceptedEnglish": [
+      "Jacking Test"
+    ],
+    "acceptedKorean": [
+      "재킹테스트",
+      "재킹 테스트"
+    ],
+    "acceptedAnswers": [
+      "Jacking Test",
+      "재킹테스트",
+      "재킹 테스트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "다이너마이트 No.1": {
+    "sourceToken": "다이너마이트 No.1",
+    "canonicalEnglish": "No.1",
+    "acceptedEnglish": [
+      "다이너마이트 No.1",
+      "No.1"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "다이너마이트 No.1",
+      "No.1"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "강재의 응력이완(Relaxation)": {
+    "sourceToken": "강재의 응력이완(Relaxation)",
+    "canonicalEnglish": "Relaxation",
+    "acceptedEnglish": [
+      "강재의 응력이완(Relaxation)",
+      "Relaxation"
+    ],
+    "acceptedKorean": [
+      "강재의 응력이완",
+      "강재의응력이완"
+    ],
+    "acceptedAnswers": [
+      "강재의 응력이완(Relaxation)",
+      "Relaxation",
+      "강재의 응력이완",
+      "강재의응력이완"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "PBT": {
+    "sourceToken": "PBT",
+    "canonicalEnglish": "PBT",
+    "acceptedEnglish": [
+      "PBT"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "PBT"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "CBR": {
+    "sourceToken": "CBR",
+    "canonicalEnglish": "CBR",
+    "acceptedEnglish": [
+      "CBR"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "CBR"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "GSIS(지형공간시스템)": {
+    "sourceToken": "GSIS(지형공간시스템)",
+    "canonicalEnglish": "GSIS",
+    "acceptedEnglish": [
+      "GSIS(지형공간시스템)",
+      "GSIS"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "GSIS(지형공간시스템)",
+      "GSIS"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "쉴드공법(Shield)": {
+    "sourceToken": "쉴드공법(Shield)",
+    "canonicalEnglish": "Shield",
+    "acceptedEnglish": [
+      "쉴드공법(Shield)",
+      "Shield"
+    ],
+    "acceptedKorean": [
+      "쉴드공법",
+      "쉴드"
+    ],
+    "acceptedAnswers": [
+      "쉴드공법(Shield)",
+      "Shield",
+      "쉴드공법",
+      "쉴드"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "geogrid": {
+    "sourceToken": "geogrid",
+    "canonicalEnglish": "geogrid",
+    "acceptedEnglish": [
+      "geogrid"
+    ],
+    "acceptedKorean": [
+      "지오그리드"
+    ],
+    "acceptedAnswers": [
+      "geogrid",
+      "지오그리드"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "geomembrance": {
+    "sourceToken": "geomembrance",
+    "canonicalEnglish": "geomembrane",
+    "acceptedEnglish": [
+      "geomembrance",
+      "geomembrane"
+    ],
+    "acceptedKorean": [
+      "지오멤브레인"
+    ],
+    "acceptedAnswers": [
+      "geomembrance",
+      "geomembrane",
+      "지오멤브레인"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "geocomposite": {
+    "sourceToken": "geocomposite",
+    "canonicalEnglish": "geocomposite",
+    "acceptedEnglish": [
+      "geocomposite"
+    ],
+    "acceptedKorean": [
+      "지오콤포지트"
+    ],
+    "acceptedAnswers": [
+      "geocomposite",
+      "지오콤포지트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "가체절공(Coffer dam)": {
+    "sourceToken": "가체절공(Coffer dam)",
+    "canonicalEnglish": "Coffer dam",
+    "acceptedEnglish": [
+      "가체절공(Coffer dam)",
+      "Coffer dam"
+    ],
+    "acceptedKorean": [
+      "가체절공"
+    ],
+    "acceptedAnswers": [
+      "가체절공(Coffer dam)",
+      "Coffer dam",
+      "가체절공"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "파쇄대(Fractured zone)": {
+    "sourceToken": "파쇄대(Fractured zone)",
+    "canonicalEnglish": "Fractured zone",
+    "acceptedEnglish": [
+      "파쇄대(Fractured zone)",
+      "Fractured zone"
+    ],
+    "acceptedKorean": [
+      "파쇄대"
+    ],
+    "acceptedAnswers": [
+      "파쇄대(Fractured zone)",
+      "Fractured zone",
+      "파쇄대"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Curtain grouting : 지수의 목적": {
+    "sourceToken": "Curtain grouting : 지수의 목적",
+    "canonicalEnglish": "Curtain grouting",
+    "acceptedEnglish": [
+      "Curtain grouting : 지수의 목적",
+      "Curtain grouting"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Curtain grouting : 지수의 목적",
+      "Curtain grouting"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Rock bolt 인발시험": {
+    "sourceToken": "Rock bolt 인발시험",
+    "canonicalEnglish": "Rock bolt",
+    "acceptedEnglish": [
+      "Rock bolt 인발시험",
+      "Rock bolt"
+    ],
+    "acceptedKorean": [
+      "록볼트",
+      "록 볼트"
+    ],
+    "acceptedAnswers": [
+      "Rock bolt 인발시험",
+      "Rock bolt",
+      "록볼트",
+      "록 볼트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "EPS공법": {
+    "sourceToken": "EPS공법",
+    "canonicalEnglish": "EPS",
+    "acceptedEnglish": [
+      "EPS공법",
+      "EPS"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "EPS공법",
+      "EPS"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "또는 Cement concrete 기층": {
+    "sourceToken": "또는 Cement concrete 기층",
+    "canonicalEnglish": "Cement concrete",
+    "acceptedEnglish": [
+      "또는 Cement concrete 기층",
+      "Cement concrete"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "또는 Cement concrete 기층",
+      "Cement concrete"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트": {
+    "sourceToken": "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트",
+    "canonicalEnglish": "Black base",
+    "acceptedEnglish": [
+      "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트",
+      "Black base"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트",
+      "Black base"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "개나 소나(So nA) 말도 압성절토공": {
+    "sourceToken": "개나 소나(So nA) 말도 압성절토공",
+    "canonicalEnglish": "So nA",
+    "acceptedEnglish": [
+      "개나 소나(So nA) 말도 압성절토공",
+      "So nA"
+    ],
+    "acceptedKorean": [
+      "개나 소나",
+      "개나소나"
+    ],
+    "acceptedAnswers": [
+      "개나 소나(So nA) 말도 압성절토공",
+      "So nA",
+      "개나 소나",
+      "개나소나"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Soil nAiling공": {
+    "sourceToken": "Soil nAiling공",
+    "canonicalEnglish": "Soil nailing",
+    "acceptedEnglish": [
+      "Soil nAiling공",
+      "Soil nailing"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Soil nAiling공",
+      "Soil nailing"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Anchor공": {
+    "sourceToken": "Anchor공",
+    "canonicalEnglish": "Anchor",
+    "acceptedEnglish": [
+      "Anchor공",
+      "Anchor"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Anchor공",
+      "Anchor"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Sheet pile 설치법": {
+    "sourceToken": "Sheet pile 설치법",
+    "canonicalEnglish": "Sheet pile",
+    "acceptedEnglish": [
+      "Sheet pile 설치법",
+      "Sheet pile"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Sheet pile 설치법",
+      "Sheet pile"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Cantilever식(캔틸레버식) 공법": {
+    "sourceToken": "Cantilever식(캔틸레버식) 공법",
+    "canonicalEnglish": "Cantilever",
+    "acceptedEnglish": [
+      "Cantilever식(캔틸레버식) 공법",
+      "Cantilever"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Cantilever식(캔틸레버식) 공법",
+      "Cantilever"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Cable식 공법": {
+    "sourceToken": "Cable식 공법",
+    "canonicalEnglish": "Cable",
+    "acceptedEnglish": [
+      "Cable식 공법",
+      "Cable"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Cable식 공법",
+      "Cable"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Crane 공법": {
+    "sourceToken": "Crane 공법",
+    "canonicalEnglish": "Crane",
+    "acceptedEnglish": [
+      "Crane 공법",
+      "Crane"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Crane 공법",
+      "Crane"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "162. 말뚝의 중심에 이형철근이나 강봉과 같은 보강재가 들어 있는 현장타설 콘크리트 말뚝으로 말뚝지름은 100~250mm 정도, 용도는 하중지지말뚝과 지반보강말뚝으로 구분되며, 특 히 지반보강말뚝은 나무뿌리가 지반에 뻗은 형상과 같이 배 치되어 root pile라고 불리는 말뚝 그물식 뿌리말뚝": {
+    "sourceToken": "162. 말뚝의 중심에 이형철근이나 강봉과 같은 보강재가 들어 있는 현장타설 콘크리트 말뚝으로 말뚝지름은 100~250mm 정도, 용도는 하중지지말뚝과 지반보강말뚝으로 구분되며, 특 히 지반보강말뚝은 나무뿌리가 지반에 뻗은 형상과 같이 배 치되어 root pile라고 불리는 말뚝 그물식 뿌리말뚝",
+    "canonicalEnglish": "mm root pile",
+    "acceptedEnglish": [
+      "162. 말뚝의 중심에 이형철근이나 강봉과 같은 보강재가 들어 있는 현장타설 콘크리트 말뚝으로 말뚝지름은 100~250mm 정도, 용도는 하중지지말뚝과 지반보강말뚝으로 구분되며, 특 히 지반보강말뚝은 나무뿌리가 지반에 뻗은 형상과 같이 배 치되어 root pile라고 불리는 말뚝 그물식 뿌리말뚝",
+      "mm root pile"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "162. 말뚝의 중심에 이형철근이나 강봉과 같은 보강재가 들어 있는 현장타설 콘크리트 말뚝으로 말뚝지름은 100~250mm 정도, 용도는 하중지지말뚝과 지반보강말뚝으로 구분되며, 특 히 지반보강말뚝은 나무뿌리가 지반에 뻗은 형상과 같이 배 치되어 root pile라고 불리는 말뚝 그물식 뿌리말뚝",
+      "mm root pile"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "163. 공기케이슨을 사용하는 경우 Heaving 또는 Boiling을 방지하고자 하는 경우 건조상태에서 굴착작업을 하고자 하는 경우 콘크리트 작업의 신뢰도를 높이고자 하는 경우 토층의 확인 및 지지력을 시험하고자 하는 경우": {
+    "sourceToken": "163. 공기케이슨을 사용하는 경우 Heaving 또는 Boiling을 방지하고자 하는 경우 건조상태에서 굴착작업을 하고자 하는 경우 콘크리트 작업의 신뢰도를 높이고자 하는 경우 토층의 확인 및 지지력을 시험하고자 하는 경우",
+    "canonicalEnglish": "Heaving Boiling",
+    "acceptedEnglish": [
+      "163. 공기케이슨을 사용하는 경우 Heaving 또는 Boiling을 방지하고자 하는 경우 건조상태에서 굴착작업을 하고자 하는 경우 콘크리트 작업의 신뢰도를 높이고자 하는 경우 토층의 확인 및 지지력을 시험하고자 하는 경우",
+      "Heaving Boiling"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "163. 공기케이슨을 사용하는 경우 Heaving 또는 Boiling을 방지하고자 하는 경우 건조상태에서 굴착작업을 하고자 하는 경우 콘크리트 작업의 신뢰도를 높이고자 하는 경우 토층의 확인 및 지지력을 시험하고자 하는 경우",
+      "Heaving Boiling"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Macadam 공법": {
+    "sourceToken": "Macadam 공법",
+    "canonicalEnglish": "Macadam",
+    "acceptedEnglish": [
+      "Macadam 공법",
+      "Macadam"
+    ],
+    "acceptedKorean": [
+      "맥아담"
+    ],
+    "acceptedAnswers": [
+      "Macadam 공법",
+      "Macadam",
+      "맥아담"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Water jet식 케이싱법": {
+    "sourceToken": "Water jet식 케이싱법",
+    "canonicalEnglish": "Water jet",
+    "acceptedEnglish": [
+      "Water jet식 케이싱법",
+      "Water jet"
+    ],
+    "acceptedKorean": [
+      "워터제트",
+      "워터 제트"
+    ],
+    "acceptedAnswers": [
+      "Water jet식 케이싱법",
+      "Water jet",
+      "워터제트",
+      "워터 제트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "earth auger법": {
+    "sourceToken": "earth auger법",
+    "canonicalEnglish": "earth auger",
+    "acceptedEnglish": [
+      "earth auger법",
+      "earth auger"
+    ],
+    "acceptedKorean": [
+      "어스오거",
+      "어스 오거"
+    ],
+    "acceptedAnswers": [
+      "earth auger법",
+      "earth auger",
+      "어스오거",
+      "어스 오거"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "타이백 앵커(Tie-back anchor)": {
+    "sourceToken": "타이백 앵커(Tie-back anchor)",
+    "canonicalEnglish": "Tie-back anchor",
+    "acceptedEnglish": [
+      "타이백 앵커(Tie-back anchor)",
+      "Tie-back anchor"
+    ],
+    "acceptedKorean": [
+      "타이백 앵커",
+      "타이백앵커"
+    ],
+    "acceptedAnswers": [
+      "타이백 앵커(Tie-back anchor)",
+      "Tie-back anchor",
+      "타이백 앵커",
+      "타이백앵커"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "SMA공법": {
+    "sourceToken": "SMA공법",
+    "canonicalEnglish": "SMA",
+    "acceptedEnglish": [
+      "SMA공법",
+      "SMA"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "SMA공법",
+      "SMA"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Concrete Slab를 균등하게 지지": {
+    "sourceToken": "Concrete Slab를 균등하게 지지",
+    "canonicalEnglish": "Concrete Slab",
+    "acceptedEnglish": [
+      "Concrete Slab를 균등하게 지지",
+      "Concrete Slab"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Concrete Slab를 균등하게 지지",
+      "Concrete Slab"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "쿠션블라스팅공법 (Cushion blasting)": {
+    "sourceToken": "쿠션블라스팅공법 (Cushion blasting)",
+    "canonicalEnglish": "Cushion blasting",
+    "acceptedEnglish": [
+      "쿠션블라스팅공법 (Cushion blasting)",
+      "Cushion blasting"
+    ],
+    "acceptedKorean": [
+      "쿠션블라스팅공법",
+      "쿠션블라스팅",
+      "쿠션 블라스팅"
+    ],
+    "acceptedAnswers": [
+      "쿠션블라스팅공법 (Cushion blasting)",
+      "Cushion blasting",
+      "쿠션블라스팅공법",
+      "쿠션블라스팅",
+      "쿠션 블라스팅"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "프리스플릿팅공법 (Pre-splitting)": {
+    "sourceToken": "프리스플릿팅공법 (Pre-splitting)",
+    "canonicalEnglish": "Pre-splitting",
+    "acceptedEnglish": [
+      "프리스플릿팅공법 (Pre-splitting)",
+      "Pre-splitting"
+    ],
+    "acceptedKorean": [
+      "프리스플릿팅공법",
+      "프리스플릿팅",
+      "프리 스플릿팅"
+    ],
+    "acceptedAnswers": [
+      "프리스플릿팅공법 (Pre-splitting)",
+      "Pre-splitting",
+      "프리스플릿팅공법",
+      "프리스플릿팅",
+      "프리 스플릿팅"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "라인드릴링공법 (Line drilling)": {
+    "sourceToken": "라인드릴링공법 (Line drilling)",
+    "canonicalEnglish": "Line drilling",
+    "acceptedEnglish": [
+      "라인드릴링공법 (Line drilling)",
+      "Line drilling"
+    ],
+    "acceptedKorean": [
+      "라인드릴링공법",
+      "라인드릴링",
+      "라인 드릴링"
+    ],
+    "acceptedAnswers": [
+      "라인드릴링공법 (Line drilling)",
+      "Line drilling",
+      "라인드릴링공법",
+      "라인드릴링",
+      "라인 드릴링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "스무스블라스팅 (Smooth blasting)": {
+    "sourceToken": "스무스블라스팅 (Smooth blasting)",
+    "canonicalEnglish": "Smooth blasting",
+    "acceptedEnglish": [
+      "스무스블라스팅 (Smooth blasting)",
+      "Smooth blasting"
+    ],
+    "acceptedKorean": [
+      "스무스블라스팅",
+      "스무스 블라스팅"
+    ],
+    "acceptedAnswers": [
+      "스무스블라스팅 (Smooth blasting)",
+      "Smooth blasting",
+      "스무스블라스팅",
+      "스무스 블라스팅"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "PMT(Pressure Meter Test)": {
+    "sourceToken": "PMT(Pressure Meter Test)",
+    "canonicalEnglish": "Pressure Meter Test",
+    "acceptedEnglish": [
+      "PMT(Pressure Meter Test)",
+      "Pressure Meter Test"
+    ],
+    "acceptedKorean": [
+      "PMT"
+    ],
+    "acceptedAnswers": [
+      "PMT(Pressure Meter Test)",
+      "Pressure Meter Test",
+      "PMT"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "No. 200 체 통과율": {
+    "sourceToken": "No. 200 체 통과율",
+    "canonicalEnglish": "No. 200",
+    "acceptedEnglish": [
+      "No. 200 체 통과율",
+      "No. 200"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "No. 200 체 통과율",
+      "No. 200"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Soil nailing": {
+    "sourceToken": "Soil nailing",
+    "canonicalEnglish": "Soil nailing",
+    "acceptedEnglish": [
+      "Soil nailing"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Soil nailing"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "라인 드릴링 공법(Line drilling)": {
+    "sourceToken": "라인 드릴링 공법(Line drilling)",
+    "canonicalEnglish": "Line drilling",
+    "acceptedEnglish": [
+      "라인 드릴링 공법(Line drilling)",
+      "Line drilling"
+    ],
+    "acceptedKorean": [
+      "라인 드릴링 공법",
+      "라인드릴링공법",
+      "라인드릴링",
+      "라인 드릴링"
+    ],
+    "acceptedAnswers": [
+      "라인 드릴링 공법(Line drilling)",
+      "Line drilling",
+      "라인 드릴링 공법",
+      "라인드릴링공법",
+      "라인드릴링",
+      "라인 드릴링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "TBM공법": {
+    "sourceToken": "TBM공법",
+    "canonicalEnglish": "TBM",
+    "acceptedEnglish": [
+      "TBM공법",
+      "TBM"
+    ],
+    "acceptedKorean": [
+      "티비엠"
+    ],
+    "acceptedAnswers": [
+      "TBM공법",
+      "TBM",
+      "티비엠"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "언더피닝 공법(Under pinning)": {
+    "sourceToken": "언더피닝 공법(Under pinning)",
+    "canonicalEnglish": "Under pinning",
+    "acceptedEnglish": [
+      "언더피닝 공법(Under pinning)",
+      "Under pinning"
+    ],
+    "acceptedKorean": [
+      "언더피닝 공법",
+      "언더피닝공법",
+      "언더피닝",
+      "언더 피닝"
+    ],
+    "acceptedAnswers": [
+      "언더피닝 공법(Under pinning)",
+      "Under pinning",
+      "언더피닝 공법",
+      "언더피닝공법",
+      "언더피닝",
+      "언더 피닝"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "MAIS공법(침투압공법)": {
+    "sourceToken": "MAIS공법(침투압공법)",
+    "canonicalEnglish": "MAIS",
+    "acceptedEnglish": [
+      "MAIS공법(침투압공법)",
+      "MAIS"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "MAIS공법(침투압공법)",
+      "MAIS"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Packer 방법": {
+    "sourceToken": "Packer 방법",
+    "canonicalEnglish": "Packer",
+    "acceptedEnglish": [
+      "Packer 방법",
+      "Packer"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Packer 방법",
+      "Packer"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "H-pile 토류벽": {
+    "sourceToken": "H-pile 토류벽",
+    "canonicalEnglish": "H-pile",
+    "acceptedEnglish": [
+      "H-pile 토류벽",
+      "H-pile"
+    ],
+    "acceptedKorean": [
+      "에이치파일",
+      "H파일"
+    ],
+    "acceptedAnswers": [
+      "H-pile 토류벽",
+      "H-pile",
+      "에이치파일",
+      "H파일"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Well point": {
+    "sourceToken": "Well point",
+    "canonicalEnglish": "Well point",
+    "acceptedEnglish": [
+      "Well point"
+    ],
+    "acceptedKorean": [
+      "웰포인트",
+      "웰 포인트"
+    ],
+    "acceptedAnswers": [
+      "Well point",
+      "웰포인트",
+      "웰 포인트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "침투압(MAIS)": {
+    "sourceToken": "침투압(MAIS)",
+    "canonicalEnglish": "MAIS",
+    "acceptedEnglish": [
+      "침투압(MAIS)",
+      "MAIS"
+    ],
+    "acceptedKorean": [
+      "침투압"
+    ],
+    "acceptedAnswers": [
+      "침투압(MAIS)",
+      "MAIS",
+      "침투압"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "smooth wall 만들기 어려움": {
+    "sourceToken": "smooth wall 만들기 어려움",
+    "canonicalEnglish": "smooth wall",
+    "acceptedEnglish": [
+      "smooth wall 만들기 어려움",
+      "smooth wall"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "smooth wall 만들기 어려움",
+      "smooth wall"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Jet(분사식) 공법": {
+    "sourceToken": "Jet(분사식) 공법",
+    "canonicalEnglish": "Jet",
+    "acceptedEnglish": [
+      "Jet(분사식) 공법",
+      "Jet"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Jet(분사식) 공법",
+      "Jet"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "SCW(Soil Cement Wall)공법": {
+    "sourceToken": "SCW(Soil Cement Wall)공법",
+    "canonicalEnglish": "Soil Cement Wall",
+    "acceptedEnglish": [
+      "SCW(Soil Cement Wall)공법",
+      "Soil Cement Wall"
+    ],
+    "acceptedKorean": [
+      "SCW"
+    ],
+    "acceptedAnswers": [
+      "SCW(Soil Cement Wall)공법",
+      "Soil Cement Wall",
+      "SCW"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Earth drill공법": {
+    "sourceToken": "Earth drill공법",
+    "canonicalEnglish": "Earth drill",
+    "acceptedEnglish": [
+      "Earth drill공법",
+      "Earth drill"
+    ],
+    "acceptedKorean": [
+      "어스드릴",
+      "어스 드릴"
+    ],
+    "acceptedAnswers": [
+      "Earth drill공법",
+      "Earth drill",
+      "어스드릴",
+      "어스 드릴"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "프레셔미터시험(PMT)": {
+    "sourceToken": "프레셔미터시험(PMT)",
+    "canonicalEnglish": "PMT",
+    "acceptedEnglish": [
+      "프레셔미터시험(PMT)",
+      "PMT"
+    ],
+    "acceptedKorean": [
+      "프레셔미터시험"
+    ],
+    "acceptedAnswers": [
+      "프레셔미터시험(PMT)",
+      "PMT",
+      "프레셔미터시험"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "딜라토미터시험(DMT)": {
+    "sourceToken": "딜라토미터시험(DMT)",
+    "canonicalEnglish": "DMT",
+    "acceptedEnglish": [
+      "딜라토미터시험(DMT)",
+      "DMT"
+    ],
+    "acceptedKorean": [
+      "딜라토미터시험"
+    ],
+    "acceptedAnswers": [
+      "딜라토미터시험(DMT)",
+      "DMT",
+      "딜라토미터시험"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "수평재하시험(LLT)": {
+    "sourceToken": "수평재하시험(LLT)",
+    "canonicalEnglish": "LLT",
+    "acceptedEnglish": [
+      "수평재하시험(LLT)",
+      "LLT"
+    ],
+    "acceptedKorean": [
+      "수평재하시험"
+    ],
+    "acceptedAnswers": [
+      "수평재하시험(LLT)",
+      "LLT",
+      "수평재하시험"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "No.200번채 통과율": {
+    "sourceToken": "No.200번채 통과율",
+    "canonicalEnglish": "No.200",
+    "acceptedEnglish": [
+      "No.200번채 통과율",
+      "No.200"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "No.200번채 통과율",
+      "No.200"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "CBR값": {
+    "sourceToken": "CBR값",
+    "canonicalEnglish": "CBR",
+    "acceptedEnglish": [
+      "CBR값",
+      "CBR"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "CBR값",
+      "CBR"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Cone값": {
+    "sourceToken": "Cone값",
+    "canonicalEnglish": "Cone",
+    "acceptedEnglish": [
+      "Cone값",
+      "Cone"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Cone값",
+      "Cone"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "proof roling": {
+    "sourceToken": "proof roling",
+    "canonicalEnglish": "proof rolling",
+    "acceptedEnglish": [
+      "proof roling",
+      "proof rolling"
+    ],
+    "acceptedKorean": [
+      "프루프롤링",
+      "프루프 롤링"
+    ],
+    "acceptedAnswers": [
+      "proof roling",
+      "proof rolling",
+      "프루프롤링",
+      "프루프 롤링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Pulling 방법": {
+    "sourceToken": "Pulling 방법",
+    "canonicalEnglish": "Pulling",
+    "acceptedEnglish": [
+      "Pulling 방법",
+      "Pulling"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Pulling 방법",
+      "Pulling"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Pushing 방법": {
+    "sourceToken": "Pushing 방법",
+    "canonicalEnglish": "Pushing",
+    "acceptedEnglish": [
+      "Pushing 방법",
+      "Pushing"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Pushing 방법",
+      "Pushing"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Lift & pushing방법": {
+    "sourceToken": "Lift & pushing방법",
+    "canonicalEnglish": "Lift & pushing",
+    "acceptedEnglish": [
+      "Lift & pushing방법",
+      "Lift & pushing"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Lift & pushing방법",
+      "Lift & pushing"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "FCM": {
+    "sourceToken": "FCM",
+    "canonicalEnglish": "FCM",
+    "acceptedEnglish": [
+      "FCM"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "FCM"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "MSS": {
+    "sourceToken": "MSS",
+    "canonicalEnglish": "MSS",
+    "acceptedEnglish": [
+      "MSS"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "MSS"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "ILM": {
+    "sourceToken": "ILM",
+    "canonicalEnglish": "ILM",
+    "acceptedEnglish": [
+      "ILM"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "ILM"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "트FP미 방법": {
+    "sourceToken": "트FP미 방법",
+    "canonicalEnglish": "FP",
+    "acceptedEnglish": [
+      "트FP미 방법",
+      "FP"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "트FP미 방법",
+      "FP"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "DB-": {
+    "sourceToken": "DB-",
+    "canonicalEnglish": "DB-",
+    "acceptedEnglish": [
+      "DB-"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "DB-"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "2 DB": {
+    "sourceToken": "2 DB",
+    "canonicalEnglish": "DB",
+    "acceptedEnglish": [
+      "2 DB",
+      "DB"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "2 DB",
+      "DB"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "3 DB": {
+    "sourceToken": "3 DB",
+    "canonicalEnglish": "DB",
+    "acceptedEnglish": [
+      "3 DB",
+      "DB"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "3 DB",
+      "DB"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "FCM 2ILM 3MSS 4PSM": {
+    "sourceToken": "FCM 2ILM 3MSS 4PSM",
+    "canonicalEnglish": "FCM 2ILM 3MSS 4PSM",
+    "acceptedEnglish": [
+      "FCM 2ILM 3MSS 4PSM"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "FCM 2ILM 3MSS 4PSM"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "초경량성토공법(EPS)": {
+    "sourceToken": "초경량성토공법(EPS)",
+    "canonicalEnglish": "EPS",
+    "acceptedEnglish": [
+      "초경량성토공법(EPS)",
+      "EPS"
+    ],
+    "acceptedKorean": [
+      "초경량성토공법"
+    ],
+    "acceptedAnswers": [
+      "초경량성토공법(EPS)",
+      "EPS",
+      "초경량성토공법"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Water jet식 케이싱 방법": {
+    "sourceToken": "Water jet식 케이싱 방법",
+    "canonicalEnglish": "Water jet",
+    "acceptedEnglish": [
+      "Water jet식 케이싱 방법",
+      "Water jet"
+    ],
+    "acceptedKorean": [
+      "워터제트",
+      "워터 제트"
+    ],
+    "acceptedAnswers": [
+      "Water jet식 케이싱 방법",
+      "Water jet",
+      "워터제트",
+      "워터 제트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Rotary boring 방법": {
+    "sourceToken": "Rotary boring 방법",
+    "canonicalEnglish": "Rotary boring",
+    "acceptedEnglish": [
+      "Rotary boring 방법",
+      "Rotary boring"
+    ],
+    "acceptedKorean": [
+      "로터리보링",
+      "로터리 보링",
+      "로터리 보오링"
+    ],
+    "acceptedAnswers": [
+      "Rotary boring 방법",
+      "Rotary boring",
+      "로터리보링",
+      "로터리 보링",
+      "로터리 보오링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Earth auger 방법": {
+    "sourceToken": "Earth auger 방법",
+    "canonicalEnglish": "Earth auger",
+    "acceptedEnglish": [
+      "Earth auger 방법",
+      "Earth auger"
+    ],
+    "acceptedKorean": [
+      "어스오거",
+      "어스 오거"
+    ],
+    "acceptedAnswers": [
+      "Earth auger 방법",
+      "Earth auger",
+      "어스오거",
+      "어스 오거"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "RQD에 의한 분류": {
+    "sourceToken": "RQD에 의한 분류",
+    "canonicalEnglish": "RQD",
+    "acceptedEnglish": [
+      "RQD에 의한 분류",
+      "RQD"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "RQD에 의한 분류",
+      "RQD"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "침투압공법(MAIS공법)": {
+    "sourceToken": "침투압공법(MAIS공법)",
+    "canonicalEnglish": "MAIS공법",
+    "acceptedEnglish": [
+      "침투압공법(MAIS공법)",
+      "MAIS공법"
+    ],
+    "acceptedKorean": [
+      "침투압공법"
+    ],
+    "acceptedAnswers": [
+      "침투압공법(MAIS공법)",
+      "MAIS공법",
+      "침투압공법"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Scale effect를 고려해야 한다": {
+    "sourceToken": "Scale effect를 고려해야 한다",
+    "canonicalEnglish": "Scale effect",
+    "acceptedEnglish": [
+      "Scale effect를 고려해야 한다",
+      "Scale effect"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Scale effect를 고려해야 한다",
+      "Scale effect"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "BOX 매설공법": {
+    "sourceToken": "BOX 매설공법",
+    "canonicalEnglish": "BOX",
+    "acceptedEnglish": [
+      "BOX 매설공법",
+      "BOX"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "BOX 매설공법",
+      "BOX"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Spring line": {
+    "sourceToken": "Spring line",
+    "canonicalEnglish": "Spring line",
+    "acceptedEnglish": [
+      "Spring line"
+    ],
+    "acceptedKorean": [
+      "스프링라인",
+      "스프링 라인"
+    ],
+    "acceptedAnswers": [
+      "Spring line",
+      "스프링라인",
+      "스프링 라인"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Island 공법": {
+    "sourceToken": "Island 공법",
+    "canonicalEnglish": "Island",
+    "acceptedEnglish": [
+      "Island 공법",
+      "Island"
+    ],
+    "acceptedKorean": [
+      "아일랜드"
+    ],
+    "acceptedAnswers": [
+      "Island 공법",
+      "Island",
+      "아일랜드"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Open cut 공법": {
+    "sourceToken": "Open cut 공법",
+    "canonicalEnglish": "Open cut",
+    "acceptedEnglish": [
+      "Open cut 공법",
+      "Open cut"
+    ],
+    "acceptedKorean": [
+      "오픈컷",
+      "오픈 컷"
+    ],
+    "acceptedAnswers": [
+      "Open cut 공법",
+      "Open cut",
+      "오픈컷",
+      "오픈 컷"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Trench cut 공법": {
+    "sourceToken": "Trench cut 공법",
+    "canonicalEnglish": "Trench cut",
+    "acceptedEnglish": [
+      "Trench cut 공법",
+      "Trench cut"
+    ],
+    "acceptedKorean": [
+      "트렌치컷",
+      "트렌치 컷"
+    ],
+    "acceptedAnswers": [
+      "Trench cut 공법",
+      "Trench cut",
+      "트렌치컷",
+      "트렌치 컷"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "숏크리트는 대기 온도가 몇 °C 이상일 때 뿜어붇이기를 실시 하는가 : 10°C": {
+    "sourceToken": "숏크리트는 대기 온도가 몇 °C 이상일 때 뿜어붇이기를 실시 하는가 : 10°C",
+    "canonicalEnglish": "C C",
+    "acceptedEnglish": [
+      "숏크리트는 대기 온도가 몇 °C 이상일 때 뿜어붇이기를 실시 하는가 : 10°C",
+      "C C"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "숏크리트는 대기 온도가 몇 °C 이상일 때 뿜어붇이기를 실시 하는가 : 10°C",
+      "C C"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Deep well 공법": {
+    "sourceToken": "Deep well 공법",
+    "canonicalEnglish": "Deep well",
+    "acceptedEnglish": [
+      "Deep well 공법",
+      "Deep well"
+    ],
+    "acceptedKorean": [
+      "딥웰",
+      "딥 웰"
+    ],
+    "acceptedAnswers": [
+      "Deep well 공법",
+      "Deep well",
+      "딥웰",
+      "딥 웰"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "준설과 매립을 동시에 신속하게 시공할 수 있고 해저 토사를 회전형 Cutter로 깎아 펌프로 흡입하여 매립지로 배송하는 준설선": {
+    "sourceToken": "준설과 매립을 동시에 신속하게 시공할 수 있고 해저 토사를 회전형 Cutter로 깎아 펌프로 흡입하여 매립지로 배송하는 준설선",
+    "canonicalEnglish": "Cutter",
+    "acceptedEnglish": [
+      "준설과 매립을 동시에 신속하게 시공할 수 있고 해저 토사를 회전형 Cutter로 깎아 펌프로 흡입하여 매립지로 배송하는 준설선",
+      "Cutter"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "준설과 매립을 동시에 신속하게 시공할 수 있고 해저 토사를 회전형 Cutter로 깎아 펌프로 흡입하여 매립지로 배송하는 준설선",
+      "Cutter"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "rod에 붙인 어떤 저항체를 지중에 넣어 타격 관입, 인발 및 회전할 때의 흙의 전단강도를 측정하는 원위치 시험": {
+    "sourceToken": "rod에 붙인 어떤 저항체를 지중에 넣어 타격 관입, 인발 및 회전할 때의 흙의 전단강도를 측정하는 원위치 시험",
+    "canonicalEnglish": "rod",
+    "acceptedEnglish": [
+      "rod에 붙인 어떤 저항체를 지중에 넣어 타격 관입, 인발 및 회전할 때의 흙의 전단강도를 측정하는 원위치 시험",
+      "rod"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "rod에 붙인 어떤 저항체를 지중에 넣어 타격 관입, 인발 및 회전할 때의 흙의 전단강도를 측정하는 원위치 시험",
+      "rod"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "SPLT(Simple Pile Loading Test)": {
+    "sourceToken": "SPLT(Simple Pile Loading Test)",
+    "canonicalEnglish": "Simple Pile Loading Test",
+    "acceptedEnglish": [
+      "SPLT(Simple Pile Loading Test)",
+      "Simple Pile Loading Test"
+    ],
+    "acceptedKorean": [
+      "SPLT"
+    ],
+    "acceptedAnswers": [
+      "SPLT(Simple Pile Loading Test)",
+      "Simple Pile Loading Test",
+      "SPLT"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "한격 Sheet pile 식": {
+    "sourceToken": "한격 Sheet pile 식",
+    "canonicalEnglish": "Sheet pile",
+    "acceptedEnglish": [
+      "한격 Sheet pile 식",
+      "Sheet pile"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "한격 Sheet pile 식",
+      "Sheet pile"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "두겹 Sheet pile 식": {
+    "sourceToken": "두겹 Sheet pile 식",
+    "canonicalEnglish": "Sheet pile",
+    "acceptedEnglish": [
+      "두겹 Sheet pile 식",
+      "Sheet pile"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "두겹 Sheet pile 식",
+      "Sheet pile"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Cell 식": {
+    "sourceToken": "Cell 식",
+    "canonicalEnglish": "Cell",
+    "acceptedEnglish": [
+      "Cell 식",
+      "Cell"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Cell 식",
+      "Cell"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Sliding form 공법": {
+    "sourceToken": "Sliding form 공법",
+    "canonicalEnglish": "Sliding form",
+    "acceptedEnglish": [
+      "Sliding form 공법",
+      "Sliding form"
+    ],
+    "acceptedKorean": [
+      "슬라이딩폼",
+      "슬라이딩 폼"
+    ],
+    "acceptedAnswers": [
+      "Sliding form 공법",
+      "Sliding form",
+      "슬라이딩폼",
+      "슬라이딩 폼"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Slip form 공법": {
+    "sourceToken": "Slip form 공법",
+    "canonicalEnglish": "Slip form",
+    "acceptedEnglish": [
+      "Slip form 공법",
+      "Slip form"
+    ],
+    "acceptedKorean": [
+      "슬립폼",
+      "슬립 폼"
+    ],
+    "acceptedAnswers": [
+      "Slip form 공법",
+      "Slip form",
+      "슬립폼",
+      "슬립 폼"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Travelling form 공법": {
+    "sourceToken": "Travelling form 공법",
+    "canonicalEnglish": "Travelling form",
+    "acceptedEnglish": [
+      "Travelling form 공법",
+      "Travelling form"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Travelling form 공법",
+      "Travelling form"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Net work 공정표": {
+    "sourceToken": "Net work 공정표",
+    "canonicalEnglish": "Net work",
+    "acceptedEnglish": [
+      "Net work 공정표",
+      "Net work"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Net work 공정표",
+      "Net work"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "SMA(포장공법)": {
+    "sourceToken": "SMA(포장공법)",
+    "canonicalEnglish": "SMA",
+    "acceptedEnglish": [
+      "SMA(포장공법)",
+      "SMA"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "SMA(포장공법)",
+      "SMA"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Drain 단면이 깊이 방향에 대하여 일정하다": {
+    "sourceToken": "Drain 단면이 깊이 방향에 대하여 일정하다",
+    "canonicalEnglish": "Drain",
+    "acceptedEnglish": [
+      "Drain 단면이 깊이 방향에 대하여 일정하다",
+      "Drain"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Drain 단면이 깊이 방향에 대하여 일정하다",
+      "Drain"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "ILM공법( 압출공법 )": {
+    "sourceToken": "ILM공법( 압출공법 )",
+    "canonicalEnglish": "ILM",
+    "acceptedEnglish": [
+      "ILM공법( 압출공법 )",
+      "ILM"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "ILM공법( 압출공법 )",
+      "ILM"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Auger 압입방법": {
+    "sourceToken": "Auger 압입방법",
+    "canonicalEnglish": "Auger",
+    "acceptedEnglish": [
+      "Auger 압입방법",
+      "Auger"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Auger 압입방법",
+      "Auger"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Water jet 병용공법": {
+    "sourceToken": "Water jet 병용공법",
+    "canonicalEnglish": "Water jet",
+    "acceptedEnglish": [
+      "Water jet 병용공법",
+      "Water jet"
+    ],
+    "acceptedKorean": [
+      "워터제트",
+      "워터 제트"
+    ],
+    "acceptedAnswers": [
+      "Water jet 병용공법",
+      "Water jet",
+      "워터제트",
+      "워터 제트"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Boiling 방지를 위한 대수층의 수압감소가 필요한 경우": {
+    "sourceToken": "Boiling 방지를 위한 대수층의 수압감소가 필요한 경우",
+    "canonicalEnglish": "Boiling",
+    "acceptedEnglish": [
+      "Boiling 방지를 위한 대수층의 수압감소가 필요한 경우",
+      "Boiling"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Boiling 방지를 위한 대수층의 수압감소가 필요한 경우",
+      "Boiling"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "RQD 분류법": {
+    "sourceToken": "RQD 분류법",
+    "canonicalEnglish": "RQD",
+    "acceptedEnglish": [
+      "RQD 분류법",
+      "RQD"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "RQD 분류법",
+      "RQD"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "RMR 분류법": {
+    "sourceToken": "RMR 분류법",
+    "canonicalEnglish": "RMR",
+    "acceptedEnglish": [
+      "RMR 분류법",
+      "RMR"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "RMR 분류법",
+      "RMR"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "RSR 분류법": {
+    "sourceToken": "RSR 분류법",
+    "canonicalEnglish": "RSR",
+    "acceptedEnglish": [
+      "RSR 분류법",
+      "RSR"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "RSR 분류법",
+      "RSR"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "RQD (암질지수)": {
+    "sourceToken": "RQD (암질지수)",
+    "canonicalEnglish": "RQD",
+    "acceptedEnglish": [
+      "RQD (암질지수)",
+      "RQD"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "RQD (암질지수)",
+      "RQD"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Flat Jack법": {
+    "sourceToken": "Flat Jack법",
+    "canonicalEnglish": "Flat Jack",
+    "acceptedEnglish": [
+      "Flat Jack법",
+      "Flat Jack"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Flat Jack법",
+      "Flat Jack"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "AE법": {
+    "sourceToken": "AE법",
+    "canonicalEnglish": "AE",
+    "acceptedEnglish": [
+      "AE법",
+      "AE"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "AE법",
+      "AE"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "선단 Cone 저항": {
+    "sourceToken": "선단 Cone 저항",
+    "canonicalEnglish": "Cone",
+    "acceptedEnglish": [
+      "선단 Cone 저항",
+      "Cone"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "선단 Cone 저항",
+      "Cone"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Earth auger에 의한 방법": {
+    "sourceToken": "Earth auger에 의한 방법",
+    "canonicalEnglish": "Earth auger",
+    "acceptedEnglish": [
+      "Earth auger에 의한 방법",
+      "Earth auger"
+    ],
+    "acceptedKorean": [
+      "어스오거",
+      "어스 오거"
+    ],
+    "acceptedAnswers": [
+      "Earth auger에 의한 방법",
+      "Earth auger",
+      "어스오거",
+      "어스 오거"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Rotary boring에 의한 방법": {
+    "sourceToken": "Rotary boring에 의한 방법",
+    "canonicalEnglish": "Rotary boring",
+    "acceptedEnglish": [
+      "Rotary boring에 의한 방법",
+      "Rotary boring"
+    ],
+    "acceptedKorean": [
+      "로터리보링",
+      "로터리 보링",
+      "로터리 보오링"
+    ],
+    "acceptedAnswers": [
+      "Rotary boring에 의한 방법",
+      "Rotary boring",
+      "로터리보링",
+      "로터리 보링",
+      "로터리 보오링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Sand pile이 절단되지 않는다.": {
+    "sourceToken": "Sand pile이 절단되지 않는다.",
+    "canonicalEnglish": "Sand pile",
+    "acceptedEnglish": [
+      "Sand pile이 절단되지 않는다.",
+      "Sand pile"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Sand pile이 절단되지 않는다.",
+      "Sand pile"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "EPS 공법": {
+    "sourceToken": "EPS 공법",
+    "canonicalEnglish": "EPS",
+    "acceptedEnglish": [
+      "EPS 공법",
+      "EPS"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "EPS 공법",
+      "EPS"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "CBR값(CBR시험)": {
+    "sourceToken": "CBR값(CBR시험)",
+    "canonicalEnglish": "CBR시험",
+    "acceptedEnglish": [
+      "CBR값(CBR시험)",
+      "CBR시험"
+    ],
+    "acceptedKorean": [
+      "CBR값"
+    ],
+    "acceptedAnswers": [
+      "CBR값(CBR시험)",
+      "CBR시험",
+      "CBR값"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "P-S 곡선법": {
+    "sourceToken": "P-S 곡선법",
+    "canonicalEnglish": "P-S",
+    "acceptedEnglish": [
+      "P-S 곡선법",
+      "P-S"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "P-S 곡선법",
+      "P-S"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "logP-logS 곡선법": {
+    "sourceToken": "logP-logS 곡선법",
+    "canonicalEnglish": "logP-logS",
+    "acceptedEnglish": [
+      "logP-logS 곡선법",
+      "logP-logS"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "logP-logS 곡선법",
+      "logP-logS"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "S-logt 곡선법": {
+    "sourceToken": "S-logt 곡선법",
+    "canonicalEnglish": "S-logt",
+    "acceptedEnglish": [
+      "S-logt 곡선법",
+      "S-logt"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "S-logt 곡선법",
+      "S-logt"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Rankine 방법": {
+    "sourceToken": "Rankine 방법",
+    "canonicalEnglish": "Rankine",
+    "acceptedEnglish": [
+      "Rankine 방법",
+      "Rankine"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Rankine 방법",
+      "Rankine"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "조골재를 13mm 이하로 한다.": {
+    "sourceToken": "조골재를 13mm 이하로 한다.",
+    "canonicalEnglish": "mm",
+    "acceptedEnglish": [
+      "조골재를 13mm 이하로 한다.",
+      "mm"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "조골재를 13mm 이하로 한다.",
+      "mm"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Fore poling 공법": {
+    "sourceToken": "Fore poling 공법",
+    "canonicalEnglish": "Fore poling",
+    "acceptedEnglish": [
+      "Fore poling 공법",
+      "Fore poling"
+    ],
+    "acceptedKorean": [
+      "포어폴링",
+      "포어 폴링"
+    ],
+    "acceptedAnswers": [
+      "Fore poling 공법",
+      "Fore poling",
+      "포어폴링",
+      "포어 폴링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "PSM": {
+    "sourceToken": "PSM",
+    "canonicalEnglish": "PSM",
+    "acceptedEnglish": [
+      "PSM"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "PSM"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Pulling": {
+    "sourceToken": "Pulling",
+    "canonicalEnglish": "Pulling",
+    "acceptedEnglish": [
+      "Pulling"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Pulling"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Pushing": {
+    "sourceToken": "Pushing",
+    "canonicalEnglish": "Pushing",
+    "acceptedEnglish": [
+      "Pushing"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Pushing"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Lift & Pushing": {
+    "sourceToken": "Lift & Pushing",
+    "canonicalEnglish": "Lift & Pushing",
+    "acceptedEnglish": [
+      "Lift & Pushing"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Lift & Pushing"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "DB-18": {
+    "sourceToken": "DB-18",
+    "canonicalEnglish": "DB-18",
+    "acceptedEnglish": [
+      "DB-18"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "DB-18"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "DB-24": {
+    "sourceToken": "DB-24",
+    "canonicalEnglish": "DB-24",
+    "acceptedEnglish": [
+      "DB-24"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "DB-24"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "DB-13.5": {
+    "sourceToken": "DB-13.5",
+    "canonicalEnglish": "DB-13.5",
+    "acceptedEnglish": [
+      "DB-13.5"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "DB-13.5"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "적당한 AE제를 사용한다.": {
+    "sourceToken": "적당한 AE제를 사용한다.",
+    "canonicalEnglish": "AE",
+    "acceptedEnglish": [
+      "적당한 AE제를 사용한다.",
+      "AE"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "적당한 AE제를 사용한다.",
+      "AE"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Prestress 공법": {
+    "sourceToken": "Prestress 공법",
+    "canonicalEnglish": "Prestress",
+    "acceptedEnglish": [
+      "Prestress 공법",
+      "Prestress"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Prestress 공법",
+      "Prestress"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "PS 강재의 릴렉세이션": {
+    "sourceToken": "PS 강재의 릴렉세이션",
+    "canonicalEnglish": "PS",
+    "acceptedEnglish": [
+      "PS 강재의 릴렉세이션",
+      "PS"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "PS 강재의 릴렉세이션",
+      "PS"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "무근철근콘크리트포장(JCP)": {
+    "sourceToken": "무근철근콘크리트포장(JCP)",
+    "canonicalEnglish": "JCP",
+    "acceptedEnglish": [
+      "무근철근콘크리트포장(JCP)",
+      "JCP"
+    ],
+    "acceptedKorean": [
+      "무근철근콘크리트포장"
+    ],
+    "acceptedAnswers": [
+      "무근철근콘크리트포장(JCP)",
+      "JCP",
+      "무근철근콘크리트포장"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "철근콘크리트포장(JRCP)": {
+    "sourceToken": "철근콘크리트포장(JRCP)",
+    "canonicalEnglish": "JRCP",
+    "acceptedEnglish": [
+      "철근콘크리트포장(JRCP)",
+      "JRCP"
+    ],
+    "acceptedKorean": [
+      "철근콘크리트포장"
+    ],
+    "acceptedAnswers": [
+      "철근콘크리트포장(JRCP)",
+      "JRCP",
+      "철근콘크리트포장"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "연속철근콘크리트포장(CRCP)": {
+    "sourceToken": "연속철근콘크리트포장(CRCP)",
+    "canonicalEnglish": "CRCP",
+    "acceptedEnglish": [
+      "연속철근콘크리트포장(CRCP)",
+      "CRCP"
+    ],
+    "acceptedKorean": [
+      "연속철근콘크리트포장"
+    ],
+    "acceptedAnswers": [
+      "연속철근콘크리트포장(CRCP)",
+      "CRCP",
+      "연속철근콘크리트포장"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "프리스트레스콘크리트포장(PRCP)": {
+    "sourceToken": "프리스트레스콘크리트포장(PRCP)",
+    "canonicalEnglish": "PRCP",
+    "acceptedEnglish": [
+      "프리스트레스콘크리트포장(PRCP)",
+      "PRCP"
+    ],
+    "acceptedKorean": [
+      "프리스트레스콘크리트포장"
+    ],
+    "acceptedAnswers": [
+      "프리스트레스콘크리트포장(PRCP)",
+      "PRCP",
+      "프리스트레스콘크리트포장"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "RT": {
+    "sourceToken": "RT",
+    "canonicalEnglish": "RT",
+    "acceptedEnglish": [
+      "RT"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "RT"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "UT": {
+    "sourceToken": "UT",
+    "canonicalEnglish": "UT",
+    "acceptedEnglish": [
+      "UT"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "UT"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "MT": {
+    "sourceToken": "MT",
+    "canonicalEnglish": "MT",
+    "acceptedEnglish": [
+      "MT"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "MT"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "PT": {
+    "sourceToken": "PT",
+    "canonicalEnglish": "PT",
+    "acceptedEnglish": [
+      "PT"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "PT"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "슬럼프값 100~180mm 이상": {
+    "sourceToken": "슬럼프값 100~180mm 이상",
+    "canonicalEnglish": "mm",
+    "acceptedEnglish": [
+      "슬럼프값 100~180mm 이상",
+      "mm"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "슬럼프값 100~180mm 이상",
+      "mm"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "단위시멘트량 250kg": {
+    "sourceToken": "단위시멘트량 250kg",
+    "canonicalEnglish": "kg",
+    "acceptedEnglish": [
+      "단위시멘트량 250kg",
+      "kg"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "단위시멘트량 250kg",
+      "kg"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "굵은골재 최대치수 25mm 이하": {
+    "sourceToken": "굵은골재 최대치수 25mm 이하",
+    "canonicalEnglish": "mm",
+    "acceptedEnglish": [
+      "굵은골재 최대치수 25mm 이하",
+      "mm"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "굵은골재 최대치수 25mm 이하",
+      "mm"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Fore poling": {
+    "sourceToken": "Fore poling",
+    "canonicalEnglish": "Fore poling",
+    "acceptedEnglish": [
+      "Fore poling"
+    ],
+    "acceptedKorean": [
+      "포어폴링",
+      "포어 폴링"
+    ],
+    "acceptedAnswers": [
+      "Fore poling",
+      "포어폴링",
+      "포어 폴링"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "경량성토공법(EPS)": {
+    "sourceToken": "경량성토공법(EPS)",
+    "canonicalEnglish": "EPS",
+    "acceptedEnglish": [
+      "경량성토공법(EPS)",
+      "EPS"
+    ],
+    "acceptedKorean": [
+      "경량성토공법"
+    ],
+    "acceptedAnswers": [
+      "경량성토공법(EPS)",
+      "EPS",
+      "경량성토공법"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "Slurry wall(지하연속벽식 흙막이벽)": {
+    "sourceToken": "Slurry wall(지하연속벽식 흙막이벽)",
+    "canonicalEnglish": "Slurry wall",
+    "acceptedEnglish": [
+      "Slurry wall(지하연속벽식 흙막이벽)",
+      "Slurry wall"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "Slurry wall(지하연속벽식 흙막이벽)",
+      "Slurry wall"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "표층 케이싱 설치, 굴착공 내에 압력 수 순환, 드릴 파이 프 내의 굴착토사 배출 : RCD 공법": {
+    "sourceToken": "표층 케이싱 설치, 굴착공 내에 압력 수 순환, 드릴 파이 프 내의 굴착토사 배출 : RCD 공법",
+    "canonicalEnglish": "RCD",
+    "acceptedEnglish": [
+      "표층 케이싱 설치, 굴착공 내에 압력 수 순환, 드릴 파이 프 내의 굴착토사 배출 : RCD 공법",
+      "RCD"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "표층 케이싱 설치, 굴착공 내에 압력 수 순환, 드릴 파이 프 내의 굴착토사 배출 : RCD 공법",
+      "RCD"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "일평균기온 10°C 이상 15°C 미만 : 7일": {
+    "sourceToken": "일평균기온 10°C 이상 15°C 미만 : 7일",
+    "canonicalEnglish": "C C",
+    "acceptedEnglish": [
+      "일평균기온 10°C 이상 15°C 미만 : 7일",
+      "C C"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "일평균기온 10°C 이상 15°C 미만 : 7일",
+      "C C"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "일평균기온 5°C 이상 10°C 미만 : 9일": {
+    "sourceToken": "일평균기온 5°C 이상 10°C 미만 : 9일",
+    "canonicalEnglish": "C C",
+    "acceptedEnglish": [
+      "일평균기온 5°C 이상 10°C 미만 : 9일",
+      "C C"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "일평균기온 5°C 이상 10°C 미만 : 9일",
+      "C C"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "확대기초, 보, 기둥 등 측면 : 5 MPa": {
+    "sourceToken": "확대기초, 보, 기둥 등 측면 : 5 MPa",
+    "canonicalEnglish": "MPa",
+    "acceptedEnglish": [
+      "확대기초, 보, 기둥 등 측면 : 5 MPa",
+      "MPa"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "확대기초, 보, 기둥 등 측면 : 5 MPa",
+      "MPa"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "3 이상(단, 최소 25MPa 이상)": {
+    "sourceToken": "3 이상(단, 최소 25MPa 이상)",
+    "canonicalEnglish": "단, 최소 25MPa 이상",
+    "acceptedEnglish": [
+      "3 이상(단, 최소 25MPa 이상)",
+      "단, 최소 25MPa 이상"
+    ],
+    "acceptedKorean": [
+      "3 이상",
+      "3이상"
+    ],
+    "acceptedAnswers": [
+      "3 이상(단, 최소 25MPa 이상)",
+      "단, 최소 25MPa 이상",
+      "3 이상",
+      "3이상"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "블로업(Blow up)": {
+    "sourceToken": "블로업(Blow up)",
+    "canonicalEnglish": "Blow up",
+    "acceptedEnglish": [
+      "블로업(Blow up)",
+      "Blow up"
+    ],
+    "acceptedKorean": [
+      "블로업",
+      "블로 업"
+    ],
+    "acceptedAnswers": [
+      "블로업(Blow up)",
+      "Blow up",
+      "블로업",
+      "블로 업"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "SMA 포장공법": {
+    "sourceToken": "SMA 포장공법",
+    "canonicalEnglish": "SMA",
+    "acceptedEnglish": [
+      "SMA 포장공법",
+      "SMA"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "SMA 포장공법",
+      "SMA"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "연속철근 콘크리트포장(CRCP)": {
+    "sourceToken": "연속철근 콘크리트포장(CRCP)",
+    "canonicalEnglish": "CRCP",
+    "acceptedEnglish": [
+      "연속철근 콘크리트포장(CRCP)",
+      "CRCP"
+    ],
+    "acceptedKorean": [
+      "연속철근 콘크리트포장",
+      "연속철근콘크리트포장"
+    ],
+    "acceptedAnswers": [
+      "연속철근 콘크리트포장(CRCP)",
+      "CRCP",
+      "연속철근 콘크리트포장",
+      "연속철근콘크리트포장"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "전압콘크리트 포장공법(RCCP)": {
+    "sourceToken": "전압콘크리트 포장공법(RCCP)",
+    "canonicalEnglish": "RCCP",
+    "acceptedEnglish": [
+      "전압콘크리트 포장공법(RCCP)",
+      "RCCP"
+    ],
+    "acceptedKorean": [
+      "전압콘크리트 포장공법",
+      "전압콘크리트포장공법"
+    ],
+    "acceptedAnswers": [
+      "전압콘크리트 포장공법(RCCP)",
+      "RCCP",
+      "전압콘크리트 포장공법",
+      "전압콘크리트포장공법"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "줄눈(Joint)": {
+    "sourceToken": "줄눈(Joint)",
+    "canonicalEnglish": "Joint",
+    "acceptedEnglish": [
+      "줄눈(Joint)",
+      "Joint"
+    ],
+    "acceptedKorean": [
+      "줄눈"
+    ],
+    "acceptedAnswers": [
+      "줄눈(Joint)",
+      "Joint",
+      "줄눈"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "플린스(Plinth)": {
+    "sourceToken": "플린스(Plinth)",
+    "canonicalEnglish": "Plinth",
+    "acceptedEnglish": [
+      "플린스(Plinth)",
+      "Plinth"
+    ],
+    "acceptedKorean": [
+      "플린스"
+    ],
+    "acceptedAnswers": [
+      "플린스(Plinth)",
+      "Plinth",
+      "플린스"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "수제(spur)": {
+    "sourceToken": "수제(spur)",
+    "canonicalEnglish": "spur",
+    "acceptedEnglish": [
+      "수제(spur)",
+      "spur"
+    ],
+    "acceptedKorean": [
+      "수제"
+    ],
+    "acceptedAnswers": [
+      "수제(spur)",
+      "spur",
+      "수제"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "RCCD(롤러다짐콘크리트댐)": {
+    "sourceToken": "RCCD(롤러다짐콘크리트댐)",
+    "canonicalEnglish": "RCCD",
+    "acceptedEnglish": [
+      "RCCD(롤러다짐콘크리트댐)",
+      "RCCD"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "RCCD(롤러다짐콘크리트댐)",
+      "RCCD"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "응력방출법(AE)": {
+    "sourceToken": "응력방출법(AE)",
+    "canonicalEnglish": "AE",
+    "acceptedEnglish": [
+      "응력방출법(AE)",
+      "AE"
+    ],
+    "acceptedKorean": [
+      "응력방출법"
+    ],
+    "acceptedAnswers": [
+      "응력방출법(AE)",
+      "AE",
+      "응력방출법"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "OCR<1 : 압밀이 진행 중인 점토": {
+    "sourceToken": "OCR<1 : 압밀이 진행 중인 점토",
+    "canonicalEnglish": "OCR",
+    "acceptedEnglish": [
+      "OCR<1 : 압밀이 진행 중인 점토",
+      "OCR"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "OCR<1 : 압밀이 진행 중인 점토",
+      "OCR"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "OCR=1 : 정규압밀점토": {
+    "sourceToken": "OCR=1 : 정규압밀점토",
+    "canonicalEnglish": "OCR",
+    "acceptedEnglish": [
+      "OCR=1 : 정규압밀점토",
+      "OCR"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "OCR=1 : 정규압밀점토",
+      "OCR"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "OCR>1 : 과압밀점토": {
+    "sourceToken": "OCR>1 : 과압밀점토",
+    "canonicalEnglish": "OCR",
+    "acceptedEnglish": [
+      "OCR>1 : 과압밀점토",
+      "OCR"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "OCR>1 : 과압밀점토",
+      "OCR"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  }
+}
