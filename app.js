@@ -51,6 +51,12 @@ const feedbackState = document.querySelector("#feedback-state");
 const feedbackMessage = document.querySelector("#feedback-message");
 const userAnswerOutput = document.querySelector("#user-answer-output");
 const correctAnswerOutput = document.querySelector("#correct-answer-output");
+const openReportButton = document.querySelector("#open-report-button");
+const reportPanel = document.querySelector("#report-panel");
+const reportMessageInput = document.querySelector("#report-message-input");
+const copyReportButton = document.querySelector("#copy-report-button");
+const submitReportButton = document.querySelector("#submit-report-button");
+const closeReportButton = document.querySelector("#close-report-button");
 const progressText = document.querySelector("#quiz-progress-text");
 const wrongCountText = document.querySelector("#wrong-count-text");
 const progressBar = document.querySelector("#quiz-progress-bar");
@@ -59,6 +65,8 @@ const resultTotal = document.querySelector("#result-total");
 const resultCorrect = document.querySelector("#result-correct");
 const resultWrong = document.querySelector("#result-wrong");
 const wrongNoteList = document.querySelector("#wrong-note-list");
+
+const REPORT_ISSUE_URL = "https://github.com/jyw350/dkucivil/issues/new";
 
 const PDF_LIBRARY = {
   1: {
@@ -497,6 +505,8 @@ function renderQuestion() {
   feedbackCard.classList.remove("correct", "incorrect", "warning");
   userAnswerOutput.textContent = "";
   correctAnswerOutput.innerHTML = "";
+  reportPanel.classList.add("hidden");
+  reportMessageInput.value = "";
   state.answerSubmitted = false;
   state.usedHintForCurrent = false;
   document.querySelector("#next-question-button").disabled = true;
@@ -536,6 +546,97 @@ function showFeedback(item, userAnswer, judgement) {
   feedbackMessage.textContent = judgement.message;
   userAnswerOutput.textContent = userAnswer.trim() || "입력 없음";
   correctAnswerOutput.innerHTML = item.answerLines.map((line) => escapeHtml(line)).join("<br />");
+  reportPanel.classList.add("hidden");
+  reportMessageInput.value = "";
+}
+
+function getCurrentAttemptForReport() {
+  const currentItem = state.quizItems[state.currentIndex];
+  if (!currentItem) {
+    return null;
+  }
+
+  return state.attempts[state.attempts.length - 1] ?? {
+    id: currentItem.id,
+    question: currentItem.question,
+    sourcePage: currentItem.sourcePage,
+    volume: currentItem.volume,
+    answerLines: currentItem.answerLines,
+    userAnswer: answerInput.value.trim(),
+  };
+}
+
+function buildReportPayload(customMessage) {
+  const attempt = getCurrentAttemptForReport();
+  if (!attempt) {
+    return null;
+  }
+
+  const pdf = PDF_LIBRARY[attempt.volume];
+  const message = String(customMessage || "").trim();
+  const issueTitle = `[문제 제보] ${attempt.id} ${attempt.question.slice(0, 40)}`;
+  const issueBody = [
+    "## 제보 내용",
+    message || "정답 판정 또는 문제 표기를 확인해주세요.",
+    "",
+    "## 자동 첨부 정보",
+    `- 문제 번호: ${attempt.id}`,
+    `- 문제: ${attempt.question}`,
+    `- 내가 입력한 답: ${attempt.userAnswer || "입력 없음"}`,
+    `- 저장된 정답: ${(attempt.answerLines || []).join(" / ")}`,
+    `- 출처: ${pdf?.title || `${attempt.volume}권`} ${attempt.sourcePage}페이지`,
+  ].join("\n");
+
+  return { issueTitle, issueBody };
+}
+
+function openReportPanel() {
+  reportPanel.classList.remove("hidden");
+  reportMessageInput.focus();
+}
+
+function closeReportPanelView() {
+  reportPanel.classList.add("hidden");
+}
+
+async function copyReportText() {
+  const message = reportMessageInput.value.trim();
+  if (!message) {
+    showToast("제보 내용을 한 줄이라도 적어주세요.");
+    reportMessageInput.focus();
+    return;
+  }
+
+  const payload = buildReportPayload(message);
+  if (!payload) {
+    showToast("제보할 문제 정보를 찾지 못했습니다.");
+    return;
+  }
+
+  try {
+    await navigator.clipboard.writeText(`${payload.issueTitle}\n\n${payload.issueBody}`);
+    showToast("제보 내용이 복사되었습니다.");
+  } catch {
+    showToast("복사에 실패했습니다. 브라우저 권한을 확인해주세요.");
+  }
+}
+
+function submitReportIssue() {
+  const message = reportMessageInput.value.trim();
+  if (!message) {
+    showToast("제보 내용을 한 줄이라도 적어주세요.");
+    reportMessageInput.focus();
+    return;
+  }
+
+  const payload = buildReportPayload(message);
+  if (!payload) {
+    showToast("제보할 문제 정보를 찾지 못했습니다.");
+    return;
+  }
+
+  const issueUrl = `${REPORT_ISSUE_URL}?title=${encodeURIComponent(payload.issueTitle)}&body=${encodeURIComponent(payload.issueBody)}`;
+  window.open(issueUrl, "_blank", "noopener,noreferrer");
 }
 
 function goToNextQuestion() {
@@ -914,6 +1015,13 @@ function bindEvents() {
 
     event.preventDefault();
   });
+
+  openReportButton.addEventListener("click", openReportPanel);
+  closeReportButton.addEventListener("click", closeReportPanelView);
+  copyReportButton.addEventListener("click", () => {
+    void copyReportText();
+  });
+  submitReportButton.addEventListener("click", submitReportIssue);
 
   document.querySelector("#back-home-button").addEventListener("click", confirmGoHome);
   document.querySelectorAll("[data-home-action='quiz']").forEach((button) => {
