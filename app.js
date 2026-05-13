@@ -228,6 +228,23 @@ function tokenMatches(expectedToken, userToken) {
   return "none";
 }
 
+function countEmbeddedAnswerMatches(expectedTokens, rawInput) {
+  const normalizedInput = normalizeForLooseMatch(rawInput);
+  let matchedCount = 0;
+
+  for (const expectedToken of expectedTokens) {
+    const acceptedVariants = getAcceptedVariants(expectedToken)
+      .map((variant) => normalizeForLooseMatch(variant))
+      .filter((variant) => variant.length >= 2);
+
+    if (acceptedVariants.some((variant) => normalizedInput.includes(variant))) {
+      matchedCount += 1;
+    }
+  }
+
+  return matchedCount;
+}
+
 function answerLineMatches(answerLine, rawInput) {
   for (const variant of getKoreanEndingVariants(answerLine)) {
     if (normalizeForDisplay(variant) === normalizeForDisplay(rawInput)) {
@@ -298,6 +315,15 @@ function judgeAnswer(item, rawInput) {
           : matchType === "whitespace"
             ? "정답으로 처리했습니다. 다만 띄어쓰기는 정답 표기와 다르니 주의해주세요."
             : "오답입니다. 정답 표기를 확인해보세요.",
+    };
+  }
+
+  const embeddedMatchedCount = countEmbeddedAnswerMatches(expectedTokens, trimmedInput);
+  if (embeddedMatchedCount >= requiredCount) {
+    return {
+      isCorrect: true,
+      feedbackMode: "correct",
+      message: buildCorrectMessage(requiredCount, embeddedMatchedCount, false, expectedTokens.length),
     };
   }
 
@@ -868,7 +894,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js";
+    script.src = "./data/civil_quiz_dataset.js?v=20260513-4";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {

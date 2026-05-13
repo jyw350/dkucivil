@@ -7,12 +7,16 @@
     ],
     "acceptedKorean": [
       "록볼트",
-      "록 볼트"
+      "록 볼트",
+      "락볼트",
+      "락 볼트"
     ],
     "acceptedAnswers": [
       "Rock bolt",
       "록볼트",
-      "록 볼트"
+      "록 볼트",
+      "락볼트",
+      "락 볼트"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -41,12 +45,16 @@
     ],
     "acceptedKorean": [
       "스틸리브",
-      "스틸 리브"
+      "스틸 리브",
+      "스틸립",
+      "스틸 립"
     ],
     "acceptedAnswers": [
       "Steel Rib",
       "스틸리브",
-      "스틸 리브"
+      "스틸 리브",
+      "스틸립",
+      "스틸 립"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -59,12 +67,16 @@
     ],
     "acceptedKorean": [
       "와이어메시",
-      "와이어 메시"
+      "와이어 메시",
+      "와이어매쉬",
+      "와이어 매쉬"
     ],
     "acceptedAnswers": [
       "Wire mesh",
       "와이어메시",
-      "와이어 메시"
+      "와이어 메시",
+      "와이어매쉬",
+      "와이어 매쉬"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
