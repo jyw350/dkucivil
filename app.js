@@ -105,7 +105,7 @@ function escapeHtml(value) {
 }
 
 function normalizeForLooseMatch(text) {
-  return String(text).trim().replace(/\s+/g, "").toLowerCase();
+  return String(text).trim().replace(/[\s,·ㆍ.]/g, "").toLowerCase();
 }
 
 function normalizeForDisplay(text) {
@@ -257,9 +257,13 @@ function answerLineMatches(answerLine, rawInput) {
   return "none";
 }
 
-function buildCorrectMessage(requiredCount, matchedCount, hadWhitespaceOnlyMatch, expectedTokenCount) {
+function buildCorrectMessage(requiredCount, matchedCount, hadWhitespaceOnlyMatch, expectedTokenCount, hasExplicitCount) {
   if (hadWhitespaceOnlyMatch) {
     return `정답으로 처리했습니다. ${matchedCount}개를 맞혔고, 띄어쓰기는 정답 표기와 다른 항목이 있습니다.`;
+  }
+
+  if (hasExplicitCount) {
+    return `정답입니다. 문제에서 요구한 ${requiredCount}개를 맞혔습니다.`;
   }
 
   if (expectedTokenCount < 3) {
@@ -269,7 +273,11 @@ function buildCorrectMessage(requiredCount, matchedCount, hadWhitespaceOnlyMatch
   return `정답입니다. ${matchedCount}개를 맞혀 최소 기준 3개를 충족했습니다.`;
 }
 
-function buildIncorrectMessage(requiredCount, matchedCount, expectedTokenCount) {
+function buildIncorrectMessage(requiredCount, matchedCount, expectedTokenCount, hasExplicitCount) {
+  if (hasExplicitCount) {
+    return `오답입니다. 이 문제는 ${requiredCount}개를 맞혀야 합니다. 현재 ${matchedCount}개를 맞혔습니다.`;
+  }
+
   if (expectedTokenCount < 3) {
     return `오답입니다. 이 문제는 ${requiredCount}개를 모두 맞혀야 합니다.`;
   }
@@ -301,7 +309,11 @@ function judgeAnswer(item, rawInput) {
 
   const expectedTokens = item.answerTokens.map((token) => normalizeForDisplay(token)).filter(Boolean);
   const userTokens = parseUserAnswers(trimmedInput);
-  const requiredCount = expectedTokens.length < 3 ? expectedTokens.length : 3;
+  const explicitRequiredCount = toFiniteNumber(item.requiredAnswerCount);
+  const hasExplicitCount = Boolean(explicitRequiredCount && explicitRequiredCount > 0);
+  const requiredCount = hasExplicitCount
+    ? Math.min(explicitRequiredCount, expectedTokens.length)
+    : expectedTokens.length < 3 ? expectedTokens.length : 3;
 
   if (expectedTokens.length <= 1) {
     const target = expectedTokens[0] ?? item.answerLines[0] ?? "";
@@ -323,7 +335,7 @@ function judgeAnswer(item, rawInput) {
     return {
       isCorrect: true,
       feedbackMode: "correct",
-      message: buildCorrectMessage(requiredCount, embeddedMatchedCount, false, expectedTokens.length),
+      message: buildCorrectMessage(requiredCount, embeddedMatchedCount, false, expectedTokens.length, hasExplicitCount),
     };
   }
 
@@ -334,7 +346,9 @@ function judgeAnswer(item, rawInput) {
       message:
         expectedTokens.length < 3
           ? `이 문제는 ${expectedTokens.length}개의 답을 모두 맞혀야 합니다.`
-          : "이 문제는 답이 3개 이상이라 최소 3개를 맞혀야 합니다.",
+          : hasExplicitCount
+            ? `이 문제는 문제에서 요구한 ${requiredCount}개를 맞혀야 합니다.`
+            : "이 문제는 답이 3개 이상이라 최소 3개를 맞혀야 합니다.",
     };
   }
 
@@ -361,8 +375,8 @@ function judgeAnswer(item, rawInput) {
     isCorrect,
     feedbackMode: isCorrect ? (hadWhitespaceOnlyMatch ? "warning" : "correct") : "incorrect",
     message: isCorrect
-      ? buildCorrectMessage(requiredCount, matchedCount, hadWhitespaceOnlyMatch, expectedTokens.length)
-      : buildIncorrectMessage(requiredCount, matchedCount, expectedTokens.length),
+      ? buildCorrectMessage(requiredCount, matchedCount, hadWhitespaceOnlyMatch, expectedTokens.length, hasExplicitCount)
+      : buildIncorrectMessage(requiredCount, matchedCount, expectedTokens.length, hasExplicitCount),
   };
 }
 
@@ -894,7 +908,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260513-5";
+    script.src = "./data/civil_quiz_dataset.js?v=20260513-7";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
