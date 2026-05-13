@@ -1330,24 +1330,6 @@
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
   },
-  "Dr. 슬럼프 신속 재(제)공하라~!!": {
-    "sourceToken": "Dr. 슬럼프 신속 재(제)공하라~!!",
-    "canonicalEnglish": "Dr.",
-    "acceptedEnglish": [
-      "Dr. 슬럼프 신속 재(제)공하라~!!",
-      "Dr."
-    ],
-    "acceptedKorean": [
-      "제"
-    ],
-    "acceptedAnswers": [
-      "Dr. 슬럼프 신속 재(제)공하라~!!",
-      "Dr.",
-      "제"
-    ],
-    "rejectedExamples": [],
-    "judgeRule": "accept_only_listed_variants"
-  },
   "스네이크 보링법(Snake boribng)": {
     "sourceToken": "스네이크 보링법(Snake boribng)",
     "canonicalEnglish": "Snake boring",
