@@ -47,14 +47,18 @@
       "스틸리브",
       "스틸 리브",
       "스틸립",
-      "스틸 립"
+      "스틸 립",
+      "Steel 리브",
+      "Steel리브"
     ],
     "acceptedAnswers": [
       "Steel Rib",
       "스틸리브",
       "스틸 리브",
       "스틸립",
-      "스틸 립"
+      "스틸 립",
+      "Steel 리브",
+      "Steel리브"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -69,14 +73,18 @@
       "와이어메시",
       "와이어 메시",
       "와이어매쉬",
-      "와이어 매쉬"
+      "와이어 매쉬",
+      "와이어 mesh",
+      "와이어mesh"
     ],
     "acceptedAnswers": [
       "Wire mesh",
       "와이어메시",
       "와이어 메시",
       "와이어매쉬",
-      "와이어 매쉬"
+      "와이어 매쉬",
+      "와이어 mesh",
+      "와이어mesh"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -88,10 +96,19 @@
       "Rebound(반발)량 많다",
       "Rebound"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "리바운드",
+      "리바운드(반발)량 많다",
+      "리바운드(반발)량많다",
+      "반발"
+    ],
     "acceptedAnswers": [
       "Rebound(반발)량 많다",
-      "Rebound"
+      "Rebound",
+      "리바운드",
+      "리바운드(반발)량 많다",
+      "리바운드(반발)량많다",
+      "반발"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -103,10 +120,19 @@
       "Over lay 공법",
       "Over lay"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "오버레이",
+      "오버 레이",
+      "오버 lay 공법",
+      "오버lay공법"
+    ],
     "acceptedAnswers": [
       "Over lay 공법",
-      "Over lay"
+      "Over lay",
+      "오버레이",
+      "오버 레이",
+      "오버 lay 공법",
+      "오버lay공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -118,10 +144,19 @@
       "절삭 Over lay 공법",
       "Over lay"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "오버레이",
+      "오버 레이",
+      "절삭 오버 lay 공법",
+      "절삭오버lay공법"
+    ],
     "acceptedAnswers": [
       "절삭 Over lay 공법",
-      "Over lay"
+      "Over lay",
+      "오버레이",
+      "오버 레이",
+      "절삭 오버 lay 공법",
+      "절삭오버lay공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -161,13 +196,17 @@
     ],
     "acceptedKorean": [
       "웰포인트",
-      "웰 포인트"
+      "웰 포인트",
+      "웰 Point 적용이 곤란할 시",
+      "웰Point적용이곤란할시"
     ],
     "acceptedAnswers": [
       "Well Point 적용이 곤란할 시",
       "Well Point",
       "웰포인트",
-      "웰 포인트"
+      "웰 포인트",
+      "웰 Point 적용이 곤란할 시",
+      "웰Point적용이곤란할시"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -180,12 +219,20 @@
       "Heaving"
     ],
     "acceptedKorean": [
-      "히빙"
+      "히빙",
+      "히빙 보일링",
+      "히빙보일링",
+      "히빙(히빙)이나 보일링(보일링)현상 발생 시",
+      "히빙(히빙)이나보일링(보일링)현상발생시"
     ],
     "acceptedAnswers": [
       "히빙(Heaving)이나 보일링(Boiling)현상 발생 시",
       "Heaving",
-      "히빙"
+      "히빙",
+      "히빙 보일링",
+      "히빙보일링",
+      "히빙(히빙)이나 보일링(보일링)현상 발생 시",
+      "히빙(히빙)이나보일링(보일링)현상발생시"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -268,9 +315,12 @@
     "acceptedEnglish": [
       "Boiling"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "보일링"
+    ],
     "acceptedAnswers": [
-      "Boiling"
+      "Boiling",
+      "보일링"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -281,9 +331,12 @@
     "acceptedEnglish": [
       "Heaving"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "히빙"
+    ],
     "acceptedAnswers": [
-      "Heaving"
+      "Heaving",
+      "히빙"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -357,13 +410,21 @@
     "acceptedKorean": [
       "프론트재킹메서드",
       "프론트 재킹 메서드",
-      "프론트 재킹 공법"
+      "프론트 재킹 공법",
+      "프론트 재킹 메소드",
+      "프론트재킹메소드",
+      "프론트 재킹 메쏘드",
+      "프론트재킹메쏘드"
     ],
     "acceptedAnswers": [
       "Front Jacking Method",
       "프론트재킹메서드",
       "프론트 재킹 메서드",
-      "프론트 재킹 공법"
+      "프론트 재킹 공법",
+      "프론트 재킹 메소드",
+      "프론트재킹메소드",
+      "프론트 재킹 메쏘드",
+      "프론트재킹메쏘드"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -375,10 +436,17 @@
       "선단 cone 저항",
       "cone"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "콘",
+      "선단 콘 저항",
+      "선단콘저항"
+    ],
     "acceptedAnswers": [
       "선단 cone 저항",
-      "cone"
+      "cone",
+      "콘",
+      "선단 콘 저항",
+      "선단콘저항"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -407,13 +475,17 @@
     ],
     "acceptedKorean": [
       "어스드릴",
-      "어스 드릴"
+      "어스 드릴",
+      "어스 드릴 공법",
+      "어스드릴공법"
     ],
     "acceptedAnswers": [
       "earth drill 공법",
       "earth drill",
       "어스드릴",
-      "어스 드릴"
+      "어스 드릴",
+      "어스 드릴 공법",
+      "어스드릴공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -426,12 +498,16 @@
       "Benoto"
     ],
     "acceptedKorean": [
-      "베노토"
+      "베노토",
+      "베노토 공법",
+      "베노토공법"
     ],
     "acceptedAnswers": [
       "Benoto 공법",
       "Benoto",
-      "베노토"
+      "베노토",
+      "베노토 공법",
+      "베노토공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -443,10 +519,16 @@
       "Caisson식 공법",
       "Caisson"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "케이슨",
+      "Caisson식 공법",
+      "Caisson식공법"
+    ],
     "acceptedAnswers": [
       "Caisson식 공법",
-      "Caisson"
+      "Caisson",
+      "케이슨",
+      "Caisson식공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -458,10 +540,16 @@
       "Box식 공법",
       "Box"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "박스",
+      "Box식 공법",
+      "Box식공법"
+    ],
     "acceptedAnswers": [
       "Box식 공법",
-      "Box"
+      "Box",
+      "박스",
+      "Box식공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -473,10 +561,16 @@
       "강판 cell식 공법",
       "cell"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "셀",
+      "강판 cell식 공법",
+      "강판cell식공법"
+    ],
     "acceptedAnswers": [
       "강판 cell식 공법",
-      "cell"
+      "cell",
+      "셀",
+      "강판cell식공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -488,10 +582,19 @@
       "한겹 Sheet Pile 공법",
       "Sheet Pile"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "시트파일",
+      "시트 파일",
+      "한겹 시트 파일 공법",
+      "한겹시트파일공법"
+    ],
     "acceptedAnswers": [
       "한겹 Sheet Pile 공법",
-      "Sheet Pile"
+      "Sheet Pile",
+      "시트파일",
+      "시트 파일",
+      "한겹 시트 파일 공법",
+      "한겹시트파일공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -503,10 +606,19 @@
       "두겹 Sheet Pile 공법",
       "Sheet Pile"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "시트파일",
+      "시트 파일",
+      "두겹 시트 파일 공법",
+      "두겹시트파일공법"
+    ],
     "acceptedAnswers": [
       "두겹 Sheet Pile 공법",
-      "Sheet Pile"
+      "Sheet Pile",
+      "시트파일",
+      "시트 파일",
+      "두겹 시트 파일 공법",
+      "두겹시트파일공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -518,10 +630,19 @@
       "강관 Sheet Pile 공법",
       "Sheet Pile"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "시트파일",
+      "시트 파일",
+      "강관 시트 파일 공법",
+      "강관시트파일공법"
+    ],
     "acceptedAnswers": [
       "강관 Sheet Pile 공법",
-      "Sheet Pile"
+      "Sheet Pile",
+      "시트파일",
+      "시트 파일",
+      "강관 시트 파일 공법",
+      "강관시트파일공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -533,10 +654,16 @@
       "Cell식 공법",
       "Cell"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "셀",
+      "Cell식 공법",
+      "Cell식공법"
+    ],
     "acceptedAnswers": [
       "Cell식 공법",
-      "Cell"
+      "Cell",
+      "셀",
+      "Cell식공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -548,10 +675,19 @@
       "Ring Beam식 공법",
       "Ring Beam"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "링빔",
+      "링 빔",
+      "링 Beam식 공법",
+      "링Beam식공법"
+    ],
     "acceptedAnswers": [
       "Ring Beam식 공법",
-      "Ring Beam"
+      "Ring Beam",
+      "링빔",
+      "링 빔",
+      "링 Beam식 공법",
+      "링Beam식공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -581,10 +717,17 @@
       "Workability 개선",
       "Workability"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "워커빌리티",
+      "워커빌리티 개선",
+      "워커빌리티개선"
+    ],
     "acceptedAnswers": [
       "Workability 개선",
-      "Workability"
+      "Workability",
+      "워커빌리티",
+      "워커빌리티 개선",
+      "워커빌리티개선"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -596,10 +739,17 @@
       "Bleeding 감소",
       "Bleeding"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "블리딩",
+      "블리딩 감소",
+      "블리딩감소"
+    ],
     "acceptedAnswers": [
       "Bleeding 감소",
-      "Bleeding"
+      "Bleeding",
+      "블리딩",
+      "블리딩 감소",
+      "블리딩감소"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -649,10 +799,19 @@
       "1. Rod 길이에 대한 수정 심도가 깊어지면 rod의 효율 저하",
       "Rod rod"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "로드 로드",
+      "로드로드",
+      "1. 로드 길이에 대한 수정 심도가 깊어지면 rod의 효율 저하",
+      "1.로드길이에대한수정심도가깊어지면rod의효율저하"
+    ],
     "acceptedAnswers": [
       "1. Rod 길이에 대한 수정 심도가 깊어지면 rod의 효율 저하",
-      "Rod rod"
+      "Rod rod",
+      "로드 로드",
+      "로드로드",
+      "1. 로드 길이에 대한 수정 심도가 깊어지면 rod의 효율 저하",
+      "1.로드길이에대한수정심도가깊어지면rod의효율저하"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -681,9 +840,12 @@
     "acceptedEnglish": [
       "grouting"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "그라우팅"
+    ],
     "acceptedAnswers": [
-      "grouting"
+      "grouting",
+      "그라우팅"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -731,12 +893,16 @@
     ],
     "acceptedKorean": [
       "스크레이퍼버킷샘플링",
-      "스크레이퍼 버킷 샘플링"
+      "스크레이퍼 버킷 샘플링",
+      "Scraper 버킷 샘플링",
+      "Scraper버킷샘플링"
     ],
     "acceptedAnswers": [
       "Scraper Bucket Sampling",
       "스크레이퍼버킷샘플링",
-      "스크레이퍼 버킷 샘플링"
+      "스크레이퍼 버킷 샘플링",
+      "Scraper 버킷 샘플링",
+      "Scraper버킷샘플링"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -749,12 +915,16 @@
     ],
     "acceptedKorean": [
       "스플릿스푼샘플링",
-      "스플릿 스푼 샘플링"
+      "스플릿 스푼 샘플링",
+      "Split spoon 샘플링",
+      "Splitspoon샘플링"
     ],
     "acceptedAnswers": [
       "Split spoon sampling",
       "스플릿스푼샘플링",
-      "스플릿 스푼 샘플링"
+      "스플릿 스푼 샘플링",
+      "Split spoon 샘플링",
+      "Splitspoon샘플링"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -765,9 +935,14 @@
     "acceptedEnglish": [
       "Thin wall sampling"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "씬월샘플링",
+      "씬 월 샘플링"
+    ],
     "acceptedAnswers": [
-      "Thin wall sampling"
+      "Thin wall sampling",
+      "씬월샘플링",
+      "씬 월 샘플링"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -780,12 +955,16 @@
     ],
     "acceptedKorean": [
       "피스톤샘플링",
-      "피스톤 샘플링"
+      "피스톤 샘플링",
+      "Piston 샘플링",
+      "Piston샘플링"
     ],
     "acceptedAnswers": [
       "Piston sampling",
       "피스톤샘플링",
-      "피스톤 샘플링"
+      "피스톤 샘플링",
+      "Piston 샘플링",
+      "Piston샘플링"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -818,12 +997,14 @@
     ],
     "acceptedKorean": [
       "프리스플릿팅",
-      "프리 스플릿팅"
+      "프리 스플릿팅",
+      "프리-splitting"
     ],
     "acceptedAnswers": [
       "Pre-splitting",
       "프리스플릿팅",
-      "프리 스플릿팅"
+      "프리 스플릿팅",
+      "프리-splitting"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -839,7 +1020,9 @@
       "표면적이 작은 말뚝",
       "표면적이작은말뚝",
       "에이치파일",
-      "H파일"
+      "H파일",
+      "표면적이 작은 말뚝(H-파일)을 사용한다.",
+      "표면적이작은말뚝(H-파일)을사용한다."
     ],
     "acceptedAnswers": [
       "표면적이 작은 말뚝(H-Pile)을 사용한다.",
@@ -847,7 +1030,9 @@
       "표면적이 작은 말뚝",
       "표면적이작은말뚝",
       "에이치파일",
-      "H파일"
+      "H파일",
+      "표면적이 작은 말뚝(H-파일)을 사용한다.",
+      "표면적이작은말뚝(H-파일)을사용한다."
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -859,10 +1044,23 @@
       "말뚝 지름보다 크게 Pre-boring한다.",
       "Pre-boring"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "프리보링",
+      "프리 보링",
+      "프리 보오링",
+      "프리보오링",
+      "말뚝 지름보다 크게 프리-boring한다.",
+      "말뚝지름보다크게프리-boring한다."
+    ],
     "acceptedAnswers": [
       "말뚝 지름보다 크게 Pre-boring한다.",
-      "Pre-boring"
+      "Pre-boring",
+      "프리보링",
+      "프리 보링",
+      "프리 보오링",
+      "프리보오링",
+      "말뚝 지름보다 크게 프리-boring한다.",
+      "말뚝지름보다크게프리-boring한다."
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -874,10 +1072,14 @@
       "치기 시작할 때 Concrete의 온도는 35°C 이하",
       "Concrete C"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "치기 시작할 때 Concrete의 온도는 35°C 이하",
+      "치기시작할때Concrete의온도는35°C이하"
+    ],
     "acceptedAnswers": [
       "치기 시작할 때 Concrete의 온도는 35°C 이하",
-      "Concrete C"
+      "Concrete C",
+      "치기시작할때Concrete의온도는35°C이하"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1017,13 +1219,17 @@
     ],
     "acceptedKorean": [
       "탑다운",
-      "탑 다운"
+      "탑 다운",
+      "역타 공법",
+      "역타공법"
     ],
     "acceptedAnswers": [
       "TOP down 공법 (역타 공법)",
       "TOP down",
       "탑다운",
-      "탑 다운"
+      "탑 다운",
+      "역타 공법",
+      "역타공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1070,12 +1276,16 @@
     ],
     "acceptedKorean": [
       "슬립폼",
-      "슬립 폼"
+      "슬립 폼",
+      "Slip 폼",
+      "Slip폼"
     ],
     "acceptedAnswers": [
       "Slip form",
       "슬립폼",
-      "슬립 폼"
+      "슬립 폼",
+      "Slip 폼",
+      "Slip폼"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1088,12 +1298,16 @@
     ],
     "acceptedKorean": [
       "슬라이딩폼",
-      "슬라이딩 폼"
+      "슬라이딩 폼",
+      "Sliding 폼",
+      "Sliding폼"
     ],
     "acceptedAnswers": [
       "Sliding form",
       "슬라이딩폼",
-      "슬라이딩 폼"
+      "슬라이딩 폼",
+      "Sliding 폼",
+      "Sliding폼"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1123,10 +1337,13 @@
       "Dr. 슬럼프 신속 재(제)공하라~!!",
       "Dr."
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "제"
+    ],
     "acceptedAnswers": [
       "Dr. 슬럼프 신속 재(제)공하라~!!",
-      "Dr."
+      "Dr.",
+      "제"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1216,10 +1433,16 @@
       "Rankine법",
       "Rankine"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "랭킨",
+      "란킨",
+      "Rankine법"
+    ],
     "acceptedAnswers": [
       "Rankine법",
-      "Rankine"
+      "Rankine",
+      "랭킨",
+      "란킨"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1231,10 +1454,17 @@
       "Coulomb 응력법",
       "Coulomb"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "쿨롱",
+      "쿨롱 응력법",
+      "쿨롱응력법"
+    ],
     "acceptedAnswers": [
       "Coulomb 응력법",
-      "Coulomb"
+      "Coulomb",
+      "쿨롱",
+      "쿨롱 응력법",
+      "쿨롱응력법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1246,10 +1476,17 @@
       "Coulomb 모멘트법",
       "Coulomb"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "쿨롱",
+      "쿨롱 모멘트법",
+      "쿨롱모멘트법"
+    ],
     "acceptedAnswers": [
       "Coulomb 모멘트법",
-      "Coulomb"
+      "Coulomb",
+      "쿨롱",
+      "쿨롱 모멘트법",
+      "쿨롱모멘트법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1261,10 +1498,16 @@
       "Banana곡선에 의하여 관리 목표가 얻어짐",
       "Banana"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "바나나",
+      "Banana곡선에 의하여 관리 목표가 얻어짐",
+      "Banana곡선에의하여관리목표가얻어짐"
+    ],
     "acceptedAnswers": [
       "Banana곡선에 의하여 관리 목표가 얻어짐",
-      "Banana"
+      "Banana",
+      "바나나",
+      "Banana곡선에의하여관리목표가얻어짐"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1278,13 +1521,17 @@
     ],
     "acceptedKorean": [
       "웰포인트",
-      "웰 포인트"
+      "웰 포인트",
+      "웰 point 공법",
+      "웰point공법"
     ],
     "acceptedAnswers": [
       "Well point 공법",
       "Well point",
       "웰포인트",
-      "웰 포인트"
+      "웰 포인트",
+      "웰 point 공법",
+      "웰point공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1296,10 +1543,19 @@
       "물빼기 boring 설치 공법",
       "boring"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "보링",
+      "보오링",
+      "물빼기 보링 설치 공법",
+      "물빼기보링설치공법"
+    ],
     "acceptedAnswers": [
       "물빼기 boring 설치 공법",
-      "boring"
+      "boring",
+      "보링",
+      "보오링",
+      "물빼기 보링 설치 공법",
+      "물빼기보링설치공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1356,10 +1612,15 @@
       "S-logP 법",
       "S-logP"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "S-로그피 법",
+      "S-로그피법"
+    ],
     "acceptedAnswers": [
       "S-logP 법",
-      "S-logP"
+      "S-logP",
+      "S-로그피 법",
+      "S-로그피법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1371,10 +1632,15 @@
       "S-logt 법",
       "S-logt"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "S-로그티 법",
+      "S-로그티법"
+    ],
     "acceptedAnswers": [
       "S-logt 법",
-      "S-logt"
+      "S-logt",
+      "S-로그티 법",
+      "S-로그티법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1386,10 +1652,19 @@
       "logP-logS 법",
       "logP-logS"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "로그피 로그에스",
+      "로그피로그에스",
+      "로그피-로그에스 법",
+      "로그피-로그에스법"
+    ],
     "acceptedAnswers": [
       "logP-logS 법",
-      "logP-logS"
+      "logP-logS",
+      "로그피 로그에스",
+      "로그피로그에스",
+      "로그피-로그에스 법",
+      "로그피-로그에스법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1428,12 +1703,16 @@
     ],
     "acceptedKorean": [
       "재킹테스트",
-      "재킹 테스트"
+      "재킹 테스트",
+      "재킹 Test",
+      "재킹Test"
     ],
     "acceptedAnswers": [
       "Jacking Test",
       "재킹테스트",
-      "재킹 테스트"
+      "재킹 테스트",
+      "재킹 Test",
+      "재킹Test"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1506,10 +1785,13 @@
       "GSIS(지형공간시스템)",
       "GSIS"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "지형공간시스템"
+    ],
     "acceptedAnswers": [
       "GSIS(지형공간시스템)",
-      "GSIS"
+      "GSIS",
+      "지형공간시스템"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1627,10 +1909,19 @@
       "Curtain grouting : 지수의 목적",
       "Curtain grouting"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "커튼그라우팅",
+      "커튼 그라우팅",
+      "커튼 그라우팅 : 지수의 목적",
+      "커튼그라우팅:지수의목적"
+    ],
     "acceptedAnswers": [
       "Curtain grouting : 지수의 목적",
-      "Curtain grouting"
+      "Curtain grouting",
+      "커튼그라우팅",
+      "커튼 그라우팅",
+      "커튼 그라우팅 : 지수의 목적",
+      "커튼그라우팅:지수의목적"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1677,10 +1968,19 @@
       "또는 Cement concrete 기층",
       "Cement concrete"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "시멘트콘크리트",
+      "시멘트 콘크리트",
+      "또는 시멘트 콘크리트 기층",
+      "또는시멘트콘크리트기층"
+    ],
     "acceptedAnswers": [
       "또는 Cement concrete 기층",
-      "Cement concrete"
+      "Cement concrete",
+      "시멘트콘크리트",
+      "시멘트 콘크리트",
+      "또는 시멘트 콘크리트 기층",
+      "또는시멘트콘크리트기층"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1692,10 +1992,19 @@
       "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트",
       "Black base"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "블랙베이스",
+      "블랙 베이스",
+      "블랙 베이스 : 아스팔트 포장의 기층에 사용되는 아스팔트",
+      "블랙베이스:아스팔트포장의기층에사용되는아스팔트"
+    ],
     "acceptedAnswers": [
       "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트",
-      "Black base"
+      "Black base",
+      "블랙베이스",
+      "블랙 베이스",
+      "블랙 베이스 : 아스팔트 포장의 기층에 사용되는 아스팔트",
+      "블랙베이스:아스팔트포장의기층에사용되는아스팔트"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1727,10 +2036,19 @@
       "Soil nAiling공",
       "Soil nailing"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "소일네일링",
+      "소일 네일링",
+      "소일 nAiling공",
+      "소일nAiling공"
+    ],
     "acceptedAnswers": [
       "Soil nAiling공",
-      "Soil nailing"
+      "Soil nailing",
+      "소일네일링",
+      "소일 네일링",
+      "소일 nAiling공",
+      "소일nAiling공"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1742,10 +2060,14 @@
       "Anchor공",
       "Anchor"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "앵커",
+      "Anchor공"
+    ],
     "acceptedAnswers": [
       "Anchor공",
-      "Anchor"
+      "Anchor",
+      "앵커"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1757,10 +2079,19 @@
       "Sheet pile 설치법",
       "Sheet pile"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "시트파일",
+      "시트 파일",
+      "시트 파일 설치법",
+      "시트파일설치법"
+    ],
     "acceptedAnswers": [
       "Sheet pile 설치법",
-      "Sheet pile"
+      "Sheet pile",
+      "시트파일",
+      "시트 파일",
+      "시트 파일 설치법",
+      "시트파일설치법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1772,10 +2103,18 @@
       "Cantilever식(캔틸레버식) 공법",
       "Cantilever"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "캔틸레버",
+      "Cantilever식(캔틸레버식) 공법",
+      "Cantilever식(캔틸레버식)공법",
+      "캔틸레버식"
+    ],
     "acceptedAnswers": [
       "Cantilever식(캔틸레버식) 공법",
-      "Cantilever"
+      "Cantilever",
+      "캔틸레버",
+      "Cantilever식(캔틸레버식)공법",
+      "캔틸레버식"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1787,10 +2126,16 @@
       "Cable식 공법",
       "Cable"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "케이블",
+      "Cable식 공법",
+      "Cable식공법"
+    ],
     "acceptedAnswers": [
       "Cable식 공법",
-      "Cable"
+      "Cable",
+      "케이블",
+      "Cable식공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1802,10 +2147,17 @@
       "Crane 공법",
       "Crane"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "크레인",
+      "크레인 공법",
+      "크레인공법"
+    ],
     "acceptedAnswers": [
       "Crane 공법",
-      "Crane"
+      "Crane",
+      "크레인",
+      "크레인 공법",
+      "크레인공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1832,10 +2184,15 @@
       "163. 공기케이슨을 사용하는 경우 Heaving 또는 Boiling을 방지하고자 하는 경우 건조상태에서 굴착작업을 하고자 하는 경우 콘크리트 작업의 신뢰도를 높이고자 하는 경우 토층의 확인 및 지지력을 시험하고자 하는 경우",
       "Heaving Boiling"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "히빙 보일링",
+      "히빙보일링"
+    ],
     "acceptedAnswers": [
       "163. 공기케이슨을 사용하는 경우 Heaving 또는 Boiling을 방지하고자 하는 경우 건조상태에서 굴착작업을 하고자 하는 경우 콘크리트 작업의 신뢰도를 높이고자 하는 경우 토층의 확인 및 지지력을 시험하고자 하는 경우",
-      "Heaving Boiling"
+      "Heaving Boiling",
+      "히빙 보일링",
+      "히빙보일링"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1867,13 +2224,17 @@
     ],
     "acceptedKorean": [
       "워터제트",
-      "워터 제트"
+      "워터 제트",
+      "워터 jet식 케이싱법",
+      "워터jet식케이싱법"
     ],
     "acceptedAnswers": [
       "Water jet식 케이싱법",
       "Water jet",
       "워터제트",
-      "워터 제트"
+      "워터 제트",
+      "워터 jet식 케이싱법",
+      "워터jet식케이싱법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1887,13 +2248,21 @@
     ],
     "acceptedKorean": [
       "어스오거",
-      "어스 오거"
+      "어스 오거",
+      "어스 어거",
+      "어스어거",
+      "어스 auger법",
+      "어스auger법"
     ],
     "acceptedAnswers": [
       "earth auger법",
       "earth auger",
       "어스오거",
-      "어스 오거"
+      "어스 오거",
+      "어스 어거",
+      "어스어거",
+      "어스 auger법",
+      "어스auger법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1907,13 +2276,17 @@
     ],
     "acceptedKorean": [
       "타이백 앵커",
-      "타이백앵커"
+      "타이백앵커",
+      "타이백 앵커(Tie-back 앵커)",
+      "타이백앵커(Tie-back앵커)"
     ],
     "acceptedAnswers": [
       "타이백 앵커(Tie-back anchor)",
       "Tie-back anchor",
       "타이백 앵커",
-      "타이백앵커"
+      "타이백앵커",
+      "타이백 앵커(Tie-back 앵커)",
+      "타이백앵커(Tie-back앵커)"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1940,10 +2313,23 @@
       "Concrete Slab를 균등하게 지지",
       "Concrete Slab"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "콘크리트슬래브",
+      "콘크리트 슬래브",
+      "콘크리트슬라브",
+      "콘크리트 슬라브",
+      "콘크리트 Slab를 균등하게 지지",
+      "콘크리트Slab를균등하게지지"
+    ],
     "acceptedAnswers": [
       "Concrete Slab를 균등하게 지지",
-      "Concrete Slab"
+      "Concrete Slab",
+      "콘크리트슬래브",
+      "콘크리트 슬래브",
+      "콘크리트슬라브",
+      "콘크리트 슬라브",
+      "콘크리트 Slab를 균등하게 지지",
+      "콘크리트Slab를균등하게지지"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -1980,14 +2366,18 @@
     "acceptedKorean": [
       "프리스플릿팅공법",
       "프리스플릿팅",
-      "프리 스플릿팅"
+      "프리 스플릿팅",
+      "프리스플릿팅공법 (프리-splitting)",
+      "프리스플릿팅공법(프리-splitting)"
     ],
     "acceptedAnswers": [
       "프리스플릿팅공법 (Pre-splitting)",
       "Pre-splitting",
       "프리스플릿팅공법",
       "프리스플릿팅",
-      "프리 스플릿팅"
+      "프리 스플릿팅",
+      "프리스플릿팅공법 (프리-splitting)",
+      "프리스플릿팅공법(프리-splitting)"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2023,13 +2413,17 @@
     ],
     "acceptedKorean": [
       "스무스블라스팅",
-      "스무스 블라스팅"
+      "스무스 블라스팅",
+      "스무스블라스팅 (스무스 blasting)",
+      "스무스블라스팅(스무스blasting)"
     ],
     "acceptedAnswers": [
       "스무스블라스팅 (Smooth blasting)",
       "Smooth blasting",
       "스무스블라스팅",
-      "스무스 블라스팅"
+      "스무스 블라스팅",
+      "스무스블라스팅 (스무스 blasting)",
+      "스무스블라스팅(스무스blasting)"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2073,9 +2467,14 @@
     "acceptedEnglish": [
       "Soil nailing"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "소일네일링",
+      "소일 네일링"
+    ],
     "acceptedAnswers": [
-      "Soil nailing"
+      "Soil nailing",
+      "소일네일링",
+      "소일 네일링"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2111,13 +2510,10 @@
       "TBM공법",
       "TBM"
     ],
-    "acceptedKorean": [
-      "티비엠"
-    ],
+    "acceptedKorean": [],
     "acceptedAnswers": [
       "TBM공법",
-      "TBM",
-      "티비엠"
+      "TBM"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2153,10 +2549,13 @@
       "MAIS공법(침투압공법)",
       "MAIS"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "침투압공법"
+    ],
     "acceptedAnswers": [
       "MAIS공법(침투압공법)",
-      "MAIS"
+      "MAIS",
+      "침투압공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2168,10 +2567,17 @@
       "Packer 방법",
       "Packer"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "패커",
+      "패커 방법",
+      "패커방법"
+    ],
     "acceptedAnswers": [
       "Packer 방법",
-      "Packer"
+      "Packer",
+      "패커",
+      "패커 방법",
+      "패커방법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2185,13 +2591,17 @@
     ],
     "acceptedKorean": [
       "에이치파일",
-      "H파일"
+      "H파일",
+      "H-파일 토류벽",
+      "H-파일토류벽"
     ],
     "acceptedAnswers": [
       "H-pile 토류벽",
       "H-pile",
       "에이치파일",
-      "H파일"
+      "H파일",
+      "H-파일 토류벽",
+      "H-파일토류벽"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2204,12 +2614,16 @@
     ],
     "acceptedKorean": [
       "웰포인트",
-      "웰 포인트"
+      "웰 포인트",
+      "웰 point",
+      "웰point"
     ],
     "acceptedAnswers": [
       "Well point",
       "웰포인트",
-      "웰 포인트"
+      "웰 포인트",
+      "웰 point",
+      "웰point"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2239,10 +2653,19 @@
       "smooth wall 만들기 어려움",
       "smooth wall"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "스무스월",
+      "스무스 월",
+      "스무스 월 만들기 어려움",
+      "스무스월만들기어려움"
+    ],
     "acceptedAnswers": [
       "smooth wall 만들기 어려움",
-      "smooth wall"
+      "smooth wall",
+      "스무스월",
+      "스무스 월",
+      "스무스 월 만들기 어려움",
+      "스무스월만들기어려움"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2254,10 +2677,19 @@
       "Jet(분사식) 공법",
       "Jet"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "제트",
+      "제트(분사식) 공법",
+      "제트(분사식)공법",
+      "분사식"
+    ],
     "acceptedAnswers": [
       "Jet(분사식) 공법",
-      "Jet"
+      "Jet",
+      "제트",
+      "제트(분사식) 공법",
+      "제트(분사식)공법",
+      "분사식"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2270,12 +2702,20 @@
       "Soil Cement Wall"
     ],
     "acceptedKorean": [
-      "SCW"
+      "SCW",
+      "소일 시멘트 월",
+      "소일시멘트월",
+      "SCW(소일 시멘트 월)공법",
+      "SCW(소일시멘트월)공법"
     ],
     "acceptedAnswers": [
       "SCW(Soil Cement Wall)공법",
       "Soil Cement Wall",
-      "SCW"
+      "SCW",
+      "소일 시멘트 월",
+      "소일시멘트월",
+      "SCW(소일 시멘트 월)공법",
+      "SCW(소일시멘트월)공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2289,13 +2729,17 @@
     ],
     "acceptedKorean": [
       "어스드릴",
-      "어스 드릴"
+      "어스 드릴",
+      "어스 drill공법",
+      "어스drill공법"
     ],
     "acceptedAnswers": [
       "Earth drill공법",
       "Earth drill",
       "어스드릴",
-      "어스 드릴"
+      "어스 드릴",
+      "어스 drill공법",
+      "어스drill공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2391,10 +2835,14 @@
       "Cone값",
       "Cone"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "콘",
+      "Cone값"
+    ],
     "acceptedAnswers": [
       "Cone값",
-      "Cone"
+      "Cone",
+      "콘"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2426,10 +2874,17 @@
       "Pulling 방법",
       "Pulling"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "풀링",
+      "풀링 방법",
+      "풀링방법"
+    ],
     "acceptedAnswers": [
       "Pulling 방법",
-      "Pulling"
+      "Pulling",
+      "풀링",
+      "풀링 방법",
+      "풀링방법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2441,10 +2896,17 @@
       "Pushing 방법",
       "Pushing"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "푸싱",
+      "푸싱 방법",
+      "푸싱방법"
+    ],
     "acceptedAnswers": [
       "Pushing 방법",
-      "Pushing"
+      "Pushing",
+      "푸싱",
+      "푸싱 방법",
+      "푸싱방법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2456,10 +2918,19 @@
       "Lift & pushing방법",
       "Lift & pushing"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "리프트푸싱",
+      "리프트 푸싱",
+      "리프트 & pushing방법",
+      "리프트&pushing방법"
+    ],
     "acceptedAnswers": [
       "Lift & pushing방법",
-      "Lift & pushing"
+      "Lift & pushing",
+      "리프트푸싱",
+      "리프트 푸싱",
+      "리프트 & pushing방법",
+      "리프트&pushing방법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2601,13 +3072,17 @@
     ],
     "acceptedKorean": [
       "워터제트",
-      "워터 제트"
+      "워터 제트",
+      "워터 jet식 케이싱 방법",
+      "워터jet식케이싱방법"
     ],
     "acceptedAnswers": [
       "Water jet식 케이싱 방법",
       "Water jet",
       "워터제트",
-      "워터 제트"
+      "워터 제트",
+      "워터 jet식 케이싱 방법",
+      "워터jet식케이싱방법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2622,14 +3097,18 @@
     "acceptedKorean": [
       "로터리보링",
       "로터리 보링",
-      "로터리 보오링"
+      "로터리 보오링",
+      "Rotary 보링 방법",
+      "Rotary보링방법"
     ],
     "acceptedAnswers": [
       "Rotary boring 방법",
       "Rotary boring",
       "로터리보링",
       "로터리 보링",
-      "로터리 보오링"
+      "로터리 보오링",
+      "Rotary 보링 방법",
+      "Rotary보링방법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2643,13 +3122,21 @@
     ],
     "acceptedKorean": [
       "어스오거",
-      "어스 오거"
+      "어스 오거",
+      "어스 어거",
+      "어스어거",
+      "어스 오거 방법",
+      "어스오거방법"
     ],
     "acceptedAnswers": [
       "Earth auger 방법",
       "Earth auger",
       "어스오거",
-      "어스 오거"
+      "어스 오거",
+      "어스 어거",
+      "어스어거",
+      "어스 오거 방법",
+      "어스오거방법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2694,10 +3181,19 @@
       "Scale effect를 고려해야 한다",
       "Scale effect"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "스케일이펙트",
+      "스케일 이펙트",
+      "스케일 effect를 고려해야 한다",
+      "스케일effect를고려해야한다"
+    ],
     "acceptedAnswers": [
       "Scale effect를 고려해야 한다",
-      "Scale effect"
+      "Scale effect",
+      "스케일이펙트",
+      "스케일 이펙트",
+      "스케일 effect를 고려해야 한다",
+      "스케일effect를고려해야한다"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2817,13 +3313,17 @@
     ],
     "acceptedKorean": [
       "딥웰",
-      "딥 웰"
+      "딥 웰",
+      "딥 웰 공법",
+      "딥웰공법"
     ],
     "acceptedAnswers": [
       "Deep well 공법",
       "Deep well",
       "딥웰",
-      "딥 웰"
+      "딥 웰",
+      "딥 웰 공법",
+      "딥웰공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2835,10 +3335,16 @@
       "준설과 매립을 동시에 신속하게 시공할 수 있고 해저 토사를 회전형 Cutter로 깎아 펌프로 흡입하여 매립지로 배송하는 준설선",
       "Cutter"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "커터",
+      "준설과 매립을 동시에 신속하게 시공할 수 있고 해저 토사를 회전형 Cutter로 깎아 펌프로 흡입하여 매립지로 배송하는 준설선",
+      "준설과매립을동시에신속하게시공할수있고해저토사를회전형Cutter로깎아펌프로흡입하여매립지로배송하는준설선"
+    ],
     "acceptedAnswers": [
       "준설과 매립을 동시에 신속하게 시공할 수 있고 해저 토사를 회전형 Cutter로 깎아 펌프로 흡입하여 매립지로 배송하는 준설선",
-      "Cutter"
+      "Cutter",
+      "커터",
+      "준설과매립을동시에신속하게시공할수있고해저토사를회전형Cutter로깎아펌프로흡입하여매립지로배송하는준설선"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2850,10 +3356,16 @@
       "rod에 붙인 어떤 저항체를 지중에 넣어 타격 관입, 인발 및 회전할 때의 흙의 전단강도를 측정하는 원위치 시험",
       "rod"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "로드",
+      "rod에 붙인 어떤 저항체를 지중에 넣어 타격 관입, 인발 및 회전할 때의 흙의 전단강도를 측정하는 원위치 시험",
+      "rod에붙인어떤저항체를지중에넣어타격관입,인발및회전할때의흙의전단강도를측정하는원위치시험"
+    ],
     "acceptedAnswers": [
       "rod에 붙인 어떤 저항체를 지중에 넣어 타격 관입, 인발 및 회전할 때의 흙의 전단강도를 측정하는 원위치 시험",
-      "rod"
+      "rod",
+      "로드",
+      "rod에붙인어떤저항체를지중에넣어타격관입,인발및회전할때의흙의전단강도를측정하는원위치시험"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2866,12 +3378,16 @@
       "Simple Pile Loading Test"
     ],
     "acceptedKorean": [
-      "SPLT"
+      "SPLT",
+      "SPLT(Simple 파일 Loading Test)",
+      "SPLT(Simple파일LoadingTest)"
     ],
     "acceptedAnswers": [
       "SPLT(Simple Pile Loading Test)",
       "Simple Pile Loading Test",
-      "SPLT"
+      "SPLT",
+      "SPLT(Simple 파일 Loading Test)",
+      "SPLT(Simple파일LoadingTest)"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2883,10 +3399,19 @@
       "한격 Sheet pile 식",
       "Sheet pile"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "시트파일",
+      "시트 파일",
+      "한격 시트 파일 식",
+      "한격시트파일식"
+    ],
     "acceptedAnswers": [
       "한격 Sheet pile 식",
-      "Sheet pile"
+      "Sheet pile",
+      "시트파일",
+      "시트 파일",
+      "한격 시트 파일 식",
+      "한격시트파일식"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2898,10 +3423,19 @@
       "두겹 Sheet pile 식",
       "Sheet pile"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "시트파일",
+      "시트 파일",
+      "두겹 시트 파일 식",
+      "두겹시트파일식"
+    ],
     "acceptedAnswers": [
       "두겹 Sheet pile 식",
-      "Sheet pile"
+      "Sheet pile",
+      "시트파일",
+      "시트 파일",
+      "두겹 시트 파일 식",
+      "두겹시트파일식"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2913,10 +3447,17 @@
       "Cell 식",
       "Cell"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "셀",
+      "셀 식",
+      "셀식"
+    ],
     "acceptedAnswers": [
       "Cell 식",
-      "Cell"
+      "Cell",
+      "셀",
+      "셀 식",
+      "셀식"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2930,13 +3471,17 @@
     ],
     "acceptedKorean": [
       "슬라이딩폼",
-      "슬라이딩 폼"
+      "슬라이딩 폼",
+      "Sliding 폼 공법",
+      "Sliding폼공법"
     ],
     "acceptedAnswers": [
       "Sliding form 공법",
       "Sliding form",
       "슬라이딩폼",
-      "슬라이딩 폼"
+      "슬라이딩 폼",
+      "Sliding 폼 공법",
+      "Sliding폼공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2950,13 +3495,17 @@
     ],
     "acceptedKorean": [
       "슬립폼",
-      "슬립 폼"
+      "슬립 폼",
+      "Slip 폼 공법",
+      "Slip폼공법"
     ],
     "acceptedAnswers": [
       "Slip form 공법",
       "Slip form",
       "슬립폼",
-      "슬립 폼"
+      "슬립 폼",
+      "Slip 폼 공법",
+      "Slip폼공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2968,10 +3517,19 @@
       "Travelling form 공법",
       "Travelling form"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "트래블링폼",
+      "트래블링 폼",
+      "트래블링 폼 공법",
+      "트래블링폼공법"
+    ],
     "acceptedAnswers": [
       "Travelling form 공법",
-      "Travelling form"
+      "Travelling form",
+      "트래블링폼",
+      "트래블링 폼",
+      "트래블링 폼 공법",
+      "트래블링폼공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2983,10 +3541,13 @@
       "Net work 공정표",
       "Net work"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "네트워크"
+    ],
     "acceptedAnswers": [
       "Net work 공정표",
-      "Net work"
+      "Net work",
+      "네트워크"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -2998,10 +3559,13 @@
       "SMA(포장공법)",
       "SMA"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "포장공법"
+    ],
     "acceptedAnswers": [
       "SMA(포장공법)",
-      "SMA"
+      "SMA",
+      "포장공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3013,10 +3577,17 @@
       "Drain 단면이 깊이 방향에 대하여 일정하다",
       "Drain"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "드레인",
+      "드레인 단면이 깊이 방향에 대하여 일정하다",
+      "드레인단면이깊이방향에대하여일정하다"
+    ],
     "acceptedAnswers": [
       "Drain 단면이 깊이 방향에 대하여 일정하다",
-      "Drain"
+      "Drain",
+      "드레인",
+      "드레인 단면이 깊이 방향에 대하여 일정하다",
+      "드레인단면이깊이방향에대하여일정하다"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3028,10 +3599,13 @@
       "ILM공법( 압출공법 )",
       "ILM"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "압출공법"
+    ],
     "acceptedAnswers": [
       "ILM공법( 압출공법 )",
-      "ILM"
+      "ILM",
+      "압출공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3043,10 +3617,19 @@
       "Auger 압입방법",
       "Auger"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "오거",
+      "어거",
+      "오거 압입방법",
+      "오거압입방법"
+    ],
     "acceptedAnswers": [
       "Auger 압입방법",
-      "Auger"
+      "Auger",
+      "오거",
+      "어거",
+      "오거 압입방법",
+      "오거압입방법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3060,13 +3643,17 @@
     ],
     "acceptedKorean": [
       "워터제트",
-      "워터 제트"
+      "워터 제트",
+      "워터 제트 병용공법",
+      "워터제트병용공법"
     ],
     "acceptedAnswers": [
       "Water jet 병용공법",
       "Water jet",
       "워터제트",
-      "워터 제트"
+      "워터 제트",
+      "워터 제트 병용공법",
+      "워터제트병용공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3078,10 +3665,17 @@
       "Boiling 방지를 위한 대수층의 수압감소가 필요한 경우",
       "Boiling"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "보일링",
+      "보일링 방지를 위한 대수층의 수압감소가 필요한 경우",
+      "보일링방지를위한대수층의수압감소가필요한경우"
+    ],
     "acceptedAnswers": [
       "Boiling 방지를 위한 대수층의 수압감소가 필요한 경우",
-      "Boiling"
+      "Boiling",
+      "보일링",
+      "보일링 방지를 위한 대수층의 수압감소가 필요한 경우",
+      "보일링방지를위한대수층의수압감소가필요한경우"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3138,10 +3732,13 @@
       "RQD (암질지수)",
       "RQD"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "암질지수"
+    ],
     "acceptedAnswers": [
       "RQD (암질지수)",
-      "RQD"
+      "RQD",
+      "암질지수"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3153,10 +3750,19 @@
       "Flat Jack법",
       "Flat Jack"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "플랫잭",
+      "플랫 잭",
+      "플랫 Jack법",
+      "플랫Jack법"
+    ],
     "acceptedAnswers": [
       "Flat Jack법",
-      "Flat Jack"
+      "Flat Jack",
+      "플랫잭",
+      "플랫 잭",
+      "플랫 Jack법",
+      "플랫Jack법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3183,10 +3789,17 @@
       "선단 Cone 저항",
       "Cone"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "콘",
+      "선단 콘 저항",
+      "선단콘저항"
+    ],
     "acceptedAnswers": [
       "선단 Cone 저항",
-      "Cone"
+      "Cone",
+      "콘",
+      "선단 콘 저항",
+      "선단콘저항"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3200,13 +3813,21 @@
     ],
     "acceptedKorean": [
       "어스오거",
-      "어스 오거"
+      "어스 오거",
+      "어스 어거",
+      "어스어거",
+      "어스 auger에 의한 방법",
+      "어스auger에의한방법"
     ],
     "acceptedAnswers": [
       "Earth auger에 의한 방법",
       "Earth auger",
       "어스오거",
-      "어스 오거"
+      "어스 오거",
+      "어스 어거",
+      "어스어거",
+      "어스 auger에 의한 방법",
+      "어스auger에의한방법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3221,14 +3842,17 @@
     "acceptedKorean": [
       "로터리보링",
       "로터리 보링",
-      "로터리 보오링"
+      "로터리 보오링",
+      "Rotary boring에 의한 방법",
+      "Rotaryboring에의한방법"
     ],
     "acceptedAnswers": [
       "Rotary boring에 의한 방법",
       "Rotary boring",
       "로터리보링",
       "로터리 보링",
-      "로터리 보오링"
+      "로터리 보오링",
+      "Rotaryboring에의한방법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3240,10 +3864,19 @@
       "Sand pile이 절단되지 않는다.",
       "Sand pile"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "샌드파일",
+      "샌드 파일",
+      "샌드 pile이 절단되지 않는다.",
+      "샌드pile이절단되지않는다."
+    ],
     "acceptedAnswers": [
       "Sand pile이 절단되지 않는다.",
-      "Sand pile"
+      "Sand pile",
+      "샌드파일",
+      "샌드 파일",
+      "샌드 pile이 절단되지 않는다.",
+      "샌드pile이절단되지않는다."
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3303,10 +3936,19 @@
       "logP-logS 곡선법",
       "logP-logS"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "로그피 로그에스",
+      "로그피로그에스",
+      "로그피-로그에스 곡선법",
+      "로그피-로그에스곡선법"
+    ],
     "acceptedAnswers": [
       "logP-logS 곡선법",
-      "logP-logS"
+      "logP-logS",
+      "로그피 로그에스",
+      "로그피로그에스",
+      "로그피-로그에스 곡선법",
+      "로그피-로그에스곡선법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3318,10 +3960,15 @@
       "S-logt 곡선법",
       "S-logt"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "S-로그티 곡선법",
+      "S-로그티곡선법"
+    ],
     "acceptedAnswers": [
       "S-logt 곡선법",
-      "S-logt"
+      "S-logt",
+      "S-로그티 곡선법",
+      "S-로그티곡선법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3333,10 +3980,19 @@
       "Rankine 방법",
       "Rankine"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "랭킨",
+      "란킨",
+      "랭킨 방법",
+      "랭킨방법"
+    ],
     "acceptedAnswers": [
       "Rankine 방법",
-      "Rankine"
+      "Rankine",
+      "랭킨",
+      "란킨",
+      "랭킨 방법",
+      "랭킨방법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3365,13 +4021,17 @@
     ],
     "acceptedKorean": [
       "포어폴링",
-      "포어 폴링"
+      "포어 폴링",
+      "포어 폴링 공법",
+      "포어폴링공법"
     ],
     "acceptedAnswers": [
       "Fore poling 공법",
       "Fore poling",
       "포어폴링",
-      "포어 폴링"
+      "포어 폴링",
+      "포어 폴링 공법",
+      "포어폴링공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3395,9 +4055,12 @@
     "acceptedEnglish": [
       "Pulling"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "풀링"
+    ],
     "acceptedAnswers": [
-      "Pulling"
+      "Pulling",
+      "풀링"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3408,9 +4071,12 @@
     "acceptedEnglish": [
       "Pushing"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "푸싱"
+    ],
     "acceptedAnswers": [
-      "Pushing"
+      "Pushing",
+      "푸싱"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3421,9 +4087,18 @@
     "acceptedEnglish": [
       "Lift & Pushing"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "리프트푸싱",
+      "리프트 푸싱",
+      "리프트 & 푸싱",
+      "리프트&푸싱"
+    ],
     "acceptedAnswers": [
-      "Lift & Pushing"
+      "Lift & Pushing",
+      "리프트푸싱",
+      "리프트 푸싱",
+      "리프트 & 푸싱",
+      "리프트&푸싱"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3489,10 +4164,17 @@
       "Prestress 공법",
       "Prestress"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "프리스트레스",
+      "프리스트레스 공법",
+      "프리스트레스공법"
+    ],
     "acceptedAnswers": [
       "Prestress 공법",
-      "Prestress"
+      "Prestress",
+      "프리스트레스",
+      "프리스트레스 공법",
+      "프리스트레스공법"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3724,10 +4406,23 @@
       "Slurry wall(지하연속벽식 흙막이벽)",
       "Slurry wall"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "슬러리월",
+      "슬러리 월",
+      "슬러리 월(지하연속벽식 흙막이벽)",
+      "슬러리월(지하연속벽식흙막이벽)",
+      "지하연속벽식 흙막이벽",
+      "지하연속벽식흙막이벽"
+    ],
     "acceptedAnswers": [
       "Slurry wall(지하연속벽식 흙막이벽)",
-      "Slurry wall"
+      "Slurry wall",
+      "슬러리월",
+      "슬러리 월",
+      "슬러리 월(지하연속벽식 흙막이벽)",
+      "슬러리월(지하연속벽식흙막이벽)",
+      "지하연속벽식 흙막이벽",
+      "지하연속벽식흙막이벽"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
@@ -3948,10 +4643,13 @@
       "RCCD(롤러다짐콘크리트댐)",
       "RCCD"
     ],
-    "acceptedKorean": [],
+    "acceptedKorean": [
+      "롤러다짐콘크리트댐"
+    ],
     "acceptedAnswers": [
       "RCCD(롤러다짐콘크리트댐)",
-      "RCCD"
+      "RCCD",
+      "롤러다짐콘크리트댐"
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
