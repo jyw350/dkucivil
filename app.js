@@ -70,21 +70,21 @@ const REPORT_ISSUE_URL = "https://github.com/jyw350/dkucivil/issues/new";
 
 const PDF_LIBRARY = {
   1: {
-    title: "말따먹기 최강암기법",
+    title: "토목기사 실기 말따먹기 1권",
     subtitle: "1권",
-    description: "암기형 정리 노트 중심 자료",
+    description: "문제 해설 단어장 PDF",
     href: "./pdfs/volume1.pdf",
   },
   2: {
-    title: "실기 말따먹기-1",
+    title: "토목기사 실기 말따먹기 2권",
     subtitle: "2권",
-    description: "문제집형 말따먹기 자료",
+    description: "문제 해설 단어장 PDF",
     href: "./pdfs/volume2.pdf",
   },
   3: {
-    title: "토목기사실기_말따먹기_12개년",
+    title: "토목기사 실기 말따먹기 3권",
     subtitle: "3권",
-    description: "12개년 누적 정리 자료",
+    description: "문제 해설 단어장 PDF",
     href: "./pdfs/volume3.pdf",
   },
 };
@@ -490,8 +490,8 @@ function renderQuestion() {
   questionIdBadge.classList.add("hidden");
   questionSourceBadge.textContent = getVolumeLabel(item);
   questionText.textContent = item.question;
-  sourceStudyText.textContent = `${pdf.subtitle} · ${pdf.title} · ${item.sourcePage}페이지`;
-  openSourceLink.href = `${pdf.href}#page=${item.sourcePage}`;
+  sourceStudyText.textContent = `${pdf.subtitle} · ${pdf.title}`;
+  openSourceLink.href = pdf.href;
   progressText.textContent = `${currentNumber} / ${total}`;
   wrongCountText.textContent = `오답 ${state.wrongAnswers.length}개`;
   progressBar.style.width = `${(currentNumber / total) * 100}%`;
