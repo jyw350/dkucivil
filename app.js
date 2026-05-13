@@ -73,19 +73,19 @@ const PDF_LIBRARY = {
     title: "토목기사 실기 말따먹기 1권",
     subtitle: "1권",
     description: "문제 해설 단어장 PDF",
-    href: "./pdfs/volume1.pdf",
+    href: "./pdfs/volume1.pdf?v=20260513-3",
   },
   2: {
     title: "토목기사 실기 말따먹기 2권",
     subtitle: "2권",
     description: "문제 해설 단어장 PDF",
-    href: "./pdfs/volume2.pdf",
+    href: "./pdfs/volume2.pdf?v=20260513-3",
   },
   3: {
     title: "토목기사 실기 말따먹기 3권",
     subtitle: "3권",
     description: "문제 해설 단어장 PDF",
-    href: "./pdfs/volume3.pdf",
+    href: "./pdfs/volume3.pdf?v=20260513-3",
   },
 };
 
