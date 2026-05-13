@@ -66,7 +66,7 @@ const resultCorrect = document.querySelector("#result-correct");
 const resultWrong = document.querySelector("#result-wrong");
 const wrongNoteList = document.querySelector("#wrong-note-list");
 
-const REPORT_ISSUE_URL = "https://github.com/jyw350/dkucivil/issues/new";
+const REPORT_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfKJu3AZGdbeY6Ta4Zfa7kV3hRhUJbN2oV5mlZ6a8LUjoLhXw/viewform?usp=sf_link";
 
 const PDF_LIBRARY = {
   1: {
@@ -616,15 +616,15 @@ function buildReportPayload(customMessage) {
   const message = String(customMessage || "").trim();
   const issueTitle = `[문제 제보] ${attempt.id} ${attempt.question.slice(0, 40)}`;
   const issueBody = [
-    "## 제보 내용",
+    "[제보 내용]",
     message || "정답 판정 또는 문제 표기를 확인해주세요.",
     "",
-    "## 자동 첨부 정보",
-    `- 문제 번호: ${attempt.id}`,
-    `- 문제: ${attempt.question}`,
-    `- 내가 입력한 답: ${attempt.userAnswer || "입력 없음"}`,
-    `- 저장된 정답: ${(attempt.answerLines || []).join(" / ")}`,
-    `- 출처: ${pdf?.title || `${attempt.volume}권`} ${attempt.sourcePage}페이지`,
+    "[자동 첨부 정보]",
+    `문제 번호: ${attempt.id}`,
+    `문제: ${attempt.question}`,
+    `내가 입력한 답: ${attempt.userAnswer || "입력 없음"}`,
+    `저장된 정답: ${(attempt.answerLines || []).join(" / ")}`,
+    `출처: ${pdf?.title || `${attempt.volume}권`} ${attempt.sourcePage}페이지`,
   ].join("\n");
 
   return { issueTitle, issueBody };
@@ -661,7 +661,7 @@ async function copyReportText() {
   }
 }
 
-function submitReportIssue() {
+async function submitReportIssue() {
   const message = reportMessageInput.value.trim();
   if (!message) {
     showToast("제보 내용을 한 줄이라도 적어주세요.");
@@ -675,8 +675,13 @@ function submitReportIssue() {
     return;
   }
 
-  const issueUrl = `${REPORT_ISSUE_URL}?title=${encodeURIComponent(payload.issueTitle)}&body=${encodeURIComponent(payload.issueBody)}`;
-  window.open(issueUrl, "_blank", "noopener,noreferrer");
+  try {
+    await navigator.clipboard.writeText(`${payload.issueTitle}\n\n${payload.issueBody}`);
+    showToast("제보 내용이 복사되었습니다. 열린 구글 폼에 붙여넣어 제출해주세요.");
+  } catch {
+    showToast("구글 폼을 엽니다. 복사가 안 되면 제보 내용을 직접 입력해주세요.");
+  }
+  window.open(REPORT_FORM_URL, "_blank", "noopener,noreferrer");
 }
 
 function goToNextQuestion() {
@@ -1061,7 +1066,9 @@ function bindEvents() {
   copyReportButton.addEventListener("click", () => {
     void copyReportText();
   });
-  submitReportButton.addEventListener("click", submitReportIssue);
+  submitReportButton.addEventListener("click", () => {
+    void submitReportIssue();
+  });
 
   document.querySelector("#back-home-button").addEventListener("click", confirmGoHome);
   document.querySelectorAll("[data-home-action='quiz']").forEach((button) => {
