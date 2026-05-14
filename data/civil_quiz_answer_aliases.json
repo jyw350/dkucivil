@@ -4731,5 +4731,77 @@
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
+  },
+  "주변 건물과 근접시공": {
+    "sourceToken": "주변 건물과 근접시공",
+    "canonicalEnglish": "",
+    "acceptedEnglish": [],
+    "acceptedKorean": [
+      "주변 건물과 근접 시공",
+      "주변건물과근접시공",
+      "주변 건물에 근접 시공",
+      "주변 건물에 근접시공",
+      "주변건물에근접시공"
+    ],
+    "acceptedAnswers": [
+      "주변 건물과 근접시공",
+      "주변 건물과 근접 시공",
+      "주변건물과근접시공",
+      "주변 건물에 근접 시공",
+      "주변 건물에 근접시공",
+      "주변건물에근접시공"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "저소음, 저진동": {
+    "sourceToken": "저소음, 저진동",
+    "canonicalEnglish": "",
+    "acceptedEnglish": [],
+    "acceptedKorean": [
+      "저소음 저진동",
+      "저소음저진동",
+      "저진동, 저소음",
+      "저진동 저소음",
+      "저진동저소음"
+    ],
+    "acceptedAnswers": [
+      "저소음, 저진동",
+      "저소음 저진동",
+      "저소음저진동",
+      "저진동, 저소음",
+      "저진동 저소음",
+      "저진동저소음"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "벽체 깊이의 제한이 없다.": {
+    "sourceToken": "벽체 깊이의 제한이 없다.",
+    "canonicalEnglish": "",
+    "acceptedEnglish": [],
+    "acceptedKorean": [
+      "벽체 깊이의 제한이 없다",
+      "벽체깊이의제한이없다",
+      "벽체 깊이에 제한이 없다",
+      "벽체깊이에제한이없다",
+      "벽체의 깊이에 제한이 없다",
+      "벽체의깊이에제한이없다",
+      "벽체의 깊이 제한이 없다",
+      "벽체의깊이제한이없다"
+    ],
+    "acceptedAnswers": [
+      "벽체 깊이의 제한이 없다.",
+      "벽체 깊이의 제한이 없다",
+      "벽체깊이의제한이없다",
+      "벽체 깊이에 제한이 없다",
+      "벽체깊이에제한이없다",
+      "벽체의 깊이에 제한이 없다",
+      "벽체의깊이에제한이없다",
+      "벽체의 깊이 제한이 없다",
+      "벽체의깊이제한이없다"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
   }
 }
