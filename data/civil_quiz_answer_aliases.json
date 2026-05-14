@@ -4698,5 +4698,21 @@
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
+  },
+  "병렬 작업방식": {
+    "sourceToken": "병렬 작업방식",
+    "canonicalEnglish": "",
+    "acceptedEnglish": [
+      "병렬 작업방식"
+    ],
+    "acceptedKorean": [
+      "병렬식 압토공법"
+    ],
+    "acceptedAnswers": [
+      "병렬 작업방식",
+      "병렬식 압토공법"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
   }
 }

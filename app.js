@@ -269,6 +269,55 @@ function countKeywordAnswerGroupMatches(keywordAnswerGroups, rawInput) {
   )).length;
 }
 
+function getSectionText(normalizedInput, startAliases, otherAliases) {
+  const starts = startAliases
+    .map((alias) => normalizeForLooseMatch(alias))
+    .filter(Boolean)
+    .map((alias) => normalizedInput.indexOf(alias))
+    .filter((index) => index >= 0);
+
+  if (!starts.length) {
+    return "";
+  }
+
+  const start = Math.min(...starts);
+  const ends = otherAliases
+    .map((alias) => normalizeForLooseMatch(alias))
+    .filter(Boolean)
+    .map((alias) => normalizedInput.indexOf(alias, start + 1))
+    .filter((index) => index > start);
+  const end = ends.length ? Math.min(...ends) : normalizedInput.length;
+  return normalizedInput.slice(start, end);
+}
+
+function countClassifiedAnswerMatches(classifiedAnswerGroups, rawInput) {
+  if (!Array.isArray(classifiedAnswerGroups) || !classifiedAnswerGroups.length) {
+    return 0;
+  }
+
+  const normalizedInput = normalizeForLooseMatch(rawInput);
+  let matchedCount = 0;
+
+  for (const group of classifiedAnswerGroups) {
+    const ownAliases = group.labelAliases || [];
+    const otherAliases = classifiedAnswerGroups
+      .filter((candidate) => candidate !== group)
+      .flatMap((candidate) => candidate.labelAliases || []);
+    const sectionText = getSectionText(normalizedInput, ownAliases, otherAliases);
+    if (!sectionText) {
+      continue;
+    }
+
+    for (const term of group.requiredTerms || []) {
+      if (keywordRequirementMatches(term, sectionText)) {
+        matchedCount += 1;
+      }
+    }
+  }
+
+  return matchedCount;
+}
+
 function answerLineMatches(answerLine, rawInput) {
   for (const variant of getKoreanEndingVariants(answerLine)) {
     if (normalizeForDisplay(variant) === normalizeForDisplay(rawInput)) {
@@ -356,7 +405,8 @@ function judgeAnswer(item, rawInput) {
 
   const embeddedMatchedCount = countEmbeddedAnswerMatches(expectedTokens, trimmedInput);
   const keywordMatchedCount = countKeywordAnswerGroupMatches(item.keywordAnswerGroups, trimmedInput);
-  const flexibleMatchedCount = Math.max(embeddedMatchedCount, keywordMatchedCount);
+  const classifiedMatchedCount = countClassifiedAnswerMatches(item.classifiedAnswerGroups, trimmedInput);
+  const flexibleMatchedCount = Math.max(embeddedMatchedCount, keywordMatchedCount, classifiedMatchedCount);
   if (flexibleMatchedCount >= requiredCount) {
     return {
       isCorrect: true,
@@ -379,7 +429,7 @@ function judgeAnswer(item, rawInput) {
   }
 
   const unusedUserTokens = [...userTokens];
-  let matchedCount = keywordMatchedCount;
+  let matchedCount = Math.max(keywordMatchedCount, classifiedMatchedCount);
   let hadWhitespaceOnlyMatch = false;
 
   for (const expectedToken of expectedTokens) {
@@ -943,7 +993,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260513-19";
+    script.src = "./data/civil_quiz_dataset.js?v=20260514-1";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
@@ -974,7 +1024,7 @@ function setLoadingState(isLoading) {
   });
 
   if (isLoading) {
-    datasetCount.textContent = "데이터 준비 중";
+    datasetCount.textContent = "";
     selectionPreview.textContent = "데이터를 불러오는 중입니다.";
   }
 }
@@ -989,7 +1039,7 @@ async function loadDataset() {
   state.items = dataset.items;
   state.aliasDictionary = dataset.answerAliasDictionary ?? {};
   state.datasetReady = true;
-  datasetCount.textContent = `총 ${dataset.metadata.counts.total}문항 준비 완료`;
+  datasetCount.textContent = "";
   renderVolumeStats();
   renderPdfCards();
   renderHistorySummary();
