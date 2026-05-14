@@ -4714,5 +4714,22 @@
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
+  },
+  "개략적인 공정표": {
+    "sourceToken": "개략적인 공정표",
+    "canonicalEnglish": "",
+    "acceptedEnglish": [],
+    "acceptedKorean": [
+      "개략적 공정표",
+      "개략적공정표"
+    ],
+    "acceptedAnswers": [
+      "개략적인 공정표",
+      "개략적인공정표",
+      "개략적 공정표",
+      "개략적공정표"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
   }
 }
