@@ -1,4 +1,5 @@
 const STORAGE_KEY = "maltameokgi-last-session";
+const THEME_STORAGE_KEY = "maltameokgi-theme-mode";
 const STORAGE_RETENTION_DAYS = 30;
 
 const state = {
@@ -38,6 +39,8 @@ const loadHistoryButton = document.querySelector("#load-history-button");
 const retryHistoryWrongButton = document.querySelector("#retry-history-wrong-button");
 const pdfCardGrid = document.querySelector("#pdf-card-grid");
 const startQuizButton = document.querySelector("#start-quiz-button");
+const themeModeToggle = document.querySelector("#theme-mode-toggle");
+const themeModeLabel = document.querySelector("#theme-mode-label");
 
 const questionIdBadge = document.querySelector("#question-id-badge");
 const questionSourceBadge = document.querySelector("#question-source-badge");
@@ -99,6 +102,25 @@ function switchView(viewName) {
   homeView.classList.toggle("active", viewName === "home");
   quizView.classList.toggle("active", viewName === "quiz");
   resultView.classList.toggle("active", viewName === "result");
+}
+
+function applyThemeMode(mode) {
+  const resolvedMode = mode === "dark" ? "dark" : "light";
+  document.body.classList.toggle("theme-dark", resolvedMode === "dark");
+
+  if (themeModeToggle) {
+    themeModeToggle.setAttribute("aria-pressed", String(resolvedMode === "dark"));
+  }
+
+  if (themeModeLabel) {
+    themeModeLabel.textContent = resolvedMode === "dark" ? "다크 모드" : "라이트 모드";
+  }
+
+  localStorage.setItem(THEME_STORAGE_KEY, resolvedMode);
+}
+
+function loadThemeMode() {
+  return localStorage.getItem(THEME_STORAGE_KEY) === "dark" ? "dark" : "light";
 }
 
 function escapeHtml(value) {
@@ -993,7 +1015,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260514-2";
+    script.src = "./data/civil_quiz_dataset.js?v=20260514-3";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
@@ -1048,6 +1070,12 @@ async function loadDataset() {
 }
 
 function bindEvents() {
+  if (themeModeToggle) {
+    themeModeToggle.addEventListener("click", () => {
+      applyThemeMode(document.body.classList.contains("theme-dark") ? "light" : "dark");
+    });
+  }
+
   document.querySelectorAll("[data-quick-range]").forEach((button) => {
     button.addEventListener("click", () => {
       document.querySelectorAll("[data-quick-range]").forEach((node) => node.classList.remove("active"));
@@ -1236,6 +1264,7 @@ function bindEvents() {
 }
 
 async function init() {
+  applyThemeMode(loadThemeMode());
   bindEvents();
   setLoadingState(true);
   try {
