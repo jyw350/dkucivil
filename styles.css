@@ -1426,3 +1426,9 @@ body.theme-dark .feedback-card.warning .feedback-state {
   color: #ffd891;
 }
 
+body.theme-dark .quiz-actions .ghost-button,
+body.theme-dark .quiz-actions .secondary-button,
+body.theme-dark .quiz-actions .primary-button {
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.32);
+}
