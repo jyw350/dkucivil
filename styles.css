@@ -1432,3 +1432,37 @@ body.theme-dark .quiz-actions .primary-button {
   color: #ffffff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.32);
 }
+
+body.theme-dark .quiz-actions .ghost-button,
+body.theme-dark .quiz-actions .secondary-button,
+body.theme-dark .quiz-actions .primary-button {
+  background: linear-gradient(180deg, #8f98a4 0%, #5f6874 44%, #343b45 100%);
+  border-color: rgba(214, 222, 232, 0.22);
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.42);
+  box-shadow:
+    0 13px 22px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28),
+    inset 0 -3px 0 rgba(18, 22, 28, 0.42),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+body.theme-dark .quiz-actions .ghost-button:hover,
+body.theme-dark .quiz-actions .secondary-button:hover,
+body.theme-dark .quiz-actions .primary-button:hover {
+  background: linear-gradient(180deg, #9ba4af 0%, #68727e 44%, #39414c 100%);
+  box-shadow:
+    0 17px 28px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -3px 0 rgba(18, 22, 28, 0.42),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+body.theme-dark .quiz-actions .ghost-button:active,
+body.theme-dark .quiz-actions .secondary-button:active,
+body.theme-dark .quiz-actions .primary-button:active {
+  box-shadow:
+    0 7px 14px rgba(0, 0, 0, 0.3),
+    inset 0 2px 8px rgba(0, 0, 0, 0.34),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.08);
+}
