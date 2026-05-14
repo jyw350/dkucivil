@@ -4842,5 +4842,24 @@
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
+  },
+  "치기 시작할 때 Concrete의 온도는 35도 이하": {
+    "sourceToken": "치기 시작할 때 Concrete의 온도는 35도 이하",
+    "canonicalEnglish": "Concrete",
+    "acceptedEnglish": [
+      "치기 시작할 때 Concrete의 온도는 35도 이하",
+      "Concrete"
+    ],
+    "acceptedKorean": [
+      "치기 시작할 때 콘크리트의 온도는 35도 이하",
+      "타설할 때 콘크리트의 온도는 35도 이하"
+    ],
+    "acceptedAnswers": [
+      "치기 시작할 때 Concrete의 온도는 35도 이하",
+      "치기 시작할 때 콘크리트의 온도는 35도 이하",
+      "타설할 때 콘크리트의 온도는 35도 이하"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
   }
 }
