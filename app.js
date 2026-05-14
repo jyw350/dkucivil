@@ -931,9 +931,9 @@ function startWrongOnlySession(savedSession) {
     return;
   }
 
-  const itemsToRetry = source.wrongAnswers
+  const itemsToRetry = shuffle(source.wrongAnswers
     .map((wrong) => state.items.find((item) => item.id === wrong.id))
-    .filter(Boolean);
+    .filter(Boolean));
 
   if (!itemsToRetry.length) {
     showToast("오답 다시 풀기용 문제를 찾지 못했습니다.");
@@ -942,7 +942,7 @@ function startWrongOnlySession(savedSession) {
 
   startQuizWithItems(itemsToRetry, {
     label: `오답 다시 풀기 · ${itemsToRetry.length}문제`,
-    orderMode: "sequential",
+    orderMode: "random",
     quickRange: null,
     startId: itemsToRetry[0]?.id ?? null,
     endId: itemsToRetry[itemsToRetry.length - 1]?.id ?? null,
@@ -1015,7 +1015,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260514-6";
+    script.src = "./data/civil_quiz_dataset.js?v=20260514-7";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {

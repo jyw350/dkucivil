@@ -1754,16 +1754,23 @@
       ],
       "hint": null,
       "answerLines": [
-        ", ,  (2×50=15+85=100)"
+        "D15",
+        "D50",
+        "D85"
       ],
       "answerTokens": [
-        ", ,  (2×50=15+85=100)"
+        "D15",
+        "D50",
+        "D85"
       ],
       "notes": [],
       "rawBlock": [
-        ", ,  (2×50=15+85=100)"
+        "D15",
+        "D50",
+        "D85"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "requiredAnswerCount": 3
     },
     {
       "id": "1-54",
@@ -27308,6 +27315,45 @@
         "벽체의깊이에제한이없다",
         "벽체의 깊이 제한이 없다",
         "벽체의깊이제한이없다"
+      ],
+      "rejectedExamples": [],
+      "judgeRule": "accept_only_listed_variants"
+    },
+    "D15": {
+      "sourceToken": "D15",
+      "canonicalEnglish": "D15",
+      "acceptedEnglish": [
+        "D15"
+      ],
+      "acceptedKorean": [],
+      "acceptedAnswers": [
+        "D15"
+      ],
+      "rejectedExamples": [],
+      "judgeRule": "accept_only_listed_variants"
+    },
+    "D50": {
+      "sourceToken": "D50",
+      "canonicalEnglish": "D50",
+      "acceptedEnglish": [
+        "D50"
+      ],
+      "acceptedKorean": [],
+      "acceptedAnswers": [
+        "D50"
+      ],
+      "rejectedExamples": [],
+      "judgeRule": "accept_only_listed_variants"
+    },
+    "D85": {
+      "sourceToken": "D85",
+      "canonicalEnglish": "D85",
+      "acceptedEnglish": [
+        "D85"
+      ],
+      "acceptedKorean": [],
+      "acceptedAnswers": [
+        "D85"
       ],
       "rejectedExamples": [],
       "judgeRule": "accept_only_listed_variants"

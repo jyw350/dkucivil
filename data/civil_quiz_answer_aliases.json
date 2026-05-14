@@ -4803,5 +4803,44 @@
     ],
     "rejectedExamples": [],
     "judgeRule": "accept_only_listed_variants"
+  },
+  "D15": {
+    "sourceToken": "D15",
+    "canonicalEnglish": "D15",
+    "acceptedEnglish": [
+      "D15"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "D15"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "D50": {
+    "sourceToken": "D50",
+    "canonicalEnglish": "D50",
+    "acceptedEnglish": [
+      "D50"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "D50"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
+  },
+  "D85": {
+    "sourceToken": "D85",
+    "canonicalEnglish": "D85",
+    "acceptedEnglish": [
+      "D85"
+    ],
+    "acceptedKorean": [],
+    "acceptedAnswers": [
+      "D85"
+    ],
+    "rejectedExamples": [],
+    "judgeRule": "accept_only_listed_variants"
   }
 }
