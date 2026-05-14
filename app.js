@@ -1,7 +1,7 @@
 const STORAGE_KEY = "maltameokgi-last-session";
 const STARRED_STORAGE_KEY = "maltameokgi-starred-questions";
 const ADMIN_MODE_STORAGE_KEY = "maltameokgi-admin-mode";
-const ADMIN_ACCESS_CODE = "dkucivil";
+const ADMIN_ACCESS_CODE = "c2h1j3h6@76";
 const THEME_STORAGE_KEY = "maltameokgi-theme-mode";
 const STORAGE_RETENTION_DAYS = 30;
 
@@ -1132,7 +1132,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260514-13";
+    script.src = "./data/civil_quiz_dataset.js?v=20260514-14";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
