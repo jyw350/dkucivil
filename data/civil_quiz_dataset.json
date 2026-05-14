@@ -1948,7 +1948,7 @@
       "promptLines": [
         "서중 콘크리트 타설 시 주의사항"
       ],
-      "hint": null,
+      "hint": "콜치비치콜",
       "answerLines": [
         "콜드 조인트가 35도 이하일 때 가능한 빨리 살수",
         "치기 전 지반과 거푸집에 살수",
@@ -3003,7 +3003,7 @@
       "promptLines": [
         "보강토벽에서 횡토압에 저항하는 타이 설계하는 3가지 기본 방법"
       ],
-      "hint": null,
+      "hint": "RCC",
       "answerLines": [
         "Rankine법 / Coulomb 응력법 / Coulomb 모멘트법"
       ],
