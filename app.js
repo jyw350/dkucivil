@@ -1,4 +1,7 @@
 const STORAGE_KEY = "maltameokgi-last-session";
+const STARRED_STORAGE_KEY = "maltameokgi-starred-questions";
+const ADMIN_MODE_STORAGE_KEY = "maltameokgi-admin-mode";
+const ADMIN_ACCESS_CODE = "dkucivil";
 const THEME_STORAGE_KEY = "maltameokgi-theme-mode";
 const STORAGE_RETENTION_DAYS = 30;
 
@@ -18,6 +21,8 @@ const state = {
   loadedHistorySession: null,
   datasetReady: false,
   allowShiftLineBreak: false,
+  adminMode: false,
+  starredIds: new Set(),
 };
 
 const homeView = document.querySelector("#home-view");
@@ -39,11 +44,15 @@ const loadHistoryButton = document.querySelector("#load-history-button");
 const retryHistoryWrongButton = document.querySelector("#retry-history-wrong-button");
 const pdfCardGrid = document.querySelector("#pdf-card-grid");
 const startQuizButton = document.querySelector("#start-quiz-button");
+const adminModeButton = document.querySelector("#admin-mode-button");
+const startStarredButton = document.querySelector("#start-starred-button");
+const starredSummary = document.querySelector("#starred-summary");
 const themeModeToggle = document.querySelector("#theme-mode-toggle");
 const themeModeLabel = document.querySelector("#theme-mode-label");
 
 const questionIdBadge = document.querySelector("#question-id-badge");
 const questionSourceBadge = document.querySelector("#question-source-badge");
+const starCurrentButton = document.querySelector("#star-current-button");
 const questionText = document.querySelector("#question-text");
 const sourceStudyText = document.querySelector("#source-study-text");
 const openSourceLink = document.querySelector("#open-source-link");
@@ -121,6 +130,113 @@ function applyThemeMode(mode) {
 
 function loadThemeMode() {
   return localStorage.getItem(THEME_STORAGE_KEY) === "dark" ? "dark" : "light";
+}
+
+function loadStarredIds() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(STARRED_STORAGE_KEY) || "[]");
+    return new Set(Array.isArray(parsed) ? parsed.filter(Boolean) : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveStarredIds() {
+  localStorage.setItem(STARRED_STORAGE_KEY, JSON.stringify([...state.starredIds]));
+}
+
+function setAdminMode(isEnabled) {
+  state.adminMode = Boolean(isEnabled);
+  document.body.classList.toggle("admin-mode", state.adminMode);
+  localStorage.setItem(ADMIN_MODE_STORAGE_KEY, state.adminMode ? "1" : "0");
+
+  if (adminModeButton) {
+    adminModeButton.classList.toggle("active", state.adminMode);
+    adminModeButton.setAttribute("aria-pressed", String(state.adminMode));
+    adminModeButton.textContent = state.adminMode ? "★ 개인 모드 켜짐" : "★ 개인 모드";
+  }
+
+  renderStarredSummary();
+  updateStarButtonForCurrentQuestion();
+}
+
+function renderStarredSummary() {
+  if (!starredSummary || !startStarredButton) {
+    return;
+  }
+
+  const count = state.starredIds.size;
+  starredSummary.textContent = count
+    ? `별표한 문제가 ${count}개 저장되어 있습니다. 이 기기에서만 보입니다.`
+    : "별표한 문제가 아직 없습니다.";
+  startStarredButton.disabled = count === 0;
+}
+
+function updateStarButtonForCurrentQuestion() {
+  if (!starCurrentButton || !state.quizItems.length) {
+    return;
+  }
+
+  const item = state.quizItems[state.currentIndex];
+  const isStarred = item ? state.starredIds.has(item.id) : false;
+  starCurrentButton.classList.toggle("active", isStarred);
+  starCurrentButton.setAttribute("aria-pressed", String(isStarred));
+  starCurrentButton.textContent = isStarred ? "★ 별표됨" : "☆ 별표";
+}
+
+function toggleCurrentStarredQuestion() {
+  const item = state.quizItems[state.currentIndex];
+  if (!item) {
+    return;
+  }
+
+  if (state.starredIds.has(item.id)) {
+    state.starredIds.delete(item.id);
+  } else {
+    state.starredIds.add(item.id);
+  }
+
+  saveStarredIds();
+  renderStarredSummary();
+  updateStarButtonForCurrentQuestion();
+}
+
+function promptAdminMode() {
+  if (state.adminMode) {
+    setAdminMode(false);
+    return;
+  }
+
+  const code = window.prompt("관리자 코드를 입력해 주세요.");
+  if (code === ADMIN_ACCESS_CODE) {
+    setAdminMode(true);
+    return;
+  }
+
+  if (code !== null) {
+    showToast("관리자 코드가 맞지 않습니다.");
+  }
+}
+
+function startStarredSession() {
+  const itemsToStudy = [...state.starredIds]
+    .map((id) => state.items.find((item) => item.id === id))
+    .filter(Boolean);
+
+  if (!itemsToStudy.length) {
+    showToast("별표한 문제가 아직 없습니다.");
+    return;
+  }
+
+  const finalItems = orderModeSelect.value === "random" ? shuffle(itemsToStudy) : itemsToStudy;
+  startQuizWithItems(finalItems, {
+    label: `별표 문제만 풀기 · ${finalItems.length}문제`,
+    orderMode: orderModeSelect.value,
+    quickRange: "starred",
+    startId: finalItems[0]?.id ?? null,
+    endId: finalItems[finalItems.length - 1]?.id ?? null,
+    limit: finalItems.length,
+  });
 }
 
 function escapeHtml(value) {
@@ -648,6 +764,7 @@ function renderQuestion() {
   state.answerSubmitted = false;
   state.usedHintForCurrent = false;
   document.querySelector("#next-question-button").disabled = true;
+  updateStarButtonForCurrentQuestion();
 }
 
 function recordAttempt(item, userAnswer, isCorrect) {
@@ -1015,7 +1132,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260514-9";
+    script.src = "./data/civil_quiz_dataset.js?v=20260514-10";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
@@ -1065,6 +1182,7 @@ async function loadDataset() {
   renderVolumeStats();
   renderPdfCards();
   renderHistorySummary();
+  renderStarredSummary();
   syncQuestionLimitControl();
   updateSelectionPreview();
 }
@@ -1074,6 +1192,18 @@ function bindEvents() {
     themeModeToggle.addEventListener("click", () => {
       applyThemeMode(document.body.classList.contains("theme-dark") ? "light" : "dark");
     });
+  }
+
+  if (adminModeButton) {
+    adminModeButton.addEventListener("click", promptAdminMode);
+  }
+
+  if (starCurrentButton) {
+    starCurrentButton.addEventListener("click", toggleCurrentStarredQuestion);
+  }
+
+  if (startStarredButton) {
+    startStarredButton.addEventListener("click", startStarredSession);
   }
 
   document.querySelectorAll("[data-quick-range]").forEach((button) => {
@@ -1264,7 +1394,9 @@ function bindEvents() {
 }
 
 async function init() {
+  state.starredIds = loadStarredIds();
   applyThemeMode(loadThemeMode());
+  setAdminMode(localStorage.getItem(ADMIN_MODE_STORAGE_KEY) === "1");
   bindEvents();
   setLoadingState(true);
   try {
