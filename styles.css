@@ -1552,3 +1552,28 @@ body.theme-dark .star-current-button.active {
   font-size: 1.35rem;
   line-height: 1;
 }
+
+/* Align order select with its opened option list */
+.compact-select-field {
+  width: 168px;
+  max-width: 100%;
+  justify-self: center;
+}
+
+#order-mode {
+  width: 168px;
+  min-width: 168px;
+  max-width: 168px;
+  box-sizing: border-box;
+  padding-inline: 18px 34px;
+}
+
+#order-mode option {
+  text-align: center;
+}
+
+body.theme-dark #order-mode,
+body.theme-dark #order-mode option {
+  background-color: #14171c;
+  color: #f4f7fa;
+}
