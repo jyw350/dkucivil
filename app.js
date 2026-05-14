@@ -153,7 +153,7 @@ function setAdminMode(isEnabled) {
   if (adminModeButton) {
     adminModeButton.classList.toggle("active", state.adminMode);
     adminModeButton.setAttribute("aria-pressed", String(state.adminMode));
-    adminModeButton.textContent = state.adminMode ? "★ 개인 모드 켜짐" : "★ 개인 모드";
+    adminModeButton.textContent = state.adminMode ? "★" : "☆";
   }
 
   renderStarredSummary();
@@ -1132,7 +1132,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260514-10";
+    script.src = "./data/civil_quiz_dataset.js?v=20260514-11";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {

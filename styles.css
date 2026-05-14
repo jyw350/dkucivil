@@ -1542,3 +1542,13 @@ body.theme-dark .star-current-button.active {
     flex-direction: column;
   }
 }
+
+/* Compact star admin entry */
+.panel-head .admin-mode-button {
+  width: 54px;
+  min-height: 54px;
+  padding: 0;
+  border-radius: 18px;
+  font-size: 1.35rem;
+  line-height: 1;
+}
