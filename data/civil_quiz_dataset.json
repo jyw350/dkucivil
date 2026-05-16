@@ -4292,20 +4292,35 @@
       ],
       "hint": "라연",
       "answerLines": [
-        "라멘형식(중앙힌지형식)",
+        "라멘형식 또는 중앙힌지형식",
         "연속보식"
       ],
       "answerTokens": [
-        "라멘형식(중앙힌지형식)",
+        "라멘형식 또는 중앙힌지형식",
         "연속보식"
       ],
       "notes": [],
-      "rawBlock": [
-        "라연",
-        "라멘형식(중앙힌지형식)",
-        "연속보식"
+      "rawBlock": "라멘형식 또는 중앙힌지형식\n연속보식",
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "라멘형식",
+            "라멘 형식",
+            "중앙힌지형식",
+            "중앙 힌지 형식",
+            "중앙힌지"
+          ]
+        ],
+        [
+          [
+            "연속보식",
+            "연속보 형식",
+            "연속보"
+          ]
+        ]
       ],
-      "editorNote": null
+      "requiredAnswerCount": 2
     },
     {
       "id": "1-135",
@@ -4340,7 +4355,34 @@
         "분말도 큰 시멘트 사용",
         "AE제 사용"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "감수제",
+          "사용"
+        ],
+        [
+          "잔골재율",
+          [
+            "증대",
+            "크",
+            "높"
+          ]
+        ],
+        [
+          "분말도",
+          [
+            "큰",
+            "크"
+          ],
+          "시멘트",
+          "사용"
+        ],
+        [
+          "AE제",
+          "사용"
+        ]
+      ]
     },
     {
       "id": "1-136",
@@ -4356,15 +4398,14 @@
       ],
       "hint": null,
       "answerLines": [
-        "GSIS(지형공간시스템)"
+        "GSIS",
+        "지형공간시스템"
       ],
       "answerTokens": [
-        "GSIS(지형공간시스템)"
+        "GSIS"
       ],
       "notes": [],
-      "rawBlock": [
-        "GSIS(지형공간시스템)"
-      ],
+      "rawBlock": "GSIS\n지형공간시스템",
       "editorNote": null
     },
     {
@@ -4455,10 +4496,10 @@
       "sourceTitle": "말따먹기 최강암기법",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\말따먹기 최강암기법.pdf",
       "sourcePage": 6,
-      "question": "보강토벽은 옹벽, 교대, 방수벽 등에 사용되는 최신공법으로 높일가 높을수록 경제적인데 보통 몇 m이상이면 경제적?",
+      "question": "보강토벽은 옹벽, 교대, 방수벽 등에 사용되는 최신공법으로 높이가 높을수록 경제적인데 보통 몇 m이상이면 경제적?",
       "promptLines": [
         "보강토벽은 옹벽, 교대, 방수벽 등에 사용되는 최신공법으로",
-        "높일가 높을수록 경제적인데 보통 몇 m이상이면 경제적?"
+        "높이가 높을수록 경제적인데 보통 몇 m이상이면 경제적?"
       ],
       "hint": null,
       "answerLines": [
@@ -4485,24 +4526,21 @@
       "promptLines": [
         "지오텍스타일의 종류 / 토목섬유의 종류"
       ],
-      "hint": "geotextile",
+      "hint": "4g",
       "answerLines": [
         "geogrid",
         "geomembrance",
-        "geocomposite"
+        "geocomposite",
+        "geotextile"
       ],
       "answerTokens": [
         "geogrid",
         "geomembrance",
-        "geocomposite"
+        "geocomposite",
+        "geotextile"
       ],
       "notes": [],
-      "rawBlock": [
-        "geotextile",
-        "geogrid",
-        "geomembrance",
-        "geocomposite"
-      ],
+      "rawBlock": "geogrid\ngeomembrance\ngeocomposite\ngeotextile",
       "editorNote": null
     },
     {
@@ -4641,7 +4679,41 @@
         "무진동(시가지 적합)",
         "침하깊이에 제한이 없다."
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "공사비",
+          [
+            "저렴",
+            "작",
+            "적"
+          ]
+        ],
+        [
+          "기계설비",
+          [
+            "간단",
+            "비교적"
+          ]
+        ],
+        [
+          [
+            "무진동",
+            "진동"
+          ],
+          [
+            "시가지",
+            "적합"
+          ]
+        ],
+        [
+          "침하깊이",
+          [
+            "제한",
+            "없"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-147",
@@ -4762,7 +4834,36 @@
         "보수공사 용이",
         "시공성 우수"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "양생기간",
+          [
+            "짧",
+            "단축"
+          ],
+          [
+            "즉시",
+            "빠른"
+          ],
+          "교통개방"
+        ],
+        [
+          "주행성",
+          "우수"
+        ],
+        [
+          "보수공사",
+          [
+            "용이",
+            "쉽"
+          ]
+        ],
+        [
+          "시공성",
+          "우수"
+        ]
+      ]
     },
     {
       "id": "1-151",
@@ -4776,19 +4877,48 @@
       "promptLines": [
         "차량의 충격위험을 방지하는 충격흡수시설"
       ],
-      "hint": "철제드럼, 모래채우기 플라스틱통",
+      "hint": "철모 하샌하샌",
       "answerLines": [
-        "하이드로셀 샌드위치, 하이드리셀 샌드위치"
+        "철제드럼",
+        "모래채우기 플라스틱통",
+        "하이드로셀 샌드위치",
+        "하이드리셀 샌드위치"
       ],
       "answerTokens": [
-        "하이드로셀 샌드위치, 하이드리셀 샌드위치"
+        "철제드럼",
+        "모래채우기 플라스틱통",
+        "하이드로셀 샌드위치",
+        "하이드리셀 샌드위치"
       ],
       "notes": [],
-      "rawBlock": [
-        "철제드럼, 모래채우기 플라스틱통",
-        "하이드로셀 샌드위치, 하이드리셀 샌드위치"
-      ],
-      "editorNote": null
+      "rawBlock": "철제드럼\n모래채우기 플라스틱통\n하이드로셀 샌드위치\n하이드리셀 샌드위치",
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "철제",
+          "드럼"
+        ],
+        [
+          "모래",
+          [
+            "채우기",
+            "채운"
+          ],
+          "플라스틱",
+          [
+            "통",
+            "튜브"
+          ]
+        ],
+        [
+          "하이드로셀",
+          "샌드위치"
+        ],
+        [
+          "하이드리셀",
+          "샌드위치"
+        ]
+      ]
     },
     {
       "id": "1-152",
@@ -4825,7 +4955,64 @@
         "연약지반, 산사태, 낙석의 위험을 피한다.",
         "가까운 곳에 토사장, 토취장을 두어 운반거리를 줄인다."
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "절토량",
+          "성토량",
+          [
+            "같",
+            "균형",
+            "일치"
+          ]
+        ],
+        [
+          "암석",
+          "굴착량",
+          [
+            "적",
+            "작"
+          ]
+        ],
+        [
+          "보상",
+          [
+            "최소",
+            "작"
+          ]
+        ],
+        [
+          [
+            "연약지반",
+            "연약"
+          ],
+          [
+            "산사태",
+            "낙석"
+          ],
+          [
+            "위험",
+            "피",
+            "회피"
+          ]
+        ],
+        [
+          [
+            "토사장",
+            "토취장",
+            "가까운"
+          ],
+          [
+            "운반거리",
+            "운반 거리"
+          ],
+          [
+            "줄",
+            "단축",
+            "짧"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-153",
@@ -4868,25 +5055,82 @@
         "댐 기초지반 처리에서 Consolidation grouting과",
         "Curtain grouting 실시하는 이유"
       ],
-      "hint": "Consolidation grouting : 지반개량 ⇒ 기초암반의 균일성 확보",
+      "hint": "",
       "answerLines": [
-        "Curtain grouting : 지수의 목적",
-        " 기초암반의 차수, 기초암반 내 양압력 경감",
-        "누수로 인한 기초암반의 열화방지"
+        "Consolidation grouting - 지반개량하여 기초암반의 균일성 확보",
+        "Curtain grouting - 지수의 목적",
+        "기초암반의 차수",
+        "기초암반 내의 양압력 경감",
+        "누수로 인한 기초암반의 열화 방지"
       ],
       "answerTokens": [
-        "Curtain grouting : 지수의 목적",
-        " 기초암반의 차수, 기초암반 내 양압력 경감",
-        "누수로 인한 기초암반의 열화방지"
+        "Consolidation grouting - 지반개량하여 기초암반의 균일성 확보",
+        "Curtain grouting - 지수의 목적",
+        "기초암반의 차수",
+        "기초암반 내의 양압력 경감",
+        "누수로 인한 기초암반의 열화 방지"
       ],
       "notes": [],
-      "rawBlock": [
-        "Consolidation grouting : 지반개량 ⇒ 기초암반의 균일성 확보",
-        "Curtain grouting : 지수의 목적",
-        " 기초암반의 차수, 기초암반 내 양압력 경감",
-        "누수로 인한 기초암반의 열화방지"
-      ],
-      "editorNote": null
+      "rawBlock": "Consolidation grouting - 지반개량하여 기초암반의 균일성 확보\nCurtain grouting - 지수의 목적\n기초암반의 차수\n기초암반 내의 양압력 경감\n누수로 인한 기초암반의 열화 방지",
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Consolidation grouting",
+            "콘솔리데이션 그라우팅"
+          ],
+          [
+            "지반개량",
+            "지반 개량"
+          ],
+          "기초암반",
+          [
+            "균일성",
+            "균일"
+          ]
+        ],
+        [
+          [
+            "Curtain grouting",
+            "커튼 그라우팅"
+          ],
+          [
+            "지수",
+            "물막이"
+          ]
+        ],
+        [
+          "기초암반",
+          [
+            "차수",
+            "물막이"
+          ]
+        ],
+        [
+          "기초암반",
+          [
+            "양압력",
+            "양 압력"
+          ],
+          [
+            "경감",
+            "감소",
+            "저감"
+          ]
+        ],
+        [
+          "누수",
+          "기초암반",
+          [
+            "열화",
+            "약화"
+          ],
+          [
+            "방지",
+            "예방"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-155",
@@ -27455,6 +27699,26 @@
         "치기 시작할 때 Concrete의 온도는 35도 이하",
         "치기 시작할 때 콘크리트의 온도는 35도 이하",
         "타설할 때 콘크리트의 온도는 35도 이하"
+      ],
+      "rejectedExamples": [],
+      "judgeRule": "accept_only_listed_variants"
+    },
+    "GSIS": {
+      "sourceToken": "GSIS",
+      "canonicalEnglish": "GSIS",
+      "acceptedEnglish": [
+        "GSIS",
+        "gsis"
+      ],
+      "acceptedKorean": [
+        "지형공간시스템",
+        "지형 공간 시스템"
+      ],
+      "acceptedAnswers": [
+        "GSIS",
+        "gsis",
+        "지형공간시스템",
+        "지형 공간 시스템"
       ],
       "rejectedExamples": [],
       "judgeRule": "accept_only_listed_variants"
