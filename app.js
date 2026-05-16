@@ -1121,6 +1121,32 @@ function isPlainEnterEvent(event) {
   );
 }
 
+function handleGlobalQuizEnter(event) {
+  if (!isPlainEnterEvent(event) || event.isComposing || !quizView.classList.contains("active")) {
+    return;
+  }
+
+  const target = event.target;
+  if (target === answerInput || !reportPanel.classList.contains("hidden")) {
+    return;
+  }
+
+  const actionButton = target?.closest?.("#submit-answer-button, #next-question-button");
+  const isOtherInteractive = target?.closest?.("button, a, input, select, textarea, [contenteditable='true']");
+  if (isOtherInteractive && !actionButton) {
+    return;
+  }
+
+  event.preventDefault();
+
+  if (state.answerSubmitted) {
+    goToNextQuestionIfReady();
+    return;
+  }
+
+  submitCurrentAnswer();
+}
+
 function ensureDatasetScriptLoaded() {
   if (window.CIVIL_QUIZ_DATA) {
     return Promise.resolve(window.CIVIL_QUIZ_DATA);
@@ -1132,7 +1158,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260516-2";
+    script.src = "./data/civil_quiz_dataset.js?v=20260516-3";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
@@ -1255,6 +1281,8 @@ function bindEvents() {
   document.querySelector("#submit-answer-button").addEventListener("click", submitCurrentAnswer);
 
   document.querySelector("#next-question-button").addEventListener("click", goToNextQuestionIfReady);
+
+  document.addEventListener("keydown", handleGlobalQuizEnter);
 
   answerInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter" && event.shiftKey) {
