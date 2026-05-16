@@ -4784,22 +4784,29 @@
       "hint": "흡배송",
       "answerLines": [
         "흡인식(연속식, 단속식)",
-        "배기식",
-        "송기식"
+        "송기식",
+        "배기식"
       ],
       "answerTokens": [
-        "흡인식(연속식, 단속식)",
-        "배기식",
-        "송기식"
+        "흡인식",
+        "송기식",
+        "배기식"
       ],
       "notes": [],
-      "rawBlock": [
-        "흡배송",
-        "흡인식(연속식, 단속식)",
-        "배기식",
-        "송기식"
+      "rawBlock": "흡인식(연속식, 단속식)\n송기식\n배기식",
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "흡인식"
+        ],
+        [
+          "송기식"
+        ],
+        [
+          "배기식"
+        ]
       ],
-      "editorNote": null
+      "requiredAnswerCount": 3
     },
     {
       "id": "1-150",
