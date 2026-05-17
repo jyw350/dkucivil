@@ -389,6 +389,102 @@ function countEmbeddedAnswerMatches(expectedTokens, rawInput) {
   return matchedCount;
 }
 
+function usesParticleTolerantMatching(item) {
+  return item.volume > 1 || (item.volume === 1 && item.order >= 156);
+}
+
+function stripKoreanParticle(word) {
+  const normalized = String(word).toLowerCase();
+  if (!/[가-힣]/.test(normalized)) {
+    return normalized;
+  }
+
+  const particles = [
+    "으로부터", "에게서", "에서부터", "으로서", "으로써", "로부터", "까지", "부터",
+    "에게", "에서", "보다", "처럼", "마다", "조차", "마저", "이라도", "라도",
+    "이나", "나", "이며", "이고", "으로", "하고", "와", "과", "은", "는",
+    "이", "가", "을", "를", "의", "에", "로", "도", "만", "랑"
+  ];
+
+  for (const particle of particles) {
+    if (normalized.length - particle.length >= 2 && normalized.endsWith(particle)) {
+      return normalized.slice(0, -particle.length);
+    }
+  }
+
+  return normalized;
+}
+
+function stemKoreanKeyword(word) {
+  let stem = stripKoreanParticle(word);
+  if (!/[가-힣]/.test(stem)) {
+    return stem;
+  }
+
+  const suffixRules = [
+    ["시킨다", ""], ["시킴", ""], ["시켜", ""],
+    ["한다", ""], ["하다", ""], ["되었다", ""], ["된다", ""], ["되다", ""],
+    ["하였다", ""], ["하여", ""], ["하며", ""], ["하고", ""],
+    ["이다", ""], ["있다", ""], ["없다", ""],
+    ["같게", "같"], ["같다", "같"], ["같음", "같"],
+    ["크게", "크"], ["크다", "크"], ["큼", "크"],
+    ["작게", "작"], ["작다", "작"], ["적게", "적"], ["적다", "적"],
+    ["많게", "많"], ["많다", "많"], ["많음", "많"],
+    ["높게", "높"], ["높다", "높"], ["낮게", "낮"], ["낮다", "낮"],
+    ["짧게", "짧"], ["짧다", "짧"], ["짧아", "짧"],
+    ["길게", "길"], ["길다", "길"],
+  ];
+
+  for (const [suffix, replacement] of suffixRules) {
+    if (stem.length - suffix.length >= 1 && stem.endsWith(suffix)) {
+      stem = `${stem.slice(0, -suffix.length)}${replacement}`;
+      break;
+    }
+  }
+
+  return stem;
+}
+
+function extractParticleTolerantKeywords(text) {
+  const stopwords = new Set(["그리고", "또는", "및", "대한", "관한", "위한", "경우", "사용", "실시"]);
+  return String(text)
+    .split(/[^0-9A-Za-z가-힣]+/g)
+    .map((word) => stemKoreanKeyword(word))
+    .map((word) => word.replace(/^(제|각)$/, ""))
+    .filter((word) => word.length >= 2 && !stopwords.has(word));
+}
+
+function normalizeParticleTolerantInput(text) {
+  return extractParticleTolerantKeywords(text).join("");
+}
+
+function particleKeywordVariantMatches(variant, normalizedInput) {
+  const keywords = extractParticleTolerantKeywords(variant);
+  if (!keywords.length) {
+    return false;
+  }
+
+  return keywords.every((keyword) => normalizedInput.includes(keyword));
+}
+
+function countParticleTolerantAnswerMatches(item, expectedTokens, rawInput) {
+  if (!usesParticleTolerantMatching(item)) {
+    return 0;
+  }
+
+  const normalizedInput = normalizeParticleTolerantInput(rawInput);
+  let matchedCount = 0;
+
+  for (const expectedToken of expectedTokens) {
+    const acceptedVariants = getAcceptedVariants(expectedToken);
+    if (acceptedVariants.some((variant) => particleKeywordVariantMatches(variant, normalizedInput))) {
+      matchedCount += 1;
+    }
+  }
+
+  return matchedCount;
+}
+
 function keywordRequirementMatches(requirement, normalizedInput) {
   const options = Array.isArray(requirement) ? requirement : [requirement];
   return options.some((option) => normalizeForLooseMatch(option) && normalizedInput.includes(normalizeForLooseMatch(option)));
@@ -529,22 +625,28 @@ function judgeAnswer(item, rawInput) {
   if (expectedTokens.length <= 1) {
     const target = expectedTokens[0] ?? item.answerLines[0] ?? "";
     const matchType = tokenMatches(target, trimmedInput);
+    const particleTolerantMatchedCount = countParticleTolerantAnswerMatches(item, [target], trimmedInput);
+    const isParticleTolerantMatch = matchType === "none" && particleTolerantMatchedCount >= 1;
+    const isCorrect = matchType !== "none" || isParticleTolerantMatch;
     return {
-      isCorrect: matchType !== "none",
-      feedbackMode: matchType === "whitespace" ? "warning" : matchType === "exact" ? "correct" : "incorrect",
+      isCorrect,
+      feedbackMode: matchType === "whitespace" ? "warning" : isCorrect ? "correct" : "incorrect",
       message:
         matchType === "exact"
           ? "정답입니다."
           : matchType === "whitespace"
             ? "정답으로 처리했습니다. 다만 띄어쓰기는 정답 표기와 다르니 주의해주세요."
-            : "오답입니다. 정답 표기를 확인해보세요.",
+            : isParticleTolerantMatch
+              ? "정답입니다. 핵심 단어 기준으로 맞게 처리했습니다."
+              : "오답입니다. 정답 표기를 확인해보세요.",
     };
   }
 
   const embeddedMatchedCount = countEmbeddedAnswerMatches(expectedTokens, trimmedInput);
   const keywordMatchedCount = countKeywordAnswerGroupMatches(item.keywordAnswerGroups, trimmedInput);
   const classifiedMatchedCount = countClassifiedAnswerMatches(item.classifiedAnswerGroups, trimmedInput);
-  const flexibleMatchedCount = Math.max(embeddedMatchedCount, keywordMatchedCount, classifiedMatchedCount);
+  const particleTolerantMatchedCount = countParticleTolerantAnswerMatches(item, expectedTokens, trimmedInput);
+  const flexibleMatchedCount = Math.max(embeddedMatchedCount, keywordMatchedCount, classifiedMatchedCount, particleTolerantMatchedCount);
   if (flexibleMatchedCount >= requiredCount) {
     return {
       isCorrect: true,
@@ -567,7 +669,7 @@ function judgeAnswer(item, rawInput) {
   }
 
   const unusedUserTokens = [...userTokens];
-  let matchedCount = Math.max(keywordMatchedCount, classifiedMatchedCount);
+  let matchedCount = Math.max(keywordMatchedCount, classifiedMatchedCount, particleTolerantMatchedCount);
   let hadWhitespaceOnlyMatch = false;
 
   for (const expectedToken of expectedTokens) {
@@ -1158,7 +1260,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260516-3";
+    script.src = "./data/civil_quiz_dataset.js?v=20260517-1";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
