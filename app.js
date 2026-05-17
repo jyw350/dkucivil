@@ -21,6 +21,7 @@ const state = {
   loadedHistorySession: null,
   datasetReady: false,
   allowShiftLineBreak: false,
+  nextEnterAllowedAt: 0,
   adminMode: false,
   starredIds: new Set(),
 };
@@ -865,6 +866,7 @@ function renderQuestion() {
   reportMessageInput.value = "";
   state.answerSubmitted = false;
   state.usedHintForCurrent = false;
+  state.nextEnterAllowedAt = 0;
   document.querySelector("#next-question-button").disabled = true;
   updateStarButtonForCurrentQuestion();
 }
@@ -1195,6 +1197,7 @@ function submitCurrentAnswer() {
   }
 
   state.answerSubmitted = true;
+  state.nextEnterAllowedAt = Date.now() + 600;
   answerInput.disabled = true;
   document.querySelector("#next-question-button").disabled = false;
   recordAttempt(item, userAnswer.trim(), judgement.isCorrect);
@@ -1204,6 +1207,10 @@ function submitCurrentAnswer() {
 
 function goToNextQuestionIfReady() {
   if (!state.answerSubmitted) {
+    return;
+  }
+
+  if (Date.now() < state.nextEnterAllowedAt) {
     return;
   }
 
@@ -1260,7 +1267,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260517-3";
+    script.src = "./data/civil_quiz_dataset.js?v=20260517-4";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
