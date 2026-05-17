@@ -62,7 +62,9 @@
       ],
       "hint": "수미내",
       "answerLines": [
-        "수밀성 증대 / 미끄럼저항 증대 / 내구성 증대"
+        "수밀성 증대",
+        "미끄럼저항 증대",
+        "내구성 증대"
       ],
       "answerTokens": [
         "수밀성 증대",
@@ -74,7 +76,36 @@
         "수미내",
         "수밀성 증대 / 미끄럼저항 증대 / 내구성 증대"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "수밀성",
+          [
+            "증대",
+            "향상",
+            "증가"
+          ]
+        ],
+        [
+          [
+            "미끄럼저항",
+            "미끄럼 저항"
+          ],
+          [
+            "증대",
+            "향상",
+            "증가"
+          ]
+        ],
+        [
+          "내구성",
+          [
+            "증대",
+            "향상",
+            "증가"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-2",
@@ -90,7 +121,10 @@
       ],
       "hint": "RSSW",
       "answerLines": [
-        "Rock bolt / Shotcrete / Steel Rib / Wire mesh"
+        "Rock bolt",
+        "Shotcrete",
+        "Steel Rib",
+        "Wire mesh"
       ],
       "answerTokens": [
         "Rock bolt",
@@ -103,7 +137,42 @@
         "RSSW",
         "Rock bolt / Shotcrete / Steel Rib / Wire mesh"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Rock bolt",
+            "Rockbolt",
+            "락볼트",
+            "록볼트"
+          ]
+        ],
+        [
+          [
+            "Shotcrete",
+            "숏크리트",
+            "쇼트크리트"
+          ]
+        ],
+        [
+          [
+            "Steel Rib",
+            "Steelrib",
+            "스틸 리브",
+            "스틸 립",
+            "강지보재"
+          ]
+        ],
+        [
+          [
+            "Wire mesh",
+            "Wiremesh",
+            "와이어 메쉬",
+            "와이어 매쉬",
+            "철망"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-3",
@@ -135,7 +204,35 @@
         "물의 공급 충분",
         "모관상승고 크다"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "동상",
+          "흙",
+          [
+            "쉬운",
+            "받기",
+            "민감"
+          ]
+        ],
+        [
+          "물",
+          "공급",
+          [
+            "충분",
+            "많",
+            "풍부"
+          ]
+        ],
+        [
+          "모관상승고",
+          [
+            "크",
+            "높",
+            "큼"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-4",
@@ -151,13 +248,11 @@
       ],
       "hint": "우리(Re) 분반 소풍(품)간다",
       "answerLines": [
-        "[반품분]",
         "Rebound(반발)량 많다",
         "분진발생",
         "품질관리 어려움"
       ],
       "answerTokens": [
-        "[반품분]",
         "Rebound(반발)량 많다",
         "분진발생",
         "품질관리 어려움"
@@ -170,7 +265,41 @@
         "분진발생",
         "품질관리 어려움"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Rebound",
+            "리바운드",
+            "반발"
+          ],
+          [
+            "량",
+            "양"
+          ],
+          [
+            "많",
+            "큼",
+            "크"
+          ]
+        ],
+        [
+          "분진",
+          [
+            "발생",
+            "많",
+            "크"
+          ]
+        ],
+        [
+          "품질관리",
+          [
+            "어려움",
+            "어렵",
+            "곤란"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-5",
@@ -205,7 +334,36 @@
         "시공용이",
         "공기단축"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "경제적",
+            "경제성"
+          ]
+        ],
+        [
+          "품질관리",
+          [
+            "용이",
+            "쉽"
+          ]
+        ],
+        [
+          "시공",
+          [
+            "용이",
+            "쉽"
+          ]
+        ],
+        [
+          "공기",
+          [
+            "단축",
+            "짧"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-6",
@@ -237,7 +395,30 @@
         "Over lay 공법",
         "절삭 Over lay 공법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "절삭",
+            "절삭공법"
+          ]
+        ],
+        [
+          [
+            "Over lay",
+            "Overlay",
+            "오버레이"
+          ]
+        ],
+        [
+          "절삭",
+          [
+            "Over lay",
+            "Overlay",
+            "오버레이"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-7",
@@ -272,7 +453,24 @@
         "불연속면의 상태",
         "RQD"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "지하수",
+          "상태"
+        ],
+        [
+          "불연속면",
+          "간격"
+        ],
+        [
+          "불연속면",
+          "상태"
+        ],
+        [
+          "RQD"
+        ]
+      ]
     },
     {
       "id": "1-8",
@@ -297,7 +495,13 @@
       "rawBlock": [
         "AE"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "AE"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-9",
@@ -315,12 +519,12 @@
       "answerLines": [
         "Well Point 적용이 곤란할 시",
         "사질토의 지하수위 저하 시",
-        "히빙(Heaving)이나 보일링(Boiling)현상 발생 시"
+        "히빙이나 보일링 현상 발생 시"
       ],
       "answerTokens": [
         "Well Point 적용이 곤란할 시",
         "사질토의 지하수위 저하 시",
-        "히빙(Heaving)이나 보일링(Boiling)현상 발생 시"
+        "히빙이나 보일링 현상 발생 시"
       ],
       "notes": [],
       "rawBlock": [
@@ -329,7 +533,44 @@
         "사질토의 지하수위 저하 시",
         "히빙(Heaving)이나 보일링(Boiling)현상 발생 시"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Well Point",
+            "WellPoint",
+            "웰 포인트",
+            "웰포인트"
+          ],
+          [
+            "곤란",
+            "어려"
+          ]
+        ],
+        [
+          [
+            "사질토",
+            "모래질"
+          ],
+          "지하수위",
+          [
+            "저하",
+            "낮"
+          ]
+        ],
+        [
+          [
+            "히빙",
+            "Heaving",
+            "보일링",
+            "Boiling"
+          ],
+          [
+            "발생",
+            "현상"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-10",
@@ -347,13 +588,14 @@
       "answerLines": [
         "안전하게 하중 지지",
         "침하가 허용치 이내",
-        "경제적 / 기술적으로 시공 가능"
+        "경제적 / 기술적으로 시공 가능",
+        "최소한의 근입깊이 확보"
       ],
       "answerTokens": [
         "안전하게 하중 지지",
         "침하가 허용치 이내",
-        "경제적",
-        "기술적으로 시공 가능"
+        "경제적 / 기술적으로 시공 가능",
+        "최소한의 근입깊이 확보"
       ],
       "notes": [],
       "rawBlock": [
@@ -362,7 +604,54 @@
         "침하가 허용치 이내",
         "경제적 / 기술적으로 시공 가능"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "안전",
+            "안정"
+          ],
+          "하중",
+          "지지"
+        ],
+        [
+          "침하",
+          [
+            "허용치",
+            "허용"
+          ],
+          [
+            "이내",
+            "범위"
+          ]
+        ],
+        [
+          [
+            "경제적",
+            "경제성"
+          ],
+          [
+            "기술적",
+            "기술"
+          ],
+          "시공",
+          [
+            "가능",
+            "용이"
+          ]
+        ],
+        [
+          [
+            "최소한",
+            "최소"
+          ],
+          "근입깊이",
+          [
+            "확보",
+            "유지"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-11",
@@ -378,16 +667,26 @@
       ],
       "hint": null,
       "answerLines": [
-        "줄눈 (joint)"
+        "줄눈(joint)"
       ],
       "answerTokens": [
-        "줄눈 (joint)"
+        "줄눈(joint)"
       ],
       "notes": [],
       "rawBlock": [
         "줄눈 (joint)"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "줄눈",
+            "joint",
+            "조인트"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-12",
@@ -404,19 +703,19 @@
       "hint": "탄성전자中 방음 우수한 것 있다.",
       "answerLines": [
         "탄성파 탐사법",
-        "중 력 탐사법",
-        "전 기 탐사법",
+        "중력 탐사법",
+        "전기 탐사법",
         "방사능 탐사법",
-        "자 기 탐사법",
-        "음 파 탐사법"
+        "자기 탐사법",
+        "음파 탐사법"
       ],
       "answerTokens": [
         "탄성파 탐사법",
-        "중 력 탐사법",
-        "전 기 탐사법",
+        "중력 탐사법",
+        "전기 탐사법",
         "방사능 탐사법",
-        "자 기 탐사법",
-        "음 파 탐사법"
+        "자기 탐사법",
+        "음파 탐사법"
       ],
       "notes": [],
       "rawBlock": [
@@ -428,7 +727,34 @@
         "자 기 탐사법",
         "음 파 탐사법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "탄성파",
+          "탐사"
+        ],
+        [
+          "중력",
+          "탐사"
+        ],
+        [
+          "전기",
+          "탐사"
+        ],
+        [
+          "방사능",
+          "탐사"
+        ],
+        [
+          "자기",
+          "탐사"
+        ],
+        [
+          "음파",
+          "탐사"
+        ]
+      ],
+      "requiredAnswerCount": 5
     },
     {
       "id": "1-13",
@@ -463,7 +789,39 @@
         "Water jet",
         "Air lift"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Suction pump",
+            "Suctionpump",
+            "석션 펌프",
+            "흡입 펌프"
+          ]
+        ],
+        [
+          [
+            "수중 펌프",
+            "수중펌프"
+          ]
+        ],
+        [
+          [
+            "Water jet",
+            "Waterjet",
+            "워터 제트",
+            "워터젯"
+          ]
+        ],
+        [
+          [
+            "Air lift",
+            "Airlift",
+            "에어 리프트",
+            "에어리프트"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-14",
@@ -485,10 +843,10 @@
         "굴착저면을 고결시킨다."
       ],
       "answerTokens": [
-        "지하수위를 저하시킨다",
-        "흙막이의 근입깊이를 깊게 한다",
-        "차수성 높은 흙막이를 설치한다",
-        "굴착저면을 고결시킨다"
+        "지하수위를 저하시킨다.",
+        "흙막이의 근입깊이를 깊게 한다.",
+        "차수성 높은 흙막이를 설치한다.",
+        "굴착저면을 고결시킨다."
       ],
       "notes": [],
       "rawBlock": "지하수위를 저하시킨다.\n흙막이의 근입깊이를 깊게 한다.\n차수성 높은 흙막이를 설치한다.\n굴착저면을 고결시킨다.",
@@ -548,11 +906,11 @@
         "굴착저면의 지반개량을 실시한다."
       ],
       "answerTokens": [
-        "흙막이벽의 근입깊이를 증대시킨다",
-        "표토를 제거하여 상재하중을 작게 한다",
-        "배수공법으로 지하수위를 저하시킨다",
-        "굴착방식을 아일랜드컷 방식으로 개선한다",
-        "굴착저면의 지반개량을 실시한다"
+        "흙막이벽의 근입깊이를 증대시킨다.",
+        "표토를 제거하여 상재하중을 작게 한다.",
+        "배수공법으로 지하수위를 저하시킨다.",
+        "굴착방식을 아일랜드컷 방식으로 개선한다.",
+        "굴착저면의 지반개량을 실시한다."
       ],
       "notes": [
         "※ Boiling 방지대책 VS Heaving 방지대책",
@@ -636,7 +994,10 @@
       ],
       "hint": "그 온수양(량)",
       "answerLines": [
-        "그라우팅 / 온도 / 수축량 / 양압력"
+        "그라우팅",
+        "온도",
+        "수축량",
+        "양압력"
       ],
       "answerTokens": [
         "그라우팅",
@@ -649,7 +1010,21 @@
         "그 온수양(량)",
         "그라우팅 / 온도 / 수축량 / 양압력"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "그라우팅"
+        ],
+        [
+          "온도"
+        ],
+        [
+          "수축량"
+        ],
+        [
+          "양압력"
+        ]
+      ]
     },
     {
       "id": "1-17",
@@ -687,7 +1062,50 @@
         "소음, 진동 크다",
         "굴착 깊이에 제한이 있다."
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "기계설비",
+          [
+            "고가",
+            "비싸",
+            "비용"
+          ]
+        ],
+        [
+          "케이슨병",
+          [
+            "발병",
+            "발생",
+            "위험"
+          ]
+        ],
+        [
+          "노무비",
+          [
+            "고가",
+            "비싸",
+            "비용"
+          ]
+        ],
+        [
+          "소음",
+          "진동",
+          [
+            "크",
+            "큼",
+            "많"
+          ]
+        ],
+        [
+          "굴착",
+          "깊이",
+          [
+            "제한",
+            "한계"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-18",
@@ -722,7 +1140,45 @@
         "단위수량 작게",
         "AE제 사용"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "분말도",
+          "시멘트",
+          [
+            "크",
+            "큰",
+            "높"
+          ]
+        ],
+        [
+          "단위",
+          "시멘트량",
+          [
+            "크",
+            "증가",
+            "많"
+          ]
+        ],
+        [
+          "단위수량",
+          [
+            "작",
+            "감소",
+            "적"
+          ]
+        ],
+        [
+          [
+            "AE제",
+            "AE"
+          ],
+          [
+            "사용",
+            "첨가"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-19",
@@ -738,7 +1194,9 @@
       ],
       "hint": "FIM 공법",
       "answerLines": [
-        "FCM 공법 / ILM 공법 / MSS 공법"
+        "FCM 공법",
+        "ILM 공법",
+        "MSS 공법"
       ],
       "answerTokens": [
         "FCM 공법",
@@ -750,7 +1208,18 @@
         "FIM 공법",
         "FCM 공법 / ILM 공법 / MSS 공법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "FCM"
+        ],
+        [
+          "ILM"
+        ],
+        [
+          "MSS"
+        ]
+      ]
     },
     {
       "id": "1-20",
@@ -776,7 +1245,19 @@
       "rawBlock": [
         "Front Jacking Method"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Front Jacking Method",
+            "FrontJackingMethod",
+            "프론트 재킹",
+            "프론트잭킹",
+            "프론트 잭킹"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-21",
@@ -792,7 +1273,9 @@
       ],
       "hint": "마간선c",
       "answerLines": [
-        "마찰저항 / 간극수압 / 선단 cone 저항"
+        "마찰저항",
+        "간극수압",
+        "선단 cone 저항"
       ],
       "answerTokens": [
         "마찰저항",
@@ -804,7 +1287,23 @@
         "마간선c",
         "마찰저항 / 간극수압 / 선단 cone 저항"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "마찰저항"
+        ],
+        [
+          "간극수압"
+        ],
+        [
+          [
+            "선단 cone 저항",
+            "선단콘저항",
+            "선단 저항",
+            "cone 저항"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-22",
@@ -842,7 +1341,30 @@
         "단위체적중량 시험",
         "염화물 함유량 시험"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "공기량",
+          "시험"
+        ],
+        [
+          "강도",
+          "시험"
+        ],
+        [
+          "슬럼프",
+          "시험"
+        ],
+        [
+          "단위체적중량",
+          "시험"
+        ],
+        [
+          "염화물",
+          "함유량",
+          "시험"
+        ]
+      ]
     },
     {
       "id": "1-23",
@@ -859,13 +1381,13 @@
       ],
       "hint": "역시 화석시대야~!! ^o^",
       "answerLines": [
-        "역 청 안정처리공법",
+        "역청 안정처리공법",
         "시멘트 안정처리공법",
         "화학적 재료에 의한 안정처리공법",
         "석회 안정처리공법"
       ],
       "answerTokens": [
-        "역 청 안정처리공법",
+        "역청 안정처리공법",
         "시멘트 안정처리공법",
         "화학적 재료에 의한 안정처리공법",
         "석회 안정처리공법"
@@ -878,7 +1400,29 @@
         "화학적 재료에 의한 안정처리공법",
         "석회 안정처리공법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "역청",
+          "안정처리"
+        ],
+        [
+          "시멘트",
+          "안정처리"
+        ],
+        [
+          [
+            "화학적 재료",
+            "화학재료",
+            "화학"
+          ],
+          "안정처리"
+        ],
+        [
+          "석회",
+          "안정처리"
+        ]
+      ]
     },
     {
       "id": "1-24",
@@ -894,11 +1438,13 @@
       ],
       "hint": "ReB 공법",
       "answerLines": [
-        "RCD 공법 / earth drill 공법 / Benoto 공법"
+        "RCD 공법",
+        "Earth drill 공법",
+        "Benoto 공법"
       ],
       "answerTokens": [
         "RCD 공법",
-        "earth drill 공법",
+        "Earth drill 공법",
         "Benoto 공법"
       ],
       "notes": [],
@@ -906,7 +1452,27 @@
         "ReB 공법",
         "RCD 공법 / earth drill 공법 / Benoto 공법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "RCD"
+        ],
+        [
+          [
+            "Earth drill",
+            "Earthdrill",
+            "어스 드릴",
+            "어스드릴"
+          ]
+        ],
+        [
+          [
+            "Benoto",
+            "베노토",
+            "베노트"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-25",
@@ -941,7 +1507,34 @@
         "강판 cell식 공법",
         "흙댐식 공법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Caisson",
+            "케이슨"
+          ]
+        ],
+        [
+          [
+            "Box",
+            "박스"
+          ]
+        ],
+        [
+          "강판",
+          [
+            "cell",
+            "셀"
+          ]
+        ],
+        [
+          [
+            "흙댐",
+            "토댐"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-26",
