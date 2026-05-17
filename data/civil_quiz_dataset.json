@@ -1572,7 +1572,49 @@
         "Cell식 공법",
         "Ring Beam식 공법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "한겹",
+            "1겹"
+          ],
+          [
+            "Sheet Pile",
+            "시트파일"
+          ]
+        ],
+        [
+          [
+            "두겹",
+            "2겹"
+          ],
+          [
+            "Sheet Pile",
+            "시트파일"
+          ]
+        ],
+        [
+          "강관",
+          [
+            "Sheet Pile",
+            "시트파일"
+          ]
+        ],
+        [
+          [
+            "Cell",
+            "셀"
+          ]
+        ],
+        [
+          [
+            "Ring Beam",
+            "링 빔",
+            "링빔"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-27",
@@ -1597,7 +1639,17 @@
       "rawBlock": [
         "염화칼슘(CaCl2)"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "염화칼슘",
+            "CaCl2",
+            "염화 칼슘"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-28",
@@ -1613,7 +1665,9 @@
       ],
       "hint": "지압 시주",
       "answerLines": [
-        "지하수위 저하 / 압밀 촉진 / 시공기계의 주행성 확보"
+        "지하수위 저하",
+        "압밀 촉진",
+        "시공기계의 주행성 확보"
       ],
       "answerTokens": [
         "지하수위 저하",
@@ -1625,7 +1679,34 @@
         "지압 시주",
         "지하수위 저하 / 압밀 촉진 / 시공기계의 주행성 확보"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "지하수위",
+          [
+            "저하",
+            "낮"
+          ]
+        ],
+        [
+          "압밀",
+          [
+            "촉진",
+            "빠르게"
+          ]
+        ],
+        [
+          [
+            "시공기계",
+            "시공 기계"
+          ],
+          "주행성",
+          [
+            "확보",
+            "향상"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-29",
@@ -1657,7 +1738,32 @@
         "분할 발파",
         "장약량의 제한"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "저폭속",
+            "저 폭속"
+          ],
+          "폭약",
+          [
+            "사용",
+            "이용"
+          ]
+        ],
+        [
+          "분할",
+          "발파"
+        ],
+        [
+          "장약량",
+          [
+            "제한",
+            "감소",
+            "저감"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-30",
@@ -1675,12 +1781,12 @@
       "answerLines": [
         "파이핑에 대한 안정",
         "히빙에 대한 안정",
-        "토압에 d대한 안정"
+        "토압에 대한 안정"
       ],
       "answerTokens": [
         "파이핑에 대한 안정",
         "히빙에 대한 안정",
-        "토압에 d대한 안정"
+        "토압에 대한 안정"
       ],
       "notes": [],
       "rawBlock": [
@@ -1689,7 +1795,21 @@
         "히빙에 대한 안정",
         "토압에 d대한 안정"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "파이핑",
+          "안정"
+        ],
+        [
+          "히빙",
+          "안정"
+        ],
+        [
+          "토압",
+          "안정"
+        ]
+      ]
     },
     {
       "id": "1-31",
@@ -1705,7 +1825,8 @@
       ],
       "hint": "동압다 (돈 없다!!)",
       "answerLines": [
-        "동압밀 공법 / 동다짐 공법"
+        "동압밀 공법",
+        "동다짐 공법"
       ],
       "answerTokens": [
         "동압밀 공법",
@@ -1716,7 +1837,22 @@
         "동압다 (돈 없다!!)",
         "동압밀 공법 / 동다짐 공법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "동압밀",
+            "동적 압밀"
+          ]
+        ],
+        [
+          [
+            "동다짐",
+            "동적 다짐"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-32",
@@ -1732,7 +1868,11 @@
       ],
       "hint": "",
       "answerLines": [
-        "흙입자의 입경 / 물의 단위 중량 / 물의 점성계수 / 공극비 / 합성 형상계수"
+        "흙입자의 입경",
+        "물의 단위 중량",
+        "물의 점성계수",
+        "공극비",
+        "합성 형상계수"
       ],
       "answerTokens": [
         "흙입자의 입경",
@@ -1750,7 +1890,34 @@
         "공극비",
         "합성 형상계수"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "흙입자",
+            "흙 입자"
+          ],
+          "입경"
+        ],
+        [
+          "물",
+          "단위",
+          "중량"
+        ],
+        [
+          "물",
+          "점성계수"
+        ],
+        [
+          "공극비"
+        ],
+        [
+          [
+            "합성 형상계수",
+            "형상계수"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-33",
@@ -1766,7 +1933,9 @@
       ],
       "hint": "뒷채 보전",
       "answerLines": [
-        "뒷채움재 / 보강띠 / 전면판"
+        "뒷채움재",
+        "보강띠",
+        "전면판"
       ],
       "answerTokens": [
         "뒷채움재",
@@ -1778,7 +1947,21 @@
         "뒷채 보전",
         "뒷채움재 / 보강띠 / 전면판"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "뒷채움재",
+            "뒤채움재"
+          ]
+        ],
+        [
+          "보강띠"
+        ],
+        [
+          "전면판"
+        ]
+      ]
     },
     {
       "id": "1-34",
@@ -1794,16 +1977,16 @@
       ],
       "hint": "내부 마감~",
       "answerLines": [
-        "내노화성이 크다.",
-        "마찰계수가 크다.",
-        "부착력, 응집력이 크다.",
-        "감온성 적다."
+        "내노화성이 크다",
+        "마찰계수가 크다",
+        "부착력, 응집력이 크다",
+        "감온성이 적다"
       ],
       "answerTokens": [
-        "내노화성이 크다.",
-        "마찰계수가 크다.",
-        "부착력, 응집력이 크다.",
-        "감온성 적다."
+        "내노화성이 크다",
+        "마찰계수가 크다",
+        "부착력, 응집력이 크다",
+        "감온성이 적다"
       ],
       "notes": [],
       "rawBlock": [
@@ -1813,7 +1996,42 @@
         "부착력, 응집력이 크다.",
         "감온성 적다."
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "내노화성",
+          [
+            "크",
+            "큼",
+            "우수"
+          ]
+        ],
+        [
+          "마찰계수",
+          [
+            "크",
+            "큼",
+            "높"
+          ]
+        ],
+        [
+          "부착력",
+          "응집력",
+          [
+            "크",
+            "큼",
+            "높"
+          ]
+        ],
+        [
+          "감온성",
+          [
+            "적",
+            "작",
+            "낮"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-35",
@@ -1829,11 +2047,13 @@
       ],
       "hint": "상을 탄 내 침을지지해 주삼~",
       "answerLines": [
-        "[상탄내침지지]",
-        "상대밀도 / 탄성계수 / 내부 마찰각 / 침하량 / 지지력 계수"
+        "상대밀도",
+        "탄성계수",
+        "내부 마찰각",
+        "침하량",
+        "지지력 계수"
       ],
       "answerTokens": [
-        "[상탄내침지지]",
         "상대밀도",
         "탄성계수",
         "내부 마찰각",
@@ -1846,7 +2066,28 @@
         "[상탄내침지지]",
         "상대밀도 / 탄성계수 / 내부 마찰각 / 침하량 / 지지력 계수"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "상대밀도"
+        ],
+        [
+          "탄성계수"
+        ],
+        [
+          [
+            "내부 마찰각",
+            "내부마찰각"
+          ]
+        ],
+        [
+          "침하량"
+        ],
+        [
+          "지지력",
+          "계수"
+        ]
+      ]
     },
     {
       "id": "1-36",
@@ -1884,7 +2125,53 @@
         "수축, 균열 감소",
         "수밀성 증대"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Workability",
+            "워커빌리티",
+            "시공연도"
+          ],
+          [
+            "개선",
+            "향상"
+          ]
+        ],
+        [
+          "사용수량",
+          [
+            "감소",
+            "저감"
+          ]
+        ],
+        [
+          [
+            "Bleeding",
+            "블리딩"
+          ],
+          [
+            "감소",
+            "저감"
+          ]
+        ],
+        [
+          "수축",
+          "균열",
+          [
+            "감소",
+            "저감"
+          ]
+        ],
+        [
+          "수밀성",
+          [
+            "증대",
+            "향상"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 5
     },
     {
       "id": "1-37",
@@ -1909,7 +2196,16 @@
       "rawBlock": [
         "슈(Shoe)"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "슈",
+            "Shoe"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-38",
@@ -1935,7 +2231,18 @@
       "rawBlock": [
         "프라임 코트(Prime coat)"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "프라임 코트",
+            "프라임코트",
+            "Prime coat",
+            "Primecoat"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-39",
@@ -1967,7 +2274,30 @@
         "쉬링크 믹스트 콘크리트",
         "트랜싯 믹스트 콘크리트"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "센트럴 믹스트",
+            "센트럴믹스트",
+            "Central mixed"
+          ]
+        ],
+        [
+          [
+            "쉬링크 믹스트",
+            "쉬링크믹스트",
+            "Shrink mixed"
+          ]
+        ],
+        [
+          [
+            "트랜싯 믹스트",
+            "트랜싯믹스트",
+            "Transit mixed"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-40",
@@ -1983,7 +2313,10 @@
       ],
       "hint": "상중하2",
       "answerLines": [
-        "상로교 / 중로교 / 하로교 / 2층교"
+        "상로교",
+        "중로교",
+        "하로교",
+        "2층교"
       ],
       "answerTokens": [
         "상로교",
@@ -1996,7 +2329,25 @@
         "상중하2",
         "상로교 / 중로교 / 하로교 / 2층교"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "상로교"
+        ],
+        [
+          "중로교"
+        ],
+        [
+          "하로교"
+        ],
+        [
+          [
+            "2층교",
+            "이층교"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 4
     },
     {
       "id": "1-41",
@@ -2012,7 +2363,9 @@
       ],
       "hint": "강응비 (강은비??ᄏᄏ)",
       "answerLines": [
-        "조기 강도 저하 / 응결 지연 / 비중 감소"
+        "조기 강도 저하",
+        "응결 지연",
+        "비중 감소"
       ],
       "answerTokens": [
         "조기 강도 저하",
@@ -2024,7 +2377,31 @@
         "강응비 (강은비??ᄏᄏ)",
         "조기 강도 저하 / 응결 지연 / 비중 감소"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "조기",
+          "강도",
+          [
+            "저하",
+            "감소"
+          ]
+        ],
+        [
+          "응결",
+          [
+            "지연",
+            "늦"
+          ]
+        ],
+        [
+          "비중",
+          [
+            "감소",
+            "저하"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-42",
@@ -2040,7 +2417,9 @@
       ],
       "hint": null,
       "answerLines": [
-        "앵커체 / 인장부 / 앵커두부"
+        "앵커체",
+        "인장부",
+        "앵커두부"
       ],
       "answerTokens": [
         "앵커체",
@@ -2051,7 +2430,21 @@
       "rawBlock": [
         "앵커체 / 인장부 / 앵커두부"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "앵커체"
+        ],
+        [
+          "인장부"
+        ],
+        [
+          [
+            "앵커두부",
+            "앵커 두부"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-43",
@@ -2067,14 +2460,14 @@
       ],
       "hint": null,
       "answerLines": [
-        "1. Rod 길이에 대한 수정 심도가 깊어지면 rod의 효율 저하",
-        "2. 토질에 의한 수정 간극수압 발생에 의해 N치가 크게 나옴",
-        "3. 상재압에 의한 수정 지표면 부근에서 N치가 작게 나옴"
+        "Rod 길이에 대한 수정: 심도가 깊어지면 rod의 효율 저하",
+        "토질에 의한 수정: 간극수압 발생에 의해 N치가 크게 나옴",
+        "상재압에 의한 수정: 지표면 부근에서 N치가 작게 나옴"
       ],
       "answerTokens": [
-        "1. Rod 길이에 대한 수정 심도가 깊어지면 rod의 효율 저하",
-        "2. 토질에 의한 수정 간극수압 발생에 의해 N치가 크게 나옴",
-        "3. 상재압에 의한 수정 지표면 부근에서 N치가 작게 나옴"
+        "Rod 길이에 대한 수정: 심도가 깊어지면 rod의 효율 저하",
+        "토질에 의한 수정: 간극수압 발생에 의해 N치가 크게 나옴",
+        "상재압에 의한 수정: 지표면 부근에서 N치가 작게 나옴"
       ],
       "notes": [],
       "rawBlock": [
@@ -2085,7 +2478,49 @@
         "3. 상재압에 의한 수정",
         "지표면 부근에서 N치가 작게 나옴"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Rod 길이",
+            "Rod길이",
+            "로드 길이"
+          ],
+          "수정",
+          "심도",
+          [
+            "효율 저하",
+            "효율저하"
+          ]
+        ],
+        [
+          "토질",
+          "수정",
+          "간극수압",
+          "발생",
+          "N치",
+          [
+            "크게 나옴",
+            "크게 나온다",
+            "크"
+          ]
+        ],
+        [
+          "상재압",
+          "수정",
+          [
+            "지표면 부근",
+            "지표면부근"
+          ],
+          "N치",
+          [
+            "작게 나옴",
+            "작게 나온다",
+            "작"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "1-44",
@@ -2101,13 +2536,17 @@
       ],
       "hint": "SFore RG?? (스포 알지???) 강다그, 파루공",
       "answerLines": [
-        "Shotcrete / fore poling / grouting / Rock bolt",
-        "강관 다단 그라우팅 / Pipe roof 공법"
+        "Shotcrete",
+        "Fore poling",
+        "Grouting",
+        "Rock bolt",
+        "강관 다단 그라우팅",
+        "Pipe roof 공법"
       ],
       "answerTokens": [
         "Shotcrete",
-        "fore poling",
-        "grouting",
+        "Fore poling",
+        "Grouting",
         "Rock bolt",
         "강관 다단 그라우팅",
         "Pipe roof 공법"
@@ -2118,7 +2557,52 @@
         "Shotcrete / fore poling / grouting / Rock bolt",
         "강관 다단 그라우팅 / Pipe roof 공법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Shotcrete",
+            "숏크리트",
+            "쇼트크리트"
+          ]
+        ],
+        [
+          [
+            "Fore poling",
+            "Forepoling",
+            "포어폴링",
+            "훠폴링"
+          ]
+        ],
+        [
+          [
+            "Grouting",
+            "그라우팅"
+          ]
+        ],
+        [
+          [
+            "Rock bolt",
+            "Rockbolt",
+            "락볼트",
+            "록볼트"
+          ]
+        ],
+        [
+          "강관",
+          "다단",
+          "그라우팅"
+        ],
+        [
+          [
+            "Pipe roof",
+            "Piperoof",
+            "파이프 루프",
+            "파이프루프"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 4
     },
     {
       "id": "1-45",
@@ -2144,7 +2628,16 @@
       "rawBlock": [
         "RCCP 공법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "RCCP",
+            "Roller Compacted Concrete Pavement"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-46",
@@ -2160,8 +2653,10 @@
       ],
       "hint": "SBS - STP",
       "answerLines": [
-        "Scraper Bucket Sampling / Split spoon sampling",
-        "Thin wall sampling / Piston sampling"
+        "Scraper Bucket Sampling",
+        "Split spoon sampling",
+        "Thin wall sampling",
+        "Piston sampling"
       ],
       "answerTokens": [
         "Scraper Bucket Sampling",
@@ -2175,7 +2670,38 @@
         "Scraper Bucket Sampling / Split spoon sampling",
         "Thin wall sampling / Piston sampling"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Scraper Bucket Sampling",
+            "ScraperBucketSampling",
+            "스크레이퍼 버킷"
+          ]
+        ],
+        [
+          [
+            "Split spoon sampling",
+            "Splitspoonsampling",
+            "스플릿 스푼"
+          ]
+        ],
+        [
+          [
+            "Thin wall sampling",
+            "Thinwallsampling",
+            "씬월",
+            "신월"
+          ]
+        ],
+        [
+          [
+            "Piston sampling",
+            "Pistonsampling",
+            "피스톤"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-47",
@@ -2191,7 +2717,10 @@
       ],
       "hint": "보봉 그 에(그 놈) 짜!!",
       "answerLines": [
-        "보강철근 이용방법 / 봉합법 / 그라우팅 / 에폭시 주입법",
+        "보강철근 이용방법",
+        "봉합법",
+        "그라우팅",
+        "에폭시 주입법",
         "짜집기법"
       ],
       "answerTokens": [
@@ -2207,7 +2736,29 @@
         "보강철근 이용방법 / 봉합법 / 그라우팅 / 에폭시 주입법",
         "짜집기법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "보강철근",
+          [
+            "이용",
+            "사용"
+          ]
+        ],
+        [
+          "봉합법"
+        ],
+        [
+          "그라우팅"
+        ],
+        [
+          "에폭시",
+          "주입"
+        ],
+        [
+          "짜집기"
+        ]
+      ]
     },
     {
       "id": "1-48",
@@ -2223,18 +2774,39 @@
       ],
       "hint": "장타",
       "answerLines": [
-        "장비의 규모가 크다. / 타설 심도 조절이 어렵다."
+        "장비의 규모가 크다",
+        "타설 심도 조절이 어렵다"
       ],
       "answerTokens": [
-        "장비의 규모가 크다.",
-        "타설 심도 조절이 어렵다."
+        "장비의 규모가 크다",
+        "타설 심도 조절이 어렵다"
       ],
       "notes": [],
       "rawBlock": [
         "장타",
         "장비의 규모가 크다. / 타설 심도 조절이 어렵다."
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "장비",
+          "규모",
+          [
+            "크",
+            "큼"
+          ]
+        ],
+        [
+          "타설",
+          "심도",
+          "조절",
+          [
+            "어렵",
+            "곤란"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 2
     },
     {
       "id": "1-49",
@@ -2260,7 +2832,18 @@
       "rawBlock": [
         "컷백 아스팔트(Cut back asphalt)"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "컷백 아스팔트",
+            "컷백아스팔트",
+            "Cut back asphalt",
+            "Cutback asphalt"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-50",
@@ -2286,7 +2869,18 @@
       "rawBlock": [
         "Pre-splitting"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Pre-splitting",
+            "Presplitting",
+            "프리 스플리팅",
+            "프리스플리팅"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-51",
