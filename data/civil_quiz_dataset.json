@@ -5290,25 +5290,58 @@
       ],
       "hint": null,
       "answerLines": [
-        "또는 Cement concrete 기층",
-        "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트",
-        "안정처리기층",
-        "White base : 아스팔트 포장의 기층에 사용되는 Soil cement"
+        "White base : 아스팔트 포장의 기층에 사용되는 Soil cement 또는 Cement concrete 기층",
+        "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트 안정처리기층"
       ],
       "answerTokens": [
-        "또는 Cement concrete 기층",
-        "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트",
-        "안정처리기층",
-        "White base : 아스팔트 포장의 기층에 사용되는 Soil cement"
+        "White base : 아스팔트 포장의 기층에 사용되는 Soil cement 또는 Cement concrete 기층",
+        "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트 안정처리기층"
       ],
       "notes": [],
       "rawBlock": [
-        "White base : 아스팔트 포장의 기층에 사용되는 Soil cement",
-        "또는 Cement concrete 기층",
-        "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트",
-        "안정처리기층"
+        "(도로포장이 파손되어 재포장하는 경우) White base와 Black base란 무엇인가?",
+        "White base : 아스팔트 포장의 기층에 사용되는 Soil cement 또는 Cement concrete 기층",
+        "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트 안정처리기층"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "requiredAnswerCount": 2,
+      "keywordAnswerGroups": [
+        [
+          [
+            "White base",
+            "Whitebase",
+            "화이트 베이스",
+            "화이트베이스"
+          ],
+          [
+            "아스팔트 포장의 기층",
+            "아스팔트 포장 기층"
+          ],
+          [
+            "Soil cement",
+            "소일 시멘트",
+            "소일시멘트",
+            "Cement concrete 기층",
+            "시멘트 콘크리트 기층"
+          ]
+        ],
+        [
+          [
+            "Black base",
+            "Blackbase",
+            "블랙 베이스",
+            "블랙베이스"
+          ],
+          [
+            "아스팔트 포장의 기층",
+            "아스팔트 포장 기층"
+          ],
+          [
+            "아스팔트 안정처리기층",
+            "안정처리기층"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-160",
@@ -5464,38 +5497,24 @@
         "압출 공법",
         "Cantilever식(캔틸레버식) 공법",
         "Cable식 공법",
-        "Crane 공법",
-        "162. 말뚝의 중심에 이형철근이나 강봉과 같은 보강재가 들어 있는 현장타설 콘크리트 말뚝으로 말뚝지름은 100~250mm 정도, 용도는 하중지지말뚝과 지반보강말뚝으로 구분되며, 특 히 지반보강말뚝은 나무뿌리가 지반에 뻗은 형상과 같이 배 치되어 root pile라고 불리는 말뚝 그물식 뿌리말뚝",
-        "163. 공기케이슨을 사용하는 경우 Heaving 또는 Boiling을 방지하고자 하는 경우 건조상태에서 굴착작업을 하고자 하는 경우 콘크리트 작업의 신뢰도를 높이고자 하는 경우 토층의 확인 및 지지력을 시험하고자 하는 경우"
+        "Crane 공법"
       ],
       "answerTokens": [
         "압출 공법",
         "Cantilever식(캔틸레버식) 공법",
         "Cable식 공법",
-        "Crane 공법",
-        "162. 말뚝의 중심에 이형철근이나 강봉과 같은 보강재가 들어 있는 현장타설 콘크리트 말뚝으로 말뚝지름은 100~250mm 정도, 용도는 하중지지말뚝과 지반보강말뚝으로 구분되며, 특 히 지반보강말뚝은 나무뿌리가 지반에 뻗은 형상과 같이 배 치되어 root pile라고 불리는 말뚝 그물식 뿌리말뚝",
-        "163. 공기케이슨을 사용하는 경우 Heaving 또는 Boiling을 방지하고자 하는 경우 건조상태에서 굴착작업을 하고자 하는 경우 콘크리트 작업의 신뢰도를 높이고자 하는 경우 토층의 확인 및 지지력을 시험하고자 하는 경우"
+        "Crane 공법"
       ],
       "notes": [],
       "rawBlock": [
-        "압출CCC",
+        "강트러스교 가설공법 (4개)",
         "압출 공법",
         "Cantilever식(캔틸레버식) 공법",
         "Cable식 공법",
-        "Crane 공법",
-        "162. 말뚝의 중심에 이형철근이나 강봉과 같은 보강재가 들어",
-        "있는 현장타설 콘크리트 말뚝으로 말뚝지름은 100~250mm",
-        "정도, 용도는 하중지지말뚝과 지반보강말뚝으로 구분되며, 특",
-        "히 지반보강말뚝은 나무뿌리가 지반에 뻗은 형상과 같이 배",
-        "치되어 root pile라고 불리는 말뚝",
-        "그물식 뿌리말뚝",
-        "163. 공기케이슨을 사용하는 경우",
-        "Heaving 또는 Boiling을 방지하고자 하는 경우",
-        "건조상태에서 굴착작업을 하고자 하는 경우",
-        "콘크리트 작업의 신뢰도를 높이고자 하는 경우",
-        "토층의 확인 및 지지력을 시험하고자 하는 경우"
+        "Crane 공법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "requiredAnswerCount": 4
     },
     {
       "id": "1-165",
