@@ -1260,7 +1260,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260517-2";
+    script.src = "./data/civil_quiz_dataset.js?v=20260517-3";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
@@ -1400,6 +1400,7 @@ function bindEvents() {
     }
 
     event.preventDefault();
+    event.stopPropagation();
     state.allowShiftLineBreak = false;
 
     if (state.answerSubmitted) {
