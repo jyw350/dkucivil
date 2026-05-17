@@ -605,8 +605,7 @@ function judgeAnswer(item, rawInput) {
     };
   }
 
-  const explicitLineRequiredCount = toFiniteNumber(item.requiredAnswerCount);
-  const canAcceptSingleLineMatch = !(explicitLineRequiredCount && explicitLineRequiredCount > 1 && item.answerLines.length > 1);
+  const canAcceptSingleLineMatch = item.answerLines.length <= 1;
   const lineMatchTypes = item.answerLines.map((line) => answerLineMatches(line, trimmedInput));
   if (canAcceptSingleLineMatch && (lineMatchTypes.includes("exact") || lineMatchTypes.includes("whitespace"))) {
     const isWhitespaceOnly = !lineMatchTypes.includes("exact") && lineMatchTypes.includes("whitespace");
@@ -1273,7 +1272,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260517-9";
+    script.src = "./data/civil_quiz_dataset.js?v=20260517-10";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
