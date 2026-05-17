@@ -403,7 +403,7 @@ function stripKoreanParticle(word) {
     "으로부터", "에게서", "에서부터", "으로서", "으로써", "로부터", "까지", "부터",
     "에게", "에서", "보다", "처럼", "마다", "조차", "마저", "이라도", "라도",
     "이나", "나", "이며", "이고", "으로", "하고", "와", "과", "은", "는",
-    "이", "가", "을", "를", "의", "에", "로", "도", "만", "랑"
+    "이", "가", "을", "를", "의", "에", "로", "만", "랑"
   ];
 
   for (const particle of particles) {
@@ -1260,7 +1260,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260517-1";
+    script.src = "./data/civil_quiz_dataset.js?v=20260517-2";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
