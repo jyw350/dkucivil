@@ -605,8 +605,10 @@ function judgeAnswer(item, rawInput) {
     };
   }
 
+  const explicitLineRequiredCount = toFiniteNumber(item.requiredAnswerCount);
+  const canAcceptSingleLineMatch = !(explicitLineRequiredCount && explicitLineRequiredCount > 1 && item.answerLines.length > 1);
   const lineMatchTypes = item.answerLines.map((line) => answerLineMatches(line, trimmedInput));
-  if (lineMatchTypes.includes("exact") || lineMatchTypes.includes("whitespace")) {
+  if (canAcceptSingleLineMatch && (lineMatchTypes.includes("exact") || lineMatchTypes.includes("whitespace"))) {
     const isWhitespaceOnly = !lineMatchTypes.includes("exact") && lineMatchTypes.includes("whitespace");
     return {
       isCorrect: true,
@@ -672,7 +674,8 @@ function judgeAnswer(item, rawInput) {
   }
 
   const unusedUserTokens = [...userTokens];
-  let matchedCount = Math.max(keywordMatchedCount, classifiedMatchedCount, particleTolerantMatchedCount);
+  const flexibleTokenMatchedCount = Math.max(keywordMatchedCount, classifiedMatchedCount, particleTolerantMatchedCount);
+  let directTokenMatchedCount = 0;
   let hadWhitespaceOnlyMatch = false;
 
   for (const expectedToken of expectedTokens) {
@@ -685,10 +688,11 @@ function judgeAnswer(item, rawInput) {
     if (matchType === "whitespace") {
       hadWhitespaceOnlyMatch = true;
     }
-    matchedCount += 1;
+    directTokenMatchedCount += 1;
     unusedUserTokens.splice(matchIndex, 1);
   }
 
+  const matchedCount = Math.max(flexibleTokenMatchedCount, directTokenMatchedCount);
   const isCorrect = matchedCount >= requiredCount;
   return {
     isCorrect,
@@ -1269,7 +1273,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260517-7";
+    script.src = "./data/civil_quiz_dataset.js?v=20260517-9";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {

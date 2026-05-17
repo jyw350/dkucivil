@@ -2896,7 +2896,10 @@
       ],
       "hint": "버그-펌프 D(디)",
       "answerLines": [
-        "버킷 준설선 / 그래브 준설선 / 펌프 준설선 / 디퍼 준설선"
+        "버킷 준설선",
+        "그래브 준설선",
+        "펌프 준설선",
+        "디퍼 준설선"
       ],
       "answerTokens": [
         "버킷 준설선",
@@ -2909,7 +2912,26 @@
         "버그-펌프 D(디)",
         "버킷 준설선 / 그래브 준설선 / 펌프 준설선 / 디퍼 준설선"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "버킷",
+          "준설선"
+        ],
+        [
+          "그래브",
+          "준설선"
+        ],
+        [
+          "펌프",
+          "준설선"
+        ],
+        [
+          "디퍼",
+          "준설선"
+        ]
+      ],
+      "requiredAnswerCount": 4
     },
     {
       "id": "1-52",
@@ -2925,7 +2947,9 @@
       ],
       "hint": "탈건팽",
       "answerLines": [
-        "탈수 효과 / 건조 효과 / 팽창 효과"
+        "탈수 효과",
+        "건조 효과",
+        "팽창 효과"
       ],
       "answerTokens": [
         "탈수 효과",
@@ -2937,7 +2961,21 @@
         "탈건팽",
         "탈수 효과 / 건조 효과 / 팽창 효과"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "탈수",
+          "효과"
+        ],
+        [
+          "건조",
+          "효과"
+        ],
+        [
+          "팽창",
+          "효과"
+        ]
+      ]
     },
     {
       "id": "1-53",
@@ -2969,7 +3007,18 @@
         "D85"
       ],
       "editorNote": null,
-      "requiredAnswerCount": 3
+      "requiredAnswerCount": 3,
+      "keywordAnswerGroups": [
+        [
+          "D15"
+        ],
+        [
+          "D50"
+        ],
+        [
+          "D85"
+        ]
+      ]
     },
     {
       "id": "1-54",
@@ -2985,7 +3034,10 @@
       ],
       "hint": "내부시소",
       "answerLines": [
-        "내구성 / 부착성 / 시공성 / 소요강도"
+        "내구성",
+        "부착성",
+        "시공성",
+        "소요강도"
       ],
       "answerTokens": [
         "내구성",
@@ -2998,7 +3050,21 @@
         "내부시소",
         "내구성 / 부착성 / 시공성 / 소요강도"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "내구성"
+        ],
+        [
+          "부착성"
+        ],
+        [
+          "시공성"
+        ],
+        [
+          "소요강도"
+        ]
+      ]
     },
     {
       "id": "1-55",
@@ -3023,7 +3089,15 @@
       "rawBlock": [
         "공식 모음집 확인"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "공식",
+          "모음집",
+          "확인"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-56",
@@ -3039,8 +3113,10 @@
       ],
       "hint": "분발 재물",
       "answerLines": [
-        "분사식 방법 / 발파식 방법",
-        "재하중식 방법 / 물하중식 방법"
+        "분사식 방법",
+        "발파식 방법",
+        "재하중식 방법",
+        "물하중식 방법"
       ],
       "answerTokens": [
         "분사식 방법",
@@ -3054,7 +3130,27 @@
         "분사식 방법 / 발파식 방법",
         "재하중식 방법 / 물하중식 방법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "분사식"
+        ],
+        [
+          "발파식"
+        ],
+        [
+          [
+            "재하중식",
+            "재하중"
+          ]
+        ],
+        [
+          [
+            "물하중식",
+            "물하중"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-57",
@@ -3070,16 +3166,18 @@
       ],
       "hint": "보필할 분이 뱅배동에 계셔~",
       "answerLines": [
-        "[보필분방배]",
-        "( 보강 / 필터/ 분리/ 방수 및 차단 / 배수 ) 기능"
+        "보강 기능",
+        "필터 기능",
+        "분리 기능",
+        "방수 및 차단 기능",
+        "배수 기능"
       ],
       "answerTokens": [
-        "[보필분방배]",
-        "( 보강",
-        "필터",
-        "분리",
-        "방수 및 차단",
-        "배수 ) 기능"
+        "보강 기능",
+        "필터 기능",
+        "분리 기능",
+        "방수 및 차단 기능",
+        "배수 기능"
       ],
       "notes": [],
       "rawBlock": [
@@ -3087,7 +3185,27 @@
         "[보필분방배]",
         "( 보강 / 필터/ 분리/ 방수 및 차단 / 배수 ) 기능"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "보강"
+        ],
+        [
+          "필터"
+        ],
+        [
+          "분리"
+        ],
+        [
+          [
+            "방수",
+            "차단"
+          ]
+        ],
+        [
+          "배수"
+        ]
+      ]
     },
     {
       "id": "1-58",
@@ -3103,7 +3221,9 @@
       ],
       "hint": "알탄규 소다",
       "answerLines": [
-        "알루민 소다 / 탄산 소다 / 규산 소다"
+        "알루민 소다",
+        "탄산 소다",
+        "규산 소다"
       ],
       "answerTokens": [
         "알루민 소다",
@@ -3115,7 +3235,21 @@
         "알탄규 소다",
         "알루민 소다 / 탄산 소다 / 규산 소다"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "알루민",
+          "소다"
+        ],
+        [
+          "탄산",
+          "소다"
+        ],
+        [
+          "규산",
+          "소다"
+        ]
+      ]
     },
     {
       "id": "1-59",
@@ -3131,16 +3265,16 @@
       ],
       "hint": null,
       "answerLines": [
-        "표면적이 작은 말뚝(H-Pile)을 사용한다.",
-        "말뚝 표면에 역청재를 칠한다.",
-        "말뚝 지름보다 크게 Pre-boring한다.",
-        "말뚝 지름보다 약간 큰 케이싱을 박는다."
+        "표면적이 작은 말뚝(H-Pile)을 사용한다",
+        "말뚝 표면에 역청재를 칠한다",
+        "말뚝 지름보다 크게 Pre-boring한다",
+        "말뚝 지름보다 약간 큰 케이싱을 박는다"
       ],
       "answerTokens": [
-        "표면적이 작은 말뚝(H-Pile)을 사용한다.",
-        "말뚝 표면에 역청재를 칠한다.",
-        "말뚝 지름보다 크게 Pre-boring한다.",
-        "말뚝 지름보다 약간 큰 케이싱을 박는다."
+        "표면적이 작은 말뚝(H-Pile)을 사용한다",
+        "말뚝 표면에 역청재를 칠한다",
+        "말뚝 지름보다 크게 Pre-boring한다",
+        "말뚝 지름보다 약간 큰 케이싱을 박는다"
       ],
       "notes": [],
       "rawBlock": [
@@ -3149,7 +3283,63 @@
         "말뚝 지름보다 크게 Pre-boring한다.",
         "말뚝 지름보다 약간 큰 케이싱을 박는다."
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "표면적",
+          [
+            "작은",
+            "작"
+          ],
+          [
+            "말뚝",
+            "H-Pile",
+            "H pile"
+          ]
+        ],
+        [
+          "말뚝",
+          "표면",
+          [
+            "역청재",
+            "역청"
+          ],
+          [
+            "칠",
+            "도포"
+          ]
+        ],
+        [
+          "말뚝",
+          "지름",
+          [
+            "크게",
+            "큰"
+          ],
+          [
+            "Pre-boring",
+            "Preboring",
+            "프리보링"
+          ]
+        ],
+        [
+          "말뚝",
+          "지름",
+          [
+            "큰",
+            "크게"
+          ],
+          [
+            "케이싱",
+            "casing"
+          ],
+          [
+            "박",
+            "삽입"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "1-60",
@@ -3272,12 +3462,12 @@
       ],
       "hint": "(함수비가 큰 점토지반용)",
       "answerLines": [
-        "GS T^T",
-        "Grid roller / Turn foot roller / Tapper foot roller",
+        "Grid roller",
+        "Turn foot roller",
+        "Tapper foot roller",
         "Sheeps foot roller"
       ],
       "answerTokens": [
-        "GS T^T",
         "Grid roller",
         "Turn foot roller",
         "Tapper foot roller",
@@ -3290,7 +3480,39 @@
         "Grid roller / Turn foot roller / Tapper foot roller",
         "Sheeps foot roller"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Grid roller",
+            "Gridroller",
+            "그리드 롤러"
+          ]
+        ],
+        [
+          [
+            "Turn foot roller",
+            "Turnfootroller",
+            "턴 풋 롤러"
+          ]
+        ],
+        [
+          [
+            "Tapper foot roller",
+            "Tapperfootroller",
+            "태퍼 풋 롤러",
+            "테이퍼 풋 롤러"
+          ]
+        ],
+        [
+          [
+            "Sheeps foot roller",
+            "Sheepsfootroller",
+            "쉽스 풋 롤러",
+            "양족 롤러"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-62",
@@ -3306,7 +3528,9 @@
       ],
       "hint": "측슈 사이",
       "answerLines": [
-        "측수로 여수로 / 슈트식 여수로 / 사이펀 여수로"
+        "측수로 여수로",
+        "슈트식 여수로",
+        "사이펀 여수로"
       ],
       "answerTokens": [
         "측수로 여수로",
@@ -3318,7 +3542,22 @@
         "측슈 사이",
         "측수로 여수로 / 슈트식 여수로 / 사이펀 여수로"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "측수로",
+          "여수로"
+        ],
+        [
+          "슈트",
+          "여수로"
+        ],
+        [
+          "사이펀",
+          "여수로"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "1-63",
@@ -3334,7 +3573,9 @@
       ],
       "hint": "LPD",
       "answerLines": [
-        "LLT / PMT / DMT"
+        "LLT",
+        "PMT",
+        "DMT"
       ],
       "answerTokens": [
         "LLT",
@@ -3346,7 +3587,18 @@
         "LPD",
         "LLT / PMT / DMT"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "LLT"
+        ],
+        [
+          "PMT"
+        ],
+        [
+          "DMT"
+        ]
+      ]
     },
     {
       "id": "1-64",
@@ -3371,7 +3623,14 @@
       "rawBlock": [
         "점토의 주면마찰력"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "점토",
+          "주면마찰력"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-65",
@@ -3388,7 +3647,8 @@
       ],
       "hint": "비팽창",
       "answerLines": [
-        "비구속 팽창시험 / 팽창압 시험"
+        "비구속 팽창시험",
+        "팽창압 시험"
       ],
       "answerTokens": [
         "비구속 팽창시험",
@@ -3399,7 +3659,18 @@
         "비팽창",
         "비구속 팽창시험 / 팽창압 시험"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "비구속",
+          "팽창시험"
+        ],
+        [
+          "팽창압",
+          "시험"
+        ]
+      ],
+      "requiredAnswerCount": 2
     },
     {
       "id": "1-66",
@@ -3416,16 +3687,27 @@
       ],
       "hint": null,
       "answerLines": [
-        "TOP down 공법 (역타 공법)"
+        "Top down 공법(역타 공법)"
       ],
       "answerTokens": [
-        "TOP down 공법 (역타 공법)"
+        "Top down 공법(역타 공법)"
       ],
       "notes": [],
       "rawBlock": [
         "TOP down 공법 (역타 공법)"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Top down",
+            "Topdown",
+            "탑다운",
+            "역타"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-67",
@@ -3460,7 +3742,48 @@
         "지하수위를 저하시키는 공법 선택",
         "점착력이 있는 재료 사용"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "내부마찰각",
+          [
+            "큰",
+            "크"
+          ],
+          "재료",
+          [
+            "사용",
+            "선택"
+          ]
+        ],
+        [
+          "배수처리",
+          [
+            "철저",
+            "양호"
+          ]
+        ],
+        [
+          "지하수위",
+          [
+            "저하",
+            "낮"
+          ],
+          "공법",
+          [
+            "선택",
+            "사용"
+          ]
+        ],
+        [
+          "점착력",
+          "재료",
+          [
+            "사용",
+            "선택"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-68",
@@ -3492,7 +3815,20 @@
         "침하균열",
         "소성수축균열"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "거푸집",
+          "균열"
+        ],
+        [
+          "침하균열"
+        ],
+        [
+          "소성수축균열"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "1-69",
@@ -3509,16 +3845,27 @@
       ],
       "hint": null,
       "answerLines": [
-        "blow up"
+        "Blow up"
       ],
       "answerTokens": [
-        "blow up"
+        "Blow up"
       ],
       "notes": [],
       "rawBlock": [
         "blow up"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Blow up",
+            "Blowup",
+            "블로우 업",
+            "블로우업"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-70",
@@ -3534,16 +3881,25 @@
       ],
       "hint": null,
       "answerLines": [
-        "rutting"
+        "Rutting"
       ],
       "answerTokens": [
-        "rutting"
+        "Rutting"
       ],
       "notes": [],
       "rawBlock": [
         "rutting"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Rutting",
+            "러팅"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-71",
@@ -3559,20 +3915,20 @@
       ],
       "hint": null,
       "answerLines": [
-        "장점 (구보시) : 구조상 안전 / 보수 용이 / 시공비 적게 든다",
-        "단점 (유배지)",
-        "유지관리비가 많이 든다.",
-        "배수시설 기능 저하 시 불안정 초래",
-        "지하수위 저하에 따른 지반 침하, 환경 변화 발생"
+        "장점: 구조상 안전",
+        "장점: 보수 용이",
+        "장점: 시공비 적게 든다",
+        "단점: 유지관리비가 많이 든다",
+        "단점: 배수시설 기능 저하 시 불안정 초래",
+        "단점: 지하수위 저하에 따른 지반 침하, 환경 변화 발생"
       ],
       "answerTokens": [
-        "장점 (구보시) : 구조상 안전",
-        "보수 용이",
-        "시공비 적게 든다",
-        "단점 (유배지)",
-        "유지관리비가 많이 든다.",
-        "배수시설 기능 저하 시 불안정 초래",
-        "지하수위 저하에 따른 지반 침하, 환경 변화 발생"
+        "장점: 구조상 안전",
+        "장점: 보수 용이",
+        "장점: 시공비 적게 든다",
+        "단점: 유지관리비가 많이 든다",
+        "단점: 배수시설 기능 저하 시 불안정 초래",
+        "단점: 지하수위 저하에 따른 지반 침하, 환경 변화 발생"
       ],
       "notes": [],
       "rawBlock": [
@@ -3582,7 +3938,54 @@
         "배수시설 기능 저하 시 불안정 초래",
         "지하수위 저하에 따른 지반 침하, 환경 변화 발생"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "구조상",
+          "안전"
+        ],
+        [
+          "보수",
+          [
+            "용이",
+            "쉽"
+          ]
+        ],
+        [
+          "시공비",
+          [
+            "적",
+            "작",
+            "저렴"
+          ]
+        ],
+        [
+          "유지관리비",
+          [
+            "많",
+            "크",
+            "고가"
+          ]
+        ],
+        [
+          "배수시설",
+          "기능",
+          "저하",
+          [
+            "불안정",
+            "불안"
+          ]
+        ],
+        [
+          "지하수위",
+          "저하",
+          "지반",
+          "침하",
+          "환경",
+          "변화"
+        ]
+      ],
+      "requiredAnswerCount": 6
     },
     {
       "id": "1-72",
@@ -3598,7 +4001,10 @@
       ],
       "hint": "토지(3반하중)변",
       "answerLines": [
-        "토압계 / 지반수직변위계 / 지하수위계 / 지중경사계",
+        "토압계",
+        "지반수직변위계",
+        "지하수위계",
+        "지중경사계",
         "변형률계"
       ],
       "answerTokens": [
@@ -3614,7 +4020,24 @@
         "토압계 / 지반수직변위계 / 지하수위계 / 지중경사계",
         "변형률계"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "토압계"
+        ],
+        [
+          "지반수직변위계"
+        ],
+        [
+          "지하수위계"
+        ],
+        [
+          "지중경사계"
+        ],
+        [
+          "변형률계"
+        ]
+      ]
     },
     {
       "id": "1-73",
@@ -3631,7 +4054,9 @@
       ],
       "hint": "3S",
       "answerLines": [
-        "Slip form / Sliding form / Self climbing"
+        "Slip form",
+        "Sliding form",
+        "Self climbing"
       ],
       "answerTokens": [
         "Slip form",
@@ -3643,7 +4068,30 @@
         "3S",
         "Slip form / Sliding form / Self climbing"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Slip form",
+            "Slipform",
+            "슬립 폼"
+          ]
+        ],
+        [
+          [
+            "Sliding form",
+            "Slidingform",
+            "슬라이딩 폼"
+          ]
+        ],
+        [
+          [
+            "Self climbing",
+            "Selfclimbing",
+            "셀프 클라이밍"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-74",
@@ -3673,7 +4121,29 @@
         "널말뚝의 소요 근입 깊이를 최소화",
         "널말뚝의 단면적과 중량 감소"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "널말뚝",
+          "소요",
+          "근입",
+          "깊이",
+          [
+            "최소화",
+            "감소"
+          ]
+        ],
+        [
+          "널말뚝",
+          "단면적",
+          "중량",
+          [
+            "감소",
+            "저감"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 2
     },
     {
       "id": "1-75",
@@ -3689,7 +4159,8 @@
       ],
       "hint": "압보갱~ (앞을 보게~)",
       "answerLines": [
-        "압성토 / 보호절취",
+        "압성토",
+        "보호절취",
         "갱구 부근에서의 복공 콘크리트 시공"
       ],
       "answerTokens": [
@@ -3703,7 +4174,25 @@
         "압성토 / 보호절취",
         "갱구 부근에서의 복공 콘크리트 시공"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "압성토"
+        ],
+        [
+          "보호절취"
+        ],
+        [
+          "갱구",
+          "부근",
+          "복공",
+          "콘크리트",
+          [
+            "시공",
+            "타설"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-76",
