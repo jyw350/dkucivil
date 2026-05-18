@@ -629,9 +629,12 @@ function judgeAnswer(item, rawInput) {
   if (expectedTokens.length <= 1) {
     const target = expectedTokens[0] ?? item.answerLines[0] ?? "";
     const matchType = tokenMatches(target, trimmedInput);
+    const keywordMatchedCount = countKeywordAnswerGroupMatches(item.keywordAnswerGroups, trimmedInput);
+    const classifiedMatchedCount = countClassifiedAnswerMatches(item.classifiedAnswerGroups, trimmedInput);
     const particleTolerantMatchedCount = countParticleTolerantAnswerMatches(item, [target], trimmedInput);
+    const isKeywordMatch = matchType === "none" && Math.max(keywordMatchedCount, classifiedMatchedCount) >= 1;
     const isParticleTolerantMatch = matchType === "none" && particleTolerantMatchedCount >= 1;
-    const isCorrect = matchType !== "none" || isParticleTolerantMatch;
+    const isCorrect = matchType !== "none" || isKeywordMatch || isParticleTolerantMatch;
     return {
       isCorrect,
       feedbackMode: matchType === "whitespace" ? "warning" : isCorrect ? "correct" : "incorrect",
@@ -1272,7 +1275,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260518-2";
+    script.src = "./data/civil_quiz_dataset.js?v=20260518-3";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {

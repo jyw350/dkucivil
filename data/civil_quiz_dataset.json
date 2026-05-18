@@ -6886,7 +6886,16 @@
       "rawBlock": [
         "초속경 시멘트"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "초속경 시멘트",
+            "초속경시멘트"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-127",
@@ -6918,7 +6927,24 @@
         "개략적인 공정표",
         "보고용, 선전용"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "간단",
+          "공사"
+        ],
+        [
+          [
+            "개략적",
+            "개략"
+          ],
+          "공정표"
+        ],
+        [
+          "보고용",
+          "선전용"
+        ]
+      ]
     },
     {
       "id": "1-128",
@@ -6934,7 +6960,10 @@
       ],
       "hint": "평능니스니",
       "answerLines": [
-        "평직 / 능직 / 니들펀칭 / 스판본드 니들펀칭"
+        "평직",
+        "능직",
+        "니들펀칭",
+        "스판본드 니들펀칭"
       ],
       "answerTokens": [
         "평직",
@@ -6947,7 +6976,22 @@
         "평능니스니",
         "평직 / 능직 / 니들펀칭 / 스판본드 니들펀칭"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "평직"
+        ],
+        [
+          "능직"
+        ],
+        [
+          "니들펀칭"
+        ],
+        [
+          "스판본드",
+          "니들펀칭"
+        ]
+      ]
     },
     {
       "id": "1-129",
@@ -6972,7 +7016,16 @@
       "rawBlock": [
         "액상화현상"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "액상화현상",
+            "액상화"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-130",
@@ -6997,7 +7050,13 @@
       "rawBlock": [
         "지명경쟁입찰"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "지명경쟁입찰"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-131",
@@ -7022,7 +7081,16 @@
       "rawBlock": [
         "컴바이트"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "컴바이트",
+            "콤바이트"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-132",
@@ -7047,7 +7115,14 @@
       "rawBlock": [
         "부벽식 교대"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "부벽식",
+          "교대"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-133",
@@ -7073,7 +7148,16 @@
       "rawBlock": [
         "보강토공법"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "보강토공법",
+            "보강토 공법"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-134",
@@ -7156,7 +7240,10 @@
       "keywordAnswerGroups": [
         [
           "감수제",
-          "사용"
+          [
+            "사용",
+            "첨가"
+          ]
         ],
         [
           "잔골재율",
@@ -7173,11 +7260,20 @@
             "크"
           ],
           "시멘트",
-          "사용"
+          [
+            "사용",
+            "이용"
+          ]
         ],
         [
-          "AE제",
-          "사용"
+          [
+            "AE제",
+            "AE"
+          ],
+          [
+            "사용",
+            "첨가"
+          ]
         ]
       ]
     },
@@ -7199,11 +7295,22 @@
         "지형공간시스템"
       ],
       "answerTokens": [
-        "GSIS"
+        "GSIS",
+        "지형공간시스템"
       ],
       "notes": [],
       "rawBlock": "GSIS\n지형공간시스템",
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "GSIS",
+            "지형공간시스템",
+            "지형 공간 시스템"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-137",
@@ -7229,7 +7336,17 @@
       "rawBlock": [
         "쉴드공법(Shield)"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "쉴드공법",
+            "쉴드 공법",
+            "Shield"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-138",
@@ -7245,7 +7362,9 @@
       ],
       "hint": "토압 정재팔",
       "answerLines": [
-        "토압 / 정하중 / 재하중"
+        "토압",
+        "정하중",
+        "재하중"
       ],
       "answerTokens": [
         "토압",
@@ -7257,7 +7376,18 @@
         "토압 정재팔",
         "토압 / 정하중 / 재하중"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "토압"
+        ],
+        [
+          "정하중"
+        ],
+        [
+          "재하중"
+        ]
+      ]
     },
     {
       "id": "1-139",
@@ -7283,7 +7413,14 @@
       "rawBlock": [
         "콘크리트의 중성화"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "콘크리트",
+          "중성화"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-140",
@@ -7309,7 +7446,19 @@
       "rawBlock": [
         "10~20m"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "10~20m",
+            "10~20",
+            "10-20m",
+            "10에서20m",
+            "10에서 20m"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-141",
@@ -7325,20 +7474,47 @@
       ],
       "hint": "4g",
       "answerLines": [
-        "geogrid",
-        "geomembrance",
-        "geocomposite",
-        "geotextile"
+        "Geogrid",
+        "Geomembrane",
+        "Geocomposite",
+        "Geotextile"
       ],
       "answerTokens": [
-        "geogrid",
-        "geomembrance",
-        "geocomposite",
-        "geotextile"
+        "Geogrid",
+        "Geomembrane",
+        "Geocomposite",
+        "Geotextile"
       ],
       "notes": [],
       "rawBlock": "geogrid\ngeomembrance\ngeocomposite\ngeotextile",
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Geogrid",
+            "지오그리드"
+          ]
+        ],
+        [
+          [
+            "Geomembrane",
+            "Geomembrance",
+            "지오멤브레인"
+          ]
+        ],
+        [
+          [
+            "Geocomposite",
+            "지오컴포지트"
+          ]
+        ],
+        [
+          [
+            "Geotextile",
+            "지오텍스타일"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-142",
@@ -7354,16 +7530,26 @@
       ],
       "hint": null,
       "answerLines": [
-        "geomembrance"
+        "Geomembrane"
       ],
       "answerTokens": [
-        "geomembrance"
+        "Geomembrane"
       ],
       "notes": [],
       "rawBlock": [
         "geomembrance"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "Geomembrane",
+            "Geomembrance",
+            "지오멤브레인"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-143",
@@ -7389,7 +7575,13 @@
       "rawBlock": [
         "띠장"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "띠장"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-144",
@@ -7405,7 +7597,8 @@
       ],
       "hint": null,
       "answerLines": [
-        "전단력 감소 / 휨모멘트 감소"
+        "전단력 감소",
+        "휨모멘트 감소"
       ],
       "answerTokens": [
         "전단력 감소",
@@ -7415,7 +7608,27 @@
       "rawBlock": [
         "전단력 감소 / 휨모멘트 감소"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "전단력",
+          [
+            "감소",
+            "저감"
+          ]
+        ],
+        [
+          [
+            "휨모멘트",
+            "휨 모멘트"
+          ],
+          [
+            "감소",
+            "저감"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 2
     },
     {
       "id": "1-145",
@@ -7441,7 +7654,16 @@
       "rawBlock": [
         "유동화 콘크리트"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "유동화 콘크리트",
+            "유동화콘크리트"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-146",
@@ -7460,13 +7682,13 @@
         "공사비 저렴",
         "기계설비가 비교적 간단",
         "무진동(시가지 적합)",
-        "침하깊이에 제한이 없다."
+        "침하깊이에 제한이 없다"
       ],
       "answerTokens": [
         "공사비 저렴",
         "기계설비가 비교적 간단",
         "무진동(시가지 적합)",
-        "침하깊이에 제한이 없다."
+        "침하깊이에 제한이 없다"
       ],
       "notes": [],
       "rawBlock": [
@@ -7494,14 +7716,9 @@
           ]
         ],
         [
-          [
-            "무진동",
-            "진동"
-          ],
-          [
-            "시가지",
-            "적합"
-          ]
+          "무진동",
+          "시가지",
+          "적합"
         ],
         [
           "침하깊이",
@@ -7537,7 +7754,13 @@
       "rawBlock": [
         "전단연결재"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "전단연결재"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-148",
@@ -7564,7 +7787,18 @@
       "rawBlock": [
         "가체절공(Coffer dam)"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "가체절공",
+            "Coffer dam",
+            "Cofferdam",
+            "코퍼댐"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-149",
@@ -7580,7 +7814,7 @@
       ],
       "hint": "흡배송",
       "answerLines": [
-        "흡인식(연속식, 단속식)",
+        "흡인식",
         "송기식",
         "배기식"
       ],
