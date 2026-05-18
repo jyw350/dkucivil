@@ -9439,14 +9439,12 @@
         [
           [
             "중간 이상의 강성",
+            "중간 이상",
             "강성"
           ],
           [
             "토층",
-            "N치"
-          ],
-          [
-            "30"
+            "지층"
           ],
           [
             "타입",
@@ -9562,12 +9560,12 @@
       "answerLines": [
         "앵커판과 데드맨",
         "수직앵커말뚝",
-        "타이백 앵커(Tie-back anchor)"
+        "타이백 앵커 또는 tie back anchor"
       ],
       "answerTokens": [
         "앵커판과 데드맨",
         "수직앵커말뚝",
-        "타이백 앵커(Tie-back anchor)"
+        "타이백 앵커 또는 tie back anchor"
       ],
       "notes": [],
       "rawBlock": [
@@ -9587,11 +9585,12 @@
         ],
         [
           [
-            "타이백",
-            "Tie-back",
-            "Tieback"
-          ],
-          "앵커"
+            "타이백 앵커",
+            "타이백앵커",
+            "tie back anchor",
+            "tieback anchor",
+            "Tie-back anchor"
+          ]
         ]
       ]
     },
@@ -9802,12 +9801,12 @@
       "answerLines": [
         "동상방지",
         "배수",
-        "Concrete Slab를 균등하게 지지"
+        "콘크리트 슬래브를 균등하게 지지"
       ],
       "answerTokens": [
         "동상방지",
         "배수",
-        "Concrete Slab를 균등하게 지지"
+        "콘크리트 슬래브를 균등하게 지지"
       ],
       "notes": [],
       "rawBlock": [
@@ -9826,8 +9825,10 @@
         ],
         [
           [
+            "콘크리트 슬래브",
+            "콘크리트슬래브",
             "Concrete Slab",
-            "콘크리트 슬래브"
+            "ConcreteSlab"
           ],
           [
             "균등",
