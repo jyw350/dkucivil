@@ -11360,7 +11360,43 @@
         "수밀성 저하",
         "콘크리트 균열발생"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "콘크리트",
+          "강도",
+          [
+            "저하",
+            "감소"
+          ]
+        ],
+        [
+          "철근",
+          "부식"
+        ],
+        [
+          "백화",
+          [
+            "현상",
+            "발생"
+          ]
+        ],
+        [
+          "수밀성",
+          [
+            "저하",
+            "감소"
+          ]
+        ],
+        [
+          "콘크리트",
+          "균열",
+          [
+            "발생",
+            "생김"
+          ]
+        ]
+      ]
     },
     {
       "id": "1-226",
@@ -11552,14 +11588,16 @@
       "promptLines": [
         "본터널에서 약간 떨어진 곳에 파일럿 터널을 시공하는 목적"
       ],
-      "hint": "재료운반",
+      "hint": "배재환",
       "answerLines": [
-        "환기",
-        "배수"
+        "배수",
+        "재료운반",
+        "환기"
       ],
       "answerTokens": [
-        "환기",
-        "배수"
+        "배수",
+        "재료운반",
+        "환기"
       ],
       "notes": [],
       "rawBlock": [
@@ -11567,7 +11605,22 @@
         "환기",
         "배수"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          "배수"
+        ],
+        [
+          [
+            "재료운반",
+            "재료 운반"
+          ]
+        ],
+        [
+          "환기"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "1-233",
@@ -11911,16 +11964,25 @@
       ],
       "hint": null,
       "answerLines": [
-        "틱소트로피"
+        "틱소트로피(Thixotropy)"
       ],
       "answerTokens": [
-        "틱소트로피"
+        "틱소트로피(Thixotropy)"
       ],
       "notes": [],
       "rawBlock": [
         "틱소트로피"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "틱소트로피",
+            "Thixotropy"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "1-244",
