@@ -50,7 +50,16 @@ const startQuizButton = document.querySelector("#start-quiz-button");
 const adminModeButton = document.querySelector("#admin-mode-button");
 const secretAdminTrigger = document.querySelector("#secret-admin-trigger");
 const startStarredButton = document.querySelector("#start-starred-button");
+const startSelectedStarredButton = document.querySelector("#start-selected-starred-button");
 const starredSummary = document.querySelector("#starred-summary");
+const starredList = document.querySelector("#starred-list");
+const starredLimitInput = document.querySelector("#starred-limit");
+const starredLimitNumberInput = document.querySelector("#starred-limit-number");
+const starredLimitValue = document.querySelector("#starred-limit-value");
+const starredLimitRange = document.querySelector("#starred-limit-range");
+const starredSelectedCount = document.querySelector("#starred-selected-count");
+const starredSelectAllButton = document.querySelector("#starred-select-all-button");
+const starredClearSelectionButton = document.querySelector("#starred-clear-selection-button");
 const themeModeToggle = document.querySelector("#theme-mode-toggle");
 const themeModeLabel = document.querySelector("#theme-mode-label");
 
@@ -164,16 +173,100 @@ function setAdminMode(isEnabled) {
   updateStarButtonForCurrentQuestion();
 }
 
+function getStarredItems() {
+  return state.items.filter((item) => state.starredIds.has(item.id));
+}
+
+function setStarredLimitValue(nextValue) {
+  if (!starredLimitInput || !starredLimitNumberInput || !starredLimitValue) {
+    return 0;
+  }
+
+  const max = Number(starredLimitInput.max) || 0;
+  const parsedValue = toFiniteNumber(nextValue);
+  const clampedValue = Math.min(Math.max(parsedValue ?? 0, 0), max);
+  starredLimitInput.value = String(clampedValue);
+  starredLimitNumberInput.value = String(clampedValue);
+  starredLimitValue.textContent = `${clampedValue}문제`;
+  return clampedValue;
+}
+
+function syncStarredLimitControl(count) {
+  if (!starredLimitInput || !starredLimitNumberInput || !starredLimitRange) {
+    return;
+  }
+
+  const previousMax = Number(starredLimitInput.max) || 0;
+  const currentValue = toFiniteNumber(starredLimitNumberInput.value)
+    ?? toFiniteNumber(starredLimitInput.value)
+    ?? Math.min(30, count);
+  const shouldUseDefault = previousMax === 0 && count > 0 && currentValue === 0;
+  const nextValue = shouldUseDefault ? Math.min(30, count) : Math.min(currentValue, count);
+
+  starredLimitInput.min = "0";
+  starredLimitInput.max = String(count);
+  starredLimitNumberInput.min = "0";
+  starredLimitNumberInput.max = String(count);
+  starredLimitRange.textContent = `0 ~ ${count}`;
+  setStarredLimitValue(nextValue);
+}
+
+function getSelectedStarredItems() {
+  if (!starredList) {
+    return [];
+  }
+
+  return [...starredList.querySelectorAll("[data-starred-select]:checked")]
+    .map((checkbox) => state.items.find((item) => item.id === checkbox.value))
+    .filter(Boolean);
+}
+
+function updateStarredSelectedCount() {
+  if (!starredSelectedCount || !startSelectedStarredButton) {
+    return;
+  }
+
+  const selectedCount = getSelectedStarredItems().length;
+  starredSelectedCount.textContent = `선택 ${selectedCount}개`;
+  startSelectedStarredButton.disabled = selectedCount === 0;
+}
+
+function renderStarredLibrary(items) {
+  if (!starredList) {
+    return;
+  }
+
+  if (!items.length) {
+    starredList.innerHTML = `<div class="empty-state">별표한 문제가 아직 없습니다.</div>`;
+    updateStarredSelectedCount();
+    return;
+  }
+
+  starredList.innerHTML = items
+    .map((item) => `
+      <label class="starred-list-item">
+        <input type="checkbox" data-starred-select value="${escapeHtml(item.id)}" checked />
+        <span class="starred-list-id">${escapeHtml(item.id)}</span>
+        <span class="starred-list-question">${escapeHtml(item.question)}</span>
+      </label>
+    `)
+    .join("");
+  updateStarredSelectedCount();
+}
+
 function renderStarredSummary() {
   if (!starredSummary || !startStarredButton) {
     return;
   }
 
-  const count = state.starredIds.size;
+  const items = getStarredItems();
+  const count = items.length;
   starredSummary.textContent = count
     ? `별표한 문제가 ${count}개 저장되어 있습니다. 이 기기에서만 보입니다.`
     : "별표한 문제가 아직 없습니다.";
   startStarredButton.disabled = count === 0;
+  syncStarredLimitControl(count);
+  renderStarredLibrary(items);
 }
 
 function updateStarButtonForCurrentQuestion() {
@@ -248,20 +341,43 @@ function handleSecretAdminTrigger(event) {
 }
 
 function startStarredSession() {
-  const itemsToStudy = [...state.starredIds]
-    .map((id) => state.items.find((item) => item.id === id))
-    .filter(Boolean);
+  const itemsToStudy = getStarredItems();
 
   if (!itemsToStudy.length) {
     showToast("별표한 문제가 아직 없습니다.");
     return;
   }
 
-  const finalItems = orderModeSelect.value === "random" ? shuffle(itemsToStudy) : itemsToStudy;
+  const limitValue = toFiniteNumber(starredLimitInput?.value) ?? itemsToStudy.length;
+  if (limitValue < 1) {
+    showToast("별표 문제 수를 1문제 이상으로 선택해 주세요.");
+    return;
+  }
+
+  const finalItems = shuffle(itemsToStudy).slice(0, Math.min(limitValue, itemsToStudy.length));
   startQuizWithItems(finalItems, {
-    label: `별표 문제만 풀기 · ${finalItems.length}문제`,
-    orderMode: orderModeSelect.value,
+    label: `별표 전체 랜덤 · ${finalItems.length}문제`,
+    orderMode: "random",
     quickRange: "starred",
+    startId: finalItems[0]?.id ?? null,
+    endId: finalItems[finalItems.length - 1]?.id ?? null,
+    limit: finalItems.length,
+  });
+}
+
+function startSelectedStarredSession() {
+  const selectedItems = getSelectedStarredItems();
+
+  if (!selectedItems.length) {
+    showToast("선택한 별표 문제가 없습니다.");
+    return;
+  }
+
+  const finalItems = shuffle(selectedItems);
+  startQuizWithItems(finalItems, {
+    label: `선택 별표 랜덤 · ${finalItems.length}문제`,
+    orderMode: "random",
+    quickRange: "starred-selected",
     startId: finalItems[0]?.id ?? null,
     endId: finalItems[finalItems.length - 1]?.id ?? null,
     limit: finalItems.length,
@@ -1304,7 +1420,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260525-5";
+    script.src = "./data/civil_quiz_dataset.js?v=20260525-6";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
@@ -1380,6 +1496,51 @@ function bindEvents() {
 
   if (startStarredButton) {
     startStarredButton.addEventListener("click", startStarredSession);
+  }
+
+  if (startSelectedStarredButton) {
+    startSelectedStarredButton.addEventListener("click", startSelectedStarredSession);
+  }
+
+  if (starredList) {
+    starredList.addEventListener("change", (event) => {
+      if (event.target.matches("[data-starred-select]")) {
+        updateStarredSelectedCount();
+      }
+    });
+  }
+
+  if (starredLimitInput) {
+    starredLimitInput.addEventListener("input", () => {
+      setStarredLimitValue(starredLimitInput.value);
+    });
+  }
+
+  if (starredLimitNumberInput) {
+    starredLimitNumberInput.addEventListener("input", () => {
+      setStarredLimitValue(starredLimitNumberInput.value);
+    });
+    starredLimitNumberInput.addEventListener("focus", () => {
+      starredLimitNumberInput.select();
+    });
+  }
+
+  if (starredSelectAllButton) {
+    starredSelectAllButton.addEventListener("click", () => {
+      starredList?.querySelectorAll("[data-starred-select]").forEach((checkbox) => {
+        checkbox.checked = true;
+      });
+      updateStarredSelectedCount();
+    });
+  }
+
+  if (starredClearSelectionButton) {
+    starredClearSelectionButton.addEventListener("click", () => {
+      starredList?.querySelectorAll("[data-starred-select]").forEach((checkbox) => {
+        checkbox.checked = false;
+      });
+      updateStarredSelectedCount();
+    });
   }
 
   document.querySelectorAll("[data-quick-range]").forEach((button) => {

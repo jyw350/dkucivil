@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>토목기사 실기 말따먹기</title>
-    <link rel="stylesheet" href="./styles.css?v=20260525-5" />
+    <link rel="stylesheet" href="./styles.css?v=20260525-6" />
   </head>
   <body>
     <div class="page-shell">
@@ -103,11 +103,37 @@
           <article class="card starred-study-card admin-only hidden">
             <div class="starred-card-head">
               <div>
-                <h3>개인 별표 문제</h3>
+                <h3>별표 문제 보기</h3>
                 <p class="helper" id="starred-summary">별표한 문제가 아직 없습니다.</p>
               </div>
-              <button id="start-starred-button" class="secondary-button" type="button">별표 문제만 풀기</button>
+              <button id="start-starred-button" class="secondary-button" type="button">별표 전체 랜덤 풀기</button>
             </div>
+
+            <div class="starred-study-tools">
+              <label class="field starred-limit-field">
+                <span>별표 전체 중 풀 문제 수</span>
+                <div class="slider-wrap">
+                  <div class="slider-head">
+                    <strong id="starred-limit-value">0문제</strong>
+                    <span id="starred-limit-range">0 ~ 0</span>
+                  </div>
+                  <input id="starred-limit" type="range" min="0" max="0" value="0" step="1" />
+                  <label class="field inline-field" for="starred-limit-number">
+                    <span>개수 직접 입력</span>
+                    <input id="starred-limit-number" type="number" min="0" max="0" value="0" inputmode="numeric" />
+                  </label>
+                </div>
+              </label>
+
+              <div class="starred-selection-actions">
+                <span id="starred-selected-count" class="helper">선택 0개</span>
+                <button id="starred-select-all-button" class="ghost-button" type="button">전체 선택</button>
+                <button id="starred-clear-selection-button" class="ghost-button" type="button">선택 해제</button>
+                <button id="start-selected-starred-button" class="secondary-button" type="button">선택 문제 랜덤 풀기</button>
+              </div>
+            </div>
+
+            <div id="starred-list" class="starred-list"></div>
           </article>
 
           <article class="card pdf-study-card">
@@ -254,6 +280,6 @@
       </main>
     </div>
 
-    <script src="./app.js?v=20260525-5" defer></script>
+    <script src="./app.js?v=20260525-6" defer></script>
   </body>
 </html>
