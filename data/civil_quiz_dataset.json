@@ -8427,12 +8427,12 @@
       ],
       "hint": null,
       "answerLines": [
-        "White base : 아스팔트 포장의 기층에 사용되는 Soil cement 또는 Cement concrete 기층",
-        "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트 안정처리기층"
+        "White base: 콘크리트 포장의 기층에 사용되는 Soil cement 또는 concrete 기층",
+        "Black base: 아스팔트 포장의 기층에 사용되는 아스팔트 안정처리기층"
       ],
       "answerTokens": [
-        "White base : 아스팔트 포장의 기층에 사용되는 Soil cement 또는 Cement concrete 기층",
-        "Black base : 아스팔트 포장의 기층에 사용되는 아스팔트 안정처리기층"
+        "White base: 콘크리트 포장의 기층에 사용되는 Soil cement 또는 concrete 기층",
+        "Black base: 아스팔트 포장의 기층에 사용되는 아스팔트 안정처리기층"
       ],
       "notes": [],
       "rawBlock": [
@@ -8451,15 +8451,16 @@
             "화이트베이스"
           ],
           [
-            "아스팔트 포장의 기층",
-            "아스팔트 포장 기층"
+            "콘크리트 포장의 기층",
+            "콘크리트 포장 기층"
           ],
           [
             "Soil cement",
             "소일 시멘트",
             "소일시멘트",
-            "Cement concrete 기층",
-            "시멘트 콘크리트 기층"
+            "concrete 기층",
+            "Concrete 기층",
+            "콘크리트 기층"
           ]
         ],
         [
@@ -8475,6 +8476,7 @@
           ],
           [
             "아스팔트 안정처리기층",
+            "아스팔트 안정 처리 기층",
             "안정처리기층"
           ]
         ]
