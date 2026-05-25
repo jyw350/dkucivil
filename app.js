@@ -24,6 +24,8 @@ const state = {
   nextEnterAllowedAt: 0,
   adminMode: false,
   starredIds: new Set(),
+  secretAdminClickCount: 0,
+  secretAdminTimer: null,
 };
 
 const homeView = document.querySelector("#home-view");
@@ -46,6 +48,7 @@ const retryHistoryWrongButton = document.querySelector("#retry-history-wrong-but
 const pdfCardGrid = document.querySelector("#pdf-card-grid");
 const startQuizButton = document.querySelector("#start-quiz-button");
 const adminModeButton = document.querySelector("#admin-mode-button");
+const secretAdminTrigger = document.querySelector("#secret-admin-trigger");
 const startStarredButton = document.querySelector("#start-starred-button");
 const starredSummary = document.querySelector("#starred-summary");
 const themeModeToggle = document.querySelector("#theme-mode-toggle");
@@ -216,6 +219,31 @@ function promptAdminMode() {
 
   if (code !== null) {
     showToast("관리자 코드가 맞지 않습니다.");
+  }
+}
+
+function handleSecretAdminTrigger(event) {
+  event.preventDefault();
+  event.stopPropagation();
+
+  if (state.secretAdminTimer) {
+    clearTimeout(state.secretAdminTimer);
+    state.secretAdminTimer = null;
+  }
+
+  state.secretAdminClickCount += 1;
+
+  if (state.secretAdminClickCount === 5) {
+    state.secretAdminTimer = setTimeout(() => {
+      state.secretAdminClickCount = 0;
+      state.secretAdminTimer = null;
+      promptAdminMode();
+    }, 1000);
+    return;
+  }
+
+  if (state.secretAdminClickCount > 5) {
+    state.secretAdminClickCount = 0;
   }
 }
 
@@ -1276,7 +1304,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260525-4";
+    script.src = "./data/civil_quiz_dataset.js?v=20260525-5";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
@@ -1340,6 +1368,10 @@ function bindEvents() {
 
   if (adminModeButton) {
     adminModeButton.addEventListener("click", promptAdminMode);
+  }
+
+  if (secretAdminTrigger) {
+    secretAdminTrigger.addEventListener("click", handleSecretAdminTrigger);
   }
 
   if (starCurrentButton) {

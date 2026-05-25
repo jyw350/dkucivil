@@ -1577,3 +1577,36 @@ body.theme-dark #order-mode option {
   background-color: #14171c;
   color: #f4f7fa;
 }
+
+
+.secret-admin-char {
+  position: relative;
+  display: inline-block;
+}
+
+.secret-admin-trigger {
+  position: absolute;
+  left: 19%;
+  top: 41%;
+  width: 45%;
+  height: 34%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  appearance: none;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  opacity: 0;
+  cursor: default;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.secret-admin-trigger:focus,
+.secret-admin-trigger:active,
+.secret-admin-trigger:hover {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+}
