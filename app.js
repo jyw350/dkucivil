@@ -653,7 +653,8 @@ function judgeAnswer(item, rawInput) {
   const keywordMatchedCount = countKeywordAnswerGroupMatches(item.keywordAnswerGroups, trimmedInput);
   const classifiedMatchedCount = countClassifiedAnswerMatches(item.classifiedAnswerGroups, trimmedInput);
   const particleTolerantMatchedCount = countParticleTolerantAnswerMatches(item, expectedTokens, trimmedInput);
-  const flexibleMatchedCount = Math.max(embeddedMatchedCount, keywordMatchedCount, classifiedMatchedCount, particleTolerantMatchedCount);
+  const rawFlexibleMatchedCount = Math.max(embeddedMatchedCount, keywordMatchedCount, classifiedMatchedCount, particleTolerantMatchedCount);
+  const flexibleMatchedCount = Math.min(rawFlexibleMatchedCount, userTokens.length || rawFlexibleMatchedCount);
   if (flexibleMatchedCount >= requiredCount) {
     return {
       isCorrect: true,
@@ -1275,7 +1276,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260524-2";
+    script.src = "./data/civil_quiz_dataset.js?v=20260525-1";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
