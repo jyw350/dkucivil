@@ -68,6 +68,7 @@ select {
 }
 
 .hero-copy {
+  position: relative;
   padding: 28px;
   border-radius: 32px;
 }
@@ -1579,17 +1580,12 @@ body.theme-dark #order-mode option {
 }
 
 
-.secret-admin-char {
-  position: relative;
-  display: inline-block;
-}
-
 .secret-admin-trigger {
   position: absolute;
-  left: 19%;
-  top: 41%;
-  width: 45%;
-  height: 34%;
+  right: 26px;
+  top: 22px;
+  width: 170px;
+  height: 92px;
   margin: 0;
   padding: 0;
   border: 0;
