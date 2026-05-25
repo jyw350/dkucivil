@@ -92,7 +92,7 @@ const PDF_LIBRARY = {
     title: "토목기사 실기 말따먹기 1권",
     subtitle: "1권",
     description: "문제 해설 단어장 PDF",
-    href: "./pdfs/volume1.pdf?v=20260513-3",
+    href: "./pdfs/volume1.pdf?v=20260525-3",
   },
   2: {
     title: "토목기사 실기 말따먹기 2권",
@@ -1276,7 +1276,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260525-2";
+    script.src = "./data/civil_quiz_dataset.js?v=20260525-3";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
