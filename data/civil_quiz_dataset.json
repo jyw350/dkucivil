@@ -25,7 +25,7 @@
       "total": 699
     },
     "manualOverrideCount": 4,
-    "generatedAt": "20260526-3"
+    "generatedAt": "20260526-4"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -12242,11 +12242,46 @@
       ],
       "notes": [],
       "rawBlock": [
-        "기존 아스팔트 포장에 생긴 균열에 대한 일반적인 보수",
-        "방법을 3가지만 쓰시오(5)",
-        "오버레이 2. 절삭 오버레이 3. 패칭 4. 표면처리"
+        "오버레이",
+        "절삭 오버레이",
+        "패칭",
+        "표면처리"
       ],
-      "editorNote": null
+      "editorNote": null,
+      "keywordAnswerGroups": [
+        [
+          [
+            "오버레이",
+            "overlay",
+            "over lay",
+            "Overlay",
+            "Over lay"
+          ]
+        ],
+        [
+          "절삭",
+          [
+            "오버레이",
+            "overlay",
+            "over lay",
+            "Overlay",
+            "Over lay"
+          ]
+        ],
+        [
+          [
+            "패칭",
+            "patching",
+            "Patching"
+          ]
+        ],
+        [
+          [
+            "표면처리",
+            "표면 처리"
+          ]
+        ]
+      ]
     },
     {
       "id": "2-6",
