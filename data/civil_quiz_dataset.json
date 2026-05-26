@@ -25,7 +25,7 @@
       "total": 699
     },
     "manualOverrideCount": 4,
-    "generatedAt": "20260526-10"
+    "generatedAt": "20260526-11"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -20581,7 +20581,21 @@
         "록볼트의 역할을 3가지만 쓰시오",
         "보형성효과 2 아치형성효과 3 봉합효과"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "보",
+          "형성"
+        ],
+        [
+          "아치",
+          "형성"
+        ],
+        [
+          "봉합"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-152",
@@ -20615,7 +20629,25 @@
         "만 쓰시오",
         "상로교 2 중로교 3 하로교 4 2층교"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "상로교"
+        ],
+        [
+          "중로교"
+        ],
+        [
+          "하로교"
+        ],
+        [
+          [
+            "2층교",
+            "이층교"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 4
     },
     {
       "id": "2-153",
@@ -20647,7 +20679,17 @@
         "제시키는 공법은?",
         ": 소일네일링 공법"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          [
+            "소일네일링",
+            "소일 네일링",
+            "soil nailing"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "2-154",
@@ -20677,7 +20719,31 @@
         "아스팔트 콘크리트 포장의 장점을 3가지만 쓰시오",
         "주행성이 좋다 2 평탄성이 좋다 3 시공성이 좋다"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "주행성",
+          [
+            "좋",
+            "우수"
+          ]
+        ],
+        [
+          "평탄성",
+          [
+            "좋",
+            "우수"
+          ]
+        ],
+        [
+          "시공성",
+          [
+            "좋",
+            "우수"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-155",
@@ -20709,7 +20775,23 @@
         "현장시험을 3가지만 쓰시오",
         "표준관입시험 2 콘관입시험 3 탄성파탐사"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "표준관입"
+        ],
+        [
+          [
+            "콘관입",
+            "콘 관입",
+            "CPT"
+          ]
+        ],
+        [
+          "탄성파"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-156",
@@ -20747,7 +20829,21 @@
         "냉각한 골재를 사용하는 방법",
         "액화질소를 사용하는 방법"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "냉수",
+          "얼음"
+        ],
+        [
+          "냉각",
+          "골재"
+        ],
+        [
+          "액화질소"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-157",
@@ -20779,7 +20875,16 @@
         "기록할 수 있는 지구물리학적인 지반조사 방법은?",
         ": 크로스홀 탐사법"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          [
+            "크로스홀",
+            "cross hole"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "2-158",
@@ -20809,12 +20914,30 @@
       ],
       "notes": [],
       "rawBlock": [
-        "점성토지반에서 표준관입시험 결과 N치로 판정·추정할",
-        "수 있는 사항 4가지를 쓰시오.",
-        "컨시스턴시 2 일축압축강도",
-        "점착력 4 기초지반 허용지지력"
+        "컨시스턴시",
+        "일축압축강도",
+        "점착력",
+        "기초지반 허용지지력"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "컨시스턴시"
+        ],
+        [
+          "일축압축강도"
+        ],
+        [
+          "점착력"
+        ],
+        [
+          [
+            "허용지지력",
+            "허용 지지력"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 4
     },
     {
       "id": "2-159",
@@ -20849,7 +20972,29 @@
         "경량골재 콘크리트 2 경량기포 콘크리트",
         "무세골재 콘크리트"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "경량골재",
+          "콘크리트"
+        ],
+        [
+          [
+            "경량기포",
+            "기포"
+          ],
+          "콘크리트"
+        ],
+        [
+          [
+            "무세골재",
+            "무세",
+            "무세골재"
+          ],
+          "콘크리트"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-160",
@@ -20880,7 +21025,25 @@
         "숏크리트공법 2 록볼트",
         "록 앵커공법"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "숏크리트"
+        ],
+        [
+          [
+            "록볼트",
+            "락볼트"
+          ]
+        ],
+        [
+          [
+            "록앵커",
+            "록 앵커"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-161",
@@ -20910,7 +21073,13 @@
         "하는가?",
         ": 탄성지진응답계수"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "탄성지진응답계수"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "2-162",
@@ -20943,7 +21112,22 @@
         "회전저항 2 경사저항",
         "공기저항 4 가속저항"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "회전저항"
+        ],
+        [
+          "경사저항"
+        ],
+        [
+          "공기저항"
+        ],
+        [
+          "가속저항"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-163",
@@ -20975,7 +21159,15 @@
         "고, 점성토에도 적용이 가능한 공법은?",
         ": 다짐모래 말뚝 공법"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "다짐",
+          "모래",
+          "말뚝"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "2-164",
@@ -21008,7 +21200,21 @@
         "선단 cone 저항 2 마찰저항",
         "간극수압"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "선단",
+          "cone",
+          "저항"
+        ],
+        [
+          "마찰저항"
+        ],
+        [
+          "간극수압"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-165",
@@ -21039,7 +21245,33 @@
         "천공 및 발파의 잘못 2 착암기 사용 잘못",
         "전단력이 약한 토질 굴착시 발생"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "천공",
+          "발파",
+          [
+            "잘못",
+            "불량"
+          ]
+        ],
+        [
+          "착암기",
+          [
+            "잘못",
+            "불량"
+          ]
+        ],
+        [
+          "전단력",
+          [
+            "약",
+            "작"
+          ],
+          "토질"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-166",
@@ -21069,7 +21301,14 @@
         "칭을 쓰시오",
         ": 매입형 복합말뚝"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "매입형",
+          "복합말뚝"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "2-167",
@@ -21100,7 +21339,34 @@
         "포장 표면의 내구성 증대 2 포장 표면의 방수성",
         "포장 표면의 미끄럼 방지"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "내구성",
+          [
+            "증대",
+            "향상"
+          ]
+        ],
+        [
+          [
+            "방수성",
+            "수밀성"
+          ],
+          [
+            "증대",
+            "확보"
+          ]
+        ],
+        [
+          "미끄럼",
+          [
+            "방지",
+            "저항"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-168",
@@ -21130,7 +21396,19 @@
         "연약지반 개량공법 중 치환공법의 종류 3가지를 쓰시오",
         "폭파치환 2 굴착치환 3 강제치환공법"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "폭파치환"
+        ],
+        [
+          "굴착치환"
+        ],
+        [
+          "강제치환"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-169",
@@ -21164,7 +21442,19 @@
         "기가 달라진다. 이 횡방향토압의 종류 3가지를 쓰시오",
         "주동토압 2 수동토압 3 정지토압"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "주동토압"
+        ],
+        [
+          "수동토압"
+        ],
+        [
+          "정지토압"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-170",
@@ -21191,7 +21481,29 @@
         ": rod에 붙인 어떤 저항체를 지중에 넣어 타격 관입, 인발",
         "및 회전할 때의 흙의 전단강도를 측정하는 원위치 시험"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "rod",
+          "저항체",
+          "지중"
+        ],
+        [
+          [
+            "타격",
+            "관입",
+            "인발",
+            "회전"
+          ],
+          "흙",
+          "전단강도",
+          [
+            "측정",
+            "시험"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "2-171",
@@ -21224,7 +21536,29 @@
         "턴 풋 롤러 2 시프스 풋 롤러",
         "태퍼 풋 롤러"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          [
+            "턴풋",
+            "턴 풋"
+          ]
+        ],
+        [
+          [
+            "시프스풋",
+            "시프스 풋",
+            "sheeps foot"
+          ]
+        ],
+        [
+          [
+            "태퍼풋",
+            "태퍼 풋"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-172",
@@ -21259,7 +21593,19 @@
         "단실박스 2 다실박스",
         "다중박스"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "단실박스"
+        ],
+        [
+          "다실박스"
+        ],
+        [
+          "다중박스"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-173",
@@ -21277,19 +21623,25 @@
       ],
       "hint": null,
       "answerLines": [
-        ": 스폴링"
+        "스폴링(spalling)"
       ],
       "answerTokens": [
-        "스폴링"
+        "스폴링(spalling)"
       ],
       "notes": [],
       "rawBlock": [
-        "무근콘크리트 포장에서 줄눈이나 균열부에 단단한 입자",
-        "가 침입하면 슬래브 팽창을 방해하게된다. 이로 인해 국부",
-        "적인 압축파괴를 일으켜 발생하는 균열을 무엇이라 하는가",
-        ": 스폴링"
+        "스폴링(spalling)"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          [
+            "스폴링",
+            "spalling"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "2-174",
@@ -21319,7 +21671,19 @@
         "터널의 방재설비 종류를 3가지만 쓰시오",
         "소화설비 2 경보설비 3 피난설비"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "소화설비"
+        ],
+        [
+          "경보설비"
+        ],
+        [
+          "피난설비"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-175",
@@ -21351,7 +21715,46 @@
         "간극비를 감소시켜 투수계수 감소",
         "압축성을 감소시켜 침하 방지"
       ],
-      "editorNote": null
+      "editorNote": "2권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "강도",
+          [
+            "증가",
+            "증대"
+          ],
+          "지지력",
+          [
+            "향상",
+            "증가"
+          ]
+        ],
+        [
+          "간극비",
+          [
+            "감소",
+            "저하"
+          ],
+          "투수계수",
+          [
+            "감소",
+            "저하"
+          ]
+        ],
+        [
+          "압축성",
+          [
+            "감소",
+            "저하"
+          ],
+          "침하",
+          [
+            "방지",
+            "감소"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "2-176",
