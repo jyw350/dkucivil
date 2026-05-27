@@ -770,6 +770,34 @@ function judgeAnswer(item, rawInput) {
     ? Math.min(explicitRequiredCount, expectedTokens.length)
     : expectedTokens.length < 3 ? expectedTokens.length : 3;
 
+  if (item.strictAnswerMode === "exact-token") {
+    const unusedUserTokens = [...userTokens];
+    let directTokenMatchedCount = 0;
+    let hadWhitespaceOnlyMatch = false;
+
+    for (const expectedToken of expectedTokens) {
+      const matchIndex = unusedUserTokens.findIndex((userToken) => tokenMatches(expectedToken, userToken) !== "none");
+      if (matchIndex === -1) {
+        continue;
+      }
+
+      const matchType = tokenMatches(expectedToken, unusedUserTokens[matchIndex]);
+      if (matchType === "whitespace") {
+        hadWhitespaceOnlyMatch = true;
+      }
+      directTokenMatchedCount += 1;
+      unusedUserTokens.splice(matchIndex, 1);
+    }
+
+    return {
+      isCorrect: directTokenMatchedCount >= requiredCount,
+      feedbackMode: hadWhitespaceOnlyMatch && directTokenMatchedCount >= requiredCount ? "warning" : directTokenMatchedCount >= requiredCount ? "correct" : "incorrect",
+      message: directTokenMatchedCount >= requiredCount
+        ? buildCorrectMessage(requiredCount, directTokenMatchedCount, hadWhitespaceOnlyMatch, expectedTokens.length, hasExplicitCount)
+        : buildIncorrectMessage(requiredCount, directTokenMatchedCount, expectedTokens.length, hasExplicitCount),
+    };
+  }
+
   if (expectedTokens.length <= 1) {
     const target = expectedTokens[0] ?? item.answerLines[0] ?? "";
     const matchType = tokenMatches(target, trimmedInput);
@@ -1420,7 +1448,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260527-11";
+    script.src = "./data/civil_quiz_dataset.js?v=20260527-12";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {

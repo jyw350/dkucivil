@@ -25,7 +25,7 @@
       "total": 699
     },
     "manualOverrideCount": 4,
-    "generatedAt": "20260527-11"
+    "generatedAt": "20260527-12"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -14865,7 +14865,7 @@
         "터널 막장파괴를 유발할 수 있는 암반의 불연속면 종류",
         "절리 2 층리 3 편리 4 단층"
       ],
-      "editorNote": "2권 핵심어 기준 적용",
+      "editorNote": "2권 핵심어 기준 적용 / 2026-05-27 2-46 단답형 정확 일치 채점 적용",
       "keywordAnswerGroups": [
         [
           "절리"
@@ -14880,7 +14880,8 @@
           "단층"
         ]
       ],
-      "requiredAnswerCount": 1
+      "requiredAnswerCount": 1,
+      "strictAnswerMode": "exact-token"
     },
     {
       "id": "2-47",
