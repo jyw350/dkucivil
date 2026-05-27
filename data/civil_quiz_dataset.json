@@ -25,7 +25,7 @@
       "total": 699
     },
     "manualOverrideCount": 4,
-    "generatedAt": "20260527-6"
+    "generatedAt": "20260527-7"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -30741,7 +30741,26 @@
         "- 미니파이프루프 공법",
         "- 스틸시트파일 공법"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          [
+            "Fore poling",
+            "Forepoling",
+            "포어폴링",
+            "훠폴링"
+          ]
+        ],
+        [
+          "미니",
+          "파이프루프"
+        ],
+        [
+          "스틸",
+          "시트파일"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-127",
@@ -30773,7 +30792,19 @@
         "- 복토법",
         "- 사혈법"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "천공법"
+        ],
+        [
+          "복토법"
+        ],
+        [
+          "사혈법"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-128",
@@ -30805,7 +30836,22 @@
         "- 격자지보재",
         "- U형지보재"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "H형",
+          "강지보재"
+        ],
+        [
+          "격자",
+          "지보재"
+        ],
+        [
+          "U형",
+          "지보재"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-129",
@@ -30843,7 +30889,28 @@
         "- 뒷부벽식",
         "- 라멘식"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "중력식"
+        ],
+        [
+          "반중력식"
+        ],
+        [
+          [
+            "역T형",
+            "역 T형"
+          ]
+        ],
+        [
+          "뒷부벽식"
+        ],
+        [
+          "라멘식"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-130",
@@ -30878,7 +30945,22 @@
         "- ILM",
         "- PSM"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "FCM"
+        ],
+        [
+          "MSS"
+        ],
+        [
+          "ILM"
+        ],
+        [
+          "PSM"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-131",
@@ -30910,7 +30992,32 @@
         "- 상부구조물의 횡단면이 일정하다.",
         "- 콘크리트 타설 시 엄격한 품질관리가 필요하다."
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "넓은",
+          "제작장",
+          [
+            "필요",
+            "요구"
+          ]
+        ],
+        [
+          "상부구조물",
+          "횡단면",
+          "일정"
+        ],
+        [
+          "콘크리트",
+          "타설",
+          "품질관리",
+          [
+            "엄격",
+            "철저"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-132",
@@ -30942,7 +31049,31 @@
         "- Pushing",
         "- Lift & Pushing"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          [
+            "Pulling",
+            "풀링"
+          ]
+        ],
+        [
+          [
+            "Pushing",
+            "푸싱"
+          ]
+        ],
+        [
+          [
+            "Lift & Pushing",
+            "Lift and Pushing",
+            "Lift Pushing",
+            "리프트 푸싱",
+            "리프트 앤 푸싱"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-133",
@@ -30974,7 +31105,28 @@
         "- DB-24",
         "- DB-13.5"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          [
+            "DB-18",
+            "DB18"
+          ]
+        ],
+        [
+          [
+            "DB-24",
+            "DB24"
+          ]
+        ],
+        [
+          [
+            "DB-13.5",
+            "DB13.5"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-134",
@@ -31009,7 +31161,29 @@
         "- 분격 트러스",
         "- 프래트 트러스"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "워런",
+          "트러스"
+        ],
+        [
+          "하우",
+          "트러스"
+        ],
+        [
+          "분격",
+          "트러스"
+        ],
+        [
+          [
+            "프래트",
+            "프랫"
+          ],
+          "트러스"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-135",
@@ -31044,7 +31218,7 @@
         "- 스타형",
         "- 하프형"
       ],
-      "editorNote": "1권 기준 자동 적용: 1-85 (정답 세트 완전 동일)",
+      "editorNote": "1권 기준 자동 적용: 1-85 (정답 세트 완전 동일) / 3권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
           "하프형"
@@ -31058,7 +31232,8 @@
         [
           "스타형"
         ]
-      ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-136",
@@ -31093,7 +31268,7 @@
         "- 하로교",
         "- 2층교"
       ],
-      "editorNote": "1권 기준 자동 적용: 1-40 (정답 세트 완전 동일)",
+      "editorNote": "1권 기준 자동 적용: 1-40 (정답 세트 완전 동일) / 3권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
           "상로교"
@@ -31110,7 +31285,8 @@
             "이층교"
           ]
         ]
-      ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-137",
@@ -31142,7 +31318,25 @@
         "- 다중모드 스펙트럼 해석방법",
         "- 시간이력 해석법"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "단일모드",
+          "스펙트럼"
+        ],
+        [
+          "다중모드",
+          "스펙트럼"
+        ],
+        [
+          [
+            "시간이력",
+            "시간 이력"
+          ],
+          "해석"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-138",
@@ -31177,7 +31371,25 @@
         "- 관추진 공법",
         "- 프런트 세미실드 공법"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "프런트",
+          "재킹"
+        ],
+        [
+          "프런트",
+          "실드"
+        ],
+        [
+          "관추진"
+        ],
+        [
+          "프런트",
+          "세미실드"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-139",
@@ -31215,7 +31427,30 @@
         "- 콘크리트 온도",
         "- 콘크리트 반죽질기"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "콘크리트",
+          "배합"
+        ],
+        [
+          "콘크리트",
+          "타설속도"
+        ],
+        [
+          "콘크리트",
+          "타설높이"
+        ],
+        [
+          "콘크리트",
+          "온도"
+        ],
+        [
+          "콘크리트",
+          "반죽질기"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-140",
@@ -31253,7 +31488,46 @@
         "- 잔골재율을 크게 한다.",
         "- 분말도가 높은 시멘트를 사용한다."
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "AE제",
+          [
+            "사용",
+            "첨가"
+          ]
+        ],
+        [
+          "단위시멘트량",
+          [
+            "크게",
+            "증가",
+            "증대"
+          ]
+        ],
+        [
+          "단위수량",
+          [
+            "적게",
+            "감소",
+            "저감"
+          ]
+        ],
+        [
+          "잔골재율",
+          [
+            "크게",
+            "증가",
+            "증대"
+          ]
+        ],
+        [
+          "분말도",
+          "높은",
+          "시멘트"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-141",
@@ -31291,7 +31565,33 @@
         "- 강재 앵커 공법",
         "- Prestress 공법"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "표면",
+          "처리"
+        ],
+        [
+          "충전",
+          "공법"
+        ],
+        [
+          "주입",
+          "공법"
+        ],
+        [
+          "강재",
+          "앵커"
+        ],
+        [
+          [
+            "Prestress",
+            "프리스트레스"
+          ],
+          "공법"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-142",
@@ -31323,7 +31623,22 @@
         "- 초기건조균열",
         "- 거푸집 변형에 의한 균열"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "침하균열"
+        ],
+        [
+          "초기",
+          "건조균열"
+        ],
+        [
+          "거푸집",
+          "변형",
+          "균열"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-143",
@@ -31358,7 +31673,24 @@
         "- 시공줄눈",
         "- 세로줄눈"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "가로",
+          "수축줄눈"
+        ],
+        [
+          "가로",
+          "팽창줄눈"
+        ],
+        [
+          "시공줄눈"
+        ],
+        [
+          "세로줄눈"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-144",
@@ -31390,7 +31722,29 @@
         "- 콘크리트의 크리프",
         "- PS 강재의 릴렉세이션"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "콘크리트",
+          "건조수축"
+        ],
+        [
+          "콘크리트",
+          "크리프"
+        ],
+        [
+          [
+            "PS강재",
+            "PS 강재"
+          ],
+          [
+            "릴렉세이션",
+            "Relaxation",
+            "응력이완"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-145",
@@ -31422,7 +31776,33 @@
         "- 콘크리트의 탄성수축",
         "- 포스트텐션 긴장재와 덕트 사이의 마찰"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "정착장치",
+          "활동"
+        ],
+        [
+          "콘크리트",
+          "탄성수축"
+        ],
+        [
+          [
+            "포스트텐션",
+            "포스트 텐션"
+          ],
+          [
+            "긴장재",
+            "강재"
+          ],
+          [
+            "덕트",
+            "쉬스"
+          ],
+          "마찰"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-146",
@@ -31459,7 +31839,7 @@
         "- 밑열림 상자",
         "- 밑열림 포대"
       ],
-      "editorNote": "1권 기준 자동 적용: 1-79 (정답 항목 다수 동일)",
+      "editorNote": "1권 기준 자동 적용: 1-79 (정답 항목 다수 동일) / 3권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
           "콘크리트",
@@ -31483,7 +31863,8 @@
             "Tremie"
           ]
         ]
-      ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-147",
@@ -31515,7 +31896,34 @@
         "- 수밀성 향상",
         "- 수화열 감소"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "유동성",
+          [
+            "향상",
+            "증대",
+            "개선"
+          ]
+        ],
+        [
+          "수밀성",
+          [
+            "향상",
+            "증대",
+            "개선"
+          ]
+        ],
+        [
+          "수화열",
+          [
+            "감소",
+            "저감",
+            "저하"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-148",
@@ -31550,7 +31958,28 @@
         "- 고로 슬래그",
         "- 실리카 폼"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "플라이애시"
+        ],
+        [
+          "팽창제"
+        ],
+        [
+          "고로",
+          "슬래그"
+        ],
+        [
+          [
+            "실리카폼",
+            "실리카 흄",
+            "실리카퓸",
+            "Silica fume"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-149",
@@ -31582,7 +32011,24 @@
         "- 폴리머 시멘트 콘크리트",
         "- 폴리머 함침 콘크리트"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "폴리머",
+          "콘크리트"
+        ],
+        [
+          "폴리머",
+          "시멘트",
+          "콘크리트"
+        ],
+        [
+          "폴리머",
+          "함침",
+          "콘크리트"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-150",
@@ -31616,7 +32062,7 @@
         "- 온수양생",
         "- 전기양생"
       ],
-      "editorNote": "1권 기준 자동 적용: 1-114 (정답 항목 다수 동일)",
+      "editorNote": "1권 기준 자동 적용: 1-114 (정답 항목 다수 동일) / 3권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
           "전기양생"
@@ -31630,7 +32076,8 @@
         [
           "습윤양생"
         ]
-      ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-151",
