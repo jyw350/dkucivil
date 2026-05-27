@@ -25,7 +25,7 @@
       "total": 699
     },
     "manualOverrideCount": 4,
-    "generatedAt": "20260527-3"
+    "generatedAt": "20260527-4"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -26461,7 +26461,22 @@
         "- V형",
         "- J형"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "L형"
+        ],
+        [
+          "U형"
+        ],
+        [
+          "V형"
+        ],
+        [
+          "J형"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-52",
@@ -26493,7 +26508,31 @@
         "- 제방폭을 넓힌다.",
         "- 제방내외의 수위차를 줄인다."
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "차수벽"
+        ],
+        [
+          "제방폭",
+          [
+            "넓",
+            "증대"
+          ]
+        ],
+        [
+          [
+            "수위차",
+            "수위 차"
+          ],
+          [
+            "줄",
+            "감소",
+            "저하"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-53",
@@ -26525,7 +26564,7 @@
         "- 경사제",
         "- 혼성제"
       ],
-      "editorNote": "1권 기준 자동 적용: 1-97 (정답 세트 완전 동일)",
+      "editorNote": "1권 기준 자동 적용: 1-97 (정답 세트 완전 동일) / 3권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
           "혼성제"
@@ -26536,7 +26575,8 @@
         [
           "경사제"
         ]
-      ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-54",
@@ -26568,7 +26608,7 @@
         "- 다실박스",
         "- 다중박스"
       ],
-      "editorNote": "1권 기준 자동 적용: 1-90 (정답 세트 완전 동일)",
+      "editorNote": "1권 기준 자동 적용: 1-90 (정답 세트 완전 동일) / 3권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
           "단실박스"
@@ -26579,7 +26619,8 @@
         [
           "다중박스"
         ]
-      ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-55",
@@ -26614,7 +26655,26 @@
         "- Q 분류법",
         "- RSR 분류법"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "RQD"
+        ],
+        [
+          "RMR"
+        ],
+        [
+          [
+            "Q",
+            "Q-system",
+            "Q system"
+          ]
+        ],
+        [
+          "RSR"
+        ]
+      ],
+      "requiredAnswerCount": 4
     },
     {
       "id": "3-56",
@@ -26652,7 +26712,28 @@
         "- 절리의 상태",
         "- 지하수 상태"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "일축압축강도"
+        ],
+        [
+          "RQD"
+        ],
+        [
+          "절리",
+          "간격"
+        ],
+        [
+          "절리",
+          "상태"
+        ],
+        [
+          "지하수",
+          "상태"
+        ]
+      ],
+      "requiredAnswerCount": 4
     },
     {
       "id": "3-57",
@@ -26690,7 +26771,26 @@
         "- 지하수보정계수",
         "- 절리면거칠기계수"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "RQD"
+        ],
+        [
+          "절리군수"
+        ],
+        [
+          "응력저감계수"
+        ],
+        [
+          "지하수보정계수"
+        ],
+        [
+          "절리면",
+          "거칠기계수"
+        ]
+      ],
+      "requiredAnswerCount": 4
     },
     {
       "id": "3-58",
@@ -26728,7 +26828,25 @@
         "- 불연속면의 충전물",
         "- 불연속면의 연장성"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "방향성"
+        ],
+        [
+          "간격"
+        ],
+        [
+          "간극"
+        ],
+        [
+          "충전물"
+        ],
+        [
+          "연장성"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-59",
@@ -26763,7 +26881,29 @@
         "- 쐐기파괴",
         "- 전도파괴"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "평면",
+          "파괴"
+        ],
+        [
+          [
+            "원형",
+            "원호"
+          ],
+          "파괴"
+        ],
+        [
+          "쐐기",
+          "파괴"
+        ],
+        [
+          "전도",
+          "파괴"
+        ]
+      ],
+      "requiredAnswerCount": 4
     },
     {
       "id": "3-60",
@@ -26795,7 +26935,24 @@
         "- 수압파쇄법",
         "- AE법"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          [
+            "Flat Jack",
+            "FlatJack",
+            "플랫잭",
+            "플랫 잭"
+          ]
+        ],
+        [
+          "수압파쇄"
+        ],
+        [
+          "AE"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-61",
@@ -26835,7 +26992,7 @@
         "- 전기 탐사법",
         "- 중력 탐사법"
       ],
-      "editorNote": "1권 기준 자동 적용: 1-12 (정답 항목 다수 동일)",
+      "editorNote": "1권 기준 자동 적용: 1-12 (정답 항목 다수 동일) / 3권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
           "탄성파",
@@ -26861,7 +27018,8 @@
           "음파",
           "탐사"
         ]
-      ]
+      ],
+      "requiredAnswerCount": 5
     },
     {
       "id": "3-62",
@@ -26893,7 +27051,7 @@
         "- 간극수압",
         "- 선단 Cone 저항"
       ],
-      "editorNote": "1권 기준 자동 적용: 1-21 (정답 세트 완전 동일)",
+      "editorNote": "1권 기준 자동 적용: 1-21 (정답 세트 완전 동일) / 3권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
           "마찰저항"
@@ -26909,7 +27067,8 @@
             "cone 저항"
           ]
         ]
-      ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-63",
@@ -26942,7 +27101,7 @@
         "- 지하수위를 저하시킨다.",
         "- 흙막이의 근입깊이를 깊게 한다."
       ],
-      "editorNote": "1권 기준 자동 적용: 1-14 (정답 항목 다수 동일)",
+      "editorNote": "1권 기준 자동 적용: 1-14 (정답 항목 다수 동일) / 3권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
           "지하수위",
@@ -26975,7 +27134,8 @@
             "개량"
           ]
         ]
-      ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-64",
@@ -27008,7 +27168,7 @@
         "- 지하수위 저하",
         "- 성토지반의 연약화 방지"
       ],
-      "editorNote": "1권 기준 자동 적용: 1-28 (정답 항목 다수 동일)",
+      "editorNote": "1권 기준 자동 적용: 1-28 (정답 항목 다수 동일) / 3권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
           "지하수위",
@@ -27035,7 +27195,8 @@
             "향상"
           ]
         ]
-      ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-65",
@@ -27070,7 +27231,40 @@
         "- Earth auger에 의한 방법",
         "- Rotary boring에 의한 방법"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          [
+            "압축공기",
+            "압축 공기"
+          ],
+          "케이싱"
+        ],
+        [
+          [
+            "Water jet",
+            "Waterjet",
+            "워터젯",
+            "워터 제트"
+          ],
+          "케이싱"
+        ],
+        [
+          [
+            "Earth auger",
+            "어스오거",
+            "어스 오거"
+          ]
+        ],
+        [
+          [
+            "Rotary boring",
+            "로터리보링",
+            "로터리 보링"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-66",
@@ -27102,7 +27296,39 @@
         "- 모래를 적게 사용한다.",
         "- Sand pile이 절단되지 않는다."
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "공기",
+          [
+            "단축",
+            "짧"
+          ]
+        ],
+        [
+          "모래",
+          [
+            "적게",
+            "감소",
+            "절약"
+          ]
+        ],
+        [
+          [
+            "Sand pile",
+            "샌드파일"
+          ],
+          [
+            "절단",
+            "끊"
+          ],
+          [
+            "않",
+            "방지"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-67",
@@ -27134,7 +27360,19 @@
         "- 점토계",
         "- 아스팔트계"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "시멘트"
+        ],
+        [
+          "점토"
+        ],
+        [
+          "아스팔트"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-68",
@@ -27169,7 +27407,37 @@
         "- 연약층의 두께",
         "- 연약층의 전단강도"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "뒤채움",
+          [
+            "편재하중",
+            "편재 하중"
+          ]
+        ],
+        [
+          [
+            "성토높이",
+            "성토 높이"
+          ]
+        ],
+        [
+          [
+            "연약층",
+            "연약 지반"
+          ],
+          "두께"
+        ],
+        [
+          [
+            "연약층",
+            "연약 지반"
+          ],
+          "전단강도"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-69",
@@ -27204,7 +27472,40 @@
         "- 압밀촉진에 의한 지반강도 증대",
         "- 치환을 통한 지반개량"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "배면토압",
+          [
+            "경감",
+            "감소"
+          ]
+        ],
+        [
+          "뒤채움",
+          "편재하중",
+          [
+            "경감",
+            "감소"
+          ]
+        ],
+        [
+          "압밀촉진",
+          "지반강도",
+          [
+            "증대",
+            "증가"
+          ]
+        ],
+        [
+          "치환",
+          [
+            "지반개량",
+            "개량"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-70",
@@ -27236,7 +27537,24 @@
         "- EPS 공법",
         "- 박스 매설 공법"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "파이프",
+          "매설"
+        ],
+        [
+          "EPS"
+        ],
+        [
+          [
+            "박스",
+            "BOX"
+          ],
+          "매설"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-71",
@@ -27268,7 +27586,27 @@
         "- 깊은 심도까지 개량",
         "- 지반 내에 장애물이 있어도 가능"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "넓은",
+          "면적",
+          "개량"
+        ],
+        [
+          "깊은",
+          "심도",
+          "개량"
+        ],
+        [
+          "장애물",
+          [
+            "가능",
+            "적용"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-72",
@@ -27300,7 +27638,29 @@
         "- 공사기간이 단축된다.",
         "- 배수속도가 빠르다."
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "전응력",
+          "일정",
+          "유지"
+        ],
+        [
+          "공사기간",
+          [
+            "단축",
+            "짧"
+          ]
+        ],
+        [
+          "배수속도",
+          [
+            "빠르",
+            "신속"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-73",
@@ -27332,7 +27692,26 @@
         "- 이스키미터 시험",
         "- 스웨덴식 관입시험"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "베인"
+        ],
+        [
+          [
+            "이스키미터",
+            "이스키"
+          ]
+        ],
+        [
+          [
+            "스웨덴식",
+            "스웨덴"
+          ],
+          "관입"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-74",
@@ -27364,7 +27743,22 @@
         "- 반력말뚝 재하방법",
         "- 사하중 재하방법"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "어스앵커",
+          "재하"
+        ],
+        [
+          "반력말뚝",
+          "재하"
+        ],
+        [
+          "사하중",
+          "재하"
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-75",
@@ -27396,7 +27790,22 @@
         "- 폭파치환공법",
         "- 압출치환공법(강제치환공법)"
       ],
-      "editorNote": null
+      "editorNote": "3권 핵심어 기준 적용",
+      "keywordAnswerGroups": [
+        [
+          "굴착치환"
+        ],
+        [
+          "폭파치환"
+        ],
+        [
+          [
+            "압출치환",
+            "강제치환"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3
     },
     {
       "id": "3-76",
