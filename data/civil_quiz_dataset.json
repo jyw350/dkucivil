@@ -25,7 +25,7 @@
       "total": 699
     },
     "manualOverrideCount": 4,
-    "generatedAt": "20260527-9"
+    "generatedAt": "20260527-10"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -14283,22 +14283,25 @@
         "샌드펌프 방법",
         "에어리프트 방법",
         "석션펌프 방법",
-        "수중펌프 방법"
+        "수중펌프 방법",
+        "water jet 방법"
       ],
       "answerTokens": [
         "샌드펌프 방법",
         "에어리프트 방법",
         "석션펌프 방법",
-        "수중펌프 방법"
+        "수중펌프 방법",
+        "water jet 방법"
       ],
       "notes": [],
       "rawBlock": [
         "샌드펌프 방법",
         "에어리프트 방법",
         "석션펌프 방법",
-        "수중펌프 방법"
+        "수중펌프 방법",
+        "water jet 방법"
       ],
-      "editorNote": "2권 핵심어 기준 적용",
+      "editorNote": "2권 핵심어 기준 적용 / 2026-05-27 2-36 water jet 방법 추가",
       "keywordAnswerGroups": [
         [
           [
@@ -14325,6 +14328,18 @@
           [
             "수중펌프",
             "수중 펌프"
+          ]
+        ],
+        [
+          [
+            "water jet",
+            "waterjet",
+            "워터젯",
+            "워터 제트"
+          ],
+          [
+            "방법",
+            "공법"
           ]
         ]
       ],
