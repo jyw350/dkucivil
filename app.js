@@ -828,6 +828,33 @@ function judgeAnswer(item, rawInput) {
     };
   }
 
+  if (item.strictAnswerMode === "mandatory-sections" && Array.isArray(item.mandatoryAnswerSections)) {
+    const normalizedInput = normalizeForLooseMatch(trimmedInput);
+    const allAliases = item.mandatoryAnswerSections.flatMap((section) => section.labelAliases || []);
+    let matchedCount = 0;
+    let isCorrect = true;
+
+    for (const section of item.mandatoryAnswerSections) {
+      const ownAliases = section.labelAliases || [];
+      const otherAliases = allAliases.filter((alias) => !ownAliases.includes(alias));
+      const sectionText = getSectionText(normalizedInput, ownAliases, otherAliases);
+      const groups = section.keywordAnswerGroups || [];
+      const sectionMatchedCount = countKeywordAnswerGroupMatches(groups, sectionText);
+      matchedCount += sectionMatchedCount;
+      if (sectionMatchedCount < (section.requiredCount || 1)) {
+        isCorrect = false;
+      }
+    }
+
+    return {
+      isCorrect,
+      feedbackMode: isCorrect ? "correct" : "incorrect",
+      message: isCorrect
+        ? "정답입니다. 1번 정의와 2번 원인 기준을 충족했습니다."
+        : "오답입니다. 1번 정의를 맞히고, 2번 원인을 3개 이상 맞혀야 합니다.",
+    };
+  }
+
   if (expectedTokens.length <= 1) {
     const target = expectedTokens[0] ?? item.answerLines[0] ?? "";
     const matchType = tokenMatches(target, trimmedInput);
@@ -1478,7 +1505,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260527-16";
+    script.src = "./data/civil_quiz_dataset.js?v=20260529-1";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
