@@ -798,6 +798,36 @@ function judgeAnswer(item, rawInput) {
     };
   }
 
+  if (item.strictAnswerMode === "exact-token-groups" && Array.isArray(item.strictAnswerGroups)) {
+    const unusedUserTokens = [...userTokens];
+    let directTokenMatchedCount = 0;
+    let hadWhitespaceOnlyMatch = false;
+
+    for (const group of item.strictAnswerGroups) {
+      const variants = Array.isArray(group) ? group : [group];
+      const matchIndex = unusedUserTokens.findIndex((userToken) => variants.some((variant) => tokenMatches(variant, userToken) !== "none"));
+      if (matchIndex === -1) {
+        continue;
+      }
+
+      const matchedVariant = variants.find((variant) => tokenMatches(variant, unusedUserTokens[matchIndex]) !== "none");
+      const matchType = tokenMatches(matchedVariant, unusedUserTokens[matchIndex]);
+      if (matchType === "whitespace") {
+        hadWhitespaceOnlyMatch = true;
+      }
+      directTokenMatchedCount += 1;
+      unusedUserTokens.splice(matchIndex, 1);
+    }
+
+    return {
+      isCorrect: directTokenMatchedCount >= requiredCount,
+      feedbackMode: hadWhitespaceOnlyMatch && directTokenMatchedCount >= requiredCount ? "warning" : directTokenMatchedCount >= requiredCount ? "correct" : "incorrect",
+      message: directTokenMatchedCount >= requiredCount
+        ? buildCorrectMessage(requiredCount, directTokenMatchedCount, hadWhitespaceOnlyMatch, expectedTokens.length, hasExplicitCount)
+        : buildIncorrectMessage(requiredCount, directTokenMatchedCount, expectedTokens.length, hasExplicitCount),
+    };
+  }
+
   if (expectedTokens.length <= 1) {
     const target = expectedTokens[0] ?? item.answerLines[0] ?? "";
     const matchType = tokenMatches(target, trimmedInput);
@@ -1448,7 +1478,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260527-15";
+    script.src = "./data/civil_quiz_dataset.js?v=20260527-16";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
