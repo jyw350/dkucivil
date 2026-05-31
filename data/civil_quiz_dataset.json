@@ -25,7 +25,7 @@
       "total": 699
     },
     "manualOverrideCount": 4,
-    "generatedAt": "20260531-1"
+    "generatedAt": "20260531-2"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -17239,7 +17239,7 @@
         "훠폴링 공법 2 미니파이프 루프 공법",
         "스틸 시트파일 공법"
       ],
-      "editorNote": "2권 핵심어 기준 적용 / 2026-05-31 2-88 훠폴링/fore poling 공법 허용",
+      "editorNote": "2권 핵심어 기준 적용 / 2026-05-31 2-88 훠폴링/fore poling 공법 허용 / 2026-05-31 2-88 mini piperoof/steel sheetpile 표현 허용",
       "keywordAnswerGroups": [
         [
           [
@@ -17257,19 +17257,29 @@
         ],
         [
           [
-            "미니파이프",
-            "미니 파이프"
+            "미니파이프루프",
+            "미니파이프 루프",
+            "미니 파이프 루프",
+            "mini piperoof",
+            "mini pipe roof",
+            "Mini Piperoof"
           ],
-          "루프"
+          [
+            "공법",
+            ""
+          ]
         ],
         [
           [
-            "스틸",
-            "steel"
+            "스틸시트파일",
+            "스틸 시트파일",
+            "steel sheetpile",
+            "steel sheet pile",
+            "Steel Sheetpile"
           ],
           [
-            "시트파일",
-            "시트 파일"
+            "공법",
+            ""
           ]
         ]
       ],
