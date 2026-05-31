@@ -25,7 +25,7 @@
       "total": 699
     },
     "manualOverrideCount": 4,
-    "generatedAt": "20260531-3"
+    "generatedAt": "20260531-4"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -18022,9 +18022,9 @@
       "sourceTitle": "실기 말따먹기-1",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\실기 말따먹기-1.pdf",
       "sourcePage": 7,
-      "question": "성토작업 후 다짐도를 판정하는 방법 5가지 쓰시오(2)",
+      "question": "성토작업 후 다짐도를 판정하는 방법 5가지 쓰시오. ( ~로 규정)",
       "promptLines": [
-        "성토작업 후 다짐도를 판정하는 방법 5가지 쓰시오(2)"
+        "성토작업 후 다짐도를 판정하는 방법 5가지 쓰시오. ( ~로 규정)"
       ],
       "hint": null,
       "answerLines": [
@@ -18048,7 +18048,7 @@
         "강도특성으로 규정 4 변형특성으로 규정",
         "다짐기계, 다짐횟수로 규정"
       ],
-      "editorNote": "2권 핵심어 기준 적용",
+      "editorNote": "2권 핵심어 기준 적용 / 2026-05-31 2-102 지문 보정",
       "keywordAnswerGroups": [
         [
           "건조밀도",
