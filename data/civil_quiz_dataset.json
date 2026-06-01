@@ -25,7 +25,7 @@
       "total": 699
     },
     "manualOverrideCount": 4,
-    "generatedAt": "20260601-2"
+    "generatedAt": "20260601-3"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -19188,7 +19188,7 @@
         "되는데, 이 시험 결과로부터 얻을 수 있는 3가지의 설계기",
         "준은?(5)"
       ],
-      "hint": null,
+      "hint": "안공포",
       "answerLines": [
         "안정도",
         "공극률",
@@ -19205,7 +19205,7 @@
         "공극률",
         "포화도"
       ],
-      "editorNote": "2권 핵심어 기준 적용 / 2026-06-01 2-122 안정도 표기 보정",
+      "editorNote": "2권 핵심어 기준 적용 / 2026-06-01 2-122 안정도 표기 보정 / 2026-06-01 2-122 힌트 추가",
       "keywordAnswerGroups": [
         [
           "안정도"
