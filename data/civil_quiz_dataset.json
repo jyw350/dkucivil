@@ -25,7 +25,7 @@
       "total": 699
     },
     "manualOverrideCount": 4,
-    "generatedAt": "20260601-1"
+    "generatedAt": "20260601-2"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -19685,7 +19685,7 @@
         "2. 맹암거",
         "3. 암거"
       ],
-      "editorNote": "2권 핵심어 기준 적용 / 2026-06-01 2-129 번호 매칭 배수시설 보정",
+      "editorNote": "2권 핵심어 기준 적용 / 2026-06-01 2-129 번호 매칭 배수시설 보정 / 2026-06-01 2-129 랜덤 번호 매칭형 적용",
       "keywordAnswerGroups": [
         [
           "1",
@@ -19715,7 +19715,25 @@
           "3. 암거",
           "3 암거"
         ]
-      ]
+      ],
+      "dynamicMatching": {
+        "type": "numbered-drainage",
+        "intro": "도로의 배수처리는 본체 및 도로구조의 기능 보존, 침 투나 지하수 유입에 중요한 작용을 한다. 다음 배수시설 종류별 대표적인 것을 1가지씩만 쓰시오",
+        "entries": [
+          {
+            "label": "표면배수",
+            "answer": "측구"
+          },
+          {
+            "label": "지하배수",
+            "answer": "맹암거"
+          },
+          {
+            "label": "횡단배수",
+            "answer": "암거"
+          }
+        ]
+      }
     },
     {
       "id": "2-130",

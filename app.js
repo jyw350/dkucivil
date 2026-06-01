@@ -1075,8 +1075,55 @@ function renderHistorySummary() {
   `;
 }
 
+
+function shuffledCopy(items) {
+  const copy = [...items];
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [copy[index], copy[randomIndex]] = [copy[randomIndex], copy[index]];
+  }
+  return copy;
+}
+
+function prepareDynamicMatchingQuestion(item) {
+  if (item.dynamicMatching?.type !== "numbered-drainage") {
+    return item;
+  }
+
+  const shuffledEntries = shuffledCopy(item.dynamicMatching.entries || []);
+  const questionLines = [
+    item.dynamicMatching.intro || item.question,
+    ...shuffledEntries.map((entry, index) => `${entry.label} : (${index + 1})`),
+  ];
+  const answerLines = shuffledEntries.map((entry, index) => `${index + 1}. ${entry.answer}`);
+
+  return {
+    ...item,
+    question: questionLines.join("\n"),
+    promptLines: questionLines,
+    answerLines,
+    answerTokens: answerLines,
+    rawBlock: answerLines,
+    strictAnswerMode: "exact-token-groups",
+    strictAnswerGroups: shuffledEntries.map((entry, index) => [
+      `${index + 1}. ${entry.answer}`,
+      `${index + 1} ${entry.answer}`,
+    ]),
+    keywordAnswerGroups: shuffledEntries.map((entry, index) => [String(index + 1), entry.answer]),
+    requiredAnswerCount: shuffledEntries.length,
+    dynamicMatchingState: {
+      type: item.dynamicMatching.type,
+      order: shuffledEntries.map((entry) => entry.label),
+    },
+  };
+}
+
 function renderQuestion() {
-  const item = state.quizItems[state.currentIndex];
+  let item = state.quizItems[state.currentIndex];
+  if (item?.dynamicMatching && !item.dynamicMatchingState) {
+    item = prepareDynamicMatchingQuestion(item);
+    state.quizItems[state.currentIndex] = item;
+  }
   const currentNumber = state.currentIndex + 1;
   const total = state.quizItems.length;
   const pdf = PDF_LIBRARY[item.volume];
@@ -1118,6 +1165,7 @@ function recordAttempt(item, userAnswer, isCorrect) {
     hint: item.hint,
     answerLines: item.answerLines,
     answerTokens: item.answerTokens,
+    dynamicMatchingState: item.dynamicMatchingState,
     userAnswer,
     isCorrect,
     usedHint: state.usedHintForCurrent,
@@ -1159,6 +1207,7 @@ function getCurrentAttemptForReport() {
     sourcePage: currentItem.sourcePage,
     volume: currentItem.volume,
     answerLines: currentItem.answerLines,
+    dynamicMatchingState: currentItem.dynamicMatchingState,
     userAnswer: answerInput.value.trim(),
   };
 }
@@ -1181,6 +1230,7 @@ function buildReportPayload(customMessage) {
     `문제: ${attempt.question}`,
     `내가 입력한 답: ${attempt.userAnswer || "입력 없음"}`,
     `저장된 정답: ${(attempt.answerLines || []).join(" / ")}`,
+    attempt.dynamicMatchingState ? `랜덤 순서: ${attempt.dynamicMatchingState.order.join(" / ")}` : "",
     `출처: ${pdf?.title || `${attempt.volume}권`} ${attempt.sourcePage}페이지`,
   ].join("\n");
 
@@ -1505,7 +1555,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260601-1";
+    script.src = "./data/civil_quiz_dataset.js?v=20260601-2";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
