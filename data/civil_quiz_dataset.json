@@ -25,7 +25,8 @@
       "total": 699
     },
     "manualOverrideCount": 4,
-    "generatedAt": "20260602-1"
+    "generatedAt": "20260602-1",
+    "updatedAt": "20260603-2"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -21406,8 +21407,12 @@
         ],
         [
           [
-            "록앵커",
-            "록 앵커"
+            "록 앵커공법",
+            "록앵커공법",
+            "록 앵커 공법",
+            "락 앵커공법",
+            "락앵커공법",
+            "락 앵커 공법"
           ]
         ]
       ],
@@ -21550,7 +21555,7 @@
         "CPT(원추형 콘관입 시험)의 일종인 piezocone으로 측",
         "정할 수 있는 값을 3가지 쓰시오"
       ],
-      "hint": null,
+      "hint": "마간선c",
       "answerLines": [
         "선단 cone 저항",
         "마찰저항",
@@ -21908,21 +21913,28 @@
       "keywordAnswerGroups": [
         [
           [
-            "턴풋",
-            "턴 풋"
+            "턴 풋 롤러",
+            "턴풋롤러",
+            "turn foot roller",
+            "turn foot 롤러"
           ]
         ],
         [
           [
-            "시프스풋",
-            "시프스 풋",
-            "sheeps foot"
+            "태퍼 풋 롤러",
+            "태퍼풋롤러",
+            "탬퍼 풋 롤러",
+            "탬퍼풋롤러",
+            "tapper foot roller",
+            "tapper foot 롤러"
           ]
         ],
         [
           [
-            "태퍼풋",
-            "태퍼 풋"
+            "시프스 풋 롤러",
+            "시프스풋롤러",
+            "sheeps foot roller",
+            "sheeps foot 롤러"
           ]
         ]
       ],
