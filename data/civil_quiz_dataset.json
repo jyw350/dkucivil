@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260604-3"
+    "updatedAt": "20260604-4"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -22651,9 +22651,9 @@
       "sourceTitle": "실기 말따먹기-1",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\실기 말따먹기-1.pdf",
       "sourcePage": 12,
-      "question": "숏크리트의 shotting 방법은 건식방법과 습식방법이 있",
+      "question": "숏크리트의 shotting 방법은 건식방법과 습식방법이 있다. 그중 건식방법의 단점을 3가지 쓰시오.",
       "promptLines": [
-        "숏크리트의 shotting 방법은 건식방법과 습식방법이 있"
+        "숏크리트의 shotting 방법은 건식방법과 습식방법이 있다. 그중 건식방법의 단점을 3가지 쓰시오."
       ],
       "hint": null,
       "answerLines": [
