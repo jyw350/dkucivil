@@ -850,8 +850,8 @@ function judgeAnswer(item, rawInput) {
       isCorrect,
       feedbackMode: isCorrect ? "correct" : "incorrect",
       message: isCorrect
-        ? "정답입니다. 1번 정의와 2번 원인 기준을 충족했습니다."
-        : "오답입니다. 1번 정의를 맞히고, 2번 원인을 3개 이상 맞혀야 합니다.",
+        ? "정답입니다. 번호별 핵심 답안 기준을 모두 충족했습니다."
+        : "오답입니다. 각 번호에 맞는 핵심 답안을 모두 작성해야 합니다.",
     };
   }
 
