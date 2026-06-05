@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260605-7"
+    "updatedAt": "20260605-8"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -23377,14 +23377,17 @@
       "keywordAnswerGroups": [
         [
           [
-            "페이퍼",
-            "paper"
-          ],
-          "드레인"
+            "페이퍼 드레인",
+            "페이퍼드레인",
+            "paper drain"
+          ]
         ],
         [
-          "샌드",
-          "드레인"
+          [
+            "샌드 드레인",
+            "샌드드레인",
+            "sand drain"
+          ]
         ],
         [
           [
@@ -23396,8 +23399,10 @@
           "침투압"
         ],
         [
-          "생석회",
-          "말뚝"
+          [
+            "생석회말뚝",
+            "생석회 말뚝"
+          ]
         ]
       ],
       "requiredAnswerCount": 4
