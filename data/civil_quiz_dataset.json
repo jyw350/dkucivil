@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260605-4"
+    "updatedAt": "20260605-6"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -23354,14 +23354,14 @@
       ],
       "hint": null,
       "answerLines": [
-        "페이버 드레인",
+        "페이퍼 드레인",
         "샌드 드레인",
         "프리로딩",
         "침투압",
         "생석회말뚝"
       ],
       "answerTokens": [
-        "페이버 드레인",
+        "페이퍼 드레인",
         "샌드 드레인",
         "프리로딩",
         "침투압",
@@ -23370,13 +23370,16 @@
       "notes": [],
       "rawBlock": [
         "점성토 지반의 개량공법 4가지를 쓰시오",
-        "페이버 드레인 2 샌드 드레인",
+        "페이퍼 드레인 2 샌드 드레인",
         "프리로딩 4 침투압 5 생석회말뚝"
       ],
       "editorNote": "2권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
-          "페이버",
+          [
+            "페이퍼",
+            "paper"
+          ],
           "드레인"
         ],
         [
