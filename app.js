@@ -1131,7 +1131,12 @@ function renderQuestion() {
   questionIdBadge.textContent = item.id;
   questionIdBadge.classList.add("hidden");
   questionSourceBadge.textContent = getVolumeLabel(item);
-  questionText.textContent = item.question;
+  const questionLines = Array.isArray(item.promptLines) && item.promptLines.length
+    ? item.promptLines
+    : String(item.question || "").split(/\n+/);
+  questionText.innerHTML = questionLines
+    .map((line) => `<span class="question-line">${escapeHtml(line)}</span>`)
+    .join("");
   sourceStudyText.textContent = `${pdf.subtitle} · ${pdf.title}`;
   openSourceLink.href = pdf.href;
   progressText.textContent = `${currentNumber} / ${total}`;
@@ -1555,7 +1560,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260606-3";
+    script.src = "./data/civil_quiz_dataset.js?v=20260606-4";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {

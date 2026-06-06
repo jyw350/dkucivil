@@ -752,6 +752,10 @@ textarea {
   line-height: 1.55;
 }
 
+.question-line {
+  display: block;
+}
+
 .source-study-bar {
   margin-top: 16px;
   display: flex;
