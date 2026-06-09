@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260608-3"
+    "updatedAt": "20260609-1"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -26458,7 +26458,7 @@
       "promptLines": [
         "지하굴착공사 시 안전을 목적으로 하는 계측기의 종류"
       ],
-      "hint": null,
+      "hint": "건공토지변",
       "answerLines": [
         "공극수압계",
         "토압계",
