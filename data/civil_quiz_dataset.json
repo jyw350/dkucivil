@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260609-1"
+    "updatedAt": "20260609-2"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -26878,14 +26878,17 @@
       "editorNote": "3권 핵심어 기준 적용",
       "keywordAnswerGroups": [
         [
+          "콘크리트",
           "균열",
           "검사"
         ],
         [
+          "콘크리트",
           "온도",
           "측정"
         ],
         [
+          "콘크리트",
           "수축량",
           "검사"
         ],
