@@ -21,12 +21,12 @@
     "counts": {
       "volume1": 244,
       "volume2": 211,
-      "volume3": 242,
-      "total": 697
+      "volume3": 243,
+      "total": 698
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260612-1"
+    "updatedAt": "20260612-2"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -29099,6 +29099,39 @@
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
       "sourcePage": 6,
+      "question": "느슨한토량/본바닥토량은?",
+      "promptLines": [
+        "느슨한토량/본바닥토량은?"
+      ],
+      "hint": null,
+      "answerLines": [
+        "L"
+      ],
+      "answerTokens": [
+        "L"
+      ],
+      "notes": [],
+      "rawBlock": [
+        "느슨한토량/본바닥토량은?",
+        "L"
+      ],
+      "editorNote": "2026-06-12 요청으로 3-88 누락 문항 추가",
+      "keywordAnswerGroups": [
+        [
+          "L"
+        ]
+      ],
+      "requiredAnswerCount": 1,
+      "strictAnswerMode": "exact-token"
+    },
+    {
+      "id": "3-89",
+      "volume": 3,
+      "order": 89,
+      "sourceLabel": null,
+      "sourceTitle": "토목기사실기_말따먹기_12개년",
+      "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
+      "sourcePage": 6,
       "question": "토량환산계수 / 직접탄성계수 결정방법",
       "promptLines": [
         "토량환산계수 / 직접탄성계수 결정방법"
@@ -29142,9 +29175,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-89",
+      "id": "3-90",
       "volume": 3,
-      "order": 89,
+      "order": 90,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29202,9 +29235,9 @@
       "requiredAnswerCount": 4
     },
     {
-      "id": "3-90",
+      "id": "3-91",
       "volume": 3,
-      "order": 90,
+      "order": 91,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29257,9 +29290,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-91",
+      "id": "3-92",
       "volume": 3,
-      "order": 91,
+      "order": 92,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29323,9 +29356,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-92",
+      "id": "3-93",
       "volume": 3,
-      "order": 92,
+      "order": 93,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29371,9 +29404,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-93",
+      "id": "3-94",
       "volume": 3,
-      "order": 93,
+      "order": 94,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29426,9 +29459,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-94",
+      "id": "3-95",
       "volume": 3,
-      "order": 94,
+      "order": 95,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29489,9 +29522,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-95",
+      "id": "3-96",
       "volume": 3,
-      "order": 95,
+      "order": 96,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29559,9 +29592,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-96",
+      "id": "3-97",
       "volume": 3,
-      "order": 96,
+      "order": 97,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29618,9 +29651,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-97",
+      "id": "3-98",
       "volume": 3,
-      "order": 97,
+      "order": 98,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29682,9 +29715,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-98",
+      "id": "3-99",
       "volume": 3,
-      "order": 98,
+      "order": 99,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29736,9 +29769,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-99",
+      "id": "3-100",
       "volume": 3,
-      "order": 99,
+      "order": 100,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29784,9 +29817,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-100",
+      "id": "3-101",
       "volume": 3,
-      "order": 100,
+      "order": 101,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29834,9 +29867,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-101",
+      "id": "3-102",
       "volume": 3,
-      "order": 101,
+      "order": 102,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29881,9 +29914,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-102",
+      "id": "3-103",
       "volume": 3,
-      "order": 102,
+      "order": 103,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -29953,9 +29986,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-103",
+      "id": "3-104",
       "volume": 3,
-      "order": 103,
+      "order": 104,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30007,9 +30040,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-104",
+      "id": "3-105",
       "volume": 3,
-      "order": 104,
+      "order": 105,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30068,9 +30101,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-105",
+      "id": "3-106",
       "volume": 3,
-      "order": 105,
+      "order": 106,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30147,9 +30180,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-106",
+      "id": "3-107",
       "volume": 3,
-      "order": 106,
+      "order": 107,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30209,9 +30242,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-107",
+      "id": "3-108",
       "volume": 3,
-      "order": 107,
+      "order": 108,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30274,9 +30307,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-108",
+      "id": "3-109",
       "volume": 3,
-      "order": 108,
+      "order": 109,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30327,9 +30360,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-109",
+      "id": "3-110",
       "volume": 3,
-      "order": 109,
+      "order": 110,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30386,9 +30419,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-110",
+      "id": "3-111",
       "volume": 3,
-      "order": 110,
+      "order": 111,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30430,9 +30463,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-111",
+      "id": "3-112",
       "volume": 3,
-      "order": 111,
+      "order": 112,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30490,9 +30523,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-112",
+      "id": "3-113",
       "volume": 3,
-      "order": 112,
+      "order": 113,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30565,9 +30598,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-113",
+      "id": "3-114",
       "volume": 3,
-      "order": 113,
+      "order": 114,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30623,9 +30656,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-114",
+      "id": "3-115",
       "volume": 3,
-      "order": 114,
+      "order": 115,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30701,9 +30734,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-115",
+      "id": "3-116",
       "volume": 3,
-      "order": 115,
+      "order": 116,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30781,9 +30814,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-116",
+      "id": "3-117",
       "volume": 3,
-      "order": 116,
+      "order": 117,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30844,9 +30877,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-117",
+      "id": "3-118",
       "volume": 3,
-      "order": 117,
+      "order": 118,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30906,9 +30939,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-118",
+      "id": "3-119",
       "volume": 3,
-      "order": 118,
+      "order": 119,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -30965,9 +30998,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-119",
+      "id": "3-120",
       "volume": 3,
-      "order": 119,
+      "order": 120,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31031,9 +31064,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-120",
+      "id": "3-121",
       "volume": 3,
-      "order": 120,
+      "order": 121,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31078,9 +31111,9 @@
       "requiredAnswerCount": 2
     },
     {
-      "id": "3-121",
+      "id": "3-122",
       "volume": 3,
-      "order": 121,
+      "order": 122,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31140,9 +31173,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-122",
+      "id": "3-123",
       "volume": 3,
-      "order": 122,
+      "order": 123,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31197,9 +31230,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-123",
+      "id": "3-124",
       "volume": 3,
-      "order": 123,
+      "order": 124,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31251,9 +31284,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-124",
+      "id": "3-125",
       "volume": 3,
-      "order": 124,
+      "order": 125,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31301,9 +31334,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-125",
+      "id": "3-126",
       "volume": 3,
-      "order": 125,
+      "order": 126,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31377,9 +31410,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-126",
+      "id": "3-127",
       "volume": 3,
-      "order": 126,
+      "order": 127,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31428,9 +31461,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-127",
+      "id": "3-128",
       "volume": 3,
-      "order": 127,
+      "order": 128,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31472,9 +31505,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-128",
+      "id": "3-129",
       "volume": 3,
-      "order": 128,
+      "order": 129,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31519,9 +31552,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-129",
+      "id": "3-130",
       "volume": 3,
-      "order": 129,
+      "order": 130,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31578,9 +31611,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-130",
+      "id": "3-131",
       "volume": 3,
-      "order": 130,
+      "order": 131,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31628,9 +31661,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-131",
+      "id": "3-132",
       "volume": 3,
-      "order": 131,
+      "order": 132,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31685,9 +31718,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-132",
+      "id": "3-133",
       "volume": 3,
-      "order": 132,
+      "order": 133,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31741,9 +31774,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-133",
+      "id": "3-134",
       "volume": 3,
-      "order": 133,
+      "order": 134,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31794,9 +31827,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-134",
+      "id": "3-135",
       "volume": 3,
-      "order": 134,
+      "order": 135,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31851,9 +31884,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-135",
+      "id": "3-136",
       "volume": 3,
-      "order": 135,
+      "order": 136,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31901,9 +31934,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-136",
+      "id": "3-137",
       "volume": 3,
-      "order": 136,
+      "order": 137,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -31954,9 +31987,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-137",
+      "id": "3-138",
       "volume": 3,
-      "order": 137,
+      "order": 138,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32004,9 +32037,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-138",
+      "id": "3-139",
       "volume": 3,
-      "order": 138,
+      "order": 139,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32057,9 +32090,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-139",
+      "id": "3-140",
       "volume": 3,
-      "order": 139,
+      "order": 140,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32118,9 +32151,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-140",
+      "id": "3-141",
       "volume": 3,
-      "order": 140,
+      "order": 141,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32195,9 +32228,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-141",
+      "id": "3-142",
       "volume": 3,
-      "order": 141,
+      "order": 142,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32259,9 +32292,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-142",
+      "id": "3-143",
       "volume": 3,
-      "order": 142,
+      "order": 143,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32306,9 +32339,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-143",
+      "id": "3-144",
       "volume": 3,
-      "order": 143,
+      "order": 144,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32358,9 +32391,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-144",
+      "id": "3-145",
       "volume": 3,
-      "order": 144,
+      "order": 145,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32412,9 +32445,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-145",
+      "id": "3-146",
       "volume": 3,
-      "order": 145,
+      "order": 146,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32470,9 +32503,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-146",
+      "id": "3-147",
       "volume": 3,
-      "order": 146,
+      "order": 147,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32532,9 +32565,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-147",
+      "id": "3-148",
       "volume": 3,
-      "order": 147,
+      "order": 148,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32591,9 +32624,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-148",
+      "id": "3-149",
       "volume": 3,
-      "order": 148,
+      "order": 149,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32647,9 +32680,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-149",
+      "id": "3-150",
       "volume": 3,
-      "order": 149,
+      "order": 150,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32696,9 +32729,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-150",
+      "id": "3-151",
       "volume": 3,
-      "order": 150,
+      "order": 151,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32745,9 +32778,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-151",
+      "id": "3-152",
       "volume": 3,
-      "order": 151,
+      "order": 152,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32798,9 +32831,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-152",
+      "id": "3-153",
       "volume": 3,
-      "order": 152,
+      "order": 153,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32860,9 +32893,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-153",
+      "id": "3-154",
       "volume": 3,
-      "order": 153,
+      "order": 154,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32919,9 +32952,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-154",
+      "id": "3-155",
       "volume": 3,
-      "order": 154,
+      "order": 155,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -32986,9 +33019,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-155",
+      "id": "3-156",
       "volume": 3,
-      "order": 155,
+      "order": 156,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33055,9 +33088,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-156",
+      "id": "3-157",
       "volume": 3,
-      "order": 156,
+      "order": 157,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33121,9 +33154,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-157",
+      "id": "3-158",
       "volume": 3,
-      "order": 157,
+      "order": 158,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33171,9 +33204,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-158",
+      "id": "3-159",
       "volume": 3,
-      "order": 158,
+      "order": 159,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33258,9 +33291,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-159",
+      "id": "3-160",
       "volume": 3,
-      "order": 159,
+      "order": 160,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33310,9 +33343,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-160",
+      "id": "3-161",
       "volume": 3,
-      "order": 160,
+      "order": 161,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33374,9 +33407,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-161",
+      "id": "3-162",
       "volume": 3,
-      "order": 161,
+      "order": 162,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33436,9 +33469,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-162",
+      "id": "3-163",
       "volume": 3,
-      "order": 162,
+      "order": 163,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33515,9 +33548,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-163",
+      "id": "3-164",
       "volume": 3,
-      "order": 163,
+      "order": 164,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33568,9 +33601,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-164",
+      "id": "3-165",
       "volume": 3,
-      "order": 164,
+      "order": 165,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33649,9 +33682,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-165",
+      "id": "3-166",
       "volume": 3,
-      "order": 165,
+      "order": 166,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33696,9 +33729,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-166",
+      "id": "3-167",
       "volume": 3,
-      "order": 166,
+      "order": 167,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33784,9 +33817,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-167",
+      "id": "3-168",
       "volume": 3,
-      "order": 167,
+      "order": 168,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33845,9 +33878,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-168",
+      "id": "3-169",
       "volume": 3,
-      "order": 168,
+      "order": 169,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33889,9 +33922,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-169",
+      "id": "3-170",
       "volume": 3,
-      "order": 169,
+      "order": 170,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33939,9 +33972,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-170",
+      "id": "3-171",
       "volume": 3,
-      "order": 170,
+      "order": 171,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -33983,9 +34016,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-171",
+      "id": "3-172",
       "volume": 3,
-      "order": 171,
+      "order": 172,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34029,9 +34062,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-172",
+      "id": "3-173",
       "volume": 3,
-      "order": 172,
+      "order": 173,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34085,9 +34118,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-173",
+      "id": "3-174",
       "volume": 3,
-      "order": 173,
+      "order": 174,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34156,9 +34189,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-174",
+      "id": "3-175",
       "volume": 3,
-      "order": 174,
+      "order": 175,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34206,9 +34239,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-175",
+      "id": "3-176",
       "volume": 3,
-      "order": 175,
+      "order": 176,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34267,9 +34300,9 @@
       "requiredAnswerCount": 3
     },
     {
-      "id": "3-176",
+      "id": "3-177",
       "volume": 3,
-      "order": 176,
+      "order": 177,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34320,9 +34353,9 @@
       ]
     },
     {
-      "id": "3-177",
+      "id": "3-178",
       "volume": 3,
-      "order": 177,
+      "order": 178,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34355,9 +34388,9 @@
       "editorNote": null
     },
     {
-      "id": "3-178",
+      "id": "3-179",
       "volume": 3,
-      "order": 178,
+      "order": 179,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34390,9 +34423,9 @@
       "editorNote": null
     },
     {
-      "id": "3-179",
+      "id": "3-180",
       "volume": 3,
-      "order": 179,
+      "order": 180,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34438,9 +34471,9 @@
       ]
     },
     {
-      "id": "3-180",
+      "id": "3-181",
       "volume": 3,
-      "order": 180,
+      "order": 181,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34482,9 +34515,9 @@
       ]
     },
     {
-      "id": "3-181",
+      "id": "3-182",
       "volume": 3,
-      "order": 181,
+      "order": 182,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34513,9 +34546,9 @@
       "editorNote": null
     },
     {
-      "id": "3-182",
+      "id": "3-183",
       "volume": 3,
-      "order": 182,
+      "order": 183,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34546,9 +34579,9 @@
       "editorNote": null
     },
     {
-      "id": "3-183",
+      "id": "3-184",
       "volume": 3,
-      "order": 183,
+      "order": 184,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34577,9 +34610,9 @@
       "editorNote": null
     },
     {
-      "id": "3-184",
+      "id": "3-185",
       "volume": 3,
-      "order": 184,
+      "order": 185,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34608,9 +34641,9 @@
       "editorNote": null
     },
     {
-      "id": "3-185",
+      "id": "3-186",
       "volume": 3,
-      "order": 185,
+      "order": 186,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34643,9 +34676,9 @@
       "editorNote": null
     },
     {
-      "id": "3-186",
+      "id": "3-187",
       "volume": 3,
-      "order": 186,
+      "order": 187,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34683,9 +34716,9 @@
       ]
     },
     {
-      "id": "3-187",
+      "id": "3-188",
       "volume": 3,
-      "order": 187,
+      "order": 188,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34714,9 +34747,9 @@
       "editorNote": "1권 기준 자동 적용: 1-211 (정답 세트 완전 동일)"
     },
     {
-      "id": "3-188",
+      "id": "3-189",
       "volume": 3,
-      "order": 188,
+      "order": 189,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34743,9 +34776,9 @@
       "editorNote": null
     },
     {
-      "id": "3-189",
+      "id": "3-190",
       "volume": 3,
-      "order": 189,
+      "order": 190,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34772,9 +34805,9 @@
       "editorNote": null
     },
     {
-      "id": "3-190",
+      "id": "3-191",
       "volume": 3,
-      "order": 190,
+      "order": 191,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34803,9 +34836,9 @@
       "editorNote": null
     },
     {
-      "id": "3-191",
+      "id": "3-192",
       "volume": 3,
-      "order": 191,
+      "order": 192,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34834,9 +34867,9 @@
       "editorNote": null
     },
     {
-      "id": "3-192",
+      "id": "3-193",
       "volume": 3,
-      "order": 192,
+      "order": 193,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34871,9 +34904,9 @@
       "editorNote": null
     },
     {
-      "id": "3-193",
+      "id": "3-194",
       "volume": 3,
-      "order": 193,
+      "order": 194,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34908,9 +34941,9 @@
       ]
     },
     {
-      "id": "3-194",
+      "id": "3-195",
       "volume": 3,
-      "order": 194,
+      "order": 195,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34943,9 +34976,9 @@
       "editorNote": null
     },
     {
-      "id": "3-195",
+      "id": "3-196",
       "volume": 3,
-      "order": 195,
+      "order": 196,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -34976,9 +35009,9 @@
       "editorNote": null
     },
     {
-      "id": "3-196",
+      "id": "3-197",
       "volume": 3,
-      "order": 196,
+      "order": 197,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35007,9 +35040,9 @@
       "editorNote": null
     },
     {
-      "id": "3-197",
+      "id": "3-198",
       "volume": 3,
-      "order": 197,
+      "order": 198,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35036,9 +35069,9 @@
       "editorNote": null
     },
     {
-      "id": "3-198",
+      "id": "3-199",
       "volume": 3,
-      "order": 198,
+      "order": 199,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35067,9 +35100,9 @@
       "editorNote": null
     },
     {
-      "id": "3-199",
+      "id": "3-200",
       "volume": 3,
-      "order": 199,
+      "order": 200,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35098,9 +35131,9 @@
       "editorNote": null
     },
     {
-      "id": "3-200",
+      "id": "3-201",
       "volume": 3,
-      "order": 200,
+      "order": 201,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35133,9 +35166,9 @@
       "editorNote": null
     },
     {
-      "id": "3-201",
+      "id": "3-202",
       "volume": 3,
-      "order": 201,
+      "order": 202,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35167,9 +35200,9 @@
       ]
     },
     {
-      "id": "3-202",
+      "id": "3-203",
       "volume": 3,
-      "order": 202,
+      "order": 203,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35205,9 +35238,9 @@
       "editorNote": null
     },
     {
-      "id": "3-203",
+      "id": "3-204",
       "volume": 3,
-      "order": 203,
+      "order": 204,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35237,9 +35270,9 @@
       "editorNote": null
     },
     {
-      "id": "3-204",
+      "id": "3-205",
       "volume": 3,
-      "order": 204,
+      "order": 205,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35266,9 +35299,9 @@
       "editorNote": null
     },
     {
-      "id": "3-205",
+      "id": "3-206",
       "volume": 3,
-      "order": 205,
+      "order": 206,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35298,9 +35331,9 @@
       "editorNote": null
     },
     {
-      "id": "3-206",
+      "id": "3-207",
       "volume": 3,
-      "order": 206,
+      "order": 207,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35327,9 +35360,9 @@
       "editorNote": null
     },
     {
-      "id": "3-207",
+      "id": "3-208",
       "volume": 3,
-      "order": 207,
+      "order": 208,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35356,9 +35389,9 @@
       "editorNote": null
     },
     {
-      "id": "3-208",
+      "id": "3-209",
       "volume": 3,
-      "order": 208,
+      "order": 209,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35387,9 +35420,9 @@
       "editorNote": null
     },
     {
-      "id": "3-209",
+      "id": "3-210",
       "volume": 3,
-      "order": 209,
+      "order": 210,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35419,9 +35452,9 @@
       "editorNote": null
     },
     {
-      "id": "3-210",
+      "id": "3-211",
       "volume": 3,
-      "order": 210,
+      "order": 211,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35450,9 +35483,9 @@
       "editorNote": null
     },
     {
-      "id": "3-211",
+      "id": "3-212",
       "volume": 3,
-      "order": 211,
+      "order": 212,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35485,9 +35518,9 @@
       "editorNote": null
     },
     {
-      "id": "3-212",
+      "id": "3-213",
       "volume": 3,
-      "order": 212,
+      "order": 213,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35516,9 +35549,9 @@
       "editorNote": "1권 기준 자동 적용: 1-212 (정답 세트 완전 동일)"
     },
     {
-      "id": "3-213",
+      "id": "3-214",
       "volume": 3,
-      "order": 213,
+      "order": 214,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35549,9 +35582,9 @@
       "editorNote": null
     },
     {
-      "id": "3-214",
+      "id": "3-215",
       "volume": 3,
-      "order": 214,
+      "order": 215,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35590,9 +35623,9 @@
       ]
     },
     {
-      "id": "3-215",
+      "id": "3-216",
       "volume": 3,
-      "order": 215,
+      "order": 216,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35627,9 +35660,9 @@
       "editorNote": null
     },
     {
-      "id": "3-216",
+      "id": "3-217",
       "volume": 3,
-      "order": 216,
+      "order": 217,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35660,9 +35693,9 @@
       "editorNote": null
     },
     {
-      "id": "3-217",
+      "id": "3-218",
       "volume": 3,
-      "order": 217,
+      "order": 218,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35691,9 +35724,9 @@
       "editorNote": null
     },
     {
-      "id": "3-218",
+      "id": "3-219",
       "volume": 3,
-      "order": 218,
+      "order": 219,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35720,9 +35753,9 @@
       "editorNote": null
     },
     {
-      "id": "3-219",
+      "id": "3-220",
       "volume": 3,
-      "order": 219,
+      "order": 220,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35753,9 +35786,9 @@
       "editorNote": null
     },
     {
-      "id": "3-220",
+      "id": "3-221",
       "volume": 3,
-      "order": 220,
+      "order": 221,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35793,9 +35826,9 @@
       ]
     },
     {
-      "id": "3-221",
+      "id": "3-222",
       "volume": 3,
-      "order": 221,
+      "order": 222,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35824,9 +35857,9 @@
       "editorNote": null
     },
     {
-      "id": "3-222",
+      "id": "3-223",
       "volume": 3,
-      "order": 222,
+      "order": 223,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35857,9 +35890,9 @@
       "editorNote": null
     },
     {
-      "id": "3-223",
+      "id": "3-224",
       "volume": 3,
-      "order": 223,
+      "order": 224,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35890,9 +35923,9 @@
       "editorNote": null
     },
     {
-      "id": "3-224",
+      "id": "3-225",
       "volume": 3,
-      "order": 224,
+      "order": 225,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35921,9 +35954,9 @@
       "editorNote": null
     },
     {
-      "id": "3-225",
+      "id": "3-226",
       "volume": 3,
-      "order": 225,
+      "order": 226,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35952,9 +35985,9 @@
       "editorNote": null
     },
     {
-      "id": "3-226",
+      "id": "3-227",
       "volume": 3,
-      "order": 226,
+      "order": 227,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35983,9 +36016,9 @@
       "editorNote": null
     },
     {
-      "id": "3-227",
+      "id": "3-228",
       "volume": 3,
-      "order": 227,
+      "order": 228,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36014,9 +36047,9 @@
       "editorNote": null
     },
     {
-      "id": "3-228",
+      "id": "3-229",
       "volume": 3,
-      "order": 228,
+      "order": 229,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36050,9 +36083,9 @@
       ]
     },
     {
-      "id": "3-229",
+      "id": "3-230",
       "volume": 3,
-      "order": 229,
+      "order": 230,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36081,9 +36114,9 @@
       "editorNote": null
     },
     {
-      "id": "3-230",
+      "id": "3-231",
       "volume": 3,
-      "order": 230,
+      "order": 231,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36110,9 +36143,9 @@
       "editorNote": null
     },
     {
-      "id": "3-231",
+      "id": "3-232",
       "volume": 3,
-      "order": 231,
+      "order": 232,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36141,9 +36174,9 @@
       "editorNote": "1권 기준 자동 적용: 1-200 (정답 세트 완전 동일)"
     },
     {
-      "id": "3-232",
+      "id": "3-233",
       "volume": 3,
-      "order": 232,
+      "order": 233,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36172,9 +36205,9 @@
       "editorNote": null
     },
     {
-      "id": "3-233",
+      "id": "3-234",
       "volume": 3,
-      "order": 233,
+      "order": 234,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36203,9 +36236,9 @@
       "editorNote": null
     },
     {
-      "id": "3-234",
+      "id": "3-235",
       "volume": 3,
-      "order": 234,
+      "order": 235,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36235,9 +36268,9 @@
       "editorNote": null
     },
     {
-      "id": "3-235",
+      "id": "3-236",
       "volume": 3,
-      "order": 235,
+      "order": 236,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36262,9 +36295,9 @@
       "editorNote": null
     },
     {
-      "id": "3-236",
+      "id": "3-237",
       "volume": 3,
-      "order": 236,
+      "order": 237,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36289,9 +36322,9 @@
       "editorNote": null
     },
     {
-      "id": "3-237",
+      "id": "3-238",
       "volume": 3,
-      "order": 237,
+      "order": 238,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36318,9 +36351,9 @@
       "editorNote": null
     },
     {
-      "id": "3-238",
+      "id": "3-239",
       "volume": 3,
-      "order": 238,
+      "order": 239,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36346,9 +36379,9 @@
       "editorNote": null
     },
     {
-      "id": "3-239",
+      "id": "3-240",
       "volume": 3,
-      "order": 239,
+      "order": 240,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36388,9 +36421,9 @@
       "editorNote": null
     },
     {
-      "id": "3-240",
+      "id": "3-241",
       "volume": 3,
-      "order": 240,
+      "order": 241,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36415,9 +36448,9 @@
       "editorNote": null
     },
     {
-      "id": "3-241",
+      "id": "3-242",
       "volume": 3,
-      "order": 241,
+      "order": 242,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36450,9 +36483,9 @@
       "editorNote": null
     },
     {
-      "id": "3-242",
+      "id": "3-243",
       "volume": 3,
-      "order": 242,
+      "order": 243,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
