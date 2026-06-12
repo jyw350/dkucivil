@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260611-3"
+    "updatedAt": "20260612-1"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -28985,13 +28985,23 @@
           "고무막법"
         ],
         [
-          "모래치환법"
+          [
+            "모래치환법",
+            "들밀도시험",
+            "들 밀도 시험"
+          ]
         ],
         [
           "절삭법"
         ]
       ],
-      "requiredAnswerCount": 3
+      "requiredAnswerCount": 3,
+      "mutuallyExclusiveAliases": [
+        [
+          "모래치환법",
+          "들밀도시험"
+        ]
+      ]
     },
     {
       "id": "3-86",

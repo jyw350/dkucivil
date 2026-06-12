@@ -749,6 +749,21 @@ function judgeAnswer(item, rawInput) {
     };
   }
 
+  if (Array.isArray(item.mutuallyExclusiveAliases)) {
+    const normalizedInput = normalizeForLooseMatch(trimmedInput);
+    const hasAliasConflict = item.mutuallyExclusiveAliases.some((aliases) => (
+      Array.isArray(aliases) &&
+      aliases.filter((alias) => normalizedInput.includes(normalizeForLooseMatch(alias))).length > 1
+    ));
+    if (hasAliasConflict) {
+      return {
+        isCorrect: false,
+        feedbackMode: "incorrect",
+        message: "같은 의미의 정답 표현을 중복해서 작성했습니다. 둘 중 하나만 작성해주세요.",
+      };
+    }
+  }
+
   const canAcceptSingleLineMatch = item.answerLines.length <= 1;
   const lineMatchTypes = item.answerLines.map((line) => answerLineMatches(line, trimmedInput));
   if (canAcceptSingleLineMatch && (lineMatchTypes.includes("exact") || lineMatchTypes.includes("whitespace"))) {
@@ -1560,7 +1575,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260611-3";
+    script.src = "./data/civil_quiz_dataset.js?v=20260612-1";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
