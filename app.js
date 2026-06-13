@@ -1575,7 +1575,7 @@ function ensureDatasetScriptLoaded() {
 
   window.__civilQuizDatasetPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = "./data/civil_quiz_dataset.js?v=20260613-1";
+    script.src = "./data/civil_quiz_dataset.js?v=20260613-2";
     script.async = true;
     script.onload = () => {
       if (window.CIVIL_QUIZ_DATA) {
