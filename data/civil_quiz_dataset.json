@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260614-1"
+    "updatedAt": "20260615-1"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -31462,7 +31462,7 @@
         "- 미니파이프루프 공법",
         "- 스틸시트파일 공법"
       ],
-      "editorNote": "3권 핵심어 기준 적용",
+      "editorNote": "2026-06-15 3-127: mini piperoof, steel sheetpile, 훠폴링 공법 혼합 표기 허용; 동일 공법은 1개로만 계산",
       "keywordAnswerGroups": [
         [
           [
@@ -31473,12 +31473,20 @@
           ]
         ],
         [
-          "미니",
-          "파이프루프"
+          [
+            "미니파이프루프",
+            "미니 파이프루프",
+            "mini piperoof",
+            "mini pipe roof"
+          ]
         ],
         [
-          "스틸",
-          "시트파일"
+          [
+            "스틸시트파일",
+            "스틸 시트파일",
+            "steel sheetpile",
+            "steel sheet pile"
+          ]
         ]
       ],
       "requiredAnswerCount": 3
