@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260617-3"
+    "updatedAt": "20260617-4"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -33666,7 +33666,7 @@
         "- 플라이애시 시멘트",
         "- 실리카시멘트"
       ],
-      "editorNote": "1권 기준 자동 적용: 1-187 (정답 항목 다수 동일) / 3권 핵심어 기준 적용",
+      "editorNote": "2026-06-17 3-164: 플라이애시/플라이애쉬/fly ash 시멘트 표기 모두 정답 허용",
       "keywordAnswerGroups": [
         [
           "고로",
@@ -33681,7 +33681,12 @@
           "시멘트"
         ],
         [
-          "플라이애시",
+          [
+            "플라이애시",
+            "플라이애쉬",
+            "fly ash",
+            "flyash"
+          ],
           "시멘트"
         ]
       ],
