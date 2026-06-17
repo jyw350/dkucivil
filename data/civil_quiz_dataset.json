@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260616-2"
+    "updatedAt": "20260617-1"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -33230,38 +33230,62 @@
       ],
       "hint": null,
       "answerLines": [
-        "RT",
-        "UT",
-        "MT",
-        "PT"
+        "RT-방사선투과",
+        "UT-초음파탐상",
+        "MT-자분 탐상",
+        "PT-침투 탐상"
       ],
       "answerTokens": [
-        "RT",
-        "UT",
-        "MT",
-        "PT"
+        "RT-방사선투과",
+        "UT-초음파탐상",
+        "MT-자분 탐상",
+        "PT-침투 탐상"
       ],
       "notes": [],
       "rawBlock": [
         "용접이음의 비파괴검사 종류",
-        "- RT",
-        "- UT",
-        "- MT",
-        "- PT"
+        "RT-방사선투과",
+        "UT-초음파탐상",
+        "MT-자분 탐상",
+        "PT-침투 탐상"
       ],
-      "editorNote": "3권 핵심어 기준 적용",
+      "editorNote": "2026-06-17 3-158: RT/UT/MT/PT 약어와 한글 비파괴검사명을 동일 정답으로 허용",
       "keywordAnswerGroups": [
         [
-          "RT"
+          [
+            "RT",
+            "방사선투과",
+            "방사선 투과",
+            "방사선투과검사",
+            "방사선 투과검사"
+          ]
         ],
         [
-          "UT"
+          [
+            "UT",
+            "초음파탐상",
+            "초음파 탐상",
+            "초음파탐상검사",
+            "초음파 탐상검사"
+          ]
         ],
         [
-          "MT"
+          [
+            "MT",
+            "자분탐상",
+            "자분 탐상",
+            "자분탐상검사",
+            "자분 탐상검사"
+          ]
         ],
         [
-          "PT"
+          [
+            "PT",
+            "침투탐상",
+            "침투 탐상",
+            "침투탐상검사",
+            "침투 탐상검사"
+          ]
         ]
       ],
       "requiredAnswerCount": 3
