@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260618-1"
+    "updatedAt": "20260618-2"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -34634,10 +34634,10 @@
       ],
       "hint": null,
       "answerLines": [
-        "전단연결제"
+        "전단연결재"
       ],
       "answerTokens": [
-        "전단연결제"
+        "전단연결재"
       ],
       "notes": [
         "종 하중의 조합에 의해서 발생하는 전단력에 저항하기 위해",
@@ -34647,9 +34647,15 @@
         "합성형교에서 강재 거더와 바닥판 콘크리트 사이에서 각",
         "종 하중의 조합에 의해서 발생하는 전단력에 저항하기 위해",
         "서 설치하는 장치는?",
-        "- 전단연결제"
+        "- 전단연결재"
       ],
-      "editorNote": null
+      "editorNote": "2026-06-18 3-182: 전단연결제를 표준 용어 전단연결재로 정정",
+      "keywordAnswerGroups": [
+        [
+          "전단연결재"
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "3-183",
