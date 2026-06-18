@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260618-2"
+    "updatedAt": "20260618-3"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -34785,7 +34785,27 @@
         "교통에 지장을 주지 않고 시공하는 공법은?",
         "- 프런트 잭킹 공법"
       ],
-      "editorNote": null
+      "editorNote": "2026-06-18 3-186: 프론트 재킹 방법 및 front jacking method 혼합표기 허용",
+      "keywordAnswerGroups": [
+        [
+          [
+            "프런트",
+            "프론트",
+            "front"
+          ],
+          [
+            "잭킹",
+            "재킹",
+            "jacking"
+          ],
+          [
+            "공법",
+            "방법",
+            "method"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "3-187",
