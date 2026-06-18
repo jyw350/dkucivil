@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260617-6"
+    "updatedAt": "20260618-1"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -34258,7 +34258,7 @@
         "- 지오멤브레인",
         "- 지오매트"
       ],
-      "editorNote": "3권 핵심어 기준 적용",
+      "editorNote": "2026-06-18 3-174: 중복 문제 2-38의 영문 허용표기를 동기화",
       "keywordAnswerGroups": [
         [
           [
@@ -34281,7 +34281,8 @@
         [
           [
             "지오멤브레인",
-            "geomembrane"
+            "geomembrane",
+            "geomembrance"
           ]
         ],
         [
