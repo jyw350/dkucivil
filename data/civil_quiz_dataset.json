@@ -26,7 +26,7 @@
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260620-1"
+    "updatedAt": "20260620-2"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -34984,28 +34984,65 @@
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
       "sourcePage": 13,
-      "question": "터널단면에서 최대 폭을 형성하는 점증 최상부의 점을 종 / 막장에서 전방 원지반 내에 볼트, 단관파이프 등의 보조재",
+      "question": "터널단면에서 최대 폭을 형성하는 점중 최상부의 점을 종방향으로 연결한 선을 (1) 이라고 하며, 터널 굴착과정에서 발생하는 토사, 암석조각, 엄석덩어리를 총칭해서 (2)이라고 한다.\n1번과 2번을 순서대로 작성하시오",
       "promptLines": [
-        "터널단면에서 최대 폭을 형성하는 점증 최상부의 점을 종 / 막장에서 전방 원지반 내에 볼트, 단관파이프 등의 보조재"
+        "터널단면에서 최대 폭을 형성하는 점중 최상부의 점을 종방향으로 연결한 선을 (1) 이라고 하며, 터널 굴착과정에서 발생하는 토사, 암석조각, 엄석덩어리를 총칭해서 (2)이라고 한다.",
+        "1번과 2번을 순서대로 작성하시오"
       ],
       "hint": null,
       "answerLines": [
-        "Fore poling"
+        "1. Spring line",
+        "2. 버럭"
       ],
       "answerTokens": [
-        "Fore poling"
+        "1. Spring line",
+        "2. 버럭"
       ],
-      "notes": [
-        "를 삽입하여 막장 천단을 지지하고 원지반의 이완방지를 위",
-        "해 설치하는 것은?"
-      ],
+      "notes": [],
       "rawBlock": [
-        "막장에서 전방 원지반 내에 볼트, 단관파이프 등의 보조재",
-        "를 삽입하여 막장 천단을 지지하고 원지반의 이완방지를 위",
-        "해 설치하는 것은?",
-        "- Fore poling"
+        "터널단면에서 최대 폭을 형성하는 점중 최상부의 점을 종방향으로 연결한 선을 (1) 이라고 하며, 터널 굴착과정에서 발생하는 토사, 암석조각, 엄석덩어리를 총칭해서 (2)이라고 한다.",
+        "1번과 2번을 순서대로 작성하시오",
+        "- 1. Spring line",
+        "- 2. 버럭"
       ],
-      "editorNote": null
+      "editorNote": "2026-06-20 3-192: 문제와 정답을 Spring line / 버럭 기준으로 전체 교체",
+      "keywordAnswerGroups": [
+        [
+          [
+            "1",
+            "1."
+          ],
+          [
+            "Spring line",
+            "Springline",
+            "spring line",
+            "springline"
+          ]
+        ],
+        [
+          [
+            "2",
+            "2."
+          ],
+          [
+            "버럭"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 2,
+      "strictAnswerMode": "exact-token-groups",
+      "strictAnswerGroups": [
+        [
+          "1. Spring line",
+          "1 Spring line",
+          "1.Spring line"
+        ],
+        [
+          "2. 버럭",
+          "2 버럭",
+          "2.버럭"
+        ]
+      ]
     },
     {
       "id": "3-193",
