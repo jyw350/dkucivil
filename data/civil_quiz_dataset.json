@@ -21,12 +21,12 @@
     "counts": {
       "volume1": 244,
       "volume2": 211,
-      "volume3": 244,
-      "total": 699
+      "volume3": 245,
+      "total": 700
     },
     "manualOverrideCount": 4,
     "generatedAt": "20260602-1",
-    "updatedAt": "20260621-1"
+    "updatedAt": "20260621-2"
   },
   "siteMatchingRules": {
     "hangulAnswers": {
@@ -35671,26 +35671,68 @@
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
       "sourcePage": 14,
-      "question": "일반적인 연직시공이음부의 거푸집 제거시기",
+      "question": "일반적인 연직시공이음부의 거푸집 제거시기는?\n1. 여름:\n2. 겨울:",
       "promptLines": [
-        "일반적인 연직시공이음부의 거푸집 제거시기"
+        "일반적인 연직시공이음부의 거푸집 제거시기는?",
+        "1. 여름:",
+        "2. 겨울:"
       ],
       "hint": null,
       "answerLines": [
-        "여름 : 4 ~ 6 시간",
-        "겨울 : 10 ~ 15 시간"
+        "1: 4~6시간",
+        "2: 10~15시간"
       ],
       "answerTokens": [
-        "여름 : 4 ~ 6 시간",
-        "겨울 : 10 ~ 15 시간"
+        "1: 4~6시간",
+        "2: 10~15시간"
       ],
       "notes": [],
       "rawBlock": [
-        "일반적인 연직시공이음부의 거푸집 제거시기",
-        "- 여름 : 4 ~ 6 시간",
-        "- 겨울 : 10 ~ 15 시간"
+        "일반적인 연직시공이음부의 거푸집 제거시기는?",
+        "1. 여름:",
+        "2. 겨울:",
+        "- 1: 4~6시간",
+        "- 2: 10~15시간"
       ],
-      "editorNote": null
+      "editorNote": "2026-06-21 3-206: 문제와 정답을 번호형식으로 전체 교체",
+      "keywordAnswerGroups": [
+        [
+          [
+            "1",
+            "1.",
+            "1:"
+          ],
+          [
+            "4~6시간",
+            "4-6시간"
+          ]
+        ],
+        [
+          [
+            "2",
+            "2.",
+            "2:"
+          ],
+          [
+            "10~15시간",
+            "10-15시간"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 2,
+      "strictAnswerMode": "exact-token-groups",
+      "strictAnswerGroups": [
+        [
+          "1: 4~6시간",
+          "1. 4~6시간",
+          "1 4~6시간"
+        ],
+        [
+          "2: 10~15시간",
+          "2. 10~15시간",
+          "2 10~15시간"
+        ]
+      ]
     },
     {
       "id": "3-207",
@@ -35700,29 +35742,86 @@
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
       "sourcePage": 14,
-      "question": "보통 포틀랜드 시멘트의 습윤 양생기간의 표준",
+      "question": "보통 포틀랜드 시멘트의 습윤 양생기간의 표준은?\n1. 일평균기온 15℃ 이상 :\n2. 일평균기온 10℃ 이상 15℃ 미만 :\n3. 일평균기온 5℃ 이상 10℃ 미만 :",
       "promptLines": [
-        "보통 포틀랜드 시멘트의 습윤 양생기간의 표준"
+        "보통 포틀랜드 시멘트의 습윤 양생기간의 표준은?",
+        "1. 일평균기온 15℃ 이상 :",
+        "2. 일평균기온 10℃ 이상 15℃ 미만 :",
+        "3. 일평균기온 5℃ 이상 10℃ 미만 :"
       ],
       "hint": null,
       "answerLines": [
-        "일평균기온 15°C 이상 : 5일",
-        "일평균기온 10°C 이상 15°C 미만 : 7일",
-        "일평균기온 5°C 이상 10°C 미만 : 9일"
+        "1. 5일",
+        "2. 7일",
+        "3. 9일"
       ],
       "answerTokens": [
-        "일평균기온 15°C 이상 : 5일",
-        "일평균기온 10°C 이상 15°C 미만 : 7일",
-        "일평균기온 5°C 이상 10°C 미만 : 9일"
+        "1. 5일",
+        "2. 7일",
+        "3. 9일"
       ],
       "notes": [],
       "rawBlock": [
-        "보통 포틀랜드 시멘트의 습윤 양생기간의 표준",
-        "- 일평균기온 15°C 이상 : 5일",
-        "- 일평균기온 10°C 이상 15°C 미만 : 7일",
-        "- 일평균기온 5°C 이상 10°C 미만 : 9일"
+        "보통 포틀랜드 시멘트의 습윤 양생기간의 표준은?",
+        "1. 일평균기온 15℃ 이상 :",
+        "2. 일평균기온 10℃ 이상 15℃ 미만 :",
+        "3. 일평균기온 5℃ 이상 10℃ 미만 :",
+        "- 1. 5일",
+        "- 2. 7일",
+        "- 3. 9일"
       ],
-      "editorNote": null
+      "editorNote": "2026-06-21 3-207: 문제와 정답을 번호형식으로 전체 교체",
+      "keywordAnswerGroups": [
+        [
+          [
+            "1",
+            "1.",
+            "1:"
+          ],
+          [
+            "5일"
+          ]
+        ],
+        [
+          [
+            "2",
+            "2.",
+            "2:"
+          ],
+          [
+            "7일"
+          ]
+        ],
+        [
+          [
+            "3",
+            "3.",
+            "3:"
+          ],
+          [
+            "9일"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3,
+      "strictAnswerMode": "exact-token-groups",
+      "strictAnswerGroups": [
+        [
+          "1. 5일",
+          "1: 5일",
+          "1 5일"
+        ],
+        [
+          "2. 7일",
+          "2: 7일",
+          "2 7일"
+        ],
+        [
+          "3. 9일",
+          "3: 9일",
+          "3 9일"
+        ]
+      ]
     },
     {
       "id": "3-208",
@@ -35732,26 +35831,69 @@
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
       "sourcePage": 14,
-      "question": "비비기로부터 타설이 끝날 때까지의 시간",
+      "question": "비비기로부터 타설이 끝날 때까지의 시간은?\n1. 외기온도 25℃ 이상 :\n2. 외기온도 25℃ 미만 :",
       "promptLines": [
-        "비비기로부터 타설이 끝날 때까지의 시간"
+        "비비기로부터 타설이 끝날 때까지의 시간은?",
+        "1. 외기온도 25℃ 이상 :",
+        "2. 외기온도 25℃ 미만 :"
       ],
       "hint": null,
       "answerLines": [
-        "외기온도 25°C 이상 : 1.5시간",
-        "외기온도 25°C 미만 : 2시간"
+        "1. 1.5시간",
+        "2. 2시간"
       ],
       "answerTokens": [
-        "외기온도 25°C 이상 : 1.5시간",
-        "외기온도 25°C 미만 : 2시간"
+        "1. 1.5시간",
+        "2. 2시간"
       ],
       "notes": [],
       "rawBlock": [
-        "비비기로부터 타설이 끝날 때까지의 시간",
-        "- 외기온도 25°C 이상 : 1.5시간",
-        "- 외기온도 25°C 미만 : 2시간"
+        "비비기로부터 타설이 끝날 때까지의 시간은?",
+        "1. 외기온도 25℃ 이상 :",
+        "2. 외기온도 25℃ 미만 :",
+        "- 1. 1.5시간",
+        "- 2. 2시간"
       ],
-      "editorNote": null
+      "editorNote": "2026-06-21 3-208: 문제와 정답을 번호형식으로 전체 교체",
+      "keywordAnswerGroups": [
+        [
+          [
+            "1",
+            "1.",
+            "1:"
+          ],
+          [
+            "1.5시간",
+            "1시간30분"
+          ]
+        ],
+        [
+          [
+            "2",
+            "2.",
+            "2:"
+          ],
+          [
+            "2시간"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 2,
+      "strictAnswerMode": "exact-token-groups",
+      "strictAnswerGroups": [
+        [
+          "1. 1.5시간",
+          "1: 1.5시간",
+          "1 1.5시간",
+          "1. 1시간30분",
+          "1: 1시간30분"
+        ],
+        [
+          "2. 2시간",
+          "2: 2시간",
+          "2 2시간"
+        ]
+      ]
     },
     {
       "id": "3-209",
@@ -35761,26 +35903,32 @@
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
       "sourcePage": 14,
-      "question": "콘크리트 비비기는 정해둔 비비기 시간의 ( 3배 ) 이상 계 / 비비기 시간의 최소시간 표준",
+      "question": "콘크리트 비비기는 정해둔 비비기 시간의 ( ? ) 이상 계속하지 않아야 한다.",
       "promptLines": [
-        "콘크리트 비비기는 정해둔 비비기 시간의 ( 3배 ) 이상 계 / 비비기 시간의 최소시간 표준"
+        "콘크리트 비비기는 정해둔 비비기 시간의 ( ? ) 이상 계속하지 않아야 한다."
       ],
       "hint": null,
       "answerLines": [
-        "가경식 믹서 : 1분 30초",
-        "강제식 믹서 : 1분 이상"
+        "3배"
       ],
       "answerTokens": [
-        "가경식 믹서 : 1분 30초",
-        "강제식 믹서 : 1분 이상"
+        "3배"
       ],
       "notes": [],
       "rawBlock": [
-        "비비기 시간의 최소시간 표준",
-        "- 가경식 믹서 : 1분 30초",
-        "- 강제식 믹서 : 1분 이상"
+        "콘크리트 비비기는 정해둔 비비기 시간의 ( ? ) 이상 계속하지 않아야 한다.",
+        "- 3배"
       ],
-      "editorNote": null
+      "editorNote": "2026-06-21 3-209: 비비기 배수 문제로 분리",
+      "keywordAnswerGroups": [
+        [
+          [
+            "3배",
+            "세배"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 1
     },
     {
       "id": "3-210",
@@ -35790,28 +35938,72 @@
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
       "sourcePage": 14,
-      "question": "거푸집널 해체시기",
+      "question": "비비기 시간의 최소시간 표준은?\n1. 가경식 믹서의 경우:\n2. 강제식 믹서의 경우:",
       "promptLines": [
-        "거푸집널 해체시기"
+        "비비기 시간의 최소시간 표준은?",
+        "1. 가경식 믹서의 경우:",
+        "2. 강제식 믹서의 경우:"
       ],
       "hint": null,
       "answerLines": [
-        "확대기초, 보, 기둥 등 측면 : 5 MPa",
-        "슬래브 및 보의 밑면, 아치내면 : 설계기준압축강도의 2/3 이상(단, 최소 25MPa 이상)"
+        "1. 1분30초",
+        "2. 1분 이상"
       ],
       "answerTokens": [
-        "확대기초, 보, 기둥 등 측면 : 5 MPa",
-        "슬래브 및 보의 밑면, 아치내면 : 설계기준압축강도의 2",
-        "3 이상(단, 최소 25MPa 이상)"
+        "1. 1분30초",
+        "2. 1분 이상"
       ],
       "notes": [],
       "rawBlock": [
-        "거푸집널 해체시기",
-        "- 확대기초, 보, 기둥 등 측면 : 5 MPa",
-        "- 슬래브 및 보의 밑면, 아치내면 : 설계기준압축강도의",
-        "2/3 이상(단, 최소 25MPa 이상)"
+        "비비기 시간의 최소시간 표준은?",
+        "1. 가경식 믹서의 경우:",
+        "2. 강제식 믹서의 경우:",
+        "- 1. 1분30초",
+        "- 2. 1분 이상"
       ],
-      "editorNote": null
+      "editorNote": "2026-06-21 3-210: 누락된 문제 신규 삽입",
+      "keywordAnswerGroups": [
+        [
+          [
+            "1",
+            "1.",
+            "1:"
+          ],
+          [
+            "1분30초",
+            "1분 30초"
+          ]
+        ],
+        [
+          [
+            "2",
+            "2.",
+            "2:"
+          ],
+          [
+            "1분 이상",
+            "1분이상"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 2,
+      "strictAnswerMode": "exact-token-groups",
+      "strictAnswerGroups": [
+        [
+          "1. 1분30초",
+          "1: 1분30초",
+          "1 1분30초",
+          "1. 1분 30초",
+          "1: 1분 30초"
+        ],
+        [
+          "2. 1분 이상",
+          "2: 1분 이상",
+          "2 1분 이상",
+          "2. 1분이상",
+          "2: 1분이상"
+        ]
+      ]
     },
     {
       "id": "3-211",
@@ -35821,34 +36013,167 @@
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
       "sourcePage": 14,
-      "question": "습윤상태 보호기간의 표준일수",
+      "question": "거푸집널 해체시기는?\n1. 확대기초, 보, 기둥 등 측면 :\n2. 슬래브 및 보의 밑면, 아치내면 :",
       "promptLines": [
-        "습윤상태 보호기간의 표준일수"
+        "거푸집널 해체시기는?",
+        "1. 확대기초, 보, 기둥 등 측면 :",
+        "2. 슬래브 및 보의 밑면, 아치내면 :"
       ],
       "hint": null,
       "answerLines": [
-        "보통 포틀랜드 시멘트 : 5일",
-        "고로 슬래그 시멘트 : 7일",
-        "조강 포틀랜드 시멘트 : 3일"
+        "1. 5 Mpa",
+        "2. 설계기준압축강도의 2/3이상 (최소 25Mpa 이상)"
       ],
       "answerTokens": [
-        "보통 포틀랜드 시멘트 : 5일",
-        "고로 슬래그 시멘트 : 7일",
-        "조강 포틀랜드 시멘트 : 3일"
+        "1. 5 Mpa",
+        "2. 설계기준압축강도의 2/3이상 (최소 25Mpa 이상)"
       ],
       "notes": [],
       "rawBlock": [
-        "습윤상태 보호기간의 표준일수",
-        "- 보통 포틀랜드 시멘트 : 5일",
-        "- 고로 슬래그 시멘트 : 7일",
-        "- 조강 포틀랜드 시멘트 : 3일"
+        "거푸집널 해체시기는?",
+        "1. 확대기초, 보, 기둥 등 측면 :",
+        "2. 슬래브 및 보의 밑면, 아치내면 :",
+        "- 1. 5 Mpa",
+        "- 2. 설계기준압축강도의 2/3이상 (최소 25Mpa 이상)"
       ],
-      "editorNote": null
+      "editorNote": "2026-06-21 3-211: 문제와 정답을 번호형식으로 전체 교체",
+      "keywordAnswerGroups": [
+        [
+          [
+            "1",
+            "1.",
+            "1:"
+          ],
+          [
+            "5 Mpa",
+            "5MPa"
+          ]
+        ],
+        [
+          [
+            "2",
+            "2.",
+            "2:"
+          ],
+          [
+            "설계기준압축강도",
+            "2/3",
+            "25Mpa",
+            "25MPa"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 2,
+      "strictAnswerMode": "exact-token-groups",
+      "strictAnswerGroups": [
+        [
+          "1. 5 Mpa",
+          "1: 5 Mpa",
+          "1 5 Mpa",
+          "1. 5MPa",
+          "1: 5MPa"
+        ],
+        [
+          "2. 설계기준압축강도의 2/3이상 (최소 25Mpa 이상)",
+          "2: 설계기준압축강도의 2/3이상 (최소 25Mpa 이상)",
+          "2. 설계기준압축강도의 2/3이상(최소 25Mpa 이상)",
+          "2. 설계기준압축강도의 2/3이상 (최소 25MPa 이상)"
+        ]
+      ]
     },
     {
       "id": "3-212",
       "volume": 3,
       "order": 212,
+      "sourceLabel": null,
+      "sourceTitle": "토목기사실기_말따먹기_12개년",
+      "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
+      "sourcePage": 14,
+      "question": "습윤상태 보호기간의 표준일는?\n1. 보통 포틀랜드 시멘트 :\n2. 고로 슬래그 시멘트 :\n3. 조강 포틀랜드 시멘트 :",
+      "promptLines": [
+        "습윤상태 보호기간의 표준일는?",
+        "1. 보통 포틀랜드 시멘트 :",
+        "2. 고로 슬래그 시멘트 :",
+        "3. 조강 포틀랜드 시멘트 :"
+      ],
+      "hint": null,
+      "answerLines": [
+        "1: 5일",
+        "2: 7일",
+        "3: 9일"
+      ],
+      "answerTokens": [
+        "1: 5일",
+        "2: 7일",
+        "3: 9일"
+      ],
+      "notes": [],
+      "rawBlock": [
+        "습윤상태 보호기간의 표준일는?",
+        "1. 보통 포틀랜드 시멘트 :",
+        "2. 고로 슬래그 시멘트 :",
+        "3. 조강 포틀랜드 시멘트 :",
+        "- 1: 5일",
+        "- 2: 7일",
+        "- 3: 9일"
+      ],
+      "editorNote": "2026-06-21 3-212: 문제와 정답을 번호형식으로 전체 교체",
+      "keywordAnswerGroups": [
+        [
+          [
+            "1",
+            "1.",
+            "1:"
+          ],
+          [
+            "5일"
+          ]
+        ],
+        [
+          [
+            "2",
+            "2.",
+            "2:"
+          ],
+          [
+            "7일"
+          ]
+        ],
+        [
+          [
+            "3",
+            "3.",
+            "3:"
+          ],
+          [
+            "9일"
+          ]
+        ]
+      ],
+      "requiredAnswerCount": 3,
+      "strictAnswerMode": "exact-token-groups",
+      "strictAnswerGroups": [
+        [
+          "1: 5일",
+          "1. 5일",
+          "1 5일"
+        ],
+        [
+          "2: 7일",
+          "2. 7일",
+          "2 7일"
+        ],
+        [
+          "3: 9일",
+          "3. 9일",
+          "3 9일"
+        ]
+      ]
+    },
+    {
+      "id": "3-213",
+      "volume": 3,
+      "order": 213,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35877,9 +36202,9 @@
       "editorNote": null
     },
     {
-      "id": "3-213",
+      "id": "3-214",
       "volume": 3,
-      "order": 213,
+      "order": 214,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35912,9 +36237,9 @@
       "editorNote": null
     },
     {
-      "id": "3-214",
+      "id": "3-215",
       "volume": 3,
-      "order": 214,
+      "order": 215,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35943,9 +36268,9 @@
       "editorNote": "1권 기준 자동 적용: 1-212 (정답 세트 완전 동일)"
     },
     {
-      "id": "3-215",
+      "id": "3-216",
       "volume": 3,
-      "order": 215,
+      "order": 216,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -35976,9 +36301,9 @@
       "editorNote": null
     },
     {
-      "id": "3-216",
+      "id": "3-217",
       "volume": 3,
-      "order": 216,
+      "order": 217,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36017,9 +36342,9 @@
       ]
     },
     {
-      "id": "3-217",
+      "id": "3-218",
       "volume": 3,
-      "order": 217,
+      "order": 218,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36054,9 +36379,9 @@
       "editorNote": null
     },
     {
-      "id": "3-218",
+      "id": "3-219",
       "volume": 3,
-      "order": 218,
+      "order": 219,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36087,9 +36412,9 @@
       "editorNote": null
     },
     {
-      "id": "3-219",
+      "id": "3-220",
       "volume": 3,
-      "order": 219,
+      "order": 220,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36118,9 +36443,9 @@
       "editorNote": null
     },
     {
-      "id": "3-220",
+      "id": "3-221",
       "volume": 3,
-      "order": 220,
+      "order": 221,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36147,9 +36472,9 @@
       "editorNote": null
     },
     {
-      "id": "3-221",
+      "id": "3-222",
       "volume": 3,
-      "order": 221,
+      "order": 222,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36180,9 +36505,9 @@
       "editorNote": null
     },
     {
-      "id": "3-222",
+      "id": "3-223",
       "volume": 3,
-      "order": 222,
+      "order": 223,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36220,9 +36545,9 @@
       ]
     },
     {
-      "id": "3-223",
+      "id": "3-224",
       "volume": 3,
-      "order": 223,
+      "order": 224,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36251,9 +36576,9 @@
       "editorNote": null
     },
     {
-      "id": "3-224",
+      "id": "3-225",
       "volume": 3,
-      "order": 224,
+      "order": 225,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36284,9 +36609,9 @@
       "editorNote": null
     },
     {
-      "id": "3-225",
+      "id": "3-226",
       "volume": 3,
-      "order": 225,
+      "order": 226,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36317,9 +36642,9 @@
       "editorNote": null
     },
     {
-      "id": "3-226",
+      "id": "3-227",
       "volume": 3,
-      "order": 226,
+      "order": 227,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36348,9 +36673,9 @@
       "editorNote": null
     },
     {
-      "id": "3-227",
+      "id": "3-228",
       "volume": 3,
-      "order": 227,
+      "order": 228,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36379,9 +36704,9 @@
       "editorNote": null
     },
     {
-      "id": "3-228",
+      "id": "3-229",
       "volume": 3,
-      "order": 228,
+      "order": 229,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36410,9 +36735,9 @@
       "editorNote": null
     },
     {
-      "id": "3-229",
+      "id": "3-230",
       "volume": 3,
-      "order": 229,
+      "order": 230,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36441,9 +36766,9 @@
       "editorNote": null
     },
     {
-      "id": "3-230",
+      "id": "3-231",
       "volume": 3,
-      "order": 230,
+      "order": 231,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36477,9 +36802,9 @@
       ]
     },
     {
-      "id": "3-231",
+      "id": "3-232",
       "volume": 3,
-      "order": 231,
+      "order": 232,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36508,9 +36833,9 @@
       "editorNote": null
     },
     {
-      "id": "3-232",
+      "id": "3-233",
       "volume": 3,
-      "order": 232,
+      "order": 233,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36537,9 +36862,9 @@
       "editorNote": null
     },
     {
-      "id": "3-233",
+      "id": "3-234",
       "volume": 3,
-      "order": 233,
+      "order": 234,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36568,9 +36893,9 @@
       "editorNote": "1권 기준 자동 적용: 1-200 (정답 세트 완전 동일)"
     },
     {
-      "id": "3-234",
+      "id": "3-235",
       "volume": 3,
-      "order": 234,
+      "order": 235,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36599,9 +36924,9 @@
       "editorNote": null
     },
     {
-      "id": "3-235",
+      "id": "3-236",
       "volume": 3,
-      "order": 235,
+      "order": 236,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36630,9 +36955,9 @@
       "editorNote": null
     },
     {
-      "id": "3-236",
+      "id": "3-237",
       "volume": 3,
-      "order": 236,
+      "order": 237,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36662,9 +36987,9 @@
       "editorNote": null
     },
     {
-      "id": "3-237",
+      "id": "3-238",
       "volume": 3,
-      "order": 237,
+      "order": 238,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36689,9 +37014,9 @@
       "editorNote": null
     },
     {
-      "id": "3-238",
+      "id": "3-239",
       "volume": 3,
-      "order": 238,
+      "order": 239,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36716,9 +37041,9 @@
       "editorNote": null
     },
     {
-      "id": "3-239",
+      "id": "3-240",
       "volume": 3,
-      "order": 239,
+      "order": 240,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36745,9 +37070,9 @@
       "editorNote": null
     },
     {
-      "id": "3-240",
+      "id": "3-241",
       "volume": 3,
-      "order": 240,
+      "order": 241,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36773,9 +37098,9 @@
       "editorNote": null
     },
     {
-      "id": "3-241",
+      "id": "3-242",
       "volume": 3,
-      "order": 241,
+      "order": 242,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36815,9 +37140,9 @@
       "editorNote": null
     },
     {
-      "id": "3-242",
+      "id": "3-243",
       "volume": 3,
-      "order": 242,
+      "order": 243,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36842,9 +37167,9 @@
       "editorNote": null
     },
     {
-      "id": "3-243",
+      "id": "3-244",
       "volume": 3,
-      "order": 243,
+      "order": 244,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
@@ -36877,9 +37202,9 @@
       "editorNote": null
     },
     {
-      "id": "3-244",
+      "id": "3-245",
       "volume": 3,
-      "order": 244,
+      "order": 245,
       "sourceLabel": null,
       "sourceTitle": "토목기사실기_말따먹기_12개년",
       "sourcePath": "C:\\Users\\User-1\\Desktop\\4-1\\토목기사 실기\\토목기사실기_말따먹기_12개년.pdf",
